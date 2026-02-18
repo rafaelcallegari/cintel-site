@@ -28,7 +28,6 @@ try {
     
     fs.writeFileSync(outputPath, tsContent);
     console.log(`✅ Sucesso! Foram processados ${result.length} municípios.`);
-
 } catch (err) {
     console.error('❌ Erro:', err.message);
 }
