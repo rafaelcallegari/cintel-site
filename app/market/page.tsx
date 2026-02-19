@@ -5,7 +5,7 @@ import Link from 'next/link'
 const produtos = [
   {
     id: 1,
-    slug: "analise-de-vocacao", // Slug para a URL
+    slug: "analise-imovel", // Atualizado para bater com a pasta app/market/analise-imovel
     categoria: "Motor de Inteligência",
     titulo: "Análise de Vocação",
     descricao: "Identifique o potencial real de qualquer endereço comercial através de modelos preditivos baseados em dados proprietários.",
@@ -14,7 +14,7 @@ const produtos = [
   },
   {
     id: 2,
-    slug: "mapa-de-calor", // Slug para a URL
+    slug: "mapa-de-calor", 
     categoria: "Geomarketing",
     titulo: "Mapa de Calor",
     descricao: "Visualize densidade demográfica, fluxo de consumo e áreas de influência para decisões rápidas de expansão.",
@@ -61,7 +61,7 @@ export default function MarketplacePage() {
                 </div>
               </div>
               
-              {/* Botão Atualizado: Agora leva para /market/[slug] */}
+              {/* Botão Dinâmico */}
               <Link 
                 href={`/market/${p.slug}`}
                 className="w-full bg-[#303030] text-white py-5 rounded-2xl font-bold hover:bg-black transition-all flex items-center justify-center gap-3 group text-center"

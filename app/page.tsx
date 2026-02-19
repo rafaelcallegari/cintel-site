@@ -32,3 +32,13 @@ export default function Home() {
     </main>
   )
 }
+
+export const metadata = {
+  title: 'Cintel | Inteligência e Dados para o Mercado Imobiliário Comercial',
+  description: 'Fundada por ex-executivo do GPA, a Cintel une ciência de dados e tecnologia para transformar a expansão imobiliária e o varejo no Brasil.',
+  openGraph: {
+    title: 'Cintel | O fim do amadorismo no Real Estate',
+    description: 'Tecnologia proprietária para identificar a vocação real de qualquer endereço comercial.',
+    images: ['/icons/Logo.png'],
+  },
+}

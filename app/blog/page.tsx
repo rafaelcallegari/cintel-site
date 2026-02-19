@@ -129,3 +129,8 @@ export default function BlogPage() {
     </section>
   )
 }
+
+export const metadata = {
+  title: 'Insights Cintel | Ciência de Dados e Varejo',
+  description: 'Análises profundas sobre o mercado imobiliário comercial, tendências de consumo e o impacto da tecnologia no espaço urbano.',
+}
