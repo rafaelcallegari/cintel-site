@@ -11,6 +11,7 @@
   "dependencies": {
     "@react-email/render": "^2.0.4",
     "@stripe/stripe-js": "^8.7.0",
+    "framer-motion": "^12.34.2",
     "gray-matter": "^4.0.3",
     "lucide-react": "^0.563.0",
     "marked": "^5.0.2",
