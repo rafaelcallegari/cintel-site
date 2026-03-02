@@ -1,85 +1,114 @@
 'use client'
 
-import { useState, useMemo } from 'react'
-import { useParams } from 'next/navigation'
+import { useState, useMemo, useEffect } from 'react'
+import { useParams, useRouter } from 'next/navigation'
+import { createBrowserClient } from '@supabase/ssr'
 import { listaMunicipios } from '../../data/municipios'
 
-export default function CheckoutPage() {
+export default function MarketProductPage() {
   const { servico } = useParams()
+  const router = useRouter()
   
-  // Estados do Fluxo
-  const [step, setStep] = useState<'form' | 'payment' | 'success'>('form')
+  const supabase = createBrowserClient(
+    process.env.NEXT_PUBLIC_SUPABASE_URL!, 
+    process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!
+  )
+
+  useEffect(() => {
+    const checkUser = async () => {
+      const { data: { user } } = await supabase.auth.getUser()
+      if (!user) router.push('/login')
+    }
+    checkUser()
+  }, [router, supabase])
+
+  const [step, setStep] = useState<'form' | 'confirm'>('form')
   const [loading, setLoading] = useState(false)
 
   // Estados dos Dados
+  const [estadoSelecionado, setEstadoSelecionado] = useState('')
   const [busca, setBusca] = useState('')
-  const [municipioSelecionado, setMunicipioSelecionado] = useState<{nome: string, codigo: string} | null>(null)
+  const [municipioSelecionado, setMunicipioSelecionado] = useState<{nome: string, codigo: string, uf: string} | null>(null)
   const [vocacaoSelecionada, setVocacaoSelecionada] = useState('')
   const [email, setEmail] = useState('')
   const [mostrarSugestoes, setMostrarSugestoes] = useState(false)
 
+  const listaEstados = useMemo(() => {
+    const ufs = listaMunicipios.map(m => m.uf).filter(uf => uf && uf !== 'XX')
+    return Array.from(new Set(ufs)).sort()
+  }, [])
+
+  const normalizar = (txt: string) => 
+    txt.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+
+  const sugestoes = useMemo(() => {
+    if (!estadoSelecionado || busca.length < 3) return []
+    const buscaNorm = normalizar(busca)
+    return listaMunicipios
+      .filter(m => m.uf === estadoSelecionado && normalizar(m.nome).includes(buscaNorm))
+      .slice(0, 10)
+  }, [busca, estadoSelecionado])
+
   const opcoesVocacao = [
-    { id: 'academia', label: 'Academia' },
-    { id: 'banco', label: 'Agência Bancária' },
-    { id: 'auto', label: 'Automotivo' },
-    { id: 'clinica', label: 'Clínica Médica' },
-    { id: 'escola', label: 'Educação' },
-    { id: 'farmacia', label: 'Farmácia' },
-    { id: 'gastronomia', label: 'Gastronomia' },
-    { id: 'hortifruti', label: 'Hortifruti' },
-    { id: 'moda', label: 'Moda' },
-    { id: 'padaria', label: 'Padaria' },
-    { id: 'petshop', label: 'Pet Shop' },
-    { id: 'postocombustivel', label: 'Posto de Combustível' },
+    { id: 'academia', label: 'Academia' }, { id: 'banco', label: 'Agência Bancária' },
+    { id: 'auto', label: 'Automotivo' }, { id: 'clinica', label: 'Clínica Médica' },
+    { id: 'escola', label: 'Educação' }, { id: 'farmacia', label: 'Farmácia' },
+    { id: 'gastronomia', label: 'Gastronomia' }, { id: 'hortifruti', label: 'Hortifruti' },
+    { id: 'moda', label: 'Moda' }, { id: 'padaria', label: 'Padaria' },
+    { id: 'petshop', label: 'Pet Shop' }, { id: 'postocombustivel', label: 'Posto de Combustível' },
     { id: 'supermercado', label: 'Supermercado' }
   ];
 
-  // Filtro de Municípios (Otimizado)
-  const sugestoes = useMemo(() => {
-    if (busca.length < 3) return []
-    return listaMunicipios
-      .filter(m => m.nome.toLowerCase().includes(busca.toLowerCase()))
-      .slice(0, 5)
-  }, [busca])
-
-  const fileName = `${municipioSelecionado?.codigo}_${vocacaoSelecionada}_lgbc_mapa.html`
-  const linkMapa = `/outputs/${fileName}`
-
-  // Função para chamar a API do Resend e avançar para o sucesso
+  // --- VERSÃO COMPLETA DO INSERT ---
   const handleFinalizarCompra = async () => {
     setLoading(true)
     
-    // Chamada para a API que você criou em /api/send
     try {
-      await fetch('/api/send', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          email,
-          municipio: municipioSelecionado?.nome,
-          vocacao: vocacaoSelecionada,
-          link: linkMapa
-        }),
-      })
-    } catch (error) {
-      console.error("Erro ao enviar e-mail, mas prosseguindo com a liberação...", error)
-    }
+      const { data: { user } } = await supabase.auth.getUser()
 
-    setLoading(false)
-    setStep('success')
+      if (user) {
+        // 1. Grava a análise na tabela 'orders' para aparecer no Dashboard
+        const { error: dbError } = await supabase
+          .from('orders')
+          .insert([
+            {
+              user_id: user.id,
+              municipio: municipioSelecionado?.nome,
+              uf: estadoSelecionado,
+              vocacao: vocacaoSelecionada,
+              file_name: `${municipioSelecionado?.codigo}_${vocacaoSelecionada}_lgbc_mapa.html`
+            }
+          ])
+
+        if (dbError) throw dbError
+
+        // 2. Monta os parâmetros e redireciona para a SuccessPage com o Iframe
+        const params = new URLSearchParams({
+          nome: municipioSelecionado?.nome || '',
+          codigo: municipioSelecionado?.codigo || '',
+          uf: estadoSelecionado,
+          vocacao: vocacaoSelecionada
+        })
+
+        router.push(`/market/success?${params.toString()}`)
+      }
+    } catch (error: any) {
+      console.error("Erro ao processar:", error.message)
+      alert("Houve um erro ao salvar sua análise. Verifique sua conexão.")
+    } finally {
+      setLoading(false)
+    }
   }
 
   return (
     <section className="pt-32 pb-20 min-h-screen bg-gray-50 font-alegreya">
       <div className="max-w-2xl mx-auto px-6 bg-white p-10 rounded-[2.5rem] shadow-xl border border-gray-100">
         
-        {/* Progress Tracker */}
         <div className="flex justify-between mb-12 relative">
           <div className="absolute top-1/2 left-0 w-full h-0.5 bg-gray-100 -z-0"></div>
-          {['Dados', 'Pagamento', 'Acesso'].map((s, i) => (
+          {['Configurar', 'Revisar'].map((s, i) => (
             <div key={s} className={`relative z-10 px-4 bg-white text-[10px] font-bold uppercase tracking-widest 
-              ${(step === 'form' && i === 0) || (step === 'payment' && i === 1) || (step === 'success' && i === 2) 
-              ? 'text-cintelYellow' : 'text-gray-300'}`}>
+              ${(step === 'form' && i === 0) || (step === 'confirm' && i === 1) ? 'text-cintelYellow' : 'text-gray-300'}`}>
               {i + 1}. {s}
             </div>
           ))}
@@ -88,24 +117,31 @@ export default function CheckoutPage() {
         {step === 'form' && (
           <div className="animate-in fade-in slide-in-from-bottom-4">
             <h1 className="text-3xl font-bold text-[#303030] mb-6">Configuração da Análise</h1>
-            <form className="space-y-6" onSubmit={(e) => { e.preventDefault(); setStep('payment'); }}>
+            <form className="space-y-6" onSubmit={(e) => { e.preventDefault(); setStep('confirm'); }}>
               
+              <div>
+                <label className="text-xs font-bold text-gray-400 uppercase mb-2 block tracking-widest">1. Estado (UF)</label>
+                <select required className="w-full p-4 rounded-xl border border-gray-200 bg-white outline-none focus:ring-2 focus:ring-cintelYellow"
+                  value={estadoSelecionado}
+                  onChange={(e) => { setEstadoSelecionado(e.target.value); setMunicipioSelecionado(null); setBusca(''); }}>
+                  <option value="">Selecione a UF...</option>
+                  {listaEstados.map(uf => <option key={uf} value={uf}>{uf}</option>)}
+                </select>
+              </div>
+
               <div className="relative">
-                <label className="text-xs font-bold text-gray-400 uppercase mb-2 block tracking-widest">Cidade de Análise</label>
-                <input 
-                  required 
-                  type="text" 
-                  placeholder="Ex: São Caetano do Sul..." 
-                  className="w-full p-4 rounded-xl border border-gray-200 outline-none focus:ring-2 focus:ring-cintelYellow transition-all"
+                <label className={`text-xs font-bold uppercase mb-2 block tracking-widest ${!estadoSelecionado ? 'text-gray-200' : 'text-gray-400'}`}>2. Cidade</label>
+                <input disabled={!estadoSelecionado} required type="text" placeholder={estadoSelecionado ? "Digite o nome da cidade..." : "Selecione o estado primeiro"} 
+                  className="w-full p-4 rounded-xl border border-gray-200 outline-none focus:ring-2 focus:ring-cintelYellow transition-all disabled:bg-gray-50"
                   value={municipioSelecionado ? municipioSelecionado.nome : busca}
                   onChange={(e) => { setBusca(e.target.value); setMunicipioSelecionado(null); setMostrarSugestoes(true); }}
                 />
                 {mostrarSugestoes && sugestoes.length > 0 && (
-                  <ul className="absolute z-50 w-full bg-white border border-gray-100 mt-2 rounded-xl shadow-2xl overflow-hidden">
+                  <ul className="absolute z-50 w-full bg-white border border-gray-100 mt-2 rounded-xl shadow-2xl overflow-hidden max-h-60 overflow-y-auto">
                     {sugestoes.map((m) => (
                       <li key={m.codigo} onClick={() => { setMunicipioSelecionado(m); setMostrarSugestoes(false); }} className="p-4 hover:bg-gray-50 cursor-pointer flex justify-between border-b border-gray-50 last:border-none">
                         <span className="font-bold text-[#303030]">{m.nome}</span>
-                        <span className="text-[10px] text-gray-400">IBGE: {m.codigo}</span>
+                        <span className="text-[10px] text-gray-400 uppercase">IBGE: {m.codigo}</span>
                       </li>
                     ))}
                   </ul>
@@ -113,83 +149,39 @@ export default function CheckoutPage() {
               </div>
 
               <div>
-                <label className="text-xs font-bold text-gray-400 uppercase mb-2 block tracking-widest">Vocação Comercial</label>
-                <select 
-                  required 
-                  className="w-full p-4 rounded-xl border border-gray-200 bg-white outline-none focus:ring-2 focus:ring-cintelYellow"
-                  value={vocacaoSelecionada} 
-                  onChange={(e) => setVocacaoSelecionada(e.target.value)}
-                >
+                <label className="text-xs font-bold text-gray-400 uppercase mb-2 block tracking-widest">3. Vocação Comercial</label>
+                <select required className="w-full p-4 rounded-xl border border-gray-200 bg-white outline-none focus:ring-2 focus:ring-cintelYellow"
+                  value={vocacaoSelecionada} onChange={(e) => setVocacaoSelecionada(e.target.value)}>
                   <option value="">Selecione o segmento...</option>
                   {opcoesVocacao.map(opt => <option key={opt.id} value={opt.id}>{opt.label}</option>)}
                 </select>
               </div>
 
-              <div>
-                <label className="text-xs font-bold text-gray-400 uppercase mb-2 block tracking-widest">E-mail para Entrega</label>
-                <input 
-                  required 
-                  type="email" 
-                  placeholder="seu@email.com" 
-                  className="w-full p-4 rounded-xl border border-gray-200 outline-none focus:ring-2 focus:ring-cintelYellow"
-                  value={email} 
-                  onChange={(e) => setEmail(e.target.value)}
-                />
-              </div>
-
-              <button 
-                disabled={!municipioSelecionado || !vocacaoSelecionada} 
-                type="submit" 
-                className="w-full bg-[#303030] text-white py-5 rounded-2xl font-bold hover:bg-black disabled:bg-gray-100 disabled:text-gray-400 transition-all shadow-lg"
-              >
-                Confirmar Dados
+              <button disabled={!municipioSelecionado || !vocacaoSelecionada} type="submit" 
+                className="w-full bg-[#303030] text-white py-5 rounded-2xl font-bold hover:bg-black transition-all shadow-lg uppercase tracking-widest">
+                Revisar Pedido
               </button>
             </form>
           </div>
         )}
 
-        {step === 'payment' && (
+        {step === 'confirm' && (
           <div className="text-center animate-in zoom-in-95">
-            <h2 className="text-3xl font-bold mb-8 text-[#303030]">Checkout de Análise</h2>
+            <h2 className="text-3xl font-bold mb-8 text-[#303030]">Resumo da Análise</h2>
             <div className="bg-gray-50 p-8 rounded-3xl mb-8 border border-gray-100 text-left">
-              <p className="text-gray-400 text-[10px] font-bold uppercase tracking-widest mb-4 italic">Resumo do Pedido</p>
-              <p className="text-xl font-bold text-[#303030]">{municipioSelecionado?.nome}</p>
+              <p className="text-gray-400 text-[10px] font-bold uppercase tracking-widest mb-4 italic">Item Selecionado</p>
+              <p className="text-xl font-bold text-[#303030]">{municipioSelecionado?.nome} - {estadoSelecionado}</p>
               <p className="text-sm text-gray-500 mb-6">Vocação Comercial: <span className="capitalize">{vocacaoSelecionada}</span></p>
               <div className="h-px bg-gray-200 w-full mb-6"></div>
-              <p className="text-5xl font-extrabold text-[#303030] tracking-tighter">R$ 1.490,00</p>
+              <p className="text-5xl font-extrabold text-[#303030] tracking-tighter text-center italic">R$ 1.490,00</p>
             </div>
             
-            <button 
-              onClick={handleFinalizarCompra} 
-              disabled={loading}
-              className="w-full bg-green-600 text-white py-5 rounded-2xl font-bold hover:bg-green-700 shadow-md transition-all flex items-center justify-center gap-3"
+            <button onClick={handleFinalizarCompra} disabled={loading}
+              className="w-full bg-green-600 text-white py-5 rounded-2xl font-bold hover:bg-green-700 shadow-md transition-all flex items-center justify-center gap-3 uppercase tracking-widest"
             >
-              {loading ? 'Processando...' : 'Confirmar e Liberar Acesso'}
+              {loading ? 'Processando...' : 'Confirmar e Abrir Mapa'}
             </button>
-          </div>
-        )}
-
-        {step === 'success' && (
-          <div className="text-center animate-in fade-in">
-            <div className="w-20 h-20 bg-green-50 text-green-600 rounded-full flex items-center justify-center mx-auto mb-6">
-              <svg className="w-10 h-10" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" /></svg>
-            </div>
-            <h2 className="text-3xl font-bold mb-4 text-[#303030]">Análise Liberada!</h2>
-            <p className="text-gray-600 mb-10 leading-relaxed px-4">
-              Enviamos o link do dashboard para <strong>{email}</strong>. Você também pode acessar e baixar o arquivo agora:
-            </p>
-            
-            <div className="space-y-4">
-              <a href={linkMapa} target="_blank" className="w-full flex items-center justify-center gap-3 bg-cintelYellow text-[#303030] py-5 rounded-2xl font-bold hover:shadow-xl transition-all">
-                Abrir Mapa Interativo
-              </a>
-              <a href={linkMapa} download={fileName} className="w-full flex items-center justify-center gap-3 border-2 border-gray-200 text-gray-600 py-4 rounded-2xl font-bold hover:bg-gray-50 transition-all">
-                Baixar Arquivo HTML
-              </a>
-              <button onClick={() => window.print()} className="w-full text-xs text-gray-400 hover:underline">
-                Gerar Recibo da Transação
-              </button>
-            </div>
+            <button onClick={() => setStep('form')} className="mt-4 text-xs text-gray-400 hover:underline">Voltar e editar dados</button>
           </div>
         )}
       </div>

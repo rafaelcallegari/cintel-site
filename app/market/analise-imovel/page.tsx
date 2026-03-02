@@ -1,9 +1,33 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useEffect } from 'react' // Adicionado useEffect
+import { useRouter } from 'next/navigation' // Adicionado useRouter
+import { createBrowserClient } from '@supabase/ssr' // Adicionado Supabase
 
 export default function AnaliseImovelPage() {
+  const router = useRouter()
   const [loading, setLoading] = useState(false)
+  
+  // Inicializa o cliente do Supabase
+  const supabase = createBrowserClient(
+    process.env.NEXT_PUBLIC_SUPABASE_URL!, 
+    process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!
+  )
+
+  // --- TRAVA DE SEGURANÇA ---
+  useEffect(() => {
+    const checkUser = async () => {
+      // Verifica se existe uma sessão ativa
+      const { data: { user } } = await supabase.auth.getUser()
+      if (!user) {
+        // Se não estiver logado, redireciona para o login
+        router.push('/login')
+      }
+    }
+    checkUser()
+  }, [router, supabase])
+  // ---------------------------
+
   const [formData, setFormData] = useState({
     endereco: '',
     areaConstruida: '',
@@ -36,7 +60,6 @@ export default function AnaliseImovelPage() {
 
       const session = await response.json()
 
-      // Nova lógica: Redirecionamento direto pela URL retornada pela API
       if (session.url) {
         window.location.href = session.url;
       } else {

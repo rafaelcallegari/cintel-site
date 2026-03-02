@@ -1,22278 +1,27847 @@
 export const listaMunicipios = [
   {
     "nome": "Guajará-Mirim",
-    "codigo": "1100106"
+    "codigo": "1100106",
+    "uf": "RO"
   },
   {
     "nome": "Alto Alegre dos Parecis",
-    "codigo": "1100379"
+    "codigo": "1100379",
+    "uf": "RO"
   },
   {
     "nome": "Porto Velho",
-    "codigo": "1100205"
+    "codigo": "1100205",
+    "uf": "RO"
   },
   {
     "nome": "Buritis",
-    "codigo": "1100452"
+    "codigo": "1100452",
+    "uf": "RO"
   },
   {
     "nome": "Ji-Paraná",
-    "codigo": "1100122"
+    "codigo": "1100122",
+    "uf": "RO"
   },
   {
     "nome": "Chupinguaia",
-    "codigo": "1100924"
+    "codigo": "1100924",
+    "uf": "RO"
   },
   {
     "nome": "Ariquemes",
-    "codigo": "1100023"
+    "codigo": "1100023",
+    "uf": "RO"
   },
   {
     "nome": "Cujubim",
-    "codigo": "1100940"
+    "codigo": "1100940",
+    "uf": "RO"
   },
   {
     "nome": "Cacoal",
-    "codigo": "1100049"
+    "codigo": "1100049",
+    "uf": "RO"
   },
   {
     "nome": "Nova União",
-    "codigo": "1101435"
+    "codigo": "1101435",
+    "uf": "RO"
   },
   {
     "nome": "Pimenta Bueno",
-    "codigo": "1100189"
+    "codigo": "1100189",
+    "uf": "RO"
   },
   {
     "nome": "Parecis",
-    "codigo": "1101450"
+    "codigo": "1101450",
+    "uf": "RO"
   },
   {
     "nome": "Vilhena",
-    "codigo": "1100304"
+    "codigo": "1100304",
+    "uf": "RO"
   },
   {
     "nome": "Pimenteiras do Oeste",
-    "codigo": "1101468"
+    "codigo": "1101468",
+    "uf": "RO"
   },
   {
     "nome": "Jaru",
-    "codigo": "1100114"
+    "codigo": "1100114",
+    "uf": "RO"
   },
   {
     "nome": "Primavera de Rondônia",
-    "codigo": "1101476"
+    "codigo": "1101476",
+    "uf": "RO"
   },
   {
     "nome": "Ouro Preto do Oeste",
-    "codigo": "1100155"
+    "codigo": "1100155",
+    "uf": "RO"
   },
   {
     "nome": "São Felipe D'Oeste",
-    "codigo": "1101484"
+    "codigo": "1101484",
+    "uf": "RO"
   },
   {
     "nome": "Presidente Médici",
-    "codigo": "1100254"
+    "codigo": "1100254",
+    "uf": "RO"
   },
   {
     "nome": "São Francisco do Guaporé",
-    "codigo": "1101492"
+    "codigo": "1101492",
+    "uf": "RO"
   },
   {
     "nome": "Costa Marques",
-    "codigo": "1100080"
+    "codigo": "1100080",
+    "uf": "RO"
   },
   {
     "nome": "Teixeirópolis",
-    "codigo": "1101559"
+    "codigo": "1101559",
+    "uf": "RO"
   },
   {
     "nome": "Colorado do Oeste",
-    "codigo": "1100064"
+    "codigo": "1100064",
+    "uf": "RO"
   },
   {
     "nome": "Vale do Anari",
-    "codigo": "1101757"
+    "codigo": "1101757",
+    "uf": "RO"
   },
   {
     "nome": "Espigão D'Oeste",
-    "codigo": "1100098"
+    "codigo": "1100098",
+    "uf": "RO"
   },
   {
     "nome": "Amajari",
-    "codigo": "1400027"
+    "codigo": "1400027",
+    "uf": "RR"
   },
   {
     "nome": "Cerejeiras",
-    "codigo": "1100056"
+    "codigo": "1100056",
+    "uf": "RO"
   },
   {
     "nome": "Cantá",
-    "codigo": "1400175"
+    "codigo": "1400175",
+    "uf": "RR"
   },
   {
     "nome": "Rolim de Moura",
-    "codigo": "1100288"
+    "codigo": "1100288",
+    "uf": "RO"
   },
   {
     "nome": "Caroebe",
-    "codigo": "1400233"
+    "codigo": "1400233",
+    "uf": "RR"
   },
   {
     "nome": "Caldazinha",
-    "codigo": "5204557"
+    "codigo": "5204557",
+    "uf": "GO"
   },
   {
     "nome": "Iracema",
-    "codigo": "1400282"
+    "codigo": "1400282",
+    "uf": "RR"
   },
   {
     "nome": "Alta Floresta D'Oeste",
-    "codigo": "1100015"
+    "codigo": "1100015",
+    "uf": "RO"
   },
   {
     "nome": "Pacaraima",
-    "codigo": "1400456"
+    "codigo": "1400456",
+    "uf": "RR"
   },
   {
     "nome": "Alvorada D'Oeste",
-    "codigo": "1100346"
+    "codigo": "1100346",
+    "uf": "RO"
   },
   {
     "nome": "Rorainópolis",
-    "codigo": "1400472"
+    "codigo": "1400472",
+    "uf": "RR"
   },
   {
     "nome": "Cabixi",
-    "codigo": "1100031"
+    "codigo": "1100031",
+    "uf": "RO"
   },
   {
     "nome": "Uiramutã",
-    "codigo": "1400704"
+    "codigo": "1400704",
+    "uf": "RR"
   },
   {
     "nome": "Machadinho D'Oeste",
-    "codigo": "1100130"
+    "codigo": "1100130",
+    "uf": "RO"
   },
   {
     "nome": "Anapu",
-    "codigo": "1500859"
+    "codigo": "1500859",
+    "uf": "PA"
   },
   {
     "nome": "Nova Brasilândia D'Oeste",
-    "codigo": "1100148"
+    "codigo": "1100148",
+    "uf": "RO"
   },
   {
     "nome": "Bannach",
-    "codigo": "1501253"
+    "codigo": "1501253",
+    "uf": "PA"
   },
   {
     "nome": "Santa Luzia D'Oeste",
-    "codigo": "1100296"
+    "codigo": "1100296",
+    "uf": "RO"
   },
   {
     "nome": "Belterra",
-    "codigo": "1501451"
+    "codigo": "1501451",
+    "uf": "PA"
   },
   {
     "nome": "São Miguel do Guaporé",
-    "codigo": "1100320"
+    "codigo": "1100320",
+    "uf": "RO"
   },
   {
     "nome": "Cachoeira do Piriá",
-    "codigo": "1501956"
+    "codigo": "1501956",
+    "uf": "PA"
   },
   {
     "nome": "Nova Mamoré",
-    "codigo": "1100338"
+    "codigo": "1100338",
+    "uf": "RO"
   },
   {
     "nome": "Canaã dos Carajás",
-    "codigo": "1502152"
+    "codigo": "1502152",
+    "uf": "PA"
   },
   {
     "nome": "Jesúpolis",
-    "codigo": "5212055"
+    "codigo": "5212055",
+    "uf": "GO"
   },
   {
     "nome": "Curuá",
-    "codigo": "1502855"
+    "codigo": "1502855",
+    "uf": "PA"
   },
   {
     "nome": "Professor Jamil",
-    "codigo": "5218391"
+    "codigo": "5218391",
+    "uf": "GO"
   },
   {
     "nome": "Floresta do Araguaia",
-    "codigo": "1503044"
+    "codigo": "1503044",
+    "uf": "PA"
   },
   {
     "nome": "Santo Antônio de Goiás",
-    "codigo": "5219738"
+    "codigo": "5219738",
+    "uf": "GO"
   },
   {
     "nome": "Marituba",
-    "codigo": "1504422"
+    "codigo": "1504422",
+    "uf": "PA"
   },
   {
     "nome": "Cocalzinho de Goiás",
-    "codigo": "5205513"
+    "codigo": "5205513",
+    "uf": "GO"
   },
   {
     "nome": "Nova Ipixuna",
-    "codigo": "1504976"
+    "codigo": "1504976",
+    "uf": "PA"
   },
   {
     "nome": "Terezópolis de Goiás",
-    "codigo": "5221197"
+    "codigo": "5221197",
+    "uf": "GO"
   },
   {
     "nome": "Piçarra",
-    "codigo": "1505635"
+    "codigo": "1505635",
+    "uf": "PA"
   },
   {
     "nome": "Uirapuru",
-    "codigo": "5221577"
+    "codigo": "5221577",
+    "uf": "GO"
   },
   {
     "nome": "Placas",
-    "codigo": "1505650"
+    "codigo": "1505650",
+    "uf": "PA"
   },
   {
     "nome": "Buritinópolis",
-    "codigo": "5203962"
+    "codigo": "5203962",
+    "uf": "GO"
   },
   {
     "nome": "Quatipuru",
-    "codigo": "1506112"
+    "codigo": "1506112",
+    "uf": "PA"
   },
   {
     "nome": "Buriti de Goiás",
-    "codigo": "5203939"
+    "codigo": "5203939",
+    "uf": "GO"
   },
   {
     "nome": "São João da Ponta",
-    "codigo": "1507466"
+    "codigo": "1507466",
+    "uf": "PA"
   },
   {
     "nome": "Guaraíta",
-    "codigo": "5209291"
+    "codigo": "5209291",
+    "uf": "GO"
   },
   {
     "nome": "Sapucaia",
-    "codigo": "1507755"
+    "codigo": "1507755",
+    "uf": "PA"
   },
   {
     "nome": "Vila Boa",
-    "codigo": "5222203"
+    "codigo": "5222203",
+    "uf": "GO"
   },
   {
     "nome": "Tracuateua",
-    "codigo": "1508035"
+    "codigo": "1508035",
+    "uf": "PA"
   },
   {
     "nome": "Inaciolândia",
-    "codigo": "5209937"
+    "codigo": "5209937",
+    "uf": "GO"
   },
   {
     "nome": "Vitória do Jari",
-    "codigo": "1600808"
+    "codigo": "1600808",
+    "uf": "AP"
   },
   {
     "nome": "Aparecida do Rio Doce",
-    "codigo": "5201454"
+    "codigo": "5201454",
+    "uf": "GO"
   },
   {
     "nome": "Aguiarnópolis",
-    "codigo": "1700301"
+    "codigo": "1700301",
+    "uf": "TO"
   },
   {
     "nome": "Chapadão do Céu",
-    "codigo": "5205471"
+    "codigo": "5205471",
+    "uf": "GO"
   },
   {
     "nome": "Bandeirantes do Tocantins",
-    "codigo": "1703057"
+    "codigo": "1703057",
+    "uf": "TO"
   },
   {
     "nome": "Perolândia",
-    "codigo": "5216452"
+    "codigo": "5216452",
+    "uf": "GO"
   },
   {
     "nome": "Barra do Ouro",
-    "codigo": "1703073"
+    "codigo": "1703073",
+    "uf": "TO"
   },
   {
     "nome": "Cidade Ocidental",
-    "codigo": "5205497"
+    "codigo": "5205497",
+    "uf": "GO"
   },
   {
     "nome": "Chapada de Areia",
-    "codigo": "1704600"
+    "codigo": "1704600",
+    "uf": "TO"
   },
   {
     "nome": "Montividiu do Norte",
-    "codigo": "5213772"
+    "codigo": "5213772",
+    "uf": "GO"
   },
   {
     "nome": "Chapada da Natividade",
-    "codigo": "1705102"
+    "codigo": "1705102",
+    "uf": "TO"
   },
   {
     "nome": "Castelândia",
-    "codigo": "5205059"
+    "codigo": "5205059",
+    "uf": "GO"
   },
   {
     "nome": "Crixás do Tocantins",
-    "codigo": "1706258"
+    "codigo": "1706258",
+    "uf": "TO"
   },
   {
     "nome": "Santo Antônio da Barra",
-    "codigo": "5219712"
+    "codigo": "5219712",
+    "uf": "GO"
   },
   {
     "nome": "Ipueiras",
-    "codigo": "1709807"
+    "codigo": "1709807",
+    "uf": "TO"
   },
   {
     "nome": "Alto Horizonte",
-    "codigo": "5200555"
+    "codigo": "5200555",
+    "uf": "GO"
   },
   {
     "nome": "Lavandeira",
-    "codigo": "1712157"
+    "codigo": "1712157",
+    "uf": "TO"
   },
   {
     "nome": "Nova Iguaçu de Goiás",
-    "codigo": "5214879"
+    "codigo": "5214879",
+    "uf": "GO"
   },
   {
     "nome": "Luzinópolis",
-    "codigo": "1712454"
+    "codigo": "1712454",
+    "uf": "TO"
   },
   {
     "nome": "Cotriguaçu",
-    "codigo": "5103379"
+    "codigo": "5103379",
+    "uf": "MT"
   },
   {
     "nome": "Monte Santo do Tocantins",
-    "codigo": "1713700"
+    "codigo": "1713700",
+    "uf": "TO"
   },
   {
     "nome": "Planalto da Serra",
-    "codigo": "5106455"
+    "codigo": "5106455",
+    "uf": "MT"
   },
   {
     "nome": "Oliveira de Fátima",
-    "codigo": "1715507"
+    "codigo": "1715507",
+    "uf": "TO"
   },
   {
     "nome": "São Pedro da Cipa",
-    "codigo": "5107404"
+    "codigo": "5107404",
+    "uf": "MT"
   },
   {
     "nome": "Pugmil",
-    "codigo": "1718451"
+    "codigo": "1718451",
+    "uf": "TO"
   },
   {
     "nome": "Pontal do Araguaia",
-    "codigo": "5106653"
+    "codigo": "5106653",
+    "uf": "MT"
   },
   {
     "nome": "Santa Rita do Tocantins",
-    "codigo": "1718899"
+    "codigo": "1718899",
+    "uf": "TO"
   },
   {
     "nome": "Querência",
-    "codigo": "5107065"
+    "codigo": "5107065",
+    "uf": "MT"
   },
   {
     "nome": "Santa Terezinha do Tocantins",
-    "codigo": "1720002"
+    "codigo": "1720002",
+    "uf": "TO"
   },
   {
     "nome": "Ribeirãozinho",
-    "codigo": "5107198"
+    "codigo": "5107198",
+    "uf": "MT"
   },
   {
     "nome": "Talismã",
-    "codigo": "1720978"
+    "codigo": "1720978",
+    "uf": "TO"
   },
   {
     "nome": "Porto Estrela",
-    "codigo": "5106851"
+    "codigo": "5106851",
+    "uf": "MT"
   },
   {
     "nome": "Tupirama",
-    "codigo": "1721257"
+    "codigo": "1721257",
+    "uf": "TO"
   },
   {
     "nome": "Nova Marilândia",
-    "codigo": "5108857"
+    "codigo": "5108857",
+    "uf": "MT"
   },
   {
     "nome": "Água Doce do Maranhão",
-    "codigo": "2100154"
+    "codigo": "2100154",
+    "uf": "MA"
   },
   {
     "nome": "Brasiléia",
-    "codigo": "1200104"
+    "codigo": "1200104",
+    "uf": "AC"
   },
   {
     "nome": "Alto Alegre do Maranhão",
-    "codigo": "2100436"
+    "codigo": "2100436",
+    "uf": "MA"
   },
   {
     "nome": "Cruzeiro do Sul",
-    "codigo": "1200203"
+    "codigo": "1200203",
+    "uf": "AC"
   },
   {
     "nome": "Alto Alegre do Pindaré",
-    "codigo": "2100477"
+    "codigo": "2100477",
+    "uf": "MA"
   },
   {
     "nome": "Mâncio Lima",
-    "codigo": "1200336"
+    "codigo": "1200336",
+    "uf": "AC"
   },
   {
     "nome": "Amapá do Maranhão",
-    "codigo": "2100550"
+    "codigo": "2100550",
+    "uf": "MA"
   },
   {
     "nome": "Nova Maringá",
-    "codigo": "5108907"
+    "codigo": "5108907",
+    "uf": "MT"
   },
   {
     "nome": "Apicum-Açu",
-    "codigo": "2100832"
+    "codigo": "2100832",
+    "uf": "MA"
   },
   {
     "nome": "Feijó",
-    "codigo": "1200302"
+    "codigo": "1200302",
+    "uf": "AC"
   },
   {
     "nome": "Araguanã",
-    "codigo": "2100873"
+    "codigo": "2100873",
+    "uf": "MA"
   },
   {
     "nome": "Santo Afonso",
-    "codigo": "5107263"
+    "codigo": "5107263",
+    "uf": "MT"
   },
   {
     "nome": "Bacabeira",
-    "codigo": "2101251"
+    "codigo": "2101251",
+    "uf": "MA"
   },
   {
     "nome": "Nova Bandeirantes",
-    "codigo": "5106158"
+    "codigo": "5106158",
+    "uf": "MT"
   },
   {
     "nome": "Bacurituba",
-    "codigo": "2101350"
+    "codigo": "2101350",
+    "uf": "MA"
   },
   {
     "nome": "Nova Monte Verde",
-    "codigo": "5108956"
+    "codigo": "5108956",
+    "uf": "MT"
   },
   {
     "nome": "Belágua",
-    "codigo": "2101731"
+    "codigo": "2101731",
+    "uf": "MA"
   },
   {
     "nome": "Nova Guarita",
-    "codigo": "5108808"
+    "codigo": "5108808",
+    "uf": "MT"
   },
   {
     "nome": "Bela Vista do Maranhão",
-    "codigo": "2101772"
+    "codigo": "2101772",
+    "uf": "MA"
   },
   {
     "nome": "Santa Carmem",
-    "codigo": "5107248"
+    "codigo": "5107248",
+    "uf": "MT"
   },
   {
     "nome": "Bernardo do Mearim",
-    "codigo": "2101939"
+    "codigo": "2101939",
+    "uf": "MA"
   },
   {
     "nome": "Tabaporã",
-    "codigo": "5107941"
+    "codigo": "5107941",
+    "uf": "MT"
   },
   {
     "nome": "Boa Vista do Gurupi",
-    "codigo": "2101970"
+    "codigo": "2101970",
+    "uf": "MA"
   },
   {
     "nome": "Alto Boa Vista",
-    "codigo": "5100359"
+    "codigo": "5100359",
+    "uf": "MT"
   },
   {
     "nome": "Bom Jesus das Selvas",
-    "codigo": "2102036"
+    "codigo": "2102036",
+    "uf": "MA"
   },
   {
     "nome": "Canabrava do Norte",
-    "codigo": "5102694"
+    "codigo": "5102694",
+    "uf": "MT"
   },
   {
     "nome": "Bom Lugar",
-    "codigo": "2102077"
+    "codigo": "2102077",
+    "uf": "MA"
   },
   {
     "nome": "Confresa",
-    "codigo": "5103353"
+    "codigo": "5103353",
+    "uf": "MT"
   },
   {
     "nome": "Brejo de Areia",
-    "codigo": "2102150"
+    "codigo": "2102150",
+    "uf": "MA"
   },
   {
     "nome": "São José do Xingu",
-    "codigo": "5107354"
+    "codigo": "5107354",
+    "uf": "MT"
   },
   {
     "nome": "Buriticupu",
-    "codigo": "2102325"
+    "codigo": "2102325",
+    "uf": "MA"
   },
   {
     "nome": "Glória D'Oeste",
-    "codigo": "5103957"
+    "codigo": "5103957",
+    "uf": "MT"
   },
   {
     "nome": "Buritirana",
-    "codigo": "2102358"
+    "codigo": "2102358",
+    "uf": "MA"
   },
   {
     "nome": "Lambari D'Oeste",
-    "codigo": "5105234"
+    "codigo": "5105234",
+    "uf": "MT"
   },
   {
     "nome": "Cachoeira Grande",
-    "codigo": "2102374"
+    "codigo": "2102374",
+    "uf": "MA"
   },
   {
     "nome": "Rio Branco",
-    "codigo": "1200401"
+    "codigo": "1200401",
+    "uf": "AC"
   },
   {
     "nome": "Campestre do Maranhão",
-    "codigo": "2102556"
+    "codigo": "2102556",
+    "uf": "MA"
   },
   {
     "nome": "Alcinópolis",
-    "codigo": "5000252"
+    "codigo": "5000252",
+    "uf": "MS"
   },
   {
     "nome": "Capinzal do Norte",
-    "codigo": "2102754"
+    "codigo": "2102754",
+    "uf": "MA"
   },
   {
     "nome": "Nova Alvorada do Sul",
-    "codigo": "5006002"
+    "codigo": "5006002",
+    "uf": "MS"
   },
   {
     "nome": "Central do Maranhão",
-    "codigo": "2103125"
+    "codigo": "2103125",
+    "uf": "MA"
   },
   {
     "nome": "Sena Madureira",
-    "codigo": "1200500"
+    "codigo": "1200500",
+    "uf": "AC"
   },
   {
     "nome": "Centro do Guilherme",
-    "codigo": "2103158"
+    "codigo": "2103158",
+    "uf": "MA"
   },
   {
     "nome": "Tarauacá",
-    "codigo": "1200609"
+    "codigo": "1200609",
+    "uf": "AC"
   },
   {
     "nome": "Centro Novo do Maranhão",
-    "codigo": "2103174"
+    "codigo": "2103174",
+    "uf": "MA"
   },
   {
     "nome": "Xapuri",
-    "codigo": "1200708"
+    "codigo": "1200708",
+    "uf": "AC"
   },
   {
     "nome": "Cidelândia",
-    "codigo": "2103257"
+    "codigo": "2103257",
+    "uf": "MA"
   },
   {
     "nome": "Plácido de Castro",
-    "codigo": "1200385"
+    "codigo": "1200385",
+    "uf": "AC"
   },
   {
     "nome": "Conceição do Lago-Açu",
-    "codigo": "2103554"
+    "codigo": "2103554",
+    "uf": "MA"
   },
   {
     "nome": "Senador Guiomard",
-    "codigo": "1200450"
+    "codigo": "1200450",
+    "uf": "AC"
   },
   {
     "nome": "Davinópolis",
-    "codigo": "2103752"
+    "codigo": "2103752",
+    "uf": "MA"
   },
   {
     "nome": "Manoel Urbano",
-    "codigo": "1200344"
+    "codigo": "1200344",
+    "uf": "AC"
   },
   {
     "nome": "Feira Nova do Maranhão",
-    "codigo": "2104073"
+    "codigo": "2104073",
+    "uf": "MA"
   },
   {
     "nome": "Assis Brasil",
-    "codigo": "1200054"
+    "codigo": "1200054",
+    "uf": "AC"
   },
   {
     "nome": "Fernando Falcão",
-    "codigo": "2104081"
+    "codigo": "2104081",
+    "uf": "MA"
   },
   {
     "nome": "Novo Horizonte do Sul",
-    "codigo": "5006259"
+    "codigo": "5006259",
+    "uf": "MS"
   },
   {
     "nome": "Formosa da Serra Negra",
-    "codigo": "2104099"
+    "codigo": "2104099",
+    "uf": "MA"
   },
   {
     "nome": "Japorã",
-    "codigo": "5004809"
+    "codigo": "5004809",
+    "uf": "MS"
   },
   {
     "nome": "Governador Edison Lobão",
-    "codigo": "2104552"
+    "codigo": "2104552",
+    "uf": "MA"
   },
   {
     "nome": "Laguna Carapã",
-    "codigo": "5005251"
+    "codigo": "5005251",
+    "uf": "MS"
   },
   {
     "nome": "Governador Luiz Rocha",
-    "codigo": "2104628"
+    "codigo": "2104628",
+    "uf": "MA"
   },
   {
     "nome": "Angico",
-    "codigo": "1701051"
+    "codigo": "1701051",
+    "uf": "TO"
   },
   {
     "nome": "Governador Newton Bello",
-    "codigo": "2104651"
+    "codigo": "2104651",
+    "uf": "MA"
   },
   {
     "nome": "Aragominas",
-    "codigo": "1701309"
+    "codigo": "1701309",
+    "uf": "TO"
   },
   {
     "nome": "Governador Nunes Freire",
-    "codigo": "2104677"
+    "codigo": "2104677",
+    "uf": "MA"
   },
   {
     "nome": "Araguanã",
-    "codigo": "1702158"
+    "codigo": "1702158",
+    "uf": "TO"
   },
   {
     "nome": "Igarapé do Meio",
-    "codigo": "2105153"
+    "codigo": "2105153",
+    "uf": "MA"
   },
   {
     "nome": "Cachoeirinha",
-    "codigo": "1703826"
+    "codigo": "1703826",
+    "uf": "TO"
   },
   {
     "nome": "Itaipava do Grajaú",
-    "codigo": "2105351"
+    "codigo": "2105351",
+    "uf": "MA"
   },
   {
     "nome": "Campos Lindos",
-    "codigo": "1703842"
+    "codigo": "1703842",
+    "uf": "TO"
   },
   {
     "nome": "Itinga do Maranhão",
-    "codigo": "2105427"
+    "codigo": "2105427",
+    "uf": "MA"
   },
   {
     "nome": "Carmolândia",
-    "codigo": "1703883"
+    "codigo": "1703883",
+    "uf": "TO"
   },
   {
     "nome": "Jatobá",
-    "codigo": "2105450"
+    "codigo": "2105450",
+    "uf": "MA"
   },
   {
     "nome": "Carrasco Bonito",
-    "codigo": "1703891"
+    "codigo": "1703891",
+    "uf": "TO"
   },
   {
     "nome": "Jenipapo dos Vieiras",
-    "codigo": "2105476"
+    "codigo": "2105476",
+    "uf": "MA"
   },
   {
     "nome": "Darcinópolis",
-    "codigo": "1706506"
+    "codigo": "1706506",
+    "uf": "TO"
   },
   {
     "nome": "Junco do Maranhão",
-    "codigo": "2105658"
+    "codigo": "2105658",
+    "uf": "MA"
   },
   {
     "nome": "Esperantina",
-    "codigo": "1707405"
+    "codigo": "1707405",
+    "uf": "TO"
   },
   {
     "nome": "Lagoa do Mato",
-    "codigo": "2105922"
+    "codigo": "2105922",
+    "uf": "MA"
   },
   {
     "nome": "Maurilândia do Tocantins",
-    "codigo": "1712801"
+    "codigo": "1712801",
+    "uf": "TO"
   },
   {
     "nome": "Lago dos Rodrigues",
-    "codigo": "2105948"
+    "codigo": "2105948",
+    "uf": "MA"
   },
   {
     "nome": "Palmeiras do Tocantins",
-    "codigo": "1713809"
+    "codigo": "1713809",
+    "uf": "TO"
   },
   {
     "nome": "Lagoa Grande do Maranhão",
-    "codigo": "2105963"
+    "codigo": "2105963",
+    "uf": "MA"
   },
   {
     "nome": "Muricilândia",
-    "codigo": "1713957"
+    "codigo": "1713957",
+    "uf": "TO"
   },
   {
     "nome": "Lajeado Novo",
-    "codigo": "2105989"
+    "codigo": "2105989",
+    "uf": "MA"
   },
   {
     "nome": "Palmeirante",
-    "codigo": "1715705"
+    "codigo": "1715705",
+    "uf": "TO"
   },
   {
     "nome": "Maracaçumé",
-    "codigo": "2106326"
+    "codigo": "2106326",
+    "uf": "MA"
   },
   {
     "nome": "Pau D'Arco",
-    "codigo": "1716307"
+    "codigo": "1716307",
+    "uf": "TO"
   },
   {
     "nome": "Marajá do Sena",
-    "codigo": "2106359"
+    "codigo": "2106359",
+    "uf": "MA"
   },
   {
     "nome": "Riachinho",
-    "codigo": "1718550"
+    "codigo": "1718550",
+    "uf": "TO"
   },
   {
     "nome": "Maranhãozinho",
-    "codigo": "2106375"
+    "codigo": "2106375",
+    "uf": "MA"
   },
   {
     "nome": "Santa Fé do Araguaia",
-    "codigo": "1718865"
+    "codigo": "1718865",
+    "uf": "TO"
   },
   {
     "nome": "Matões do Norte",
-    "codigo": "2106631"
+    "codigo": "2106631",
+    "uf": "MA"
   },
   {
     "nome": "São Bento do Tocantins",
-    "codigo": "1720101"
+    "codigo": "1720101",
+    "uf": "TO"
   },
   {
     "nome": "Milagres do Maranhão",
-    "codigo": "2106672"
+    "codigo": "2106672",
+    "uf": "MA"
   },
   {
     "nome": "São Miguel do Tocantins",
-    "codigo": "1720200"
+    "codigo": "1720200",
+    "uf": "TO"
   },
   {
     "nome": "Nova Colinas",
-    "codigo": "2107258"
+    "codigo": "2107258",
+    "uf": "MA"
   },
   {
     "nome": "Novo Airão",
-    "codigo": "1303205"
+    "codigo": "1303205",
+    "uf": "AM"
   },
   {
     "nome": "Nova Olinda do Maranhão",
-    "codigo": "2107357"
+    "codigo": "2107357",
+    "uf": "MA"
   },
   {
     "nome": "Anori",
-    "codigo": "1300102"
+    "codigo": "1300102",
+    "uf": "AM"
   },
   {
     "nome": "Olinda Nova do Maranhão",
-    "codigo": "2107456"
+    "codigo": "2107456",
+    "uf": "MA"
   },
   {
     "nome": "Atalaia do Norte",
-    "codigo": "1300201"
+    "codigo": "1300201",
+    "uf": "AM"
   },
   {
     "nome": "Paulino Neves",
-    "codigo": "2108058"
+    "codigo": "2108058",
+    "uf": "MA"
   },
   {
     "nome": "Autazes",
-    "codigo": "1300300"
+    "codigo": "1300300",
+    "uf": "AM"
   },
   {
     "nome": "Pedro do Rosário",
-    "codigo": "2108256"
+    "codigo": "2108256",
+    "uf": "MA"
   },
   {
     "nome": "Barcelos",
-    "codigo": "1300409"
+    "codigo": "1300409",
+    "uf": "AM"
   },
   {
     "nome": "Peritoró",
-    "codigo": "2108454"
+    "codigo": "2108454",
+    "uf": "MA"
   },
   {
     "nome": "Barreirinha",
-    "codigo": "1300508"
+    "codigo": "1300508",
+    "uf": "AM"
   },
   {
     "nome": "Porto Rico do Maranhão",
-    "codigo": "2109056"
+    "codigo": "2109056",
+    "uf": "MA"
   },
   {
     "nome": "Benjamin Constant",
-    "codigo": "1300607"
+    "codigo": "1300607",
+    "uf": "AM"
   },
   {
     "nome": "Presidente Médici",
-    "codigo": "2109239"
+    "codigo": "2109239",
+    "uf": "MA"
   },
   {
     "nome": "Boca do Acre",
-    "codigo": "1300706"
+    "codigo": "1300706",
+    "uf": "AM"
   },
   {
     "nome": "Presidente Sarney",
-    "codigo": "2109270"
+    "codigo": "2109270",
+    "uf": "MA"
   },
   {
     "nome": "Borba",
-    "codigo": "1300805"
+    "codigo": "1300805",
+    "uf": "AM"
   },
   {
     "nome": "Raposa",
-    "codigo": "2109452"
+    "codigo": "2109452",
+    "uf": "MA"
   },
   {
     "nome": "Canutama",
-    "codigo": "1300904"
+    "codigo": "1300904",
+    "uf": "AM"
   },
   {
     "nome": "Ribamar Fiquene",
-    "codigo": "2109551"
+    "codigo": "2109551",
+    "uf": "MA"
   },
   {
     "nome": "Carauari",
-    "codigo": "1301001"
+    "codigo": "1301001",
+    "uf": "AM"
   },
   {
     "nome": "Santa Filomena do Maranhão",
-    "codigo": "2109759"
+    "codigo": "2109759",
+    "uf": "MA"
   },
   {
     "nome": "Careiro",
-    "codigo": "1301100"
+    "codigo": "1301100",
+    "uf": "AM"
   },
   {
     "nome": "Santana do Maranhão",
-    "codigo": "2110237"
+    "codigo": "2110237",
+    "uf": "MA"
   },
   {
     "nome": "Coari",
-    "codigo": "1301209"
+    "codigo": "1301209",
+    "uf": "AM"
   },
   {
     "nome": "Santo Amaro do Maranhão",
-    "codigo": "2110278"
+    "codigo": "2110278",
+    "uf": "MA"
   },
   {
     "nome": "Codajás",
-    "codigo": "1301308"
+    "codigo": "1301308",
+    "uf": "AM"
   },
   {
     "nome": "São Domingos do Azeitão",
-    "codigo": "2110658"
+    "codigo": "2110658",
+    "uf": "MA"
   },
   {
     "nome": "Eirunepé",
-    "codigo": "1301407"
+    "codigo": "1301407",
+    "uf": "AM"
   },
   {
     "nome": "São Francisco do Brejão",
-    "codigo": "2110856"
+    "codigo": "2110856",
+    "uf": "MA"
   },
   {
     "nome": "Envira",
-    "codigo": "1301506"
+    "codigo": "1301506",
+    "uf": "AM"
   },
   {
     "nome": "São João do Carú",
-    "codigo": "2111029"
+    "codigo": "2111029",
+    "uf": "MA"
   },
   {
     "nome": "Fonte Boa",
-    "codigo": "1301605"
+    "codigo": "1301605",
+    "uf": "AM"
   },
   {
     "nome": "São João do Paraíso",
-    "codigo": "2111052"
+    "codigo": "2111052",
+    "uf": "MA"
   },
   {
     "nome": "Humaitá",
-    "codigo": "1301704"
+    "codigo": "1301704",
+    "uf": "AM"
   },
   {
     "nome": "São João do Soter",
-    "codigo": "2111078"
+    "codigo": "2111078",
+    "uf": "MA"
   },
   {
     "nome": "Santa Isabel do Rio Negro",
-    "codigo": "1303601"
+    "codigo": "1303601",
+    "uf": "AM"
   },
   {
     "nome": "São José dos Basílios",
-    "codigo": "2111250"
+    "codigo": "2111250",
+    "uf": "MA"
   },
   {
     "nome": "Ipixuna",
-    "codigo": "1301803"
+    "codigo": "1301803",
+    "uf": "AM"
   },
   {
     "nome": "São Pedro da Água Branca",
-    "codigo": "2111532"
+    "codigo": "2111532",
+    "uf": "MA"
   },
   {
     "nome": "Itacoatiara",
-    "codigo": "1301902"
+    "codigo": "1301902",
+    "uf": "AM"
   },
   {
     "nome": "São Pedro dos Crentes",
-    "codigo": "2111573"
+    "codigo": "2111573",
+    "uf": "MA"
   },
   {
     "nome": "Itapiranga",
-    "codigo": "1302009"
+    "codigo": "1302009",
+    "uf": "AM"
   },
   {
     "nome": "São Raimundo do Doca Bezerra",
-    "codigo": "2111631"
+    "codigo": "2111631",
+    "uf": "MA"
   },
   {
     "nome": "Japurá",
-    "codigo": "1302108"
+    "codigo": "1302108",
+    "uf": "AM"
   },
   {
     "nome": "São Roberto",
-    "codigo": "2111672"
+    "codigo": "2111672",
+    "uf": "MA"
   },
   {
     "nome": "Juruá",
-    "codigo": "1302207"
+    "codigo": "1302207",
+    "uf": "AM"
   },
   {
     "nome": "Satubinha",
-    "codigo": "2111722"
+    "codigo": "2111722",
+    "uf": "MA"
   },
   {
     "nome": "Jutaí",
-    "codigo": "1302306"
+    "codigo": "1302306",
+    "uf": "AM"
   },
   {
     "nome": "Senador Alexandre Costa",
-    "codigo": "2111748"
+    "codigo": "2111748",
+    "uf": "MA"
   },
   {
     "nome": "Lábrea",
-    "codigo": "1302405"
+    "codigo": "1302405",
+    "uf": "AM"
   },
   {
     "nome": "Senador La Rocque",
-    "codigo": "2111763"
+    "codigo": "2111763",
+    "uf": "MA"
   },
   {
     "nome": "Manacapuru",
-    "codigo": "1302504"
+    "codigo": "1302504",
+    "uf": "AM"
   },
   {
     "nome": "Serrano do Maranhão",
-    "codigo": "2111789"
+    "codigo": "2111789",
+    "uf": "MA"
   },
   {
     "nome": "Manaus",
-    "codigo": "1302603"
+    "codigo": "1302603",
+    "uf": "AM"
   },
   {
     "nome": "Sucupira do Riachão",
-    "codigo": "2111953"
+    "codigo": "2111953",
+    "uf": "MA"
   },
   {
     "nome": "Manicoré",
-    "codigo": "1302702"
+    "codigo": "1302702",
+    "uf": "AM"
   },
   {
     "nome": "Trizidela do Vale",
-    "codigo": "2112233"
+    "codigo": "2112233",
+    "uf": "MA"
   },
   {
     "nome": "Maraã",
-    "codigo": "1302801"
+    "codigo": "1302801",
+    "uf": "AM"
   },
   {
     "nome": "Tufilândia",
-    "codigo": "2112274"
+    "codigo": "2112274",
+    "uf": "MA"
   },
   {
     "nome": "Maués",
-    "codigo": "1302900"
+    "codigo": "1302900",
+    "uf": "AM"
   },
   {
     "nome": "Turilândia",
-    "codigo": "2112456"
+    "codigo": "2112456",
+    "uf": "MA"
   },
   {
     "nome": "Nhamundá",
-    "codigo": "1303007"
+    "codigo": "1303007",
+    "uf": "AM"
   },
   {
     "nome": "Vila Nova dos Martírios",
-    "codigo": "2112852"
+    "codigo": "2112852",
+    "uf": "MA"
   },
   {
     "nome": "Nova Olinda do Norte",
-    "codigo": "1303106"
+    "codigo": "1303106",
+    "uf": "AM"
   },
   {
     "nome": "Acauã",
-    "codigo": "2200053"
+    "codigo": "2200053",
+    "uf": "PI"
   },
   {
     "nome": "Novo Aripuanã",
-    "codigo": "1303304"
+    "codigo": "1303304",
+    "uf": "AM"
   },
   {
     "nome": "Alvorada do Gurguéia",
-    "codigo": "2200459"
+    "codigo": "2200459",
+    "uf": "PI"
   },
   {
     "nome": "Parintins",
-    "codigo": "1303403"
+    "codigo": "1303403",
+    "uf": "AM"
   },
   {
     "nome": "Assunção do Piauí",
-    "codigo": "2201051"
+    "codigo": "2201051",
+    "uf": "PI"
   },
   {
     "nome": "Pauini",
-    "codigo": "1303502"
+    "codigo": "1303502",
+    "uf": "AM"
   },
   {
     "nome": "Barra D'Alcântara",
-    "codigo": "2201176"
+    "codigo": "2201176",
+    "uf": "PI"
   },
   {
     "nome": "Santo Antônio do Içá",
-    "codigo": "1303700"
+    "codigo": "1303700",
+    "uf": "AM"
   },
   {
     "nome": "Bela Vista do Piauí",
-    "codigo": "2201556"
+    "codigo": "2201556",
+    "uf": "PI"
   },
   {
     "nome": "São Paulo de Olivença",
-    "codigo": "1303908"
+    "codigo": "1303908",
+    "uf": "AM"
   },
   {
     "nome": "Belém do Piauí",
-    "codigo": "2201572"
+    "codigo": "2201572",
+    "uf": "PI"
   },
   {
     "nome": "Silves",
-    "codigo": "1304005"
+    "codigo": "1304005",
+    "uf": "AM"
   },
   {
     "nome": "Betânia do Piauí",
-    "codigo": "2201739"
+    "codigo": "2201739",
+    "uf": "PI"
   },
   {
     "nome": "Tapauá",
-    "codigo": "1304104"
+    "codigo": "1304104",
+    "uf": "AM"
   },
   {
     "nome": "Boa Hora",
-    "codigo": "2201770"
+    "codigo": "2201770",
+    "uf": "PI"
   },
   {
     "nome": "Tefé",
-    "codigo": "1304203"
+    "codigo": "1304203",
+    "uf": "AM"
   },
   {
     "nome": "Boqueirão do Piauí",
-    "codigo": "2201945"
+    "codigo": "2201945",
+    "uf": "PI"
   },
   {
     "nome": "São Gabriel da Cachoeira",
-    "codigo": "1303809"
+    "codigo": "1303809",
+    "uf": "AM"
   },
   {
     "nome": "Brejo do Piauí",
-    "codigo": "2201988"
+    "codigo": "2201988",
+    "uf": "PI"
   },
   {
     "nome": "Urucará",
-    "codigo": "1304302"
+    "codigo": "1304302",
+    "uf": "AM"
   },
   {
     "nome": "Cajazeiras do Piauí",
-    "codigo": "2202075"
+    "codigo": "2202075",
+    "uf": "PI"
   },
   {
     "nome": "Urucurituba",
-    "codigo": "1304401"
+    "codigo": "1304401",
+    "uf": "AM"
   },
   {
     "nome": "Cajueiro da Praia",
-    "codigo": "2202083"
+    "codigo": "2202083",
+    "uf": "PI"
   },
   {
     "nome": "Alvarães",
-    "codigo": "1300029"
+    "codigo": "1300029",
+    "uf": "AM"
   },
   {
     "nome": "Campo Alegre do Fidalgo",
-    "codigo": "2202117"
+    "codigo": "2202117",
+    "uf": "PI"
   },
   {
     "nome": "Amaturá",
-    "codigo": "1300060"
+    "codigo": "1300060",
+    "uf": "AM"
   },
   {
     "nome": "Campo Grande do Piauí",
-    "codigo": "2202133"
+    "codigo": "2202133",
+    "uf": "PI"
   },
   {
     "nome": "Anamã",
-    "codigo": "1300086"
+    "codigo": "1300086",
+    "uf": "AM"
   },
   {
     "nome": "Campo Largo do Piauí",
-    "codigo": "2202174"
+    "codigo": "2202174",
+    "uf": "PI"
   },
   {
     "nome": "Beruri",
-    "codigo": "1300631"
+    "codigo": "1300631",
+    "uf": "AM"
   },
   {
     "nome": "Capitão Gervásio Oliveira",
-    "codigo": "2202455"
+    "codigo": "2202455",
+    "uf": "PI"
   },
   {
     "nome": "Boa Vista do Ramos",
-    "codigo": "1300680"
+    "codigo": "1300680",
+    "uf": "AM"
   },
   {
     "nome": "Caraúbas do Piauí",
-    "codigo": "2202539"
+    "codigo": "2202539",
+    "uf": "PI"
   },
   {
     "nome": "Caapiranga",
-    "codigo": "1300839"
+    "codigo": "1300839",
+    "uf": "AM"
   },
   {
     "nome": "Caridade do Piauí",
-    "codigo": "2202554"
+    "codigo": "2202554",
+    "uf": "PI"
   },
   {
     "nome": "Boa Vista",
-    "codigo": "1400100"
+    "codigo": "1400100",
+    "uf": "RR"
   },
   {
     "nome": "Caxingó",
-    "codigo": "2202653"
+    "codigo": "2202653",
+    "uf": "PI"
   },
   {
     "nome": "Caracaraí",
-    "codigo": "1400209"
+    "codigo": "1400209",
+    "uf": "RR"
   },
   {
     "nome": "Cocal de Telha",
-    "codigo": "2202711"
+    "codigo": "2202711",
+    "uf": "PI"
   },
   {
     "nome": "Alto Alegre",
-    "codigo": "1400050"
+    "codigo": "1400050",
+    "uf": "RR"
   },
   {
     "nome": "Cocal dos Alves",
-    "codigo": "2202729"
+    "codigo": "2202729",
+    "uf": "PI"
   },
   {
     "nome": "Bonfim",
-    "codigo": "1400159"
+    "codigo": "1400159",
+    "uf": "RR"
   },
   {
     "nome": "Currais",
-    "codigo": "2203230"
+    "codigo": "2203230",
+    "uf": "PI"
   },
   {
     "nome": "Mucajaí",
-    "codigo": "1400308"
+    "codigo": "1400308",
+    "uf": "RR"
   },
   {
     "nome": "Curralinhos",
-    "codigo": "2203255"
+    "codigo": "2203255",
+    "uf": "PI"
   },
   {
     "nome": "Normandia",
-    "codigo": "1400407"
+    "codigo": "1400407",
+    "uf": "RR"
   },
   {
     "nome": "Curral Novo do Piauí",
-    "codigo": "2203271"
+    "codigo": "2203271",
+    "uf": "PI"
   },
   {
     "nome": "São João da Baliza",
-    "codigo": "1400506"
+    "codigo": "1400506",
+    "uf": "RR"
   },
   {
     "nome": "Floresta do Piauí",
-    "codigo": "2203859"
+    "codigo": "2203859",
+    "uf": "PI"
   },
   {
     "nome": "São Luiz",
-    "codigo": "1400605"
+    "codigo": "1400605",
+    "uf": "RR"
   },
   {
     "nome": "Francisco Macedo",
-    "codigo": "2204154"
+    "codigo": "2204154",
+    "uf": "PI"
   },
   {
     "nome": "Mateiros",
-    "codigo": "1712702"
+    "codigo": "1712702",
+    "uf": "TO"
   },
   {
     "nome": "Geminiano",
-    "codigo": "2204352"
+    "codigo": "2204352",
+    "uf": "PI"
   },
   {
     "nome": "Guaribas",
-    "codigo": "2204550"
+    "codigo": "2204550",
+    "uf": "PI"
   },
   {
     "nome": "Novo Jardim",
-    "codigo": "1715259"
+    "codigo": "1715259",
+    "uf": "TO"
   },
   {
     "nome": "Ilha Grande",
-    "codigo": "2204659"
+    "codigo": "2204659",
+    "uf": "PI"
   },
   {
     "nome": "Rio da Conceição",
-    "codigo": "1718659"
+    "codigo": "1718659",
+    "uf": "TO"
   },
   {
     "nome": "Jatobá do Piauí",
-    "codigo": "2205276"
+    "codigo": "2205276",
+    "uf": "PI"
   },
   {
     "nome": "Taipas do Tocantins",
-    "codigo": "1720937"
+    "codigo": "1720937",
+    "uf": "TO"
   },
   {
     "nome": "João Costa",
-    "codigo": "2205359"
+    "codigo": "2205359",
+    "uf": "PI"
   },
   {
     "nome": "Cariri do Tocantins",
-    "codigo": "1703867"
+    "codigo": "1703867",
+    "uf": "TO"
   },
   {
     "nome": "Joca Marques",
-    "codigo": "2205458"
+    "codigo": "2205458",
+    "uf": "PI"
   },
   {
     "nome": "Jaú do Tocantins",
-    "codigo": "1711506"
+    "codigo": "1711506",
+    "uf": "TO"
   },
   {
     "nome": "Juazeiro do Piauí",
-    "codigo": "2205516"
+    "codigo": "2205516",
+    "uf": "PI"
   },
   {
     "nome": "Sandolândia",
-    "codigo": "1718840"
+    "codigo": "1718840",
+    "uf": "TO"
   },
   {
     "nome": "Júlio Borges",
-    "codigo": "2205524"
+    "codigo": "2205524",
+    "uf": "PI"
   },
   {
     "nome": "São Salvador do Tocantins",
-    "codigo": "1720259"
+    "codigo": "1720259",
+    "uf": "TO"
   },
   {
     "nome": "Jurema",
-    "codigo": "2205532"
+    "codigo": "2205532",
+    "uf": "PI"
   },
   {
     "nome": "Sucupira",
-    "codigo": "1720853"
+    "codigo": "1720853",
+    "uf": "TO"
   },
   {
     "nome": "Lagoinha do Piauí",
-    "codigo": "2205540"
+    "codigo": "2205540",
+    "uf": "PI"
   },
   {
     "nome": "Abreulândia",
-    "codigo": "1700251"
+    "codigo": "1700251",
+    "uf": "TO"
   },
   {
     "nome": "Lagoa de São Francisco",
-    "codigo": "2205573"
+    "codigo": "2205573",
+    "uf": "PI"
   },
   {
     "nome": "Brasilândia do Tocantins",
-    "codigo": "1703602"
+    "codigo": "1703602",
+    "uf": "TO"
   },
   {
     "nome": "Lagoa do Piauí",
-    "codigo": "2205581"
+    "codigo": "2205581",
+    "uf": "PI"
   },
   {
     "nome": "Bom Jesus do Tocantins",
-    "codigo": "1703305"
+    "codigo": "1703305",
+    "uf": "TO"
   },
   {
     "nome": "Lagoa do Sítio",
-    "codigo": "2205599"
+    "codigo": "2205599",
+    "uf": "PI"
   },
   {
     "nome": "Centenário",
-    "codigo": "1704105"
+    "codigo": "1704105",
+    "uf": "TO"
   },
   {
     "nome": "Madeiro",
-    "codigo": "2205854"
+    "codigo": "2205854",
+    "uf": "PI"
   },
   {
     "nome": "Tabocão",
-    "codigo": "1708254"
+    "codigo": "1708254",
+    "uf": "TO"
   },
   {
     "nome": "Massapê do Piauí",
-    "codigo": "2206050"
+    "codigo": "2206050",
+    "uf": "PI"
   },
   {
     "nome": "Itapiratins",
-    "codigo": "1710904"
+    "codigo": "1710904",
+    "uf": "TO"
   },
   {
     "nome": "Milton Brandão",
-    "codigo": "2206357"
+    "codigo": "2206357",
+    "uf": "PI"
   },
   {
     "nome": "Juarina",
-    "codigo": "1711803"
+    "codigo": "1711803",
+    "uf": "TO"
   },
   {
     "nome": "Morro Cabeça no Tempo",
-    "codigo": "2206654"
+    "codigo": "2206654",
+    "uf": "PI"
   },
   {
     "nome": "Lajeado",
-    "codigo": "1712009"
+    "codigo": "1712009",
+    "uf": "TO"
   },
   {
     "nome": "Morro do Chapéu do Piauí",
-    "codigo": "2206670"
+    "codigo": "2206670",
+    "uf": "PI"
   },
   {
     "nome": "Lagoa do Tocantins",
-    "codigo": "1711951"
+    "codigo": "1711951",
+    "uf": "TO"
   },
   {
     "nome": "Murici dos Portelas",
-    "codigo": "2206696"
+    "codigo": "2206696",
+    "uf": "PI"
   },
   {
     "nome": "Piraquê",
-    "codigo": "1717206"
+    "codigo": "1717206",
+    "uf": "TO"
   },
   {
     "nome": "Nossa Senhora de Nazaré",
-    "codigo": "2206753"
+    "codigo": "2206753",
+    "uf": "PI"
   },
   {
     "nome": "Recursolândia",
-    "codigo": "1718501"
+    "codigo": "1718501",
+    "uf": "TO"
   },
   {
     "nome": "Novo Santo Antônio",
-    "codigo": "2206951"
+    "codigo": "2206951",
+    "uf": "PI"
   },
   {
     "nome": "Rio dos Bois",
-    "codigo": "1718709"
+    "codigo": "1718709",
+    "uf": "TO"
   },
   {
     "nome": "Olho D'Água do Piauí",
-    "codigo": "2207108"
+    "codigo": "2207108",
+    "uf": "PI"
   },
   {
     "nome": "Santa Maria do Tocantins",
-    "codigo": "1718881"
+    "codigo": "1718881",
+    "uf": "TO"
   },
   {
     "nome": "Pajeú do Piauí",
-    "codigo": "2207355"
+    "codigo": "2207355",
+    "uf": "PI"
   },
   {
     "nome": "São Félix do Tocantins",
-    "codigo": "1720150"
+    "codigo": "1720150",
+    "uf": "TO"
   },
   {
     "nome": "Paquetá",
-    "codigo": "2207553"
+    "codigo": "2207553",
+    "uf": "PI"
   },
   {
     "nome": "Tupiratins",
-    "codigo": "1721307"
+    "codigo": "1721307",
+    "uf": "TO"
   },
   {
     "nome": "Pavussu",
-    "codigo": "2207850"
+    "codigo": "2207850",
+    "uf": "PI"
   },
   {
     "nome": "Lagoa da Confusão",
-    "codigo": "1711902"
+    "codigo": "1711902",
+    "uf": "TO"
   },
   {
     "nome": "Pedro Laurentino",
-    "codigo": "2207934"
+    "codigo": "2207934",
+    "uf": "PI"
   },
   {
     "nome": "Santa Bárbara do Pará",
-    "codigo": "1506351"
+    "codigo": "1506351",
+    "uf": "PA"
   },
   {
     "nome": "Nova Santa Rita",
-    "codigo": "2207959"
+    "codigo": "2207959",
+    "uf": "PI"
   },
   {
     "nome": "Santa Luzia do Pará",
-    "codigo": "1506559"
+    "codigo": "1506559",
+    "uf": "PA"
   },
   {
     "nome": "Porto Alegre do Piauí",
-    "codigo": "2208551"
+    "codigo": "2208551",
+    "uf": "PI"
   },
   {
     "nome": "Terra Alta",
-    "codigo": "1507961"
+    "codigo": "1507961",
+    "uf": "PA"
   },
   {
     "nome": "Riacho Frio",
-    "codigo": "2208858"
+    "codigo": "2208858",
+    "uf": "PI"
   },
   {
     "nome": "Abel Figueiredo",
-    "codigo": "1500131"
+    "codigo": "1500131",
+    "uf": "PA"
   },
   {
     "nome": "Ribeira do Piauí",
-    "codigo": "2208874"
+    "codigo": "2208874",
+    "uf": "PI"
   },
   {
     "nome": "Eldorado do Carajás",
-    "codigo": "1502954"
+    "codigo": "1502954",
+    "uf": "PA"
   },
   {
     "nome": "Santo Antônio dos Milagres",
-    "codigo": "2209450"
+    "codigo": "2209450",
+    "uf": "PI"
   },
   {
     "nome": "Palestina do Pará",
-    "codigo": "1505494"
+    "codigo": "1505494",
+    "uf": "PA"
   },
   {
     "nome": "São Francisco de Assis do Piauí",
-    "codigo": "2209658"
+    "codigo": "2209658",
+    "uf": "PI"
   },
   {
     "nome": "São Domingos do Araguaia",
-    "codigo": "1507151"
+    "codigo": "1507151",
+    "uf": "PA"
   },
   {
     "nome": "São Gonçalo do Gurguéia",
-    "codigo": "2209757"
+    "codigo": "2209757",
+    "uf": "PI"
   },
   {
     "nome": "Água Azul do Norte",
-    "codigo": "1500347"
+    "codigo": "1500347",
+    "uf": "PA"
   },
   {
     "nome": "São João da Fronteira",
-    "codigo": "2209872"
+    "codigo": "2209872",
+    "uf": "PI"
   },
   {
     "nome": "Cumaru do Norte",
-    "codigo": "1502764"
+    "codigo": "1502764",
+    "uf": "PA"
   },
   {
     "nome": "São João da Varjota",
-    "codigo": "2209955"
+    "codigo": "2209955",
+    "uf": "PI"
   },
   {
     "nome": "Pau D'Arco",
-    "codigo": "1505551"
+    "codigo": "1505551",
+    "uf": "PA"
   },
   {
     "nome": "São João do Arraial",
-    "codigo": "2209971"
+    "codigo": "2209971",
+    "uf": "PI"
   },
   {
     "nome": "Aurora do Pará",
-    "codigo": "1500958"
+    "codigo": "1500958",
+    "uf": "PA"
   },
   {
     "nome": "São Luis do Piauí",
-    "codigo": "2210375"
+    "codigo": "2210375",
+    "uf": "PI"
   },
   {
     "nome": "Nova Esperança do Piriá",
-    "codigo": "1504950"
+    "codigo": "1504950",
+    "uf": "PA"
   },
   {
     "nome": "São Miguel da Baixa Grande",
-    "codigo": "2210383"
+    "codigo": "2210383",
+    "uf": "PI"
   },
   {
     "nome": "São João de Pirabas",
-    "codigo": "1507474"
+    "codigo": "1507474",
+    "uf": "PA"
   },
   {
     "nome": "São Miguel do Fidalgo",
-    "codigo": "2210391"
+    "codigo": "2210391",
+    "uf": "PI"
   },
   {
     "nome": "Tailândia",
-    "codigo": "1507953"
+    "codigo": "1507953",
+    "uf": "PA"
   },
   {
     "nome": "Sebastião Barros",
-    "codigo": "2210623"
+    "codigo": "2210623",
+    "uf": "PI"
   },
   {
     "nome": "Tucumã",
-    "codigo": "1508084"
+    "codigo": "1508084",
+    "uf": "PA"
   },
   {
     "nome": "Sebastião Leal",
-    "codigo": "2210631"
+    "codigo": "2210631",
+    "uf": "PI"
   },
   {
     "nome": "Uruará",
-    "codigo": "1508159"
+    "codigo": "1508159",
+    "uf": "PA"
   },
   {
     "nome": "Sussuapara",
-    "codigo": "2210938"
+    "codigo": "2210938",
+    "uf": "PI"
   },
   {
     "nome": "Abaetetuba",
-    "codigo": "1500107"
+    "codigo": "1500107",
+    "uf": "PA"
   },
   {
     "nome": "Tamboril do Piauí",
-    "codigo": "2210953"
+    "codigo": "2210953",
+    "uf": "PI"
   },
   {
     "nome": "Acará",
-    "codigo": "1500206"
+    "codigo": "1500206",
+    "uf": "PA"
   },
   {
     "nome": "Tanque do Piauí",
-    "codigo": "2210979"
+    "codigo": "2210979",
+    "uf": "PI"
   },
   {
     "nome": "Afuá",
-    "codigo": "1500305"
+    "codigo": "1500305",
+    "uf": "PA"
   },
   {
     "nome": "Vera Mendes",
-    "codigo": "2211506"
+    "codigo": "2211506",
+    "uf": "PI"
   },
   {
     "nome": "Alenquer",
-    "codigo": "1500404"
+    "codigo": "1500404",
+    "uf": "PA"
   },
   {
     "nome": "Vila Nova do Piauí",
-    "codigo": "2211605"
+    "codigo": "2211605",
+    "uf": "PI"
   },
   {
     "nome": "Almeirim",
-    "codigo": "1500503"
+    "codigo": "1500503",
+    "uf": "PA"
   },
   {
     "nome": "Wall Ferraz",
-    "codigo": "2211704"
+    "codigo": "2211704",
+    "uf": "PI"
   },
   {
     "nome": "Altamira",
-    "codigo": "1500602"
+    "codigo": "1500602",
+    "uf": "PA"
   },
   {
     "nome": "Bodó",
-    "codigo": "2401651"
+    "codigo": "2401651",
+    "uf": "RN"
   },
   {
     "nome": "Anajás",
-    "codigo": "1500701"
+    "codigo": "1500701",
+    "uf": "PA"
   },
   {
     "nome": "Caiçara do Norte",
-    "codigo": "2401859"
+    "codigo": "2401859",
+    "uf": "RN"
   },
   {
     "nome": "Ananindeua",
-    "codigo": "1500800"
+    "codigo": "1500800",
+    "uf": "PA"
   },
   {
     "nome": "Fernando Pedroza",
-    "codigo": "2403756"
+    "codigo": "2403756",
+    "uf": "RN"
   },
   {
     "nome": "Augusto Corrêa",
-    "codigo": "1500909"
+    "codigo": "1500909",
+    "uf": "PA"
   },
   {
     "nome": "Itajá",
-    "codigo": "2404853"
+    "codigo": "2404853",
+    "uf": "RN"
   },
   {
     "nome": "Aveiro",
-    "codigo": "1501006"
+    "codigo": "1501006",
+    "uf": "PA"
   },
   {
     "nome": "Major Sales",
-    "codigo": "2407252"
+    "codigo": "2407252",
+    "uf": "RN"
   },
   {
     "nome": "Bagre",
-    "codigo": "1501105"
+    "codigo": "1501105",
+    "uf": "PA"
   },
   {
     "nome": "Rio do Fogo",
-    "codigo": "2408953"
+    "codigo": "2408953",
+    "uf": "RN"
   },
   {
     "nome": "Baião",
-    "codigo": "1501204"
+    "codigo": "1501204",
+    "uf": "PA"
   },
   {
     "nome": "Santa Maria",
-    "codigo": "2409332"
+    "codigo": "2409332",
+    "uf": "RN"
   },
   {
     "nome": "Barcarena",
-    "codigo": "1501303"
+    "codigo": "1501303",
+    "uf": "PA"
   },
   {
     "nome": "Porto do Mangue",
-    "codigo": "2410256"
+    "codigo": "2410256",
+    "uf": "RN"
   },
   {
     "nome": "Belém",
-    "codigo": "1501402"
+    "codigo": "1501402",
+    "uf": "PA"
   },
   {
     "nome": "Tibau",
-    "codigo": "2411056"
+    "codigo": "2411056",
+    "uf": "RN"
   },
   {
     "nome": "Benevides",
-    "codigo": "1501501"
+    "codigo": "1501501",
+    "uf": "PA"
   },
   {
     "nome": "São Miguel do Gostoso",
-    "codigo": "2412559"
+    "codigo": "2412559",
+    "uf": "RN"
   },
   {
     "nome": "Bonito",
-    "codigo": "1501600"
+    "codigo": "1501600",
+    "uf": "PA"
   },
   {
     "nome": "Serrinha dos Pintos",
-    "codigo": "2413557"
+    "codigo": "2413557",
+    "uf": "RN"
   },
   {
     "nome": "Bragança",
-    "codigo": "1501709"
+    "codigo": "1501709",
+    "uf": "PA"
   },
   {
     "nome": "Tenente Laurentino Cruz",
-    "codigo": "2414159"
+    "codigo": "2414159",
+    "uf": "RN"
   },
   {
     "nome": "Breves",
-    "codigo": "1501808"
+    "codigo": "1501808",
+    "uf": "PA"
   },
   {
     "nome": "Triunfo Potiguar",
-    "codigo": "2414456"
+    "codigo": "2414456",
+    "uf": "RN"
   },
   {
     "nome": "Bujaru",
-    "codigo": "1501907"
+    "codigo": "1501907",
+    "uf": "PA"
   },
   {
     "nome": "Venha-Ver",
-    "codigo": "2414753"
+    "codigo": "2414753",
+    "uf": "RN"
   },
   {
     "nome": "Cachoeira do Arari",
-    "codigo": "1502004"
+    "codigo": "1502004",
+    "uf": "PA"
   },
   {
     "nome": "Alcantil",
-    "codigo": "2500536"
+    "codigo": "2500536",
+    "uf": "PB"
   },
   {
     "nome": "Cametá",
-    "codigo": "1502103"
+    "codigo": "1502103",
+    "uf": "PA"
   },
   {
     "nome": "Algodão de Jandaíra",
-    "codigo": "2500577"
+    "codigo": "2500577",
+    "uf": "PB"
   },
   {
     "nome": "Capanema",
-    "codigo": "1502202"
+    "codigo": "1502202",
+    "uf": "PA"
   },
   {
     "nome": "Amparo",
-    "codigo": "2500734"
+    "codigo": "2500734",
+    "uf": "PB"
   },
   {
     "nome": "Capitão Poço",
-    "codigo": "1502301"
+    "codigo": "1502301",
+    "uf": "PA"
   },
   {
     "nome": "Aparecida",
-    "codigo": "2500775"
+    "codigo": "2500775",
+    "uf": "PB"
   },
   {
     "nome": "Castanhal",
-    "codigo": "1502400"
+    "codigo": "1502400",
+    "uf": "PA"
   },
   {
     "nome": "Areia de Baraúnas",
-    "codigo": "2501153"
+    "codigo": "2501153",
+    "uf": "PB"
   },
   {
     "nome": "Chaves",
-    "codigo": "1502509"
+    "codigo": "1502509",
+    "uf": "PA"
   },
   {
     "nome": "Assunção",
-    "codigo": "2501351"
+    "codigo": "2501351",
+    "uf": "PB"
   },
   {
     "nome": "Colares",
-    "codigo": "1502608"
+    "codigo": "1502608",
+    "uf": "PA"
   },
   {
     "nome": "Baraúna",
-    "codigo": "2501534"
+    "codigo": "2501534",
+    "uf": "PB"
   },
   {
     "nome": "Conceição do Araguaia",
-    "codigo": "1502707"
+    "codigo": "1502707",
+    "uf": "PA"
   },
   {
     "nome": "Barra de Santana",
-    "codigo": "2501575"
+    "codigo": "2501575",
+    "uf": "PB"
   },
   {
     "nome": "Curralinho",
-    "codigo": "1502806"
+    "codigo": "1502806",
+    "uf": "PA"
   },
   {
     "nome": "Bernardino Batista",
-    "codigo": "2502052"
+    "codigo": "2502052",
+    "uf": "PB"
   },
   {
     "nome": "Curuçá",
-    "codigo": "1502905"
+    "codigo": "1502905",
+    "uf": "PA"
   },
   {
     "nome": "Boa Vista",
-    "codigo": "2502151"
+    "codigo": "2502151",
+    "uf": "PB"
   },
   {
     "nome": "Faro",
-    "codigo": "1503002"
+    "codigo": "1503002",
+    "uf": "PA"
   },
   {
     "nome": "Cacimbas",
-    "codigo": "2503555"
+    "codigo": "2503555",
+    "uf": "PB"
   },
   {
     "nome": "Gurupá",
-    "codigo": "1503101"
+    "codigo": "1503101",
+    "uf": "PA"
   },
   {
     "nome": "Cajazeirinhas",
-    "codigo": "2503753"
+    "codigo": "2503753",
+    "uf": "PB"
   },
   {
     "nome": "Igarapé-Açu",
-    "codigo": "1503200"
+    "codigo": "1503200",
+    "uf": "PA"
   },
   {
     "nome": "Capim",
-    "codigo": "2504033"
+    "codigo": "2504033",
+    "uf": "PB"
   },
   {
     "nome": "Igarapé-Miri",
-    "codigo": "1503309"
+    "codigo": "1503309",
+    "uf": "PA"
   },
   {
     "nome": "Caraúbas",
-    "codigo": "2504074"
+    "codigo": "2504074",
+    "uf": "PB"
   },
   {
     "nome": "Inhangapi",
-    "codigo": "1503408"
+    "codigo": "1503408",
+    "uf": "PA"
   },
   {
     "nome": "Casserengue",
-    "codigo": "2504157"
+    "codigo": "2504157",
+    "uf": "PB"
   },
   {
     "nome": "Irituia",
-    "codigo": "1503507"
+    "codigo": "1503507",
+    "uf": "PA"
   },
   {
     "nome": "Caturité",
-    "codigo": "2504355"
+    "codigo": "2504355",
+    "uf": "PB"
   },
   {
     "nome": "Itaituba",
-    "codigo": "1503606"
+    "codigo": "1503606",
+    "uf": "PA"
   },
   {
     "nome": "Coxixola",
-    "codigo": "2504850"
+    "codigo": "2504850",
+    "uf": "PB"
   },
   {
     "nome": "Itupiranga",
-    "codigo": "1503705"
+    "codigo": "1503705",
+    "uf": "PA"
   },
   {
     "nome": "Cuité de Mamanguape",
-    "codigo": "2505238"
+    "codigo": "2505238",
+    "uf": "PB"
   },
   {
     "nome": "Jacundá",
-    "codigo": "1503804"
+    "codigo": "1503804",
+    "uf": "PA"
   },
   {
     "nome": "Curral de Cima",
-    "codigo": "2505279"
+    "codigo": "2505279",
+    "uf": "PB"
   },
   {
     "nome": "Juruti",
-    "codigo": "1503903"
+    "codigo": "1503903",
+    "uf": "PA"
   },
   {
     "nome": "Damião",
-    "codigo": "2505352"
+    "codigo": "2505352",
+    "uf": "PB"
   },
   {
     "nome": "Limoeiro do Ajuru",
-    "codigo": "1504000"
+    "codigo": "1504000",
+    "uf": "PA"
   },
   {
     "nome": "Gado Bravo",
-    "codigo": "2506251"
+    "codigo": "2506251",
+    "uf": "PB"
   },
   {
     "nome": "Magalhães Barata",
-    "codigo": "1504109"
+    "codigo": "1504109",
+    "uf": "PA"
   },
   {
     "nome": "Logradouro",
-    "codigo": "2508554"
+    "codigo": "2508554",
+    "uf": "PB"
   },
   {
     "nome": "Marabá",
-    "codigo": "1504208"
+    "codigo": "1504208",
+    "uf": "PA"
   },
   {
     "nome": "Marcação",
-    "codigo": "2509057"
+    "codigo": "2509057",
+    "uf": "PB"
   },
   {
     "nome": "Maracanã",
-    "codigo": "1504307"
+    "codigo": "1504307",
+    "uf": "PA"
   },
   {
     "nome": "Marizópolis",
-    "codigo": "2509156"
+    "codigo": "2509156",
+    "uf": "PB"
   },
   {
     "nome": "Marapanim",
-    "codigo": "1504406"
+    "codigo": "1504406",
+    "uf": "PA"
   },
   {
     "nome": "Matinhas",
-    "codigo": "2509339"
+    "codigo": "2509339",
+    "uf": "PB"
   },
   {
     "nome": "Melgaço",
-    "codigo": "1504505"
+    "codigo": "1504505",
+    "uf": "PA"
   },
   {
     "nome": "Mato Grosso",
-    "codigo": "2509370"
+    "codigo": "2509370",
+    "uf": "PB"
   },
   {
     "nome": "Mocajuba",
-    "codigo": "1504604"
+    "codigo": "1504604",
+    "uf": "PA"
   },
   {
     "nome": "Maturéia",
-    "codigo": "2509396"
+    "codigo": "2509396",
+    "uf": "PB"
   },
   {
     "nome": "Moju",
-    "codigo": "1504703"
+    "codigo": "1504703",
+    "uf": "PA"
   },
   {
     "nome": "Parari",
-    "codigo": "2510659"
+    "codigo": "2510659",
+    "uf": "PB"
   },
   {
     "nome": "Monte Alegre",
-    "codigo": "1504802"
+    "codigo": "1504802",
+    "uf": "PA"
   },
   {
     "nome": "Poço Dantas",
-    "codigo": "2512036"
+    "codigo": "2512036",
+    "uf": "PB"
   },
   {
     "nome": "Muaná",
-    "codigo": "1504901"
+    "codigo": "1504901",
+    "uf": "PA"
   },
   {
     "nome": "Poço de José de Moura",
-    "codigo": "2512077"
+    "codigo": "2512077",
+    "uf": "PB"
   },
   {
     "nome": "Nova Timboteua",
-    "codigo": "1505007"
+    "codigo": "1505007",
+    "uf": "PA"
   },
   {
     "nome": "Pedro Régis",
-    "codigo": "2512721"
+    "codigo": "2512721",
+    "uf": "PB"
   },
   {
     "nome": "Óbidos",
-    "codigo": "1505106"
+    "codigo": "1505106",
+    "uf": "PA"
   },
   {
     "nome": "Riachão",
-    "codigo": "2512747"
+    "codigo": "2512747",
+    "uf": "PB"
   },
   {
     "nome": "Oeiras do Pará",
-    "codigo": "1505205"
+    "codigo": "1505205",
+    "uf": "PA"
   },
   {
     "nome": "Riachão do Bacamarte",
-    "codigo": "2512754"
+    "codigo": "2512754",
+    "uf": "PB"
   },
   {
     "nome": "Oriximiná",
-    "codigo": "1505304"
+    "codigo": "1505304",
+    "uf": "PA"
   },
   {
     "nome": "Riachão do Poço",
-    "codigo": "2512762"
+    "codigo": "2512762",
+    "uf": "PB"
   },
   {
     "nome": "Ourém",
-    "codigo": "1505403"
+    "codigo": "1505403",
+    "uf": "PA"
   },
   {
     "nome": "Riacho de Santo Antônio",
-    "codigo": "2512788"
+    "codigo": "2512788",
+    "uf": "PB"
   },
   {
     "nome": "Paragominas",
-    "codigo": "1505502"
+    "codigo": "1505502",
+    "uf": "PA"
   },
   {
     "nome": "Santa Cecília",
-    "codigo": "2513158"
+    "codigo": "2513158",
+    "uf": "PB"
   },
   {
     "nome": "Peixe-Boi",
-    "codigo": "1505601"
+    "codigo": "1505601",
+    "uf": "PA"
   },
   {
     "nome": "Santa Inês",
-    "codigo": "2513356"
+    "codigo": "2513356",
+    "uf": "PB"
   },
   {
     "nome": "Ponta de Pedras",
-    "codigo": "1505700"
+    "codigo": "1505700",
+    "uf": "PA"
   },
   {
     "nome": "Joca Claudino",
-    "codigo": "2513653"
+    "codigo": "2513653",
+    "uf": "PB"
   },
   {
     "nome": "Portel",
-    "codigo": "1505809"
+    "codigo": "1505809",
+    "uf": "PA"
   },
   {
     "nome": "Santo André",
-    "codigo": "2513851"
+    "codigo": "2513851",
+    "uf": "PB"
   },
   {
     "nome": "Porto de Moz",
-    "codigo": "1505908"
+    "codigo": "1505908",
+    "uf": "PA"
   },
   {
     "nome": "São Bentinho",
-    "codigo": "2513927"
+    "codigo": "2513927",
+    "uf": "PB"
   },
   {
     "nome": "Prainha",
-    "codigo": "1506005"
+    "codigo": "1506005",
+    "uf": "PA"
   },
   {
     "nome": "São Domingos do Cariri",
-    "codigo": "2513943"
+    "codigo": "2513943",
+    "uf": "PB"
   },
   {
     "nome": "Primavera",
-    "codigo": "1506104"
+    "codigo": "1506104",
+    "uf": "PA"
   },
   {
     "nome": "São Domingos",
-    "codigo": "2513968"
+    "codigo": "2513968",
+    "uf": "PB"
   },
   {
     "nome": "Salinópolis",
-    "codigo": "1506203"
+    "codigo": "1506203",
+    "uf": "PA"
   },
   {
     "nome": "São Francisco",
-    "codigo": "2513984"
+    "codigo": "2513984",
+    "uf": "PB"
   },
   {
     "nome": "Salvaterra",
-    "codigo": "1506302"
+    "codigo": "1506302",
+    "uf": "PA"
   },
   {
     "nome": "São José dos Ramos",
-    "codigo": "2514453"
+    "codigo": "2514453",
+    "uf": "PB"
   },
   {
     "nome": "Santa Cruz do Arari",
-    "codigo": "1506401"
+    "codigo": "1506401",
+    "uf": "PA"
   },
   {
     "nome": "São José de Princesa",
-    "codigo": "2514552"
+    "codigo": "2514552",
+    "uf": "PB"
   },
   {
     "nome": "Santa Izabel do Pará",
-    "codigo": "1506500"
+    "codigo": "1506500",
+    "uf": "PA"
   },
   {
     "nome": "São José do Brejo do Cruz",
-    "codigo": "2514651"
+    "codigo": "2514651",
+    "uf": "PB"
   },
   {
     "nome": "Santa Maria do Pará",
-    "codigo": "1506609"
+    "codigo": "1506609",
+    "uf": "PA"
   },
   {
     "nome": "Sertãozinho",
-    "codigo": "2515930"
+    "codigo": "2515930",
+    "uf": "PB"
   },
   {
     "nome": "Santana do Araguaia",
-    "codigo": "1506708"
+    "codigo": "1506708",
+    "uf": "PA"
   },
   {
     "nome": "Sobrado",
-    "codigo": "2515971"
+    "codigo": "2515971",
+    "uf": "PB"
   },
   {
     "nome": "Santarém",
-    "codigo": "1506807"
+    "codigo": "1506807",
+    "uf": "PA"
   },
   {
     "nome": "Sossêgo",
-    "codigo": "2516151"
+    "codigo": "2516151",
+    "uf": "PB"
   },
   {
     "nome": "Santarém Novo",
-    "codigo": "1506906"
+    "codigo": "1506906",
+    "uf": "PA"
   },
   {
     "nome": "Tenório",
-    "codigo": "2516755"
+    "codigo": "2516755",
+    "uf": "PB"
   },
   {
     "nome": "Santo Antônio do Tauá",
-    "codigo": "1507003"
+    "codigo": "1507003",
+    "uf": "PA"
   },
   {
     "nome": "Vieirópolis",
-    "codigo": "2517209"
+    "codigo": "2517209",
+    "uf": "PB"
   },
   {
     "nome": "São Caetano de Odivelas",
-    "codigo": "1507102"
+    "codigo": "1507102",
+    "uf": "PA"
   },
   {
     "nome": "Zabelê",
-    "codigo": "2517407"
+    "codigo": "2517407",
+    "uf": "PB"
   },
   {
     "nome": "São Domingos do Capim",
-    "codigo": "1507201"
+    "codigo": "1507201",
+    "uf": "PA"
   },
   {
     "nome": "Araçoiaba",
-    "codigo": "2601052"
+    "codigo": "2601052",
+    "uf": "PE"
   },
   {
     "nome": "São Félix do Xingu",
-    "codigo": "1507300"
+    "codigo": "1507300",
+    "uf": "PA"
   },
   {
     "nome": "Casinhas",
-    "codigo": "2604155"
+    "codigo": "2604155",
+    "uf": "PE"
   },
   {
     "nome": "São Francisco do Pará",
-    "codigo": "1507409"
+    "codigo": "1507409",
+    "uf": "PA"
   },
   {
     "nome": "Jaqueira",
-    "codigo": "2607950"
+    "codigo": "2607950",
+    "uf": "PE"
   },
   {
     "nome": "São João do Araguaia",
-    "codigo": "1507508"
+    "codigo": "1507508",
+    "uf": "PA"
   },
   {
     "nome": "Jatobá",
-    "codigo": "2608057"
+    "codigo": "2608057",
+    "uf": "PE"
   },
   {
     "nome": "São Miguel do Guamá",
-    "codigo": "1507607"
+    "codigo": "1507607",
+    "uf": "PA"
   },
   {
     "nome": "Lagoa Grande",
-    "codigo": "2608750"
+    "codigo": "2608750",
+    "uf": "PE"
   },
   {
     "nome": "São Sebastião da Boa Vista",
-    "codigo": "1507706"
+    "codigo": "1507706",
+    "uf": "PA"
   },
   {
     "nome": "Manari",
-    "codigo": "2609154"
+    "codigo": "2609154",
+    "uf": "PE"
   },
   {
     "nome": "Senador José Porfírio",
-    "codigo": "1507805"
+    "codigo": "1507805",
+    "uf": "PA"
   },
   {
     "nome": "Santa Filomena",
-    "codigo": "2612554"
+    "codigo": "2612554",
+    "uf": "PE"
   },
   {
     "nome": "Soure",
-    "codigo": "1507904"
+    "codigo": "1507904",
+    "uf": "PA"
   },
   {
     "nome": "Tamandaré",
-    "codigo": "2614857"
+    "codigo": "2614857",
+    "uf": "PE"
   },
   {
     "nome": "Tomé-Açu",
-    "codigo": "1508001"
+    "codigo": "1508001",
+    "uf": "PA"
   },
   {
     "nome": "Campestre",
-    "codigo": "2701357"
+    "codigo": "2701357",
+    "uf": "AL"
   },
   {
     "nome": "Tucuruí",
-    "codigo": "1508100"
+    "codigo": "1508100",
+    "uf": "PA"
   },
   {
     "nome": "Jequiá da Praia",
-    "codigo": "2703759"
+    "codigo": "2703759",
+    "uf": "AL"
   },
   {
     "nome": "Vigia",
-    "codigo": "1508209"
+    "codigo": "1508209",
+    "uf": "PA"
   },
   {
     "nome": "Alto Caparaó",
-    "codigo": "3102050"
+    "codigo": "3102050",
+    "uf": "MG"
   },
   {
     "nome": "Viseu",
-    "codigo": "1508308"
+    "codigo": "1508308",
+    "uf": "PA"
   },
   {
     "nome": "Angelândia",
-    "codigo": "3102852"
+    "codigo": "3102852",
+    "uf": "MG"
   },
   {
     "nome": "Redenção",
-    "codigo": "1506138"
+    "codigo": "1506138",
+    "uf": "PA"
   },
   {
     "nome": "Aricanduva",
-    "codigo": "3104452"
+    "codigo": "3104452",
+    "uf": "MG"
   },
   {
     "nome": "Rio Maria",
-    "codigo": "1506161"
+    "codigo": "1506161",
+    "uf": "PA"
   },
   {
     "nome": "Berizal",
-    "codigo": "3106655"
+    "codigo": "3106655",
+    "uf": "MG"
   },
   {
     "nome": "Xinguara",
-    "codigo": "1508407"
+    "codigo": "1508407",
+    "uf": "PA"
   },
   {
     "nome": "Bonito de Minas",
-    "codigo": "3108255"
+    "codigo": "3108255",
+    "uf": "MG"
   },
   {
     "nome": "Rondon do Pará",
-    "codigo": "1506187"
+    "codigo": "1506187",
+    "uf": "PA"
   },
   {
     "nome": "Brasilândia de Minas",
-    "codigo": "3108552"
+    "codigo": "3108552",
+    "uf": "MG"
   },
   {
     "nome": "Bom Jesus do Tocantins",
-    "codigo": "1501576"
+    "codigo": "1501576",
+    "uf": "PA"
   },
   {
     "nome": "Bugre",
-    "codigo": "3109253"
+    "codigo": "3109253",
+    "uf": "MG"
   },
   {
     "nome": "Brejo Grande do Araguaia",
-    "codigo": "1501758"
+    "codigo": "1501758",
+    "uf": "PA"
   },
   {
     "nome": "Cabeceira Grande",
-    "codigo": "3109451"
+    "codigo": "3109451",
+    "uf": "MG"
   },
   {
     "nome": "Concórdia do Pará",
-    "codigo": "1502756"
+    "codigo": "1502756",
+    "uf": "PA"
   },
   {
     "nome": "Campo Azul",
-    "codigo": "3111150"
+    "codigo": "3111150",
+    "uf": "MG"
   },
   {
     "nome": "Curionópolis",
-    "codigo": "1502772"
+    "codigo": "1502772",
+    "uf": "PA"
   },
   {
     "nome": "Cantagalo",
-    "codigo": "3112059"
+    "codigo": "3112059",
+    "uf": "MG"
   },
   {
     "nome": "Dom Eliseu",
-    "codigo": "1502939"
+    "codigo": "1502939",
+    "uf": "PA"
   },
   {
     "nome": "Catas Altas",
-    "codigo": "3115359"
+    "codigo": "3115359",
+    "uf": "MG"
   },
   {
     "nome": "Garrafão do Norte",
-    "codigo": "1503077"
+    "codigo": "1503077",
+    "uf": "PA"
   },
   {
     "nome": "Catuti",
-    "codigo": "3115474"
+    "codigo": "3115474",
+    "uf": "MG"
   },
   {
     "nome": "Mãe do Rio",
-    "codigo": "1504059"
+    "codigo": "1504059",
+    "uf": "PA"
   },
   {
     "nome": "Chapada Gaúcha",
-    "codigo": "3116159"
+    "codigo": "3116159",
+    "uf": "MG"
   },
   {
     "nome": "Medicilândia",
-    "codigo": "1504455"
+    "codigo": "1504455",
+    "uf": "PA"
   },
   {
     "nome": "Cônego Marinho",
-    "codigo": "3117836"
+    "codigo": "3117836",
+    "uf": "MG"
   },
   {
     "nome": "Ourilândia do Norte",
-    "codigo": "1505437"
+    "codigo": "1505437",
+    "uf": "PA"
   },
   {
     "nome": "Confins",
-    "codigo": "3117876"
+    "codigo": "3117876",
+    "uf": "MG"
   },
   {
     "nome": "Pacajá",
-    "codigo": "1505486"
+    "codigo": "1505486",
+    "uf": "PA"
   },
   {
     "nome": "Córrego Fundo",
-    "codigo": "3119955"
+    "codigo": "3119955",
+    "uf": "MG"
   },
   {
     "nome": "Parauapebas",
-    "codigo": "1505536"
+    "codigo": "1505536",
+    "uf": "PA"
   },
   {
     "nome": "Crisólita",
-    "codigo": "3120151"
+    "codigo": "3120151",
+    "uf": "MG"
   },
   {
     "nome": "Rurópolis",
-    "codigo": "1506195"
+    "codigo": "1506195",
+    "uf": "PA"
   },
   {
     "nome": "Cuparaque",
-    "codigo": "3120839"
+    "codigo": "3120839",
+    "uf": "MG"
   },
   {
     "nome": "Santa Maria das Barreiras",
-    "codigo": "1506583"
+    "codigo": "1506583",
+    "uf": "PA"
   },
   {
     "nome": "Curral de Dentro",
-    "codigo": "3120870"
+    "codigo": "3120870",
+    "uf": "MG"
   },
   {
     "nome": "Amapá",
-    "codigo": "1600105"
+    "codigo": "1600105",
+    "uf": "AP"
   },
   {
     "nome": "Delta",
-    "codigo": "3121258"
+    "codigo": "3121258",
+    "uf": "MG"
   },
   {
     "nome": "Calçoene",
-    "codigo": "1600204"
+    "codigo": "1600204",
+    "uf": "AP"
   },
   {
     "nome": "Divisa Alegre",
-    "codigo": "3122355"
+    "codigo": "3122355",
+    "uf": "MG"
   },
   {
     "nome": "Macapá",
-    "codigo": "1600303"
+    "codigo": "1600303",
+    "uf": "AP"
   },
   {
     "nome": "Dom Bosco",
-    "codigo": "3122470"
+    "codigo": "3122470",
+    "uf": "MG"
   },
   {
     "nome": "Mazagão",
-    "codigo": "1600402"
+    "codigo": "1600402",
+    "uf": "AP"
   },
   {
     "nome": "Franciscópolis",
-    "codigo": "3126752"
+    "codigo": "3126752",
+    "uf": "MG"
   },
   {
     "nome": "Oiapoque",
-    "codigo": "1600501"
+    "codigo": "1600501",
+    "uf": "AP"
   },
   {
     "nome": "Frei Lagonegro",
-    "codigo": "3126950"
+    "codigo": "3126950",
+    "uf": "MG"
   },
   {
     "nome": "Ferreira Gomes",
-    "codigo": "1600238"
+    "codigo": "1600238",
+    "uf": "AP"
   },
   {
     "nome": "Fruta de Leite",
-    "codigo": "3127073"
+    "codigo": "3127073",
+    "uf": "MG"
   },
   {
     "nome": "Laranjal do Jari",
-    "codigo": "1600279"
+    "codigo": "1600279",
+    "uf": "AP"
   },
   {
     "nome": "Gameleiras",
-    "codigo": "3127339"
+    "codigo": "3127339",
+    "uf": "MG"
   },
   {
     "nome": "Santana",
-    "codigo": "1600600"
+    "codigo": "1600600",
+    "uf": "AP"
   },
   {
     "nome": "Glaucilândia",
-    "codigo": "3127354"
+    "codigo": "3127354",
+    "uf": "MG"
   },
   {
     "nome": "Tartarugalzinho",
-    "codigo": "1600709"
+    "codigo": "1600709",
+    "uf": "AP"
   },
   {
     "nome": "Goiabeira",
-    "codigo": "3127370"
+    "codigo": "3127370",
+    "uf": "MG"
   },
   {
     "nome": "São Geraldo do Araguaia",
-    "codigo": "1507458"
+    "codigo": "1507458",
+    "uf": "PA"
   },
   {
     "nome": "Goianá",
-    "codigo": "3127388"
+    "codigo": "3127388",
+    "uf": "MG"
   },
   {
     "nome": "Ipixuna do Pará",
-    "codigo": "1503457"
+    "codigo": "1503457",
+    "uf": "PA"
   },
   {
     "nome": "Guaraciama",
-    "codigo": "3128253"
+    "codigo": "3128253",
+    "uf": "MG"
   },
   {
     "nome": "Ulianópolis",
-    "codigo": "1508126"
+    "codigo": "1508126",
+    "uf": "PA"
   },
   {
     "nome": "Ibiracatu",
-    "codigo": "3129657"
+    "codigo": "3129657",
+    "uf": "MG"
   },
   {
     "nome": "Breu Branco",
-    "codigo": "1501782"
+    "codigo": "1501782",
+    "uf": "PA"
   },
   {
     "nome": "Imbé de Minas",
-    "codigo": "3130556"
+    "codigo": "3130556",
+    "uf": "MG"
   },
   {
     "nome": "Goianésia do Pará",
-    "codigo": "1503093"
+    "codigo": "1503093",
+    "uf": "PA"
   },
   {
     "nome": "Indaiabira",
-    "codigo": "3130655"
+    "codigo": "3130655",
+    "uf": "MG"
   },
   {
     "nome": "Novo Repartimento",
-    "codigo": "1505064"
+    "codigo": "1505064",
+    "uf": "PA"
   },
   {
     "nome": "Japonvar",
-    "codigo": "3135357"
+    "codigo": "3135357",
+    "uf": "MG"
   },
   {
     "nome": "Jacareacanga",
-    "codigo": "1503754"
+    "codigo": "1503754",
+    "uf": "PA"
   },
   {
     "nome": "Jenipapo de Minas",
-    "codigo": "3135456"
+    "codigo": "3135456",
+    "uf": "MG"
   },
   {
     "nome": "Novo Progresso",
-    "codigo": "1505031"
+    "codigo": "1505031",
+    "uf": "PA"
   },
   {
     "nome": "José Gonçalves de Minas",
-    "codigo": "3136520"
+    "codigo": "3136520",
+    "uf": "MG"
   },
   {
     "nome": "Trairão",
-    "codigo": "1508050"
+    "codigo": "1508050",
+    "uf": "PA"
   },
   {
     "nome": "José Raydan",
-    "codigo": "3136553"
+    "codigo": "3136553",
+    "uf": "MG"
   },
   {
     "nome": "Terra Santa",
-    "codigo": "1507979"
+    "codigo": "1507979",
+    "uf": "PA"
   },
   {
     "nome": "Josenópolis",
-    "codigo": "3136579"
+    "codigo": "3136579",
+    "uf": "MG"
   },
   {
     "nome": "Brasil Novo",
-    "codigo": "1501725"
+    "codigo": "1501725",
+    "uf": "PA"
   },
   {
     "nome": "Juvenília",
-    "codigo": "3136959"
+    "codigo": "3136959",
+    "uf": "MG"
   },
   {
     "nome": "Vitória do Xingu",
-    "codigo": "1508357"
+    "codigo": "1508357",
+    "uf": "PA"
   },
   {
     "nome": "Leme do Prado",
-    "codigo": "3138351"
+    "codigo": "3138351",
+    "uf": "MG"
   },
   {
     "nome": "Acrelândia",
-    "codigo": "1200013"
+    "codigo": "1200013",
+    "uf": "AC"
   },
   {
     "nome": "Luisburgo",
-    "codigo": "3138674"
+    "codigo": "3138674",
+    "uf": "MG"
   },
   {
     "nome": "Bujari",
-    "codigo": "1200138"
+    "codigo": "1200138",
+    "uf": "AC"
   },
   {
     "nome": "Luislândia",
-    "codigo": "3138682"
+    "codigo": "3138682",
+    "uf": "MG"
   },
   {
     "nome": "Capixaba",
-    "codigo": "1200179"
+    "codigo": "1200179",
+    "uf": "AC"
   },
   {
     "nome": "Mário Campos",
-    "codigo": "3140159"
+    "codigo": "3140159",
+    "uf": "MG"
   },
   {
     "nome": "Porto Acre",
-    "codigo": "1200807"
+    "codigo": "1200807",
+    "uf": "AC"
   },
   {
     "nome": "Martins Soares",
-    "codigo": "3140530"
+    "codigo": "3140530",
+    "uf": "MG"
   },
   {
     "nome": "Epitaciolândia",
-    "codigo": "1200252"
+    "codigo": "1200252",
+    "uf": "AC"
   },
   {
     "nome": "Miravânia",
-    "codigo": "3142254"
+    "codigo": "3142254",
+    "uf": "MG"
   },
   {
     "nome": "Jordão",
-    "codigo": "1200328"
+    "codigo": "1200328",
+    "uf": "AC"
   },
   {
     "nome": "Monte Formoso",
-    "codigo": "3143153"
+    "codigo": "3143153",
+    "uf": "MG"
   },
   {
     "nome": "Marechal Thaumaturgo",
-    "codigo": "1200351"
+    "codigo": "1200351",
+    "uf": "AC"
   },
   {
     "nome": "Naque",
-    "codigo": "3144359"
+    "codigo": "3144359",
+    "uf": "MG"
   },
   {
     "nome": "Porto Walter",
-    "codigo": "1200393"
+    "codigo": "1200393",
+    "uf": "AC"
   },
   {
     "nome": "Natalândia",
-    "codigo": "3144375"
+    "codigo": "3144375",
+    "uf": "MG"
   },
   {
     "nome": "Rodrigues Alves",
-    "codigo": "1200427"
+    "codigo": "1200427",
+    "uf": "AC"
   },
   {
     "nome": "Ninheira",
-    "codigo": "3144656"
+    "codigo": "3144656",
+    "uf": "MG"
   },
   {
     "nome": "Santa Rosa do Purus",
-    "codigo": "1200435"
+    "codigo": "1200435",
+    "uf": "AC"
   },
   {
     "nome": "Nova Belém",
-    "codigo": "3144672"
+    "codigo": "3144672",
+    "uf": "MG"
   },
   {
     "nome": "Pedra Branca do Amapari",
-    "codigo": "1600154"
+    "codigo": "1600154",
+    "uf": "AP"
   },
   {
     "nome": "Nova Porteirinha",
-    "codigo": "3145059"
+    "codigo": "3145059",
+    "uf": "MG"
   },
   {
     "nome": "Serra do Navio",
-    "codigo": "1600055"
+    "codigo": "1600055",
+    "uf": "AP"
   },
   {
     "nome": "Novo Oriente de Minas",
-    "codigo": "3145356"
+    "codigo": "3145356",
+    "uf": "MG"
   },
   {
     "nome": "Cutias",
-    "codigo": "1600212"
+    "codigo": "1600212",
+    "uf": "AP"
   },
   {
     "nome": "Novorizonte",
-    "codigo": "3145372"
+    "codigo": "3145372",
+    "uf": "MG"
   },
   {
     "nome": "Itaubal",
-    "codigo": "1600253"
+    "codigo": "1600253",
+    "uf": "AP"
   },
   {
     "nome": "Olhos-d'Água",
-    "codigo": "3145455"
+    "codigo": "3145455",
+    "uf": "MG"
   },
   {
     "nome": "Porto Grande",
-    "codigo": "1600535"
+    "codigo": "1600535",
+    "uf": "AP"
   },
   {
     "nome": "Oratórios",
-    "codigo": "3145851"
+    "codigo": "3145851",
+    "uf": "MG"
   },
   {
     "nome": "Pracuúba",
-    "codigo": "1600550"
+    "codigo": "1600550",
+    "uf": "AP"
   },
   {
     "nome": "Orizânia",
-    "codigo": "3145877"
+    "codigo": "3145877",
+    "uf": "MG"
   },
   {
     "nome": "Alto Paraíso",
-    "codigo": "1100403"
+    "codigo": "1100403",
+    "uf": "RO"
   },
   {
     "nome": "Padre Carvalho",
-    "codigo": "3146255"
+    "codigo": "3146255",
+    "uf": "MG"
   },
   {
     "nome": "Cacaulândia",
-    "codigo": "1100601"
+    "codigo": "1100601",
+    "uf": "RO"
   },
   {
     "nome": "Pai Pedro",
-    "codigo": "3146552"
+    "codigo": "3146552",
+    "uf": "MG"
   },
   {
     "nome": "Campo Novo de Rondônia",
-    "codigo": "1100700"
+    "codigo": "1100700",
+    "uf": "RO"
   },
   {
     "nome": "Patis",
-    "codigo": "3147956"
+    "codigo": "3147956",
+    "uf": "MG"
   },
   {
     "nome": "Candeias do Jamari",
-    "codigo": "1100809"
+    "codigo": "1100809",
+    "uf": "RO"
   },
   {
     "nome": "Pedra Bonita",
-    "codigo": "3148756"
+    "codigo": "3148756",
+    "uf": "MG"
   },
   {
     "nome": "Itapuã do Oeste",
-    "codigo": "1101104"
+    "codigo": "1101104",
+    "uf": "RO"
   },
   {
     "nome": "Periquito",
-    "codigo": "3149952"
+    "codigo": "3149952",
+    "uf": "MG"
   },
   {
     "nome": "Monte Negro",
-    "codigo": "1101401"
+    "codigo": "1101401",
+    "uf": "RO"
   },
   {
     "nome": "Piedade de Caratinga",
-    "codigo": "3150158"
+    "codigo": "3150158",
+    "uf": "MG"
   },
   {
     "nome": "Rio Crespo",
-    "codigo": "1100262"
+    "codigo": "1100262",
+    "uf": "RO"
   },
   {
     "nome": "Pingo-d'Água",
-    "codigo": "3150539"
+    "codigo": "3150539",
+    "uf": "MG"
   },
   {
     "nome": "Novo Horizonte do Oeste",
-    "codigo": "1100502"
+    "codigo": "1100502",
+    "uf": "RO"
   },
   {
     "nome": "Pintópolis",
-    "codigo": "3150570"
+    "codigo": "3150570",
+    "uf": "MG"
   },
   {
     "nome": "Castanheiras",
-    "codigo": "1100908"
+    "codigo": "1100908",
+    "uf": "RO"
   },
   {
     "nome": "Ponto Chique",
-    "codigo": "3152131"
+    "codigo": "3152131",
+    "uf": "MG"
   },
   {
     "nome": "Governador Jorge Teixeira",
-    "codigo": "1101005"
+    "codigo": "1101005",
+    "uf": "RO"
   },
   {
     "nome": "Ponto dos Volantes",
-    "codigo": "3152170"
+    "codigo": "3152170",
+    "uf": "MG"
   },
   {
     "nome": "Ministro Andreazza",
-    "codigo": "1101203"
+    "codigo": "1101203",
+    "uf": "RO"
   },
   {
     "nome": "Reduto",
-    "codigo": "3154150"
+    "codigo": "3154150",
+    "uf": "MG"
   },
   {
     "nome": "Mirante da Serra",
-    "codigo": "1101302"
+    "codigo": "1101302",
+    "uf": "RO"
   },
   {
     "nome": "Rosário da Limeira",
-    "codigo": "3156452"
+    "codigo": "3156452",
+    "uf": "MG"
   },
   {
     "nome": "Seringueiras",
-    "codigo": "1101500"
+    "codigo": "1101500",
+    "uf": "RO"
   },
   {
     "nome": "Santa Bárbara do Monte Verde",
-    "codigo": "3157278"
+    "codigo": "3157278",
+    "uf": "MG"
   },
   {
     "nome": "Afonso Cunha",
-    "codigo": "2100105"
+    "codigo": "2100105",
+    "uf": "MA"
   },
   {
     "nome": "Santa Cruz de Minas",
-    "codigo": "3157336"
+    "codigo": "3157336",
+    "uf": "MG"
   },
   {
     "nome": "Alcântara",
-    "codigo": "2100204"
+    "codigo": "2100204",
+    "uf": "MA"
   },
   {
     "nome": "Santa Cruz de Salinas",
-    "codigo": "3157377"
+    "codigo": "3157377",
+    "uf": "MG"
   },
   {
     "nome": "Aldeias Altas",
-    "codigo": "2100303"
+    "codigo": "2100303",
+    "uf": "MA"
   },
   {
     "nome": "Santa Helena de Minas",
-    "codigo": "3157658"
+    "codigo": "3157658",
+    "uf": "MG"
   },
   {
     "nome": "Altamira do Maranhão",
-    "codigo": "2100402"
+    "codigo": "2100402",
+    "uf": "MA"
   },
   {
     "nome": "Santo Antônio do Retiro",
-    "codigo": "3160454"
+    "codigo": "3160454",
+    "uf": "MG"
   },
   {
     "nome": "Alto Parnaíba",
-    "codigo": "2100501"
+    "codigo": "2100501",
+    "uf": "MA"
   },
   {
     "nome": "São Domingos das Dores",
-    "codigo": "3160959"
+    "codigo": "3160959",
+    "uf": "MG"
   },
   {
     "nome": "Amarante do Maranhão",
-    "codigo": "2100600"
+    "codigo": "2100600",
+    "uf": "MA"
   },
   {
     "nome": "São Félix de Minas",
-    "codigo": "3161056"
+    "codigo": "3161056",
+    "uf": "MG"
   },
   {
     "nome": "Anajatuba",
-    "codigo": "2100709"
+    "codigo": "2100709",
+    "uf": "MA"
   },
   {
     "nome": "São Geraldo do Baixio",
-    "codigo": "3161650"
+    "codigo": "3161650",
+    "uf": "MG"
   },
   {
     "nome": "Anapurus",
-    "codigo": "2100808"
+    "codigo": "2100808",
+    "uf": "MA"
   },
   {
     "nome": "São João da Lagoa",
-    "codigo": "3162252"
+    "codigo": "3162252",
+    "uf": "MG"
   },
   {
     "nome": "Araioses",
-    "codigo": "2100907"
+    "codigo": "2100907",
+    "uf": "MA"
   },
   {
     "nome": "São João das Missões",
-    "codigo": "3162450"
+    "codigo": "3162450",
+    "uf": "MG"
   },
   {
     "nome": "Arari",
-    "codigo": "2101004"
+    "codigo": "2101004",
+    "uf": "MA"
   },
   {
     "nome": "São João do Pacuí",
-    "codigo": "3162658"
+    "codigo": "3162658",
+    "uf": "MG"
   },
   {
     "nome": "Axixá",
-    "codigo": "2101103"
+    "codigo": "2101103",
+    "uf": "MA"
   },
   {
     "nome": "São Joaquim de Bicas",
-    "codigo": "3162922"
+    "codigo": "3162922",
+    "uf": "MG"
   },
   {
     "nome": "Bacabal",
-    "codigo": "2101202"
+    "codigo": "2101202",
+    "uf": "MA"
   },
   {
     "nome": "São José da Barra",
-    "codigo": "3162948"
+    "codigo": "3162948",
+    "uf": "MG"
   },
   {
     "nome": "Bacuri",
-    "codigo": "2101301"
+    "codigo": "2101301",
+    "uf": "MA"
   },
   {
     "nome": "São Sebastião da Vargem Alegre",
-    "codigo": "3164431"
+    "codigo": "3164431",
+    "uf": "MG"
   },
   {
     "nome": "Balsas",
-    "codigo": "2101400"
+    "codigo": "2101400",
+    "uf": "MA"
   },
   {
     "nome": "São Sebastião do Anta",
-    "codigo": "3164472"
+    "codigo": "3164472",
+    "uf": "MG"
   },
   {
     "nome": "Barão de Grajaú",
-    "codigo": "2101509"
+    "codigo": "2101509",
+    "uf": "MA"
   },
   {
     "nome": "Sarzedo",
-    "codigo": "3165537"
+    "codigo": "3165537",
+    "uf": "MG"
   },
   {
     "nome": "Barra do Corda",
-    "codigo": "2101608"
+    "codigo": "2101608",
+    "uf": "MA"
   },
   {
     "nome": "Setubinha",
-    "codigo": "3165552"
+    "codigo": "3165552",
+    "uf": "MG"
   },
   {
     "nome": "Barreirinhas",
-    "codigo": "2101707"
+    "codigo": "2101707",
+    "uf": "MA"
   },
   {
     "nome": "Sem-Peixe",
-    "codigo": "3165560"
+    "codigo": "3165560",
+    "uf": "MG"
   },
   {
     "nome": "Benedito Leite",
-    "codigo": "2101806"
+    "codigo": "2101806",
+    "uf": "MA"
   },
   {
     "nome": "Serranópolis de Minas",
-    "codigo": "3166956"
+    "codigo": "3166956",
+    "uf": "MG"
   },
   {
     "nome": "Bequimão",
-    "codigo": "2101905"
+    "codigo": "2101905",
+    "uf": "MA"
   },
   {
     "nome": "Taparuba",
-    "codigo": "3168051"
+    "codigo": "3168051",
+    "uf": "MG"
   },
   {
     "nome": "Brejo",
-    "codigo": "2102101"
+    "codigo": "2102101",
+    "uf": "MA"
   },
   {
     "nome": "Tocos do Moji",
-    "codigo": "3169059"
+    "codigo": "3169059",
+    "uf": "MG"
   },
   {
     "nome": "Buriti",
-    "codigo": "2102200"
+    "codigo": "2102200",
+    "uf": "MA"
   },
   {
     "nome": "União de Minas",
-    "codigo": "3170438"
+    "codigo": "3170438",
+    "uf": "MG"
   },
   {
     "nome": "Buriti Bravo",
-    "codigo": "2102309"
+    "codigo": "2102309",
+    "uf": "MA"
   },
   {
     "nome": "Uruana de Minas",
-    "codigo": "3170479"
+    "codigo": "3170479",
+    "uf": "MG"
   },
   {
     "nome": "Cajapió",
-    "codigo": "2102408"
+    "codigo": "2102408",
+    "uf": "MA"
   },
   {
     "nome": "Vargem Alegre",
-    "codigo": "3170578"
+    "codigo": "3170578",
+    "uf": "MG"
   },
   {
     "nome": "Cajari",
-    "codigo": "2102507"
+    "codigo": "2102507",
+    "uf": "MA"
   },
   {
     "nome": "Vargem Grande do Rio Pardo",
-    "codigo": "3170651"
+    "codigo": "3170651",
+    "uf": "MG"
   },
   {
     "nome": "Cândido Mendes",
-    "codigo": "2102606"
+    "codigo": "2102606",
+    "uf": "MA"
   },
   {
     "nome": "Varjão de Minas",
-    "codigo": "3170750"
+    "codigo": "3170750",
+    "uf": "MG"
   },
   {
     "nome": "Cantanhede",
-    "codigo": "2102705"
+    "codigo": "2102705",
+    "uf": "MA"
   },
   {
     "nome": "Verdelândia",
-    "codigo": "3171030"
+    "codigo": "3171030",
+    "uf": "MG"
   },
   {
     "nome": "Carolina",
-    "codigo": "2102804"
+    "codigo": "2102804",
+    "uf": "MA"
   },
   {
     "nome": "Veredinha",
-    "codigo": "3171071"
+    "codigo": "3171071",
+    "uf": "MG"
   },
   {
     "nome": "Carutapera",
-    "codigo": "2102903"
+    "codigo": "2102903",
+    "uf": "MA"
   },
   {
     "nome": "Vermelho Novo",
-    "codigo": "3171154"
+    "codigo": "3171154",
+    "uf": "MG"
   },
   {
     "nome": "Caxias",
-    "codigo": "2103000"
+    "codigo": "2103000",
+    "uf": "MA"
   },
   {
     "nome": "Brejetuba",
-    "codigo": "3201159"
+    "codigo": "3201159",
+    "uf": "ES"
   },
   {
     "nome": "Cedral",
-    "codigo": "2103109"
+    "codigo": "2103109",
+    "uf": "MA"
   },
   {
     "nome": "Marataízes",
-    "codigo": "3203320"
+    "codigo": "3203320",
+    "uf": "ES"
   },
   {
     "nome": "Chapadinha",
-    "codigo": "2103208"
+    "codigo": "2103208",
+    "uf": "MA"
   },
   {
     "nome": "Ponto Belo",
-    "codigo": "3204252"
+    "codigo": "3204252",
+    "uf": "ES"
   },
   {
     "nome": "Codó",
-    "codigo": "2103307"
+    "codigo": "2103307",
+    "uf": "MA"
   },
   {
     "nome": "São Roque do Canaã",
-    "codigo": "3204955"
+    "codigo": "3204955",
+    "uf": "ES"
   },
   {
     "nome": "Coelho Neto",
-    "codigo": "2103406"
+    "codigo": "2103406",
+    "uf": "MA"
   },
   {
     "nome": "Sooretama",
-    "codigo": "3205010"
+    "codigo": "3205010",
+    "uf": "ES"
   },
   {
     "nome": "Colinas",
-    "codigo": "2103505"
+    "codigo": "2103505",
+    "uf": "MA"
   },
   {
     "nome": "Vila Valério",
-    "codigo": "3205176"
+    "codigo": "3205176",
+    "uf": "ES"
   },
   {
     "nome": "Coroatá",
-    "codigo": "2103604"
+    "codigo": "2103604",
+    "uf": "MA"
   },
   {
     "nome": "Armação dos Búzios",
-    "codigo": "3300233"
+    "codigo": "3300233",
+    "uf": "RJ"
   },
   {
     "nome": "Cururupu",
-    "codigo": "2103703"
+    "codigo": "2103703",
+    "uf": "MA"
   },
   {
     "nome": "Carapebus",
-    "codigo": "3300936"
+    "codigo": "3300936",
+    "uf": "RJ"
   },
   {
     "nome": "Dom Pedro",
-    "codigo": "2103802"
+    "codigo": "2103802",
+    "uf": "MA"
   },
   {
     "nome": "Iguaba Grande",
-    "codigo": "3301876"
+    "codigo": "3301876",
+    "uf": "RJ"
   },
   {
     "nome": "Duque Bacelar",
-    "codigo": "2103901"
+    "codigo": "2103901",
+    "uf": "MA"
   },
   {
     "nome": "Macuco",
-    "codigo": "3302452"
+    "codigo": "3302452",
+    "uf": "RJ"
   },
   {
     "nome": "Esperantinópolis",
-    "codigo": "2104008"
+    "codigo": "2104008",
+    "uf": "MA"
   },
   {
     "nome": "Pinheiral",
-    "codigo": "3303955"
+    "codigo": "3303955",
+    "uf": "RJ"
   },
   {
     "nome": "Fortaleza dos Nogueiras",
-    "codigo": "2104107"
+    "codigo": "2104107",
+    "uf": "MA"
   },
   {
     "nome": "Porto Real",
-    "codigo": "3304110"
+    "codigo": "3304110",
+    "uf": "RJ"
   },
   {
     "nome": "Fortuna",
-    "codigo": "2104206"
+    "codigo": "2104206",
+    "uf": "MA"
   },
   {
     "nome": "São Francisco de Itabapoana",
-    "codigo": "3304755"
+    "codigo": "3304755",
+    "uf": "RJ"
   },
   {
     "nome": "Godofredo Viana",
-    "codigo": "2104305"
+    "codigo": "2104305",
+    "uf": "MA"
   },
   {
     "nome": "São José de Ubá",
-    "codigo": "3305133"
+    "codigo": "3305133",
+    "uf": "RJ"
   },
   {
     "nome": "Gonçalves Dias",
-    "codigo": "2104404"
+    "codigo": "2104404",
+    "uf": "MA"
   },
   {
     "nome": "Seropédica",
-    "codigo": "3305554"
+    "codigo": "3305554",
+    "uf": "RJ"
   },
   {
     "nome": "Governador Archer",
-    "codigo": "2104503"
+    "codigo": "2104503",
+    "uf": "MA"
   },
   {
     "nome": "Tanguá",
-    "codigo": "3305752"
+    "codigo": "3305752",
+    "uf": "RJ"
   },
   {
     "nome": "Governador Eugênio Barros",
-    "codigo": "2104602"
+    "codigo": "2104602",
+    "uf": "MA"
   },
   {
     "nome": "Arco-Íris",
-    "codigo": "3503356"
+    "codigo": "3503356",
+    "uf": "SP"
   },
   {
     "nome": "Graça Aranha",
-    "codigo": "2104701"
+    "codigo": "2104701",
+    "uf": "MA"
   },
   {
     "nome": "Brejo Alegre",
-    "codigo": "3507753"
+    "codigo": "3507753",
+    "uf": "SP"
   },
   {
     "nome": "Grajaú",
-    "codigo": "2104800"
+    "codigo": "2104800",
+    "uf": "MA"
   },
   {
     "nome": "Canas",
-    "codigo": "3509957"
+    "codigo": "3509957",
+    "uf": "SP"
   },
   {
     "nome": "Guimarães",
-    "codigo": "2104909"
+    "codigo": "2104909",
+    "uf": "MA"
   },
   {
     "nome": "Fernão",
-    "codigo": "3515657"
+    "codigo": "3515657",
+    "uf": "SP"
   },
   {
     "nome": "Humberto de Campos",
-    "codigo": "2105005"
+    "codigo": "2105005",
+    "uf": "MA"
   },
   {
     "nome": "Gavião Peixoto",
-    "codigo": "3516853"
+    "codigo": "3516853",
+    "uf": "SP"
   },
   {
     "nome": "Icatu",
-    "codigo": "2105104"
+    "codigo": "2105104",
+    "uf": "MA"
   },
   {
     "nome": "Ipiguá",
-    "codigo": "3521150"
+    "codigo": "3521150",
+    "uf": "SP"
   },
   {
     "nome": "Igarapé Grande",
-    "codigo": "2105203"
+    "codigo": "2105203",
+    "uf": "MA"
   },
   {
     "nome": "Jumirim",
-    "codigo": "3525854"
+    "codigo": "3525854",
+    "uf": "SP"
   },
   {
     "nome": "Imperatriz",
-    "codigo": "2105302"
+    "codigo": "2105302",
+    "uf": "MA"
   },
   {
     "nome": "Nantes",
-    "codigo": "3532157"
+    "codigo": "3532157",
+    "uf": "SP"
   },
   {
     "nome": "São Luís Gonzaga do Maranhão",
-    "codigo": "2111409"
+    "codigo": "2111409",
+    "uf": "MA"
   },
   {
     "nome": "Nova Castilho",
-    "codigo": "3532868"
+    "codigo": "3532868",
+    "uf": "SP"
   },
   {
     "nome": "Itapecuru Mirim",
-    "codigo": "2105401"
+    "codigo": "2105401",
+    "uf": "MA"
   },
   {
     "nome": "Ouroeste",
-    "codigo": "3534757"
+    "codigo": "3534757",
+    "uf": "SP"
   },
   {
     "nome": "João Lisboa",
-    "codigo": "2105500"
+    "codigo": "2105500",
+    "uf": "MA"
   },
   {
     "nome": "Paulistânia",
-    "codigo": "3536570"
+    "codigo": "3536570",
+    "uf": "SP"
   },
   {
     "nome": "Joselândia",
-    "codigo": "2105609"
+    "codigo": "2105609",
+    "uf": "MA"
   },
   {
     "nome": "Pracinha",
-    "codigo": "3540853"
+    "codigo": "3540853",
+    "uf": "SP"
   },
   {
     "nome": "Lago da Pedra",
-    "codigo": "2105708"
+    "codigo": "2105708",
+    "uf": "MA"
   },
   {
     "nome": "Pratânia",
-    "codigo": "3541059"
+    "codigo": "3541059",
+    "uf": "SP"
   },
   {
     "nome": "Lago do Junco",
-    "codigo": "2105807"
+    "codigo": "2105807",
+    "uf": "MA"
   },
   {
     "nome": "Quadra",
-    "codigo": "3541653"
+    "codigo": "3541653",
+    "uf": "SP"
   },
   {
     "nome": "Lago Verde",
-    "codigo": "2105906"
+    "codigo": "2105906",
+    "uf": "MA"
   },
   {
     "nome": "Ribeirão dos Índios",
-    "codigo": "3543238"
+    "codigo": "3543238",
+    "uf": "SP"
   },
   {
     "nome": "Lima Campos",
-    "codigo": "2106003"
+    "codigo": "2106003",
+    "uf": "MA"
   },
   {
     "nome": "Santa Cruz da Esperança",
-    "codigo": "3546256"
+    "codigo": "3546256",
+    "uf": "SP"
   },
   {
     "nome": "Loreto",
-    "codigo": "2106102"
+    "codigo": "2106102",
+    "uf": "MA"
   },
   {
     "nome": "Santa Salete",
-    "codigo": "3547650"
+    "codigo": "3547650",
+    "uf": "SP"
   },
   {
     "nome": "Luís Domingues",
-    "codigo": "2106201"
+    "codigo": "2106201",
+    "uf": "MA"
   },
   {
     "nome": "Taquaral",
-    "codigo": "3553658"
+    "codigo": "3553658",
+    "uf": "SP"
   },
   {
     "nome": "Magalhães de Almeida",
-    "codigo": "2106300"
+    "codigo": "2106300",
+    "uf": "MA"
   },
   {
     "nome": "Trabiju",
-    "codigo": "3554755"
+    "codigo": "3554755",
+    "uf": "SP"
   },
   {
     "nome": "Mata Roma",
-    "codigo": "2106409"
+    "codigo": "2106409",
+    "uf": "MA"
   },
   {
     "nome": "Vitória Brasil",
-    "codigo": "3556958"
+    "codigo": "3556958",
+    "uf": "SP"
   },
   {
     "nome": "Matinha",
-    "codigo": "2106508"
+    "codigo": "2106508",
+    "uf": "MA"
   },
   {
     "nome": "Arapuã",
-    "codigo": "4101655"
+    "codigo": "4101655",
+    "uf": "PR"
   },
   {
     "nome": "Matões",
-    "codigo": "2106607"
+    "codigo": "2106607",
+    "uf": "MA"
   },
   {
     "nome": "Ariranha do Ivaí",
-    "codigo": "4101853"
+    "codigo": "4101853",
+    "uf": "PR"
   },
   {
     "nome": "Mirador",
-    "codigo": "2106706"
+    "codigo": "2106706",
+    "uf": "MA"
   },
   {
     "nome": "Bela Vista da Caroba",
-    "codigo": "4102752"
+    "codigo": "4102752",
+    "uf": "PR"
   },
   {
     "nome": "Mirinzal",
-    "codigo": "2106805"
+    "codigo": "2106805",
+    "uf": "MA"
   },
   {
     "nome": "Boa Ventura de São Roque",
-    "codigo": "4103040"
+    "codigo": "4103040",
+    "uf": "PR"
   },
   {
     "nome": "Monção",
-    "codigo": "2106904"
+    "codigo": "2106904",
+    "uf": "MA"
   },
   {
     "nome": "Bom Jesus do Sul",
-    "codigo": "4103156"
+    "codigo": "4103156",
+    "uf": "PR"
   },
   {
     "nome": "Montes Altos",
-    "codigo": "2107001"
+    "codigo": "2107001",
+    "uf": "MA"
   },
   {
     "nome": "Campina do Simão",
-    "codigo": "4103958"
+    "codigo": "4103958",
+    "uf": "PR"
   },
   {
     "nome": "Morros",
-    "codigo": "2107100"
+    "codigo": "2107100",
+    "uf": "MA"
   },
   {
     "nome": "Campo Magro",
-    "codigo": "4104253"
+    "codigo": "4104253",
+    "uf": "PR"
   },
   {
     "nome": "Nina Rodrigues",
-    "codigo": "2107209"
+    "codigo": "2107209",
+    "uf": "MA"
   },
   {
     "nome": "Carambeí",
-    "codigo": "4104659"
+    "codigo": "4104659",
+    "uf": "PR"
   },
   {
     "nome": "Nova Iorque",
-    "codigo": "2107308"
+    "codigo": "2107308",
+    "uf": "MA"
   },
   {
     "nome": "Coronel Domingos Soares",
-    "codigo": "4106456"
+    "codigo": "4106456",
+    "uf": "PR"
   },
   {
     "nome": "Olho d'Água das Cunhãs",
-    "codigo": "2107407"
+    "codigo": "2107407",
+    "uf": "MA"
   },
   {
     "nome": "Cruzmaltina",
-    "codigo": "4106852"
+    "codigo": "4106852",
+    "uf": "PR"
   },
   {
     "nome": "Paço do Lumiar",
-    "codigo": "2107506"
+    "codigo": "2107506",
+    "uf": "MA"
   },
   {
     "nome": "Esperança Nova",
-    "codigo": "4107520"
+    "codigo": "4107520",
+    "uf": "PR"
   },
   {
     "nome": "Palmeirândia",
-    "codigo": "2107605"
+    "codigo": "2107605",
+    "uf": "MA"
   },
   {
     "nome": "Espigão Alto do Iguaçu",
-    "codigo": "4107546"
+    "codigo": "4107546",
+    "uf": "PR"
   },
   {
     "nome": "Paraibano",
-    "codigo": "2107704"
+    "codigo": "2107704",
+    "uf": "MA"
   },
   {
     "nome": "Fernandes Pinheiro",
-    "codigo": "4107736"
+    "codigo": "4107736",
+    "uf": "PR"
   },
   {
     "nome": "Parnarama",
-    "codigo": "2107803"
+    "codigo": "2107803",
+    "uf": "MA"
   },
   {
     "nome": "Foz do Jordão",
-    "codigo": "4108452"
+    "codigo": "4108452",
+    "uf": "PR"
   },
   {
     "nome": "Passagem Franca",
-    "codigo": "2107902"
+    "codigo": "2107902",
+    "uf": "MA"
   },
   {
     "nome": "Goioxim",
-    "codigo": "4108650"
+    "codigo": "4108650",
+    "uf": "PR"
   },
   {
     "nome": "Pastos Bons",
-    "codigo": "2108009"
+    "codigo": "2108009",
+    "uf": "MA"
   },
   {
     "nome": "Guamiranga",
-    "codigo": "4108957"
+    "codigo": "4108957",
+    "uf": "PR"
   },
   {
     "nome": "Pedreiras",
-    "codigo": "2108207"
+    "codigo": "2108207",
+    "uf": "MA"
   },
   {
     "nome": "Imbaú",
-    "codigo": "4110078"
+    "codigo": "4110078",
+    "uf": "PR"
   },
   {
     "nome": "Penalva",
-    "codigo": "2108306"
+    "codigo": "2108306",
+    "uf": "MA"
   },
   {
     "nome": "Manfrinópolis",
-    "codigo": "4114351"
+    "codigo": "4114351",
+    "uf": "PR"
   },
   {
     "nome": "Peri Mirim",
-    "codigo": "2108405"
+    "codigo": "2108405",
+    "uf": "MA"
   },
   {
     "nome": "Marquinho",
-    "codigo": "4115457"
+    "codigo": "4115457",
+    "uf": "PR"
   },
   {
     "nome": "Pindaré-Mirim",
-    "codigo": "2108504"
+    "codigo": "2108504",
+    "uf": "MA"
   },
   {
     "nome": "Perobal",
-    "codigo": "4118857"
+    "codigo": "4118857",
+    "uf": "PR"
   },
   {
     "nome": "Pinheiro",
-    "codigo": "2108603"
+    "codigo": "2108603",
+    "uf": "MA"
   },
   {
     "nome": "Pontal do Paraná",
-    "codigo": "4119954"
+    "codigo": "4119954",
+    "uf": "PR"
   },
   {
     "nome": "Pio XII",
-    "codigo": "2108702"
+    "codigo": "2108702",
+    "uf": "MA"
   },
   {
     "nome": "Porto Barreiro",
-    "codigo": "4120150"
+    "codigo": "4120150",
+    "uf": "PR"
   },
   {
     "nome": "Pirapemas",
-    "codigo": "2108801"
+    "codigo": "2108801",
+    "uf": "MA"
   },
   {
     "nome": "Prado Ferreira",
-    "codigo": "4120333"
+    "codigo": "4120333",
+    "uf": "PR"
   },
   {
     "nome": "Poção de Pedras",
-    "codigo": "2108900"
+    "codigo": "2108900",
+    "uf": "MA"
   },
   {
     "nome": "Quarto Centenário",
-    "codigo": "4120655"
+    "codigo": "4120655",
+    "uf": "PR"
   },
   {
     "nome": "Porto Franco",
-    "codigo": "2109007"
+    "codigo": "2109007",
+    "uf": "MA"
   },
   {
     "nome": "Reserva do Iguaçu",
-    "codigo": "4121752"
+    "codigo": "4121752",
+    "uf": "PR"
   },
   {
     "nome": "Presidente Dutra",
-    "codigo": "2109106"
+    "codigo": "2109106",
+    "uf": "MA"
   },
   {
     "nome": "Rio Branco do Ivaí",
-    "codigo": "4122172"
+    "codigo": "4122172",
+    "uf": "PR"
   },
   {
     "nome": "Presidente Juscelino",
-    "codigo": "2109205"
+    "codigo": "2109205",
+    "uf": "MA"
   },
   {
     "nome": "Serranópolis do Iguaçu",
-    "codigo": "4126355"
+    "codigo": "4126355",
+    "uf": "PR"
   },
   {
     "nome": "Presidente Vargas",
-    "codigo": "2109304"
+    "codigo": "2109304",
+    "uf": "MA"
   },
   {
     "nome": "Tamarana",
-    "codigo": "4126678"
+    "codigo": "4126678",
+    "uf": "PR"
   },
   {
     "nome": "Primeira Cruz",
-    "codigo": "2109403"
+    "codigo": "2109403",
+    "uf": "MA"
   },
   {
     "nome": "Alto Bela Vista",
-    "codigo": "4200754"
+    "codigo": "4200754",
+    "uf": "SC"
   },
   {
     "nome": "Riachão",
-    "codigo": "2109502"
+    "codigo": "2109502",
+    "uf": "MA"
   },
   {
     "nome": "Balneário Arroio do Silva",
-    "codigo": "4201950"
+    "codigo": "4201950",
+    "uf": "SC"
   },
   {
     "nome": "São José de Ribamar",
-    "codigo": "2111201"
+    "codigo": "2111201",
+    "uf": "MA"
   },
   {
     "nome": "Balneário Gaivota",
-    "codigo": "4202073"
+    "codigo": "4202073",
+    "uf": "SC"
   },
   {
     "nome": "Rosário",
-    "codigo": "2109601"
+    "codigo": "2109601",
+    "uf": "MA"
   },
   {
     "nome": "Bandeirante",
-    "codigo": "4202081"
+    "codigo": "4202081",
+    "uf": "SC"
   },
   {
     "nome": "Sambaíba",
-    "codigo": "2109700"
+    "codigo": "2109700",
+    "uf": "MA"
   },
   {
     "nome": "Barra Bonita",
-    "codigo": "4202099"
+    "codigo": "4202099",
+    "uf": "SC"
   },
   {
     "nome": "Santa Helena",
-    "codigo": "2109809"
+    "codigo": "2109809",
+    "uf": "MA"
   },
   {
     "nome": "Bela Vista do Toldo",
-    "codigo": "4202131"
+    "codigo": "4202131",
+    "uf": "SC"
   },
   {
     "nome": "Santa Luzia",
-    "codigo": "2110005"
+    "codigo": "2110005",
+    "uf": "MA"
   },
   {
     "nome": "Bocaina do Sul",
-    "codigo": "4202438"
+    "codigo": "4202438",
+    "uf": "SC"
   },
   {
     "nome": "Santa Quitéria do Maranhão",
-    "codigo": "2110104"
+    "codigo": "2110104",
+    "uf": "MA"
   },
   {
     "nome": "Bom Jesus",
-    "codigo": "4202537"
+    "codigo": "4202537",
+    "uf": "SC"
   },
   {
     "nome": "Santa Rita",
-    "codigo": "2110203"
+    "codigo": "2110203",
+    "uf": "MA"
   },
   {
     "nome": "Bom Jesus do Oeste",
-    "codigo": "4202578"
+    "codigo": "4202578",
+    "uf": "SC"
   },
   {
     "nome": "Santo Antônio dos Lopes",
-    "codigo": "2110302"
+    "codigo": "2110302",
+    "uf": "MA"
   },
   {
     "nome": "Brunópolis",
-    "codigo": "4202875"
+    "codigo": "4202875",
+    "uf": "SC"
   },
   {
     "nome": "São Benedito do Rio Preto",
-    "codigo": "2110401"
+    "codigo": "2110401",
+    "uf": "MA"
   },
   {
     "nome": "Capão Alto",
-    "codigo": "4203253"
+    "codigo": "4203253",
+    "uf": "SC"
   },
   {
     "nome": "São Bento",
-    "codigo": "2110500"
+    "codigo": "2110500",
+    "uf": "MA"
   },
   {
     "nome": "Chapadão do Lageado",
-    "codigo": "4204194"
+    "codigo": "4204194",
+    "uf": "SC"
   },
   {
     "nome": "São Bernardo",
-    "codigo": "2110609"
+    "codigo": "2110609",
+    "uf": "MA"
   },
   {
     "nome": "Cunhataí",
-    "codigo": "4204756"
+    "codigo": "4204756",
+    "uf": "SC"
   },
   {
     "nome": "São Domingos do Maranhão",
-    "codigo": "2110708"
+    "codigo": "2110708",
+    "uf": "MA"
   },
   {
     "nome": "Entre Rios",
-    "codigo": "4205175"
+    "codigo": "4205175",
+    "uf": "SC"
   },
   {
     "nome": "São Félix de Balsas",
-    "codigo": "2110807"
+    "codigo": "2110807",
+    "uf": "MA"
   },
   {
     "nome": "Ermo",
-    "codigo": "4205191"
+    "codigo": "4205191",
+    "uf": "SC"
   },
   {
     "nome": "São Francisco do Maranhão",
-    "codigo": "2110906"
+    "codigo": "2110906",
+    "uf": "MA"
   },
   {
     "nome": "Flor do Sertão",
-    "codigo": "4205357"
+    "codigo": "4205357",
+    "uf": "SC"
   },
   {
     "nome": "São João Batista",
-    "codigo": "2111003"
+    "codigo": "2111003",
+    "uf": "MA"
   },
   {
     "nome": "Frei Rogério",
-    "codigo": "4205555"
+    "codigo": "4205555",
+    "uf": "SC"
   },
   {
     "nome": "São João dos Patos",
-    "codigo": "2111102"
+    "codigo": "2111102",
+    "uf": "MA"
   },
   {
     "nome": "Ibiam",
-    "codigo": "4206751"
+    "codigo": "4206751",
+    "uf": "SC"
   },
   {
     "nome": "São Luís",
-    "codigo": "2111300"
+    "codigo": "2111300",
+    "uf": "MA"
   },
   {
     "nome": "Iomerê",
-    "codigo": "4207577"
+    "codigo": "4207577",
+    "uf": "SC"
   },
   {
     "nome": "São Mateus do Maranhão",
-    "codigo": "2111508"
+    "codigo": "2111508",
+    "uf": "MA"
   },
   {
     "nome": "Jupiá",
-    "codigo": "4209177"
+    "codigo": "4209177",
+    "uf": "SC"
   },
   {
     "nome": "São Raimundo das Mangabeiras",
-    "codigo": "2111607"
+    "codigo": "2111607",
+    "uf": "MA"
   },
   {
     "nome": "Luzerna",
-    "codigo": "4210035"
+    "codigo": "4210035",
+    "uf": "SC"
   },
   {
     "nome": "São Vicente Ferrer",
-    "codigo": "2111706"
+    "codigo": "2111706",
+    "uf": "MA"
   },
   {
     "nome": "Paial",
-    "codigo": "4211876"
+    "codigo": "4211876",
+    "uf": "SC"
   },
   {
     "nome": "Sítio Novo",
-    "codigo": "2111805"
+    "codigo": "2111805",
+    "uf": "MA"
   },
   {
     "nome": "Painel",
-    "codigo": "4211892"
+    "codigo": "4211892",
+    "uf": "SC"
   },
   {
     "nome": "Sucupira do Norte",
-    "codigo": "2111904"
+    "codigo": "2111904",
+    "uf": "MA"
   },
   {
     "nome": "Palmeira",
-    "codigo": "4212056"
+    "codigo": "4212056",
+    "uf": "SC"
   },
   {
     "nome": "Tasso Fragoso",
-    "codigo": "2112001"
+    "codigo": "2112001",
+    "uf": "MA"
   },
   {
     "nome": "Princesa",
-    "codigo": "4214151"
+    "codigo": "4214151",
+    "uf": "SC"
   },
   {
     "nome": "Timbiras",
-    "codigo": "2112100"
+    "codigo": "2112100",
+    "uf": "MA"
   },
   {
     "nome": "Saltinho",
-    "codigo": "4215356"
+    "codigo": "4215356",
+    "uf": "SC"
   },
   {
     "nome": "Timon",
-    "codigo": "2112209"
+    "codigo": "2112209",
+    "uf": "MA"
   },
   {
     "nome": "Santa Terezinha do Progresso",
-    "codigo": "4215687"
+    "codigo": "4215687",
+    "uf": "SC"
   },
   {
     "nome": "Tuntum",
-    "codigo": "2112308"
+    "codigo": "2112308",
+    "uf": "MA"
   },
   {
     "nome": "Santiago do Sul",
-    "codigo": "4215695"
+    "codigo": "4215695",
+    "uf": "SC"
   },
   {
     "nome": "Turiaçu",
-    "codigo": "2112407"
+    "codigo": "2112407",
+    "uf": "MA"
   },
   {
     "nome": "São Bernardino",
-    "codigo": "4215752"
+    "codigo": "4215752",
+    "uf": "SC"
   },
   {
     "nome": "Tutóia",
-    "codigo": "2112506"
+    "codigo": "2112506",
+    "uf": "MA"
   },
   {
     "nome": "São Pedro de Alcântara",
-    "codigo": "4217253"
+    "codigo": "4217253",
+    "uf": "SC"
   },
   {
     "nome": "Urbano Santos",
-    "codigo": "2112605"
+    "codigo": "2112605",
+    "uf": "MA"
   },
   {
     "nome": "Tigrinhos",
-    "codigo": "4217956"
+    "codigo": "4217956",
+    "uf": "SC"
   },
   {
     "nome": "Vargem Grande",
-    "codigo": "2112704"
+    "codigo": "2112704",
+    "uf": "MA"
   },
   {
     "nome": "Treviso",
-    "codigo": "4218350"
+    "codigo": "4218350",
+    "uf": "SC"
   },
   {
     "nome": "Viana",
-    "codigo": "2112803"
+    "codigo": "2112803",
+    "uf": "MA"
   },
   {
     "nome": "Zortéa",
-    "codigo": "4219853"
+    "codigo": "4219853",
+    "uf": "SC"
   },
   {
     "nome": "Vitória do Mearim",
-    "codigo": "2112902"
+    "codigo": "2112902",
+    "uf": "MA"
   },
   {
     "nome": "Araricá",
-    "codigo": "4300877"
+    "codigo": "4300877",
+    "uf": "RS"
   },
   {
     "nome": "Vitorino Freire",
-    "codigo": "2113009"
+    "codigo": "2113009",
+    "uf": "MA"
   },
   {
     "nome": "Balneário Pinhal",
-    "codigo": "4301636"
+    "codigo": "4301636",
+    "uf": "RS"
   },
   {
     "nome": "Bom Jardim",
-    "codigo": "2102002"
+    "codigo": "2102002",
+    "uf": "MA"
   },
   {
     "nome": "Barra do Quaraí",
-    "codigo": "4301875"
+    "codigo": "4301875",
+    "uf": "RS"
   },
   {
     "nome": "Santa Inês",
-    "codigo": "2109908"
+    "codigo": "2109908",
+    "uf": "MA"
   },
   {
     "nome": "Benjamin Constant do Sul",
-    "codigo": "4302055"
+    "codigo": "4302055",
+    "uf": "RS"
   },
   {
     "nome": "Paulo Ramos",
-    "codigo": "2108108"
+    "codigo": "2108108",
+    "uf": "MA"
   },
   {
     "nome": "Boa Vista do Sul",
-    "codigo": "4302253"
+    "codigo": "4302253",
+    "uf": "RS"
   },
   {
     "nome": "Açailândia",
-    "codigo": "2100055"
+    "codigo": "2100055",
+    "uf": "MA"
   },
   {
     "nome": "Capivari do Sul",
-    "codigo": "4304671"
+    "codigo": "4304671",
+    "uf": "RS"
   },
   {
     "nome": "Estreito",
-    "codigo": "2104057"
+    "codigo": "2104057",
+    "uf": "MA"
   },
   {
     "nome": "Caraá",
-    "codigo": "4304713"
+    "codigo": "4304713",
+    "uf": "RS"
   },
   {
     "nome": "Careiro da Várzea",
-    "codigo": "1301159"
+    "codigo": "1301159",
+    "uf": "AM"
   },
   {
     "nome": "Cerrito",
-    "codigo": "4305124"
+    "codigo": "4305124",
+    "uf": "RS"
   },
   {
     "nome": "Guajará",
-    "codigo": "1301654"
+    "codigo": "1301654",
+    "uf": "AM"
   },
   {
     "nome": "Chuí",
-    "codigo": "4305439"
+    "codigo": "4305439",
+    "uf": "RS"
   },
   {
     "nome": "Apuí",
-    "codigo": "1300144"
+    "codigo": "1300144",
+    "uf": "AM"
   },
   {
     "nome": "Chuvisca",
-    "codigo": "4305447"
+    "codigo": "4305447",
+    "uf": "RS"
   },
   {
     "nome": "Teotônio Vilela",
-    "codigo": "2709152"
+    "codigo": "2709152",
+    "uf": "AL"
   },
   {
     "nome": "Cristal do Sul",
-    "codigo": "4306072"
+    "codigo": "4306072",
+    "uf": "RS"
   },
   {
     "nome": "Forquilhinha",
-    "codigo": "4205456"
+    "codigo": "4205456",
+    "uf": "SC"
   },
   {
     "nome": "Dilermando de Aguiar",
-    "codigo": "4306379"
+    "codigo": "4306379",
+    "uf": "RS"
   },
   {
     "nome": "Theobroma",
-    "codigo": "1101609"
+    "codigo": "1101609",
+    "uf": "RO"
   },
   {
     "nome": "Dom Pedro de Alcântara",
-    "codigo": "4306551"
+    "codigo": "4306551",
+    "uf": "RS"
   },
   {
     "nome": "Urupá",
-    "codigo": "1101708"
+    "codigo": "1101708",
+    "uf": "RO"
   },
   {
     "nome": "Doutor Ricardo",
-    "codigo": "4306759"
+    "codigo": "4306759",
+    "uf": "RS"
   },
   {
     "nome": "Vale do Paraíso",
-    "codigo": "1101807"
+    "codigo": "1101807",
+    "uf": "RO"
   },
   {
     "nome": "Esperança do Sul",
-    "codigo": "4307450"
+    "codigo": "4307450",
+    "uf": "RS"
   },
   {
     "nome": "Corumbiara",
-    "codigo": "1100072"
+    "codigo": "1100072",
+    "uf": "RO"
   },
   {
     "nome": "Estrela Velha",
-    "codigo": "4307815"
+    "codigo": "4307815",
+    "uf": "RS"
   },
   {
     "nome": "Catunda",
-    "codigo": "2303659"
+    "codigo": "2303659",
+    "uf": "CE"
   },
   {
     "nome": "Fazenda Vilanova",
-    "codigo": "4308078"
+    "codigo": "4308078",
+    "uf": "RS"
   },
   {
     "nome": "Jijoca de Jericoacoara",
-    "codigo": "2307254"
+    "codigo": "2307254",
+    "uf": "CE"
   },
   {
     "nome": "Floriano Peixoto",
-    "codigo": "4308250"
+    "codigo": "4308250",
+    "uf": "RS"
   },
   {
     "nome": "Fortim",
-    "codigo": "2304459"
+    "codigo": "2304459",
+    "uf": "CE"
   },
   {
     "nome": "Herveiras",
-    "codigo": "4309571"
+    "codigo": "4309571",
+    "uf": "RS"
   },
   {
     "nome": "Ararendá",
-    "codigo": "2301257"
+    "codigo": "2301257",
+    "uf": "CE"
   },
   {
     "nome": "Itaara",
-    "codigo": "4310538"
+    "codigo": "4310538",
+    "uf": "RS"
   },
   {
     "nome": "Itaitinga",
-    "codigo": "2306256"
+    "codigo": "2306256",
+    "uf": "CE"
   },
   {
     "nome": "Jari",
-    "codigo": "4311130"
+    "codigo": "4311130",
+    "uf": "RS"
   },
   {
     "nome": "Choró",
-    "codigo": "2303931"
+    "codigo": "2303931",
+    "uf": "CE"
   },
   {
     "nome": "Maçambará",
-    "codigo": "4311718"
+    "codigo": "4311718",
+    "uf": "RS"
   },
   {
     "nome": "Coivaras",
-    "codigo": "2202737"
+    "codigo": "2202737",
+    "uf": "PI"
   },
   {
     "nome": "Mampituba",
-    "codigo": "4311734"
+    "codigo": "4311734",
+    "uf": "RS"
   },
   {
     "nome": "Jardim do Mulato",
-    "codigo": "2205250"
+    "codigo": "2205250",
+    "uf": "PI"
   },
   {
     "nome": "Marques de Souza",
-    "codigo": "4312054"
+    "codigo": "4312054",
+    "uf": "RS"
   },
   {
     "nome": "Lagoa Alegre",
-    "codigo": "2205557"
+    "codigo": "2205557",
+    "uf": "PI"
   },
   {
     "nome": "Monte Alegre dos Campos",
-    "codigo": "4312377"
+    "codigo": "4312377",
+    "uf": "RS"
   },
   {
     "nome": "Agricolândia",
-    "codigo": "2200103"
+    "codigo": "2200103",
+    "uf": "PI"
   },
   {
     "nome": "Muitos Capões",
-    "codigo": "4312617"
+    "codigo": "4312617",
+    "uf": "RS"
   },
   {
     "nome": "Água Branca",
-    "codigo": "2200202"
+    "codigo": "2200202",
+    "uf": "PI"
   },
   {
     "nome": "Nova Candelária",
-    "codigo": "4313011"
+    "codigo": "4313011",
+    "uf": "RS"
   },
   {
     "nome": "Alto Longá",
-    "codigo": "2200301"
+    "codigo": "2200301",
+    "uf": "PI"
   },
   {
     "nome": "Nova Ramada",
-    "codigo": "4313334"
+    "codigo": "4313334",
+    "uf": "RS"
   },
   {
     "nome": "Altos",
-    "codigo": "2200400"
+    "codigo": "2200400",
+    "uf": "PI"
   },
   {
     "nome": "Novo Cabrais",
-    "codigo": "4313391"
+    "codigo": "4313391",
+    "uf": "RS"
   },
   {
     "nome": "Amarante",
-    "codigo": "2200509"
+    "codigo": "2200509",
+    "uf": "PI"
   },
   {
     "nome": "Passa Sete",
-    "codigo": "4314068"
+    "codigo": "4314068",
+    "uf": "RS"
   },
   {
     "nome": "Angical do Piauí",
-    "codigo": "2200608"
+    "codigo": "2200608",
+    "uf": "PI"
   },
   {
     "nome": "Senador Salgado Filho",
-    "codigo": "4320321"
+    "codigo": "4320321",
+    "uf": "RS"
   },
   {
     "nome": "Anísio de Abreu",
-    "codigo": "2200707"
+    "codigo": "2200707",
+    "uf": "PI"
   },
   {
     "nome": "Sete de Setembro",
-    "codigo": "4320578"
+    "codigo": "4320578",
+    "uf": "RS"
   },
   {
     "nome": "Antônio Almeida",
-    "codigo": "2200806"
+    "codigo": "2200806",
+    "uf": "PI"
   },
   {
     "nome": "Tabaí",
-    "codigo": "4320859"
+    "codigo": "4320859",
+    "uf": "RS"
   },
   {
     "nome": "Aroazes",
-    "codigo": "2200905"
+    "codigo": "2200905",
+    "uf": "PI"
   },
   {
     "nome": "Toropi",
-    "codigo": "4321493"
+    "codigo": "4321493",
+    "uf": "RS"
   },
   {
     "nome": "Arraial",
-    "codigo": "2201002"
+    "codigo": "2201002",
+    "uf": "PI"
   },
   {
     "nome": "Turuçu",
-    "codigo": "4322327"
+    "codigo": "4322327",
+    "uf": "RS"
   },
   {
     "nome": "Avelino Lopes",
-    "codigo": "2201101"
+    "codigo": "2201101",
+    "uf": "PI"
   },
   {
     "nome": "Ubiretama",
-    "codigo": "4322343"
+    "codigo": "4322343",
+    "uf": "RS"
   },
   {
     "nome": "Barras",
-    "codigo": "2201200"
+    "codigo": "2201200",
+    "uf": "PI"
   },
   {
     "nome": "Unistalda",
-    "codigo": "4322376"
+    "codigo": "4322376",
+    "uf": "RS"
   },
   {
     "nome": "Barreiras do Piauí",
-    "codigo": "2201309"
+    "codigo": "2201309",
+    "uf": "PI"
   },
   {
     "nome": "Vale Verde",
-    "codigo": "4322525"
+    "codigo": "4322525",
+    "uf": "RS"
   },
   {
     "nome": "Barro Duro",
-    "codigo": "2201408"
+    "codigo": "2201408",
+    "uf": "PI"
   },
   {
     "nome": "Vespasiano Corrêa",
-    "codigo": "4322855"
+    "codigo": "4322855",
+    "uf": "RS"
   },
   {
     "nome": "Batalha",
-    "codigo": "2201507"
+    "codigo": "2201507",
+    "uf": "PI"
   },
   {
     "nome": "Vila Lângaro",
-    "codigo": "4323358"
+    "codigo": "4323358",
+    "uf": "RS"
   },
   {
     "nome": "Beneditinos",
-    "codigo": "2201606"
+    "codigo": "2201606",
+    "uf": "PI"
   },
   {
     "nome": "Campos de Júlio",
-    "codigo": "5102686"
+    "codigo": "5102686",
+    "uf": "MT"
   },
   {
     "nome": "Bertolínia",
-    "codigo": "2201705"
+    "codigo": "2201705",
+    "uf": "PI"
   },
   {
     "nome": "Carlinda",
-    "codigo": "5102793"
+    "codigo": "5102793",
+    "uf": "MT"
   },
   {
     "nome": "Bocaina",
-    "codigo": "2201804"
+    "codigo": "2201804",
+    "uf": "PI"
   },
   {
     "nome": "Feliz Natal",
-    "codigo": "5103700"
+    "codigo": "5103700",
+    "uf": "MT"
   },
   {
     "nome": "Bom Jesus",
-    "codigo": "2201903"
+    "codigo": "2201903",
+    "uf": "PI"
   },
   {
     "nome": "Gaúcha do Norte",
-    "codigo": "5103858"
+    "codigo": "5103858",
+    "uf": "MT"
   },
   {
     "nome": "Buriti dos Lopes",
-    "codigo": "2202000"
+    "codigo": "2202000",
+    "uf": "PI"
   },
   {
     "nome": "Nova Lacerda",
-    "codigo": "5106182"
+    "codigo": "5106182",
+    "uf": "MT"
   },
   {
     "nome": "Campinas do Piauí",
-    "codigo": "2202109"
+    "codigo": "2202109",
+    "uf": "PI"
   },
   {
     "nome": "Nova Ubiratã",
-    "codigo": "5106240"
+    "codigo": "5106240",
+    "uf": "MT"
   },
   {
     "nome": "Campo Maior",
-    "codigo": "2202208"
+    "codigo": "2202208",
+    "uf": "PI"
   },
   {
     "nome": "Novo Mundo",
-    "codigo": "5106265"
+    "codigo": "5106265",
+    "uf": "MT"
   },
   {
     "nome": "Canto do Buriti",
-    "codigo": "2202307"
+    "codigo": "2202307",
+    "uf": "PI"
   },
   {
     "nome": "Sapezal",
-    "codigo": "5107875"
+    "codigo": "5107875",
+    "uf": "MT"
   },
   {
     "nome": "Capitão de Campos",
-    "codigo": "2202406"
+    "codigo": "2202406",
+    "uf": "PI"
   },
   {
     "nome": "União do Sul",
-    "codigo": "5108303"
+    "codigo": "5108303",
+    "uf": "MT"
   },
   {
     "nome": "Caracol",
-    "codigo": "2202505"
+    "codigo": "2202505",
+    "uf": "PI"
   },
   {
     "nome": "Abadia de Goiás",
-    "codigo": "5200050"
+    "codigo": "5200050",
+    "uf": "GO"
   },
   {
     "nome": "Castelo do Piauí",
-    "codigo": "2202604"
+    "codigo": "2202604",
+    "uf": "PI"
   },
   {
     "nome": "Águas Lindas de Goiás",
-    "codigo": "5200258"
+    "codigo": "5200258",
+    "uf": "GO"
   },
   {
     "nome": "Cocal",
-    "codigo": "2202703"
+    "codigo": "2202703",
+    "uf": "PI"
   },
   {
     "nome": "Amaralina",
-    "codigo": "5200829"
+    "codigo": "5200829",
+    "uf": "GO"
   },
   {
     "nome": "Conceição do Canindé",
-    "codigo": "2202802"
+    "codigo": "2202802",
+    "uf": "PI"
   },
   {
     "nome": "Bonópolis",
-    "codigo": "5203575"
+    "codigo": "5203575",
+    "uf": "GO"
   },
   {
     "nome": "Corrente",
-    "codigo": "2202901"
+    "codigo": "2202901",
+    "uf": "PI"
   },
   {
     "nome": "Novo Gama",
-    "codigo": "5215231"
+    "codigo": "5215231",
+    "uf": "GO"
   },
   {
     "nome": "Cristalândia do Piauí",
-    "codigo": "2203008"
+    "codigo": "2203008",
+    "uf": "PI"
   },
   {
     "nome": "Porteirão",
-    "codigo": "5218052"
+    "codigo": "5218052",
+    "uf": "GO"
   },
   {
     "nome": "Cristino Castro",
-    "codigo": "2203107"
+    "codigo": "2203107",
+    "uf": "PI"
   },
   {
     "nome": "Santa Rita do Novo Destino",
-    "codigo": "5219456"
+    "codigo": "5219456",
+    "uf": "GO"
   },
   {
     "nome": "Curimatá",
-    "codigo": "2203206"
+    "codigo": "2203206",
+    "uf": "PI"
   },
   {
     "nome": "São Patrício",
-    "codigo": "5220280"
+    "codigo": "5220280",
+    "uf": "GO"
   },
   {
     "nome": "Demerval Lobão",
-    "codigo": "2203305"
+    "codigo": "2203305",
+    "uf": "PI"
   },
   {
     "nome": "Valparaíso de Goiás",
-    "codigo": "5221858"
+    "codigo": "5221858",
+    "uf": "GO"
   },
   {
     "nome": "Dom Expedito Lopes",
-    "codigo": "2203404"
+    "codigo": "2203404",
+    "uf": "PI"
   },
   {
     "nome": "Vila Propício",
-    "codigo": "5222302"
+    "codigo": "5222302",
+    "uf": "GO"
   },
   {
     "nome": "Elesbão Veloso",
-    "codigo": "2203503"
+    "codigo": "2203503",
+    "uf": "PI"
   },
   {
     "nome": "Eliseu Martins",
-    "codigo": "2203602"
+    "codigo": "2203602",
+    "uf": "PI"
   },
   {
     "nome": "Esperantina",
-    "codigo": "2203701"
+    "codigo": "2203701",
+    "uf": "PI"
   },
   {
     "nome": "Flores do Piauí",
-    "codigo": "2203800"
+    "codigo": "2203800",
+    "uf": "PI"
   },
   {
     "nome": "Floriano",
-    "codigo": "2203909"
+    "codigo": "2203909",
+    "uf": "PI"
   },
   {
     "nome": "Francinópolis",
-    "codigo": "2204006"
+    "codigo": "2204006",
+    "uf": "PI"
   },
   {
     "nome": "Francisco Ayres",
-    "codigo": "2204105"
+    "codigo": "2204105",
+    "uf": "PI"
   },
   {
     "nome": "Francisco Santos",
-    "codigo": "2204204"
+    "codigo": "2204204",
+    "uf": "PI"
   },
   {
     "nome": "Fronteiras",
-    "codigo": "2204303"
+    "codigo": "2204303",
+    "uf": "PI"
   },
   {
     "nome": "Gilbués",
-    "codigo": "2204402"
+    "codigo": "2204402",
+    "uf": "PI"
   },
   {
     "nome": "Guadalupe",
-    "codigo": "2204501"
+    "codigo": "2204501",
+    "uf": "PI"
   },
   {
     "nome": "Hugo Napoleão",
-    "codigo": "2204600"
+    "codigo": "2204600",
+    "uf": "PI"
   },
   {
     "nome": "Inhuma",
-    "codigo": "2204709"
+    "codigo": "2204709",
+    "uf": "PI"
   },
   {
     "nome": "Santa Cruz do Xingu",
-    "codigo": "5107743"
+    "codigo": "5107743",
+    "uf": "MT"
   },
   {
     "nome": "Ipiranga do Piauí",
-    "codigo": "2204808"
+    "codigo": "2204808",
+    "uf": "PI"
   },
   {
     "nome": "Santa Rita do Trivelato",
-    "codigo": "5107768"
+    "codigo": "5107768",
+    "uf": "MT"
   },
   {
     "nome": "Isaías Coelho",
-    "codigo": "2204907"
+    "codigo": "2204907",
+    "uf": "PI"
   },
   {
     "nome": "Santo Antônio do Leste",
-    "codigo": "5107792"
+    "codigo": "5107792",
+    "uf": "MT"
   },
   {
     "nome": "Itainópolis",
-    "codigo": "2205003"
+    "codigo": "2205003",
+    "uf": "PI"
   },
   {
     "nome": "Serra Nova Dourada",
-    "codigo": "5107883"
+    "codigo": "5107883",
+    "uf": "MT"
   },
   {
     "nome": "Itaueira",
-    "codigo": "2205102"
+    "codigo": "2205102",
+    "uf": "PI"
   },
   {
     "nome": "Vale de São Domingos",
-    "codigo": "5108352"
+    "codigo": "5108352",
+    "uf": "MT"
   },
   {
     "nome": "Jaicós",
-    "codigo": "2205201"
+    "codigo": "2205201",
+    "uf": "PI"
   },
   {
     "nome": "Pau D'Arco do Piauí",
-    "codigo": "2207793"
+    "codigo": "2207793",
+    "uf": "PI"
   },
   {
     "nome": "Jerumenha",
-    "codigo": "2205300"
+    "codigo": "2205300",
+    "uf": "PI"
   },
   {
     "nome": "Joaquim Pires",
-    "codigo": "2205409"
+    "codigo": "2205409",
+    "uf": "PI"
   },
   {
     "nome": "Jundiá",
-    "codigo": "2406155"
+    "codigo": "2406155",
+    "uf": "RN"
   },
   {
     "nome": "José de Freitas",
-    "codigo": "2205508"
+    "codigo": "2205508",
+    "uf": "PI"
   },
   {
     "nome": "Landri Sales",
-    "codigo": "2205607"
+    "codigo": "2205607",
+    "uf": "PI"
   },
   {
     "nome": "Luís Correia",
-    "codigo": "2205706"
+    "codigo": "2205706",
+    "uf": "PI"
   },
   {
     "nome": "Luzilândia",
-    "codigo": "2205805"
+    "codigo": "2205805",
+    "uf": "PI"
   },
   {
     "nome": "Mesquita",
-    "codigo": "3302858"
+    "codigo": "3302858",
+    "uf": "RJ"
   },
   {
     "nome": "Manoel Emídio",
-    "codigo": "2205904"
+    "codigo": "2205904",
+    "uf": "PI"
   },
   {
     "nome": "Aceguá",
-    "codigo": "4300034"
+    "codigo": "4300034",
+    "uf": "RS"
   },
   {
     "nome": "Marcos Parente",
-    "codigo": "2206001"
+    "codigo": "2206001",
+    "uf": "PI"
   },
   {
     "nome": "Almirante Tamandaré do Sul",
-    "codigo": "4300471"
+    "codigo": "4300471",
+    "uf": "RS"
   },
   {
     "nome": "Matias Olímpio",
-    "codigo": "2206100"
+    "codigo": "2206100",
+    "uf": "PI"
   },
   {
     "nome": "Arroio do Padre",
-    "codigo": "4301073"
+    "codigo": "4301073",
+    "uf": "RS"
   },
   {
     "nome": "Miguel Alves",
-    "codigo": "2206209"
+    "codigo": "2206209",
+    "uf": "PI"
   },
   {
     "nome": "Boa Vista do Cadeado",
-    "codigo": "4302220"
+    "codigo": "4302220",
+    "uf": "RS"
   },
   {
     "nome": "Miguel Leão",
-    "codigo": "2206308"
+    "codigo": "2206308",
+    "uf": "PI"
   },
   {
     "nome": "Boa Vista do Incra",
-    "codigo": "4302238"
+    "codigo": "4302238",
+    "uf": "RS"
   },
   {
     "nome": "Monsenhor Gil",
-    "codigo": "2206407"
+    "codigo": "2206407",
+    "uf": "PI"
   },
   {
     "nome": "Bozano",
-    "codigo": "4302584"
+    "codigo": "4302584",
+    "uf": "RS"
   },
   {
     "nome": "Monsenhor Hipólito",
-    "codigo": "2206506"
+    "codigo": "2206506",
+    "uf": "PI"
   },
   {
     "nome": "Canudos do Vale",
-    "codigo": "4304614"
+    "codigo": "4304614",
+    "uf": "RS"
   },
   {
     "nome": "Monte Alegre do Piauí",
-    "codigo": "2206605"
+    "codigo": "2206605",
+    "uf": "PI"
   },
   {
     "nome": "Capão Bonito do Sul",
-    "codigo": "4304622"
+    "codigo": "4304622",
+    "uf": "RS"
   },
   {
     "nome": "Nazaré do Piauí",
-    "codigo": "2206704"
+    "codigo": "2206704",
+    "uf": "PI"
   },
   {
     "nome": "Capão do Cipó",
-    "codigo": "4304655"
+    "codigo": "4304655",
+    "uf": "RS"
   },
   {
     "nome": "Nossa Senhora dos Remédios",
-    "codigo": "2206803"
+    "codigo": "2206803",
+    "uf": "PI"
   },
   {
     "nome": "Coqueiro Baixo",
-    "codigo": "4305835"
+    "codigo": "4305835",
+    "uf": "RS"
   },
   {
     "nome": "Novo Oriente do Piauí",
-    "codigo": "2206902"
+    "codigo": "2206902",
+    "uf": "PI"
   },
   {
     "nome": "Coronel Pilar",
-    "codigo": "4305934"
+    "codigo": "4305934",
+    "uf": "RS"
   },
   {
     "nome": "Oeiras",
-    "codigo": "2207009"
+    "codigo": "2207009",
+    "uf": "PI"
   },
   {
     "nome": "Cruzaltense",
-    "codigo": "4306130"
+    "codigo": "4306130",
+    "uf": "RS"
   },
   {
     "nome": "Domingos Mourão",
-    "codigo": "2203420"
+    "codigo": "2203420",
+    "uf": "PI"
   },
   {
     "nome": "Forquetinha",
-    "codigo": "4308433"
+    "codigo": "4308433",
+    "uf": "RS"
   },
   {
     "nome": "Padre Marcos",
-    "codigo": "2207207"
+    "codigo": "2207207",
+    "uf": "PI"
   },
   {
     "nome": "Itati",
-    "codigo": "4310652"
+    "codigo": "4310652",
+    "uf": "RS"
   },
   {
     "nome": "Paes Landim",
-    "codigo": "2207306"
+    "codigo": "2207306",
+    "uf": "PI"
   },
   {
     "nome": "Jacuizinho",
-    "codigo": "4310876"
+    "codigo": "4310876",
+    "uf": "RS"
   },
   {
     "nome": "Palmeira do Piauí",
-    "codigo": "2207405"
+    "codigo": "2207405",
+    "uf": "PI"
   },
   {
     "nome": "Lagoa Bonita do Sul",
-    "codigo": "4311239"
+    "codigo": "4311239",
+    "uf": "RS"
   },
   {
     "nome": "Palmeirais",
-    "codigo": "2207504"
+    "codigo": "2207504",
+    "uf": "PI"
   },
   {
     "nome": "Mato Queimado",
-    "codigo": "4312179"
+    "codigo": "4312179",
+    "uf": "RS"
   },
   {
     "nome": "Parnaguá",
-    "codigo": "2207603"
+    "codigo": "2207603",
+    "uf": "PI"
   },
   {
     "nome": "Novo Xingu",
-    "codigo": "4313466"
+    "codigo": "4313466",
+    "uf": "RS"
   },
   {
     "nome": "Parnaíba",
-    "codigo": "2207702"
+    "codigo": "2207702",
+    "uf": "PI"
   },
   {
     "nome": "Paulo Bento",
-    "codigo": "4314134"
+    "codigo": "4314134",
+    "uf": "RS"
   },
   {
     "nome": "Paulistana",
-    "codigo": "2207801"
+    "codigo": "2207801",
+    "uf": "PI"
   },
   {
     "nome": "Pedras Altas",
-    "codigo": "4314175"
+    "codigo": "4314175",
+    "uf": "RS"
   },
   {
     "nome": "Pedro II",
-    "codigo": "2207900"
+    "codigo": "2207900",
+    "uf": "PI"
   },
   {
     "nome": "Pinhal da Serra",
-    "codigo": "4314464"
+    "codigo": "4314464",
+    "uf": "RS"
   },
   {
     "nome": "Picos",
-    "codigo": "2208007"
+    "codigo": "2208007",
+    "uf": "PI"
   },
   {
     "nome": "Pinto Bandeira",
-    "codigo": "4314548"
+    "codigo": "4314548",
+    "uf": "RS"
   },
   {
     "nome": "Pimenteiras",
-    "codigo": "2208106"
+    "codigo": "2208106",
+    "uf": "PI"
   },
   {
     "nome": "Quatro Irmãos",
-    "codigo": "4315313"
+    "codigo": "4315313",
+    "uf": "RS"
   },
   {
     "nome": "Pio IX",
-    "codigo": "2208205"
+    "codigo": "2208205",
+    "uf": "PI"
   },
   {
     "nome": "Rolador",
-    "codigo": "4315958"
+    "codigo": "4315958",
+    "uf": "RS"
   },
   {
     "nome": "Piracuruca",
-    "codigo": "2208304"
+    "codigo": "2208304",
+    "uf": "PI"
   },
   {
     "nome": "Santa Cecília do Sul",
-    "codigo": "4316733"
+    "codigo": "4316733",
+    "uf": "RS"
   },
   {
     "nome": "Piripiri",
-    "codigo": "2208403"
+    "codigo": "2208403",
+    "uf": "PI"
   },
   {
     "nome": "Santa Margarida do Sul",
-    "codigo": "4316972"
+    "codigo": "4316972",
+    "uf": "RS"
   },
   {
     "nome": "Porto",
-    "codigo": "2208502"
+    "codigo": "2208502",
+    "uf": "PI"
   },
   {
     "nome": "São José do Sul",
-    "codigo": "4318614"
+    "codigo": "4318614",
+    "uf": "RS"
   },
   {
     "nome": "Prata do Piauí",
-    "codigo": "2208601"
+    "codigo": "2208601",
+    "uf": "PI"
   },
   {
     "nome": "São Pedro das Missões",
-    "codigo": "4319364"
+    "codigo": "4319364",
+    "uf": "RS"
   },
   {
     "nome": "Redenção do Gurguéia",
-    "codigo": "2208700"
+    "codigo": "2208700",
+    "uf": "PI"
   },
   {
     "nome": "Tio Hugo",
-    "codigo": "4321469"
+    "codigo": "4321469",
+    "uf": "RS"
   },
   {
     "nome": "Regeneração",
-    "codigo": "2208809"
+    "codigo": "2208809",
+    "uf": "PI"
   },
   {
     "nome": "Westfália",
-    "codigo": "4323770"
+    "codigo": "4323770",
+    "uf": "RS"
   },
   {
     "nome": "Ribeiro Gonçalves",
-    "codigo": "2208908"
+    "codigo": "2208908",
+    "uf": "PI"
   },
   {
     "nome": "Figueirão",
-    "codigo": "5003900"
+    "codigo": "5003900",
+    "uf": "MS"
   },
   {
     "nome": "Rio Grande do Piauí",
-    "codigo": "2209005"
+    "codigo": "2209005",
+    "uf": "PI"
   },
   {
     "nome": "Santa Cruz do Piauí",
-    "codigo": "2209104"
+    "codigo": "2209104",
+    "uf": "PI"
   },
   {
     "nome": "Santa Filomena",
-    "codigo": "2209203"
+    "codigo": "2209203",
+    "uf": "PI"
   },
   {
     "nome": "Ipiranga do Norte",
-    "codigo": "5104526"
+    "codigo": "5104526",
+    "uf": "MT"
   },
   {
     "nome": "Santa Luz",
-    "codigo": "2209302"
+    "codigo": "2209302",
+    "uf": "PI"
   },
   {
     "nome": "Itanhangá",
-    "codigo": "5104542"
+    "codigo": "5104542",
+    "uf": "MT"
   },
   {
     "nome": "Santo Antônio de Lisboa",
-    "codigo": "2209401"
+    "codigo": "2209401",
+    "uf": "PI"
   },
   {
     "nome": "Aroeiras do Itaim",
-    "codigo": "2200954"
+    "codigo": "2200954",
+    "uf": "PI"
   },
   {
     "nome": "Santo Inácio do Piauí",
-    "codigo": "2209500"
+    "codigo": "2209500",
+    "uf": "PI"
   },
   {
     "nome": "São Félix do Piauí",
-    "codigo": "2209609"
+    "codigo": "2209609",
+    "uf": "PI"
   },
   {
     "nome": "São Francisco do Piauí",
-    "codigo": "2209708"
+    "codigo": "2209708",
+    "uf": "PI"
   },
   {
     "nome": "São Gonçalo do Piauí",
-    "codigo": "2209807"
+    "codigo": "2209807",
+    "uf": "PI"
   },
   {
     "nome": "São João da Serra",
-    "codigo": "2209906"
+    "codigo": "2209906",
+    "uf": "PI"
   },
   {
     "nome": "São João do Piauí",
-    "codigo": "2210003"
+    "codigo": "2210003",
+    "uf": "PI"
   },
   {
     "nome": "São José do Peixe",
-    "codigo": "2210102"
+    "codigo": "2210102",
+    "uf": "PI"
   },
   {
     "nome": "São José do Piauí",
-    "codigo": "2210201"
+    "codigo": "2210201",
+    "uf": "PI"
   },
   {
     "nome": "São Julião",
-    "codigo": "2210300"
+    "codigo": "2210300",
+    "uf": "PI"
   },
   {
     "nome": "São Miguel do Tapuio",
-    "codigo": "2210409"
+    "codigo": "2210409",
+    "uf": "PI"
   },
   {
     "nome": "São Pedro do Piauí",
-    "codigo": "2210508"
+    "codigo": "2210508",
+    "uf": "PI"
   },
   {
     "nome": "São Raimundo Nonato",
-    "codigo": "2210607"
+    "codigo": "2210607",
+    "uf": "PI"
   },
   {
     "nome": "Simões",
-    "codigo": "2210706"
+    "codigo": "2210706",
+    "uf": "PI"
   },
   {
     "nome": "Simplício Mendes",
-    "codigo": "2210805"
+    "codigo": "2210805",
+    "uf": "PI"
   },
   {
     "nome": "Socorro do Piauí",
-    "codigo": "2210904"
+    "codigo": "2210904",
+    "uf": "PI"
   },
   {
     "nome": "Teresina",
-    "codigo": "2211001"
+    "codigo": "2211001",
+    "uf": "PI"
   },
   {
     "nome": "União",
-    "codigo": "2211100"
+    "codigo": "2211100",
+    "uf": "PI"
   },
   {
     "nome": "Uruçuí",
-    "codigo": "2211209"
+    "codigo": "2211209",
+    "uf": "PI"
   },
   {
     "nome": "Valença do Piauí",
-    "codigo": "2211308"
+    "codigo": "2211308",
+    "uf": "PI"
   },
   {
     "nome": "Várzea Grande",
-    "codigo": "2211407"
+    "codigo": "2211407",
+    "uf": "PI"
   },
   {
     "nome": "Dirceu Arcoverde",
-    "codigo": "2203354"
+    "codigo": "2203354",
+    "uf": "PI"
   },
   {
     "nome": "Acarape",
-    "codigo": "2300150"
+    "codigo": "2300150",
+    "uf": "CE"
   },
   {
     "nome": "Banabuiú",
-    "codigo": "2301851"
+    "codigo": "2301851",
+    "uf": "CE"
   },
   {
     "nome": "Barreira",
-    "codigo": "2301950"
+    "codigo": "2301950",
+    "uf": "CE"
   },
   {
     "nome": "Barroquinha",
-    "codigo": "2302057"
+    "codigo": "2302057",
+    "uf": "CE"
   },
   {
     "nome": "Chorozinho",
-    "codigo": "2303956"
+    "codigo": "2303956",
+    "uf": "CE"
   },
   {
     "nome": "Croatá",
-    "codigo": "2304236"
+    "codigo": "2304236",
+    "uf": "CE"
   },
   {
     "nome": "Deputado Irapuan Pinheiro",
-    "codigo": "2304269"
+    "codigo": "2304269",
+    "uf": "CE"
   },
   {
     "nome": "Ereré",
-    "codigo": "2304277"
+    "codigo": "2304277",
+    "uf": "CE"
   },
   {
     "nome": "Eusébio",
-    "codigo": "2304285"
+    "codigo": "2304285",
+    "uf": "CE"
   },
   {
     "nome": "Graça",
-    "codigo": "2304657"
+    "codigo": "2304657",
+    "uf": "CE"
   },
   {
     "nome": "Guaiúba",
-    "codigo": "2304954"
+    "codigo": "2304954",
+    "uf": "CE"
   },
   {
     "nome": "Horizonte",
-    "codigo": "2305233"
+    "codigo": "2305233",
+    "uf": "CE"
   },
   {
     "nome": "Ibaretama",
-    "codigo": "2305266"
+    "codigo": "2305266",
+    "uf": "CE"
   },
   {
     "nome": "Ibicuitinga",
-    "codigo": "2305332"
+    "codigo": "2305332",
+    "uf": "CE"
   },
   {
     "nome": "Ipaporanga",
-    "codigo": "2305654"
+    "codigo": "2305654",
+    "uf": "CE"
   },
   {
     "nome": "Madalena",
-    "codigo": "2307635"
+    "codigo": "2307635",
+    "uf": "CE"
   },
   {
     "nome": "Miraíma",
-    "codigo": "2308377"
+    "codigo": "2308377",
+    "uf": "CE"
   },
   {
     "nome": "Ocara",
-    "codigo": "2309458"
+    "codigo": "2309458",
+    "uf": "CE"
   },
   {
     "nome": "Pindoretama",
-    "codigo": "2310852"
+    "codigo": "2310852",
+    "uf": "CE"
   },
   {
     "nome": "Pires Ferreira",
-    "codigo": "2310951"
+    "codigo": "2310951",
+    "uf": "CE"
   },
   {
     "nome": "Potiretama",
-    "codigo": "2311231"
+    "codigo": "2311231",
+    "uf": "CE"
   },
   {
     "nome": "Salitre",
-    "codigo": "2311959"
+    "codigo": "2311959",
+    "uf": "CE"
   },
   {
     "nome": "Tarrafas",
-    "codigo": "2313252"
+    "codigo": "2313252",
+    "uf": "CE"
   },
   {
     "nome": "Tejuçuoca",
-    "codigo": "2313351"
+    "codigo": "2313351",
+    "uf": "CE"
   },
   {
     "nome": "Tururu",
-    "codigo": "2313559"
+    "codigo": "2313559",
+    "uf": "CE"
   },
   {
     "nome": "Arame",
-    "codigo": "2100956"
+    "codigo": "2100956",
+    "uf": "MA"
   },
   {
     "nome": "Miranda do Norte",
-    "codigo": "2106755"
+    "codigo": "2106755",
+    "uf": "MA"
   },
   {
     "nome": "Santa Luzia do Paruá",
-    "codigo": "2110039"
+    "codigo": "2110039",
+    "uf": "MA"
   },
   {
     "nome": "Zé Doca",
-    "codigo": "2114007"
+    "codigo": "2114007",
+    "uf": "MA"
   },
   {
     "nome": "Dom Inocêncio",
-    "codigo": "2203453"
+    "codigo": "2203453",
+    "uf": "PI"
   },
   {
     "nome": "São João da Canabrava",
-    "codigo": "2209856"
+    "codigo": "2209856",
+    "uf": "PI"
   },
   {
     "nome": "Passagem Franca do Piauí",
-    "codigo": "2207751"
+    "codigo": "2207751",
+    "uf": "PI"
   },
   {
     "nome": "Santa Cruz dos Milagres",
-    "codigo": "2209153"
+    "codigo": "2209153",
+    "uf": "PI"
   },
   {
     "nome": "Buriti dos Montes",
-    "codigo": "2202026"
+    "codigo": "2202026",
+    "uf": "PI"
   },
   {
     "nome": "Cabeceiras do Piauí",
-    "codigo": "2202059"
+    "codigo": "2202059",
+    "uf": "PI"
   },
   {
     "nome": "Abaiara",
-    "codigo": "2300101"
+    "codigo": "2300101",
+    "uf": "CE"
   },
   {
     "nome": "Acaraú",
-    "codigo": "2300200"
+    "codigo": "2300200",
+    "uf": "CE"
   },
   {
     "nome": "Acopiara",
-    "codigo": "2300309"
+    "codigo": "2300309",
+    "uf": "CE"
   },
   {
     "nome": "Aiuaba",
-    "codigo": "2300408"
+    "codigo": "2300408",
+    "uf": "CE"
   },
   {
     "nome": "Alcântaras",
-    "codigo": "2300507"
+    "codigo": "2300507",
+    "uf": "CE"
   },
   {
     "nome": "Altaneira",
-    "codigo": "2300606"
+    "codigo": "2300606",
+    "uf": "CE"
   },
   {
     "nome": "Alto Santo",
-    "codigo": "2300705"
+    "codigo": "2300705",
+    "uf": "CE"
   },
   {
     "nome": "Antonina do Norte",
-    "codigo": "2300804"
+    "codigo": "2300804",
+    "uf": "CE"
   },
   {
     "nome": "Apuiarés",
-    "codigo": "2300903"
+    "codigo": "2300903",
+    "uf": "CE"
   },
   {
     "nome": "Aquiraz",
-    "codigo": "2301000"
+    "codigo": "2301000",
+    "uf": "CE"
   },
   {
     "nome": "Aracati",
-    "codigo": "2301109"
+    "codigo": "2301109",
+    "uf": "CE"
   },
   {
     "nome": "Aracoiaba",
-    "codigo": "2301208"
+    "codigo": "2301208",
+    "uf": "CE"
   },
   {
     "nome": "Araripe",
-    "codigo": "2301307"
+    "codigo": "2301307",
+    "uf": "CE"
   },
   {
     "nome": "Aratuba",
-    "codigo": "2301406"
+    "codigo": "2301406",
+    "uf": "CE"
   },
   {
     "nome": "Arneiroz",
-    "codigo": "2301505"
+    "codigo": "2301505",
+    "uf": "CE"
   },
   {
     "nome": "Assaré",
-    "codigo": "2301604"
+    "codigo": "2301604",
+    "uf": "CE"
   },
   {
     "nome": "Aurora",
-    "codigo": "2301703"
+    "codigo": "2301703",
+    "uf": "CE"
   },
   {
     "nome": "Baixio",
-    "codigo": "2301802"
+    "codigo": "2301802",
+    "uf": "CE"
   },
   {
     "nome": "Barbalha",
-    "codigo": "2301901"
+    "codigo": "2301901",
+    "uf": "CE"
   },
   {
     "nome": "Barro",
-    "codigo": "2302008"
+    "codigo": "2302008",
+    "uf": "CE"
   },
   {
     "nome": "Baturité",
-    "codigo": "2302107"
+    "codigo": "2302107",
+    "uf": "CE"
   },
   {
     "nome": "Beberibe",
-    "codigo": "2302206"
+    "codigo": "2302206",
+    "uf": "CE"
   },
   {
     "nome": "Bela Cruz",
-    "codigo": "2302305"
+    "codigo": "2302305",
+    "uf": "CE"
   },
   {
     "nome": "Boa Viagem",
-    "codigo": "2302404"
+    "codigo": "2302404",
+    "uf": "CE"
   },
   {
     "nome": "Brejo Santo",
-    "codigo": "2302503"
+    "codigo": "2302503",
+    "uf": "CE"
   },
   {
     "nome": "Camocim",
-    "codigo": "2302602"
+    "codigo": "2302602",
+    "uf": "CE"
   },
   {
     "nome": "Campos Sales",
-    "codigo": "2302701"
+    "codigo": "2302701",
+    "uf": "CE"
   },
   {
     "nome": "Canindé",
-    "codigo": "2302800"
+    "codigo": "2302800",
+    "uf": "CE"
   },
   {
     "nome": "Capistrano",
-    "codigo": "2302909"
+    "codigo": "2302909",
+    "uf": "CE"
   },
   {
     "nome": "Caridade",
-    "codigo": "2303006"
+    "codigo": "2303006",
+    "uf": "CE"
   },
   {
     "nome": "Cariré",
-    "codigo": "2303105"
+    "codigo": "2303105",
+    "uf": "CE"
   },
   {
     "nome": "Caririaçu",
-    "codigo": "2303204"
+    "codigo": "2303204",
+    "uf": "CE"
   },
   {
     "nome": "Cariús",
-    "codigo": "2303303"
+    "codigo": "2303303",
+    "uf": "CE"
   },
   {
     "nome": "Carnaubal",
-    "codigo": "2303402"
+    "codigo": "2303402",
+    "uf": "CE"
   },
   {
     "nome": "Cascavel",
-    "codigo": "2303501"
+    "codigo": "2303501",
+    "uf": "CE"
   },
   {
     "nome": "Catarina",
-    "codigo": "2303600"
+    "codigo": "2303600",
+    "uf": "CE"
   },
   {
     "nome": "Caucaia",
-    "codigo": "2303709"
+    "codigo": "2303709",
+    "uf": "CE"
   },
   {
     "nome": "Cedro",
-    "codigo": "2303808"
+    "codigo": "2303808",
+    "uf": "CE"
   },
   {
     "nome": "Chaval",
-    "codigo": "2303907"
+    "codigo": "2303907",
+    "uf": "CE"
   },
   {
     "nome": "Sigefredo Pacheco",
-    "codigo": "2210656"
+    "codigo": "2210656",
+    "uf": "PI"
   },
   {
     "nome": "Coreaú",
-    "codigo": "2304004"
+    "codigo": "2304004",
+    "uf": "CE"
   },
   {
     "nome": "Crateús",
-    "codigo": "2304103"
+    "codigo": "2304103",
+    "uf": "CE"
   },
   {
     "nome": "Crato",
-    "codigo": "2304202"
+    "codigo": "2304202",
+    "uf": "CE"
   },
   {
     "nome": "Farias Brito",
-    "codigo": "2304301"
+    "codigo": "2304301",
+    "uf": "CE"
   },
   {
     "nome": "Fortaleza",
-    "codigo": "2304400"
+    "codigo": "2304400",
+    "uf": "CE"
   },
   {
     "nome": "Frecheirinha",
-    "codigo": "2304509"
+    "codigo": "2304509",
+    "uf": "CE"
   },
   {
     "nome": "General Sampaio",
-    "codigo": "2304608"
+    "codigo": "2304608",
+    "uf": "CE"
   },
   {
     "nome": "Granja",
-    "codigo": "2304707"
+    "codigo": "2304707",
+    "uf": "CE"
   },
   {
     "nome": "Granjeiro",
-    "codigo": "2304806"
+    "codigo": "2304806",
+    "uf": "CE"
   },
   {
     "nome": "Groaíras",
-    "codigo": "2304905"
+    "codigo": "2304905",
+    "uf": "CE"
   },
   {
     "nome": "Guaraciaba do Norte",
-    "codigo": "2305001"
+    "codigo": "2305001",
+    "uf": "CE"
   },
   {
     "nome": "Guaramiranga",
-    "codigo": "2305100"
+    "codigo": "2305100",
+    "uf": "CE"
   },
   {
     "nome": "Hidrolândia",
-    "codigo": "2305209"
+    "codigo": "2305209",
+    "uf": "CE"
   },
   {
     "nome": "Ibiapina",
-    "codigo": "2305308"
+    "codigo": "2305308",
+    "uf": "CE"
   },
   {
     "nome": "Icó",
-    "codigo": "2305407"
+    "codigo": "2305407",
+    "uf": "CE"
   },
   {
     "nome": "Iguatu",
-    "codigo": "2305506"
+    "codigo": "2305506",
+    "uf": "CE"
   },
   {
     "nome": "Independência",
-    "codigo": "2305605"
+    "codigo": "2305605",
+    "uf": "CE"
   },
   {
     "nome": "Ipaumirim",
-    "codigo": "2305704"
+    "codigo": "2305704",
+    "uf": "CE"
   },
   {
     "nome": "Ipu",
-    "codigo": "2305803"
+    "codigo": "2305803",
+    "uf": "CE"
   },
   {
     "nome": "Ipueiras",
-    "codigo": "2305902"
+    "codigo": "2305902",
+    "uf": "CE"
   },
   {
     "nome": "Iracema",
-    "codigo": "2306009"
+    "codigo": "2306009",
+    "uf": "CE"
   },
   {
     "nome": "Irauçuba",
-    "codigo": "2306108"
+    "codigo": "2306108",
+    "uf": "CE"
   },
   {
     "nome": "Itaiçaba",
-    "codigo": "2306207"
+    "codigo": "2306207",
+    "uf": "CE"
   },
   {
     "nome": "Itapajé",
-    "codigo": "2306306"
+    "codigo": "2306306",
+    "uf": "CE"
   },
   {
     "nome": "Itapipoca",
-    "codigo": "2306405"
+    "codigo": "2306405",
+    "uf": "CE"
   },
   {
     "nome": "Itapiúna",
-    "codigo": "2306504"
+    "codigo": "2306504",
+    "uf": "CE"
   },
   {
     "nome": "Itatira",
-    "codigo": "2306603"
+    "codigo": "2306603",
+    "uf": "CE"
   },
   {
     "nome": "Jaguaretama",
-    "codigo": "2306702"
+    "codigo": "2306702",
+    "uf": "CE"
   },
   {
     "nome": "Jaguaribara",
-    "codigo": "2306801"
+    "codigo": "2306801",
+    "uf": "CE"
   },
   {
     "nome": "Jaguaribe",
-    "codigo": "2306900"
+    "codigo": "2306900",
+    "uf": "CE"
   },
   {
     "nome": "Jaguaruana",
-    "codigo": "2307007"
+    "codigo": "2307007",
+    "uf": "CE"
   },
   {
     "nome": "Jardim",
-    "codigo": "2307106"
+    "codigo": "2307106",
+    "uf": "CE"
   },
   {
     "nome": "Jati",
-    "codigo": "2307205"
+    "codigo": "2307205",
+    "uf": "CE"
   },
   {
     "nome": "Juazeiro do Norte",
-    "codigo": "2307304"
+    "codigo": "2307304",
+    "uf": "CE"
   },
   {
     "nome": "Jucás",
-    "codigo": "2307403"
+    "codigo": "2307403",
+    "uf": "CE"
   },
   {
     "nome": "Lavras da Mangabeira",
-    "codigo": "2307502"
+    "codigo": "2307502",
+    "uf": "CE"
   },
   {
     "nome": "Limoeiro do Norte",
-    "codigo": "2307601"
+    "codigo": "2307601",
+    "uf": "CE"
   },
   {
     "nome": "Maranguape",
-    "codigo": "2307700"
+    "codigo": "2307700",
+    "uf": "CE"
   },
   {
     "nome": "Marco",
-    "codigo": "2307809"
+    "codigo": "2307809",
+    "uf": "CE"
   },
   {
     "nome": "Martinópole",
-    "codigo": "2307908"
+    "codigo": "2307908",
+    "uf": "CE"
   },
   {
     "nome": "Massapê",
-    "codigo": "2308005"
+    "codigo": "2308005",
+    "uf": "CE"
   },
   {
     "nome": "Mauriti",
-    "codigo": "2308104"
+    "codigo": "2308104",
+    "uf": "CE"
   },
   {
     "nome": "Meruoca",
-    "codigo": "2308203"
+    "codigo": "2308203",
+    "uf": "CE"
   },
   {
     "nome": "Milagres",
-    "codigo": "2308302"
+    "codigo": "2308302",
+    "uf": "CE"
   },
   {
     "nome": "Missão Velha",
-    "codigo": "2308401"
+    "codigo": "2308401",
+    "uf": "CE"
   },
   {
     "nome": "Mombaça",
-    "codigo": "2308500"
+    "codigo": "2308500",
+    "uf": "CE"
   },
   {
     "nome": "Monsenhor Tabosa",
-    "codigo": "2308609"
+    "codigo": "2308609",
+    "uf": "CE"
   },
   {
     "nome": "Morada Nova",
-    "codigo": "2308708"
+    "codigo": "2308708",
+    "uf": "CE"
   },
   {
     "nome": "Moraújo",
-    "codigo": "2308807"
+    "codigo": "2308807",
+    "uf": "CE"
   },
   {
     "nome": "Morrinhos",
-    "codigo": "2308906"
+    "codigo": "2308906",
+    "uf": "CE"
   },
   {
     "nome": "Mucambo",
-    "codigo": "2309003"
+    "codigo": "2309003",
+    "uf": "CE"
   },
   {
     "nome": "Mulungu",
-    "codigo": "2309102"
+    "codigo": "2309102",
+    "uf": "CE"
   },
   {
     "nome": "Nova Olinda",
-    "codigo": "2309201"
+    "codigo": "2309201",
+    "uf": "CE"
   },
   {
     "nome": "Nova Russas",
-    "codigo": "2309300"
+    "codigo": "2309300",
+    "uf": "CE"
   },
   {
     "nome": "Novo Oriente",
-    "codigo": "2309409"
+    "codigo": "2309409",
+    "uf": "CE"
   },
   {
     "nome": "Orós",
-    "codigo": "2309508"
+    "codigo": "2309508",
+    "uf": "CE"
   },
   {
     "nome": "Pacajus",
-    "codigo": "2309607"
+    "codigo": "2309607",
+    "uf": "CE"
   },
   {
     "nome": "Pacatuba",
-    "codigo": "2309706"
+    "codigo": "2309706",
+    "uf": "CE"
   },
   {
     "nome": "Pacoti",
-    "codigo": "2309805"
+    "codigo": "2309805",
+    "uf": "CE"
   },
   {
     "nome": "Pacujá",
-    "codigo": "2309904"
+    "codigo": "2309904",
+    "uf": "CE"
   },
   {
     "nome": "Palhano",
-    "codigo": "2310001"
+    "codigo": "2310001",
+    "uf": "CE"
   },
   {
     "nome": "Palmácia",
-    "codigo": "2310100"
+    "codigo": "2310100",
+    "uf": "CE"
   },
   {
     "nome": "Paracuru",
-    "codigo": "2310209"
+    "codigo": "2310209",
+    "uf": "CE"
   },
   {
     "nome": "Parambu",
-    "codigo": "2310308"
+    "codigo": "2310308",
+    "uf": "CE"
   },
   {
     "nome": "Paramoti",
-    "codigo": "2310407"
+    "codigo": "2310407",
+    "uf": "CE"
   },
   {
     "nome": "Pedra Branca",
-    "codigo": "2310506"
+    "codigo": "2310506",
+    "uf": "CE"
   },
   {
     "nome": "Penaforte",
-    "codigo": "2310605"
+    "codigo": "2310605",
+    "uf": "CE"
   },
   {
     "nome": "Pentecoste",
-    "codigo": "2310704"
+    "codigo": "2310704",
+    "uf": "CE"
   },
   {
     "nome": "Pereiro",
-    "codigo": "2310803"
+    "codigo": "2310803",
+    "uf": "CE"
   },
   {
     "nome": "Piquet Carneiro",
-    "codigo": "2310902"
+    "codigo": "2310902",
+    "uf": "CE"
   },
   {
     "nome": "Poranga",
-    "codigo": "2311009"
+    "codigo": "2311009",
+    "uf": "CE"
   },
   {
     "nome": "Porteiras",
-    "codigo": "2311108"
+    "codigo": "2311108",
+    "uf": "CE"
   },
   {
     "nome": "Potengi",
-    "codigo": "2311207"
+    "codigo": "2311207",
+    "uf": "CE"
   },
   {
     "nome": "Quixadá",
-    "codigo": "2311306"
+    "codigo": "2311306",
+    "uf": "CE"
   },
   {
     "nome": "Quixeramobim",
-    "codigo": "2311405"
+    "codigo": "2311405",
+    "uf": "CE"
   },
   {
     "nome": "Quixeré",
-    "codigo": "2311504"
+    "codigo": "2311504",
+    "uf": "CE"
   },
   {
     "nome": "Redenção",
-    "codigo": "2311603"
+    "codigo": "2311603",
+    "uf": "CE"
   },
   {
     "nome": "Reriutaba",
-    "codigo": "2311702"
+    "codigo": "2311702",
+    "uf": "CE"
   },
   {
     "nome": "Russas",
-    "codigo": "2311801"
+    "codigo": "2311801",
+    "uf": "CE"
   },
   {
     "nome": "Saboeiro",
-    "codigo": "2311900"
+    "codigo": "2311900",
+    "uf": "CE"
   },
   {
     "nome": "Santana do Acaraú",
-    "codigo": "2312007"
+    "codigo": "2312007",
+    "uf": "CE"
   },
   {
     "nome": "Santana do Cariri",
-    "codigo": "2312106"
+    "codigo": "2312106",
+    "uf": "CE"
   },
   {
     "nome": "Santa Quitéria",
-    "codigo": "2312205"
+    "codigo": "2312205",
+    "uf": "CE"
   },
   {
     "nome": "São Benedito",
-    "codigo": "2312304"
+    "codigo": "2312304",
+    "uf": "CE"
   },
   {
     "nome": "São Gonçalo do Amarante",
-    "codigo": "2312403"
+    "codigo": "2312403",
+    "uf": "CE"
   },
   {
     "nome": "São João do Jaguaribe",
-    "codigo": "2312502"
+    "codigo": "2312502",
+    "uf": "CE"
   },
   {
     "nome": "São Luís do Curu",
-    "codigo": "2312601"
+    "codigo": "2312601",
+    "uf": "CE"
   },
   {
     "nome": "Senador Pompeu",
-    "codigo": "2312700"
+    "codigo": "2312700",
+    "uf": "CE"
   },
   {
     "nome": "Senador Sá",
-    "codigo": "2312809"
+    "codigo": "2312809",
+    "uf": "CE"
   },
   {
     "nome": "Sobral",
-    "codigo": "2312908"
+    "codigo": "2312908",
+    "uf": "CE"
   },
   {
     "nome": "Solonópole",
-    "codigo": "2313005"
+    "codigo": "2313005",
+    "uf": "CE"
   },
   {
     "nome": "Tabuleiro do Norte",
-    "codigo": "2313104"
+    "codigo": "2313104",
+    "uf": "CE"
   },
   {
     "nome": "Tamboril",
-    "codigo": "2313203"
+    "codigo": "2313203",
+    "uf": "CE"
   },
   {
     "nome": "Tauá",
-    "codigo": "2313302"
+    "codigo": "2313302",
+    "uf": "CE"
   },
   {
     "nome": "Tianguá",
-    "codigo": "2313401"
+    "codigo": "2313401",
+    "uf": "CE"
   },
   {
     "nome": "Trairi",
-    "codigo": "2313500"
+    "codigo": "2313500",
+    "uf": "CE"
   },
   {
     "nome": "Ubajara",
-    "codigo": "2313609"
+    "codigo": "2313609",
+    "uf": "CE"
   },
   {
     "nome": "Umari",
-    "codigo": "2313708"
+    "codigo": "2313708",
+    "uf": "CE"
   },
   {
     "nome": "Uruburetama",
-    "codigo": "2313807"
+    "codigo": "2313807",
+    "uf": "CE"
   },
   {
     "nome": "Uruoca",
-    "codigo": "2313906"
+    "codigo": "2313906",
+    "uf": "CE"
   },
   {
     "nome": "Várzea Alegre",
-    "codigo": "2314003"
+    "codigo": "2314003",
+    "uf": "CE"
   },
   {
     "nome": "Viçosa do Ceará",
-    "codigo": "2314102"
+    "codigo": "2314102",
+    "uf": "CE"
   },
   {
     "nome": "Maracanaú",
-    "codigo": "2307650"
+    "codigo": "2307650",
+    "uf": "CE"
   },
   {
     "nome": "Amontada",
-    "codigo": "2300754"
+    "codigo": "2300754",
+    "uf": "CE"
   },
   {
     "nome": "Cruz",
-    "codigo": "2304251"
+    "codigo": "2304251",
+    "uf": "CE"
   },
   {
     "nome": "Forquilha",
-    "codigo": "2304350"
+    "codigo": "2304350",
+    "uf": "CE"
   },
   {
     "nome": "Icapuí",
-    "codigo": "2305357"
+    "codigo": "2305357",
+    "uf": "CE"
   },
   {
     "nome": "Itarema",
-    "codigo": "2306553"
+    "codigo": "2306553",
+    "uf": "CE"
   },
   {
     "nome": "Milhã",
-    "codigo": "2308351"
+    "codigo": "2308351",
+    "uf": "CE"
   },
   {
     "nome": "Paraipaba",
-    "codigo": "2310258"
+    "codigo": "2310258",
+    "uf": "CE"
   },
   {
     "nome": "Acari",
-    "codigo": "2400109"
+    "codigo": "2400109",
+    "uf": "RN"
   },
   {
     "nome": "Açu",
-    "codigo": "2400208"
+    "codigo": "2400208",
+    "uf": "RN"
   },
   {
     "nome": "Afonso Bezerra",
-    "codigo": "2400307"
+    "codigo": "2400307",
+    "uf": "RN"
   },
   {
     "nome": "Água Nova",
-    "codigo": "2400406"
+    "codigo": "2400406",
+    "uf": "RN"
   },
   {
     "nome": "Alexandria",
-    "codigo": "2400505"
+    "codigo": "2400505",
+    "uf": "RN"
   },
   {
     "nome": "Almino Afonso",
-    "codigo": "2400604"
+    "codigo": "2400604",
+    "uf": "RN"
   },
   {
     "nome": "Alto do Rodrigues",
-    "codigo": "2400703"
+    "codigo": "2400703",
+    "uf": "RN"
   },
   {
     "nome": "Angicos",
-    "codigo": "2400802"
+    "codigo": "2400802",
+    "uf": "RN"
   },
   {
     "nome": "Antônio Martins",
-    "codigo": "2400901"
+    "codigo": "2400901",
+    "uf": "RN"
   },
   {
     "nome": "Apodi",
-    "codigo": "2401008"
+    "codigo": "2401008",
+    "uf": "RN"
   },
   {
     "nome": "Areia Branca",
-    "codigo": "2401107"
+    "codigo": "2401107",
+    "uf": "RN"
   },
   {
     "nome": "Arês",
-    "codigo": "2401206"
+    "codigo": "2401206",
+    "uf": "RN"
   },
   {
     "nome": "Campo Grande",
-    "codigo": "2401305"
+    "codigo": "2401305",
+    "uf": "RN"
   },
   {
     "nome": "Baía Formosa",
-    "codigo": "2401404"
+    "codigo": "2401404",
+    "uf": "RN"
   },
   {
     "nome": "Barcelona",
-    "codigo": "2401503"
+    "codigo": "2401503",
+    "uf": "RN"
   },
   {
     "nome": "Bento Fernandes",
-    "codigo": "2401602"
+    "codigo": "2401602",
+    "uf": "RN"
   },
   {
     "nome": "Bom Jesus",
-    "codigo": "2401701"
+    "codigo": "2401701",
+    "uf": "RN"
   },
   {
     "nome": "Brejinho",
-    "codigo": "2401800"
+    "codigo": "2401800",
+    "uf": "RN"
   },
   {
     "nome": "Caiçara do Rio do Vento",
-    "codigo": "2401909"
+    "codigo": "2401909",
+    "uf": "RN"
   },
   {
     "nome": "Caicó",
-    "codigo": "2402006"
+    "codigo": "2402006",
+    "uf": "RN"
   },
   {
     "nome": "Campo Redondo",
-    "codigo": "2402105"
+    "codigo": "2402105",
+    "uf": "RN"
   },
   {
     "nome": "Canguaretama",
-    "codigo": "2402204"
+    "codigo": "2402204",
+    "uf": "RN"
   },
   {
     "nome": "Caraúbas",
-    "codigo": "2402303"
+    "codigo": "2402303",
+    "uf": "RN"
   },
   {
     "nome": "Carnaúba dos Dantas",
-    "codigo": "2402402"
+    "codigo": "2402402",
+    "uf": "RN"
   },
   {
     "nome": "Carnaubais",
-    "codigo": "2402501"
+    "codigo": "2402501",
+    "uf": "RN"
   },
   {
     "nome": "Ceará-Mirim",
-    "codigo": "2402600"
+    "codigo": "2402600",
+    "uf": "RN"
   },
   {
     "nome": "Cerro Corá",
-    "codigo": "2402709"
+    "codigo": "2402709",
+    "uf": "RN"
   },
   {
     "nome": "Coronel Ezequiel",
-    "codigo": "2402808"
+    "codigo": "2402808",
+    "uf": "RN"
   },
   {
     "nome": "Coronel João Pessoa",
-    "codigo": "2402907"
+    "codigo": "2402907",
+    "uf": "RN"
   },
   {
     "nome": "Cruzeta",
-    "codigo": "2403004"
+    "codigo": "2403004",
+    "uf": "RN"
   },
   {
     "nome": "Currais Novos",
-    "codigo": "2403103"
+    "codigo": "2403103",
+    "uf": "RN"
   },
   {
     "nome": "Doutor Severiano",
-    "codigo": "2403202"
+    "codigo": "2403202",
+    "uf": "RN"
   },
   {
     "nome": "Encanto",
-    "codigo": "2403301"
+    "codigo": "2403301",
+    "uf": "RN"
   },
   {
     "nome": "Equador",
-    "codigo": "2403400"
+    "codigo": "2403400",
+    "uf": "RN"
   },
   {
     "nome": "Espírito Santo",
-    "codigo": "2403509"
+    "codigo": "2403509",
+    "uf": "RN"
   },
   {
     "nome": "Extremoz",
-    "codigo": "2403608"
+    "codigo": "2403608",
+    "uf": "RN"
   },
   {
     "nome": "Felipe Guerra",
-    "codigo": "2403707"
+    "codigo": "2403707",
+    "uf": "RN"
   },
   {
     "nome": "Florânia",
-    "codigo": "2403806"
+    "codigo": "2403806",
+    "uf": "RN"
   },
   {
     "nome": "Francisco Dantas",
-    "codigo": "2403905"
+    "codigo": "2403905",
+    "uf": "RN"
   },
   {
     "nome": "Galinhos",
-    "codigo": "2404101"
+    "codigo": "2404101",
+    "uf": "RN"
   },
   {
     "nome": "Goianinha",
-    "codigo": "2404200"
+    "codigo": "2404200",
+    "uf": "RN"
   },
   {
     "nome": "Governador Dix-Sept Rosado",
-    "codigo": "2404309"
+    "codigo": "2404309",
+    "uf": "RN"
   },
   {
     "nome": "Grossos",
-    "codigo": "2404408"
+    "codigo": "2404408",
+    "uf": "RN"
   },
   {
     "nome": "Guamaré",
-    "codigo": "2404507"
+    "codigo": "2404507",
+    "uf": "RN"
   },
   {
     "nome": "Ielmo Marinho",
-    "codigo": "2404606"
+    "codigo": "2404606",
+    "uf": "RN"
   },
   {
     "nome": "Ipanguaçu",
-    "codigo": "2404705"
+    "codigo": "2404705",
+    "uf": "RN"
   },
   {
     "nome": "Ipueira",
-    "codigo": "2404804"
+    "codigo": "2404804",
+    "uf": "RN"
   },
   {
     "nome": "Itaú",
-    "codigo": "2404903"
+    "codigo": "2404903",
+    "uf": "RN"
   },
   {
     "nome": "Jaçanã",
-    "codigo": "2405009"
+    "codigo": "2405009",
+    "uf": "RN"
   },
   {
     "nome": "Jandaíra",
-    "codigo": "2405108"
+    "codigo": "2405108",
+    "uf": "RN"
   },
   {
     "nome": "Janduís",
-    "codigo": "2405207"
+    "codigo": "2405207",
+    "uf": "RN"
   },
   {
     "nome": "Januário Cicco",
-    "codigo": "2405306"
+    "codigo": "2405306",
+    "uf": "RN"
   },
   {
     "nome": "Japi",
-    "codigo": "2405405"
+    "codigo": "2405405",
+    "uf": "RN"
   },
   {
     "nome": "Jardim de Angicos",
-    "codigo": "2405504"
+    "codigo": "2405504",
+    "uf": "RN"
   },
   {
     "nome": "Jardim de Piranhas",
-    "codigo": "2405603"
+    "codigo": "2405603",
+    "uf": "RN"
   },
   {
     "nome": "Jardim do Seridó",
-    "codigo": "2405702"
+    "codigo": "2405702",
+    "uf": "RN"
   },
   {
     "nome": "João Câmara",
-    "codigo": "2405801"
+    "codigo": "2405801",
+    "uf": "RN"
   },
   {
     "nome": "João Dias",
-    "codigo": "2405900"
+    "codigo": "2405900",
+    "uf": "RN"
   },
   {
     "nome": "José da Penha",
-    "codigo": "2406007"
+    "codigo": "2406007",
+    "uf": "RN"
   },
   {
     "nome": "Jucurutu",
-    "codigo": "2406106"
+    "codigo": "2406106",
+    "uf": "RN"
   },
   {
     "nome": "Messias Targino",
-    "codigo": "2407609"
+    "codigo": "2407609",
+    "uf": "RN"
   },
   {
     "nome": "Lagoa d'Anta",
-    "codigo": "2406205"
+    "codigo": "2406205",
+    "uf": "RN"
   },
   {
     "nome": "Lagoa de Pedras",
-    "codigo": "2406304"
+    "codigo": "2406304",
+    "uf": "RN"
   },
   {
     "nome": "Lagoa de Velhos",
-    "codigo": "2406403"
+    "codigo": "2406403",
+    "uf": "RN"
   },
   {
     "nome": "Lagoa Nova",
-    "codigo": "2406502"
+    "codigo": "2406502",
+    "uf": "RN"
   },
   {
     "nome": "Lagoa Salgada",
-    "codigo": "2406601"
+    "codigo": "2406601",
+    "uf": "RN"
   },
   {
     "nome": "Lajes",
-    "codigo": "2406700"
+    "codigo": "2406700",
+    "uf": "RN"
   },
   {
     "nome": "Lajes Pintadas",
-    "codigo": "2406809"
+    "codigo": "2406809",
+    "uf": "RN"
   },
   {
     "nome": "Lucrécia",
-    "codigo": "2406908"
+    "codigo": "2406908",
+    "uf": "RN"
   },
   {
     "nome": "Luís Gomes",
-    "codigo": "2407005"
+    "codigo": "2407005",
+    "uf": "RN"
   },
   {
     "nome": "Macaíba",
-    "codigo": "2407104"
+    "codigo": "2407104",
+    "uf": "RN"
   },
   {
     "nome": "Macau",
-    "codigo": "2407203"
+    "codigo": "2407203",
+    "uf": "RN"
   },
   {
     "nome": "Marcelino Vieira",
-    "codigo": "2407302"
+    "codigo": "2407302",
+    "uf": "RN"
   },
   {
     "nome": "Martins",
-    "codigo": "2407401"
+    "codigo": "2407401",
+    "uf": "RN"
   },
   {
     "nome": "Maxaranguape",
-    "codigo": "2407500"
+    "codigo": "2407500",
+    "uf": "RN"
   },
   {
     "nome": "Frutuoso Gomes",
-    "codigo": "2404002"
+    "codigo": "2404002",
+    "uf": "RN"
   },
   {
     "nome": "Montanhas",
-    "codigo": "2407708"
+    "codigo": "2407708",
+    "uf": "RN"
   },
   {
     "nome": "Monte Alegre",
-    "codigo": "2407807"
+    "codigo": "2407807",
+    "uf": "RN"
   },
   {
     "nome": "Monte das Gameleiras",
-    "codigo": "2407906"
+    "codigo": "2407906",
+    "uf": "RN"
   },
   {
     "nome": "Mossoró",
-    "codigo": "2408003"
+    "codigo": "2408003",
+    "uf": "RN"
   },
   {
     "nome": "Natal",
-    "codigo": "2408102"
+    "codigo": "2408102",
+    "uf": "RN"
   },
   {
     "nome": "Nísia Floresta",
-    "codigo": "2408201"
+    "codigo": "2408201",
+    "uf": "RN"
   },
   {
     "nome": "Nova Cruz",
-    "codigo": "2408300"
+    "codigo": "2408300",
+    "uf": "RN"
   },
   {
     "nome": "Olho d'Água do Borges",
-    "codigo": "2408409"
+    "codigo": "2408409",
+    "uf": "RN"
   },
   {
     "nome": "Ouro Branco",
-    "codigo": "2408508"
+    "codigo": "2408508",
+    "uf": "RN"
   },
   {
     "nome": "Paraná",
-    "codigo": "2408607"
+    "codigo": "2408607",
+    "uf": "RN"
   },
   {
     "nome": "Paraú",
-    "codigo": "2408706"
+    "codigo": "2408706",
+    "uf": "RN"
   },
   {
     "nome": "Parazinho",
-    "codigo": "2408805"
+    "codigo": "2408805",
+    "uf": "RN"
   },
   {
     "nome": "Parelhas",
-    "codigo": "2408904"
+    "codigo": "2408904",
+    "uf": "RN"
   },
   {
     "nome": "Parnamirim",
-    "codigo": "2403251"
+    "codigo": "2403251",
+    "uf": "RN"
   },
   {
     "nome": "Passa e Fica",
-    "codigo": "2409100"
+    "codigo": "2409100",
+    "uf": "RN"
   },
   {
     "nome": "Passagem",
-    "codigo": "2409209"
+    "codigo": "2409209",
+    "uf": "RN"
   },
   {
     "nome": "Patu",
-    "codigo": "2409308"
+    "codigo": "2409308",
+    "uf": "RN"
   },
   {
     "nome": "Pau dos Ferros",
-    "codigo": "2409407"
+    "codigo": "2409407",
+    "uf": "RN"
   },
   {
     "nome": "Pedra Grande",
-    "codigo": "2409506"
+    "codigo": "2409506",
+    "uf": "RN"
   },
   {
     "nome": "Pedra Preta",
-    "codigo": "2409605"
+    "codigo": "2409605",
+    "uf": "RN"
   },
   {
     "nome": "Pedro Avelino",
-    "codigo": "2409704"
+    "codigo": "2409704",
+    "uf": "RN"
   },
   {
     "nome": "Pedro Velho",
-    "codigo": "2409803"
+    "codigo": "2409803",
+    "uf": "RN"
   },
   {
     "nome": "Pendências",
-    "codigo": "2409902"
+    "codigo": "2409902",
+    "uf": "RN"
   },
   {
     "nome": "Pilões",
-    "codigo": "2410009"
+    "codigo": "2410009",
+    "uf": "RN"
   },
   {
     "nome": "Poço Branco",
-    "codigo": "2410108"
+    "codigo": "2410108",
+    "uf": "RN"
   },
   {
     "nome": "Portalegre",
-    "codigo": "2410207"
+    "codigo": "2410207",
+    "uf": "RN"
   },
   {
     "nome": "Serra Caiada",
-    "codigo": "2410306"
+    "codigo": "2410306",
+    "uf": "RN"
   },
   {
     "nome": "Pureza",
-    "codigo": "2410405"
+    "codigo": "2410405",
+    "uf": "RN"
   },
   {
     "nome": "Rafael Fernandes",
-    "codigo": "2410504"
+    "codigo": "2410504",
+    "uf": "RN"
   },
   {
     "nome": "Riacho da Cruz",
-    "codigo": "2410702"
+    "codigo": "2410702",
+    "uf": "RN"
   },
   {
     "nome": "Riacho de Santana",
-    "codigo": "2410801"
+    "codigo": "2410801",
+    "uf": "RN"
   },
   {
     "nome": "Riachuelo",
-    "codigo": "2410900"
+    "codigo": "2410900",
+    "uf": "RN"
   },
   {
     "nome": "Rodolfo Fernandes",
-    "codigo": "2411007"
+    "codigo": "2411007",
+    "uf": "RN"
   },
   {
     "nome": "Ruy Barbosa",
-    "codigo": "2411106"
+    "codigo": "2411106",
+    "uf": "RN"
   },
   {
     "nome": "São Francisco do Oeste",
-    "codigo": "2411908"
+    "codigo": "2411908",
+    "uf": "RN"
   },
   {
     "nome": "Santa Cruz",
-    "codigo": "2411205"
+    "codigo": "2411205",
+    "uf": "RN"
   },
   {
     "nome": "Santana do Seridó",
-    "codigo": "2411429"
+    "codigo": "2411429",
+    "uf": "RN"
   },
   {
     "nome": "Santana do Matos",
-    "codigo": "2411403"
+    "codigo": "2411403",
+    "uf": "RN"
   },
   {
     "nome": "Santo Antônio",
-    "codigo": "2411502"
+    "codigo": "2411502",
+    "uf": "RN"
   },
   {
     "nome": "São Bento do Norte",
-    "codigo": "2411601"
+    "codigo": "2411601",
+    "uf": "RN"
   },
   {
     "nome": "São Bento do Trairí",
-    "codigo": "2411700"
+    "codigo": "2411700",
+    "uf": "RN"
   },
   {
     "nome": "São Fernando",
-    "codigo": "2411809"
+    "codigo": "2411809",
+    "uf": "RN"
   },
   {
     "nome": "São Gonçalo do Amarante",
-    "codigo": "2412005"
+    "codigo": "2412005",
+    "uf": "RN"
   },
   {
     "nome": "São João do Sabugi",
-    "codigo": "2412104"
+    "codigo": "2412104",
+    "uf": "RN"
   },
   {
     "nome": "São José de Mipibu",
-    "codigo": "2412203"
+    "codigo": "2412203",
+    "uf": "RN"
   },
   {
     "nome": "São José do Campestre",
-    "codigo": "2412302"
+    "codigo": "2412302",
+    "uf": "RN"
   },
   {
     "nome": "São José do Seridó",
-    "codigo": "2412401"
+    "codigo": "2412401",
+    "uf": "RN"
   },
   {
     "nome": "São Miguel",
-    "codigo": "2412500"
+    "codigo": "2412500",
+    "uf": "RN"
   },
   {
     "nome": "São Paulo do Potengi",
-    "codigo": "2412609"
+    "codigo": "2412609",
+    "uf": "RN"
   },
   {
     "nome": "São Pedro",
-    "codigo": "2412708"
+    "codigo": "2412708",
+    "uf": "RN"
   },
   {
     "nome": "São Rafael",
-    "codigo": "2412807"
+    "codigo": "2412807",
+    "uf": "RN"
   },
   {
     "nome": "São Tomé",
-    "codigo": "2412906"
+    "codigo": "2412906",
+    "uf": "RN"
   },
   {
     "nome": "São Vicente",
-    "codigo": "2413003"
+    "codigo": "2413003",
+    "uf": "RN"
   },
   {
     "nome": "Senador Elói de Souza",
-    "codigo": "2413102"
+    "codigo": "2413102",
+    "uf": "RN"
   },
   {
     "nome": "Senador Georgino Avelino",
-    "codigo": "2413201"
+    "codigo": "2413201",
+    "uf": "RN"
   },
   {
     "nome": "Serra de São Bento",
-    "codigo": "2413300"
+    "codigo": "2413300",
+    "uf": "RN"
   },
   {
     "nome": "Serra Negra do Norte",
-    "codigo": "2413409"
+    "codigo": "2413409",
+    "uf": "RN"
   },
   {
     "nome": "Serrinha",
-    "codigo": "2413508"
+    "codigo": "2413508",
+    "uf": "RN"
   },
   {
     "nome": "Severiano Melo",
-    "codigo": "2413607"
+    "codigo": "2413607",
+    "uf": "RN"
   },
   {
     "nome": "Sítio Novo",
-    "codigo": "2413706"
+    "codigo": "2413706",
+    "uf": "RN"
   },
   {
     "nome": "Taboleiro Grande",
-    "codigo": "2413805"
+    "codigo": "2413805",
+    "uf": "RN"
   },
   {
     "nome": "Taipu",
-    "codigo": "2413904"
+    "codigo": "2413904",
+    "uf": "RN"
   },
   {
     "nome": "Tangará",
-    "codigo": "2414001"
+    "codigo": "2414001",
+    "uf": "RN"
   },
   {
     "nome": "Tenente Ananias",
-    "codigo": "2414100"
+    "codigo": "2414100",
+    "uf": "RN"
   },
   {
     "nome": "Tibau do Sul",
-    "codigo": "2414209"
+    "codigo": "2414209",
+    "uf": "RN"
   },
   {
     "nome": "Timbaúba dos Batistas",
-    "codigo": "2414308"
+    "codigo": "2414308",
+    "uf": "RN"
   },
   {
     "nome": "Touros",
-    "codigo": "2414407"
+    "codigo": "2414407",
+    "uf": "RN"
   },
   {
     "nome": "Umarizal",
-    "codigo": "2414506"
+    "codigo": "2414506",
+    "uf": "RN"
   },
   {
     "nome": "Upanema",
-    "codigo": "2414605"
+    "codigo": "2414605",
+    "uf": "RN"
   },
   {
     "nome": "Várzea",
-    "codigo": "2414704"
+    "codigo": "2414704",
+    "uf": "RN"
   },
   {
     "nome": "Rafael Godeiro",
-    "codigo": "2410603"
+    "codigo": "2410603",
+    "uf": "RN"
   },
   {
     "nome": "Vera Cruz",
-    "codigo": "2414803"
+    "codigo": "2414803",
+    "uf": "RN"
   },
   {
     "nome": "Viçosa",
-    "codigo": "2414902"
+    "codigo": "2414902",
+    "uf": "RN"
   },
   {
     "nome": "Vila Flor",
-    "codigo": "2415008"
+    "codigo": "2415008",
+    "uf": "RN"
   },
   {
     "nome": "Água Branca",
-    "codigo": "2500106"
+    "codigo": "2500106",
+    "uf": "PB"
   },
   {
     "nome": "Aguiar",
-    "codigo": "2500205"
+    "codigo": "2500205",
+    "uf": "PB"
   },
   {
     "nome": "Alagoa Grande",
-    "codigo": "2500304"
+    "codigo": "2500304",
+    "uf": "PB"
   },
   {
     "nome": "Alagoa Nova",
-    "codigo": "2500403"
+    "codigo": "2500403",
+    "uf": "PB"
   },
   {
     "nome": "Alagoinha",
-    "codigo": "2500502"
+    "codigo": "2500502",
+    "uf": "PB"
   },
   {
     "nome": "Alhandra",
-    "codigo": "2500601"
+    "codigo": "2500601",
+    "uf": "PB"
   },
   {
     "nome": "São João do Rio do Peixe",
-    "codigo": "2500700"
+    "codigo": "2500700",
+    "uf": "PB"
   },
   {
     "nome": "Araçagi",
-    "codigo": "2500809"
+    "codigo": "2500809",
+    "uf": "PB"
   },
   {
     "nome": "Arara",
-    "codigo": "2500908"
+    "codigo": "2500908",
+    "uf": "PB"
   },
   {
     "nome": "Araruna",
-    "codigo": "2501005"
+    "codigo": "2501005",
+    "uf": "PB"
   },
   {
     "nome": "Areia",
-    "codigo": "2501104"
+    "codigo": "2501104",
+    "uf": "PB"
   },
   {
     "nome": "Areial",
-    "codigo": "2501203"
+    "codigo": "2501203",
+    "uf": "PB"
   },
   {
     "nome": "Aroeiras",
-    "codigo": "2501302"
+    "codigo": "2501302",
+    "uf": "PB"
   },
   {
     "nome": "Serra do Mel",
-    "codigo": "2413359"
+    "codigo": "2413359",
+    "uf": "RN"
   },
   {
     "nome": "Baía da Traição",
-    "codigo": "2501401"
+    "codigo": "2501401",
+    "uf": "PB"
   },
   {
     "nome": "Bananeiras",
-    "codigo": "2501500"
+    "codigo": "2501500",
+    "uf": "PB"
   },
   {
     "nome": "Barra de Santa Rosa",
-    "codigo": "2501609"
+    "codigo": "2501609",
+    "uf": "PB"
   },
   {
     "nome": "Barra de São Miguel",
-    "codigo": "2501708"
+    "codigo": "2501708",
+    "uf": "PB"
   },
   {
     "nome": "Bayeux",
-    "codigo": "2501807"
+    "codigo": "2501807",
+    "uf": "PB"
   },
   {
     "nome": "Belém",
-    "codigo": "2501906"
+    "codigo": "2501906",
+    "uf": "PB"
   },
   {
     "nome": "Belém do Brejo do Cruz",
-    "codigo": "2502003"
+    "codigo": "2502003",
+    "uf": "PB"
   },
   {
     "nome": "Boa Ventura",
-    "codigo": "2502102"
+    "codigo": "2502102",
+    "uf": "PB"
   },
   {
     "nome": "Bom Jesus",
-    "codigo": "2502201"
+    "codigo": "2502201",
+    "uf": "PB"
   },
   {
     "nome": "Bom Sucesso",
-    "codigo": "2502300"
+    "codigo": "2502300",
+    "uf": "PB"
   },
   {
     "nome": "Bonito de Santa Fé",
-    "codigo": "2502409"
+    "codigo": "2502409",
+    "uf": "PB"
   },
   {
     "nome": "Boqueirão",
-    "codigo": "2502508"
+    "codigo": "2502508",
+    "uf": "PB"
   },
   {
     "nome": "Igaracy",
-    "codigo": "2502607"
+    "codigo": "2502607",
+    "uf": "PB"
   },
   {
     "nome": "Borborema",
-    "codigo": "2502706"
+    "codigo": "2502706",
+    "uf": "PB"
   },
   {
     "nome": "Brejo do Cruz",
-    "codigo": "2502805"
+    "codigo": "2502805",
+    "uf": "PB"
   },
   {
     "nome": "Brejo dos Santos",
-    "codigo": "2502904"
+    "codigo": "2502904",
+    "uf": "PB"
   },
   {
     "nome": "Caaporã",
-    "codigo": "2503001"
+    "codigo": "2503001",
+    "uf": "PB"
   },
   {
     "nome": "Cabaceiras",
-    "codigo": "2503100"
+    "codigo": "2503100",
+    "uf": "PB"
   },
   {
     "nome": "Cabedelo",
-    "codigo": "2503209"
+    "codigo": "2503209",
+    "uf": "PB"
   },
   {
     "nome": "Cachoeira dos Índios",
-    "codigo": "2503308"
+    "codigo": "2503308",
+    "uf": "PB"
   },
   {
     "nome": "Cacimba de Areia",
-    "codigo": "2503407"
+    "codigo": "2503407",
+    "uf": "PB"
   },
   {
     "nome": "Cacimba de Dentro",
-    "codigo": "2503506"
+    "codigo": "2503506",
+    "uf": "PB"
   },
   {
     "nome": "Caiçara",
-    "codigo": "2503605"
+    "codigo": "2503605",
+    "uf": "PB"
   },
   {
     "nome": "Cajazeiras",
-    "codigo": "2503704"
+    "codigo": "2503704",
+    "uf": "PB"
   },
   {
     "nome": "Caldas Brandão",
-    "codigo": "2503803"
+    "codigo": "2503803",
+    "uf": "PB"
   },
   {
     "nome": "Camalaú",
-    "codigo": "2503902"
+    "codigo": "2503902",
+    "uf": "PB"
   },
   {
     "nome": "Campina Grande",
-    "codigo": "2504009"
+    "codigo": "2504009",
+    "uf": "PB"
   },
   {
     "nome": "Carrapateira",
-    "codigo": "2504108"
+    "codigo": "2504108",
+    "uf": "PB"
   },
   {
     "nome": "Catingueira",
-    "codigo": "2504207"
+    "codigo": "2504207",
+    "uf": "PB"
   },
   {
     "nome": "Catolé do Rocha",
-    "codigo": "2504306"
+    "codigo": "2504306",
+    "uf": "PB"
   },
   {
     "nome": "Conceição",
-    "codigo": "2504405"
+    "codigo": "2504405",
+    "uf": "PB"
   },
   {
     "nome": "Condado",
-    "codigo": "2504504"
+    "codigo": "2504504",
+    "uf": "PB"
   },
   {
     "nome": "Conde",
-    "codigo": "2504603"
+    "codigo": "2504603",
+    "uf": "PB"
   },
   {
     "nome": "Congo",
-    "codigo": "2504702"
+    "codigo": "2504702",
+    "uf": "PB"
   },
   {
     "nome": "Coremas",
-    "codigo": "2504801"
+    "codigo": "2504801",
+    "uf": "PB"
   },
   {
     "nome": "Cruz do Espírito Santo",
-    "codigo": "2504900"
+    "codigo": "2504900",
+    "uf": "PB"
   },
   {
     "nome": "Cubati",
-    "codigo": "2505006"
+    "codigo": "2505006",
+    "uf": "PB"
   },
   {
     "nome": "Cuité",
-    "codigo": "2505105"
+    "codigo": "2505105",
+    "uf": "PB"
   },
   {
     "nome": "Cuitegi",
-    "codigo": "2505204"
+    "codigo": "2505204",
+    "uf": "PB"
   },
   {
     "nome": "Curral Velho",
-    "codigo": "2505303"
+    "codigo": "2505303",
+    "uf": "PB"
   },
   {
     "nome": "Desterro",
-    "codigo": "2505402"
+    "codigo": "2505402",
+    "uf": "PB"
   },
   {
     "nome": "Vista Serrana",
-    "codigo": "2505501"
+    "codigo": "2505501",
+    "uf": "PB"
   },
   {
     "nome": "Diamante",
-    "codigo": "2505600"
+    "codigo": "2505600",
+    "uf": "PB"
   },
   {
     "nome": "Dona Inês",
-    "codigo": "2505709"
+    "codigo": "2505709",
+    "uf": "PB"
   },
   {
     "nome": "Duas Estradas",
-    "codigo": "2505808"
+    "codigo": "2505808",
+    "uf": "PB"
   },
   {
     "nome": "Emas",
-    "codigo": "2505907"
+    "codigo": "2505907",
+    "uf": "PB"
   },
   {
     "nome": "Esperança",
-    "codigo": "2506004"
+    "codigo": "2506004",
+    "uf": "PB"
   },
   {
     "nome": "Fagundes",
-    "codigo": "2506103"
+    "codigo": "2506103",
+    "uf": "PB"
   },
   {
     "nome": "Frei Martinho",
-    "codigo": "2506202"
+    "codigo": "2506202",
+    "uf": "PB"
   },
   {
     "nome": "Guarabira",
-    "codigo": "2506301"
+    "codigo": "2506301",
+    "uf": "PB"
   },
   {
     "nome": "Gurinhém",
-    "codigo": "2506400"
+    "codigo": "2506400",
+    "uf": "PB"
   },
   {
     "nome": "Gurjão",
-    "codigo": "2506509"
+    "codigo": "2506509",
+    "uf": "PB"
   },
   {
     "nome": "Ibiara",
-    "codigo": "2506608"
+    "codigo": "2506608",
+    "uf": "PB"
   },
   {
     "nome": "Imaculada",
-    "codigo": "2506707"
+    "codigo": "2506707",
+    "uf": "PB"
   },
   {
     "nome": "Ingá",
-    "codigo": "2506806"
+    "codigo": "2506806",
+    "uf": "PB"
   },
   {
     "nome": "Itabaiana",
-    "codigo": "2506905"
+    "codigo": "2506905",
+    "uf": "PB"
   },
   {
     "nome": "Itaporanga",
-    "codigo": "2507002"
+    "codigo": "2507002",
+    "uf": "PB"
   },
   {
     "nome": "Itapororoca",
-    "codigo": "2507101"
+    "codigo": "2507101",
+    "uf": "PB"
   },
   {
     "nome": "Itatuba",
-    "codigo": "2507200"
+    "codigo": "2507200",
+    "uf": "PB"
   },
   {
     "nome": "Jacaraú",
-    "codigo": "2507309"
+    "codigo": "2507309",
+    "uf": "PB"
   },
   {
     "nome": "Jericó",
-    "codigo": "2507408"
+    "codigo": "2507408",
+    "uf": "PB"
   },
   {
     "nome": "João Pessoa",
-    "codigo": "2507507"
+    "codigo": "2507507",
+    "uf": "PB"
   },
   {
     "nome": "Juarez Távora",
-    "codigo": "2507606"
+    "codigo": "2507606",
+    "uf": "PB"
   },
   {
     "nome": "Juazeirinho",
-    "codigo": "2507705"
+    "codigo": "2507705",
+    "uf": "PB"
   },
   {
     "nome": "Junco do Seridó",
-    "codigo": "2507804"
+    "codigo": "2507804",
+    "uf": "PB"
   },
   {
     "nome": "Juripiranga",
-    "codigo": "2507903"
+    "codigo": "2507903",
+    "uf": "PB"
   },
   {
     "nome": "Juru",
-    "codigo": "2508000"
+    "codigo": "2508000",
+    "uf": "PB"
   },
   {
     "nome": "Lagoa",
-    "codigo": "2508109"
+    "codigo": "2508109",
+    "uf": "PB"
   },
   {
     "nome": "Lagoa de Dentro",
-    "codigo": "2508208"
+    "codigo": "2508208",
+    "uf": "PB"
   },
   {
     "nome": "Lagoa Seca",
-    "codigo": "2508307"
+    "codigo": "2508307",
+    "uf": "PB"
   },
   {
     "nome": "Lastro",
-    "codigo": "2508406"
+    "codigo": "2508406",
+    "uf": "PB"
   },
   {
     "nome": "Livramento",
-    "codigo": "2508505"
+    "codigo": "2508505",
+    "uf": "PB"
   },
   {
     "nome": "Lucena",
-    "codigo": "2508604"
+    "codigo": "2508604",
+    "uf": "PB"
   },
   {
     "nome": "Mãe d'Água",
-    "codigo": "2508703"
+    "codigo": "2508703",
+    "uf": "PB"
   },
   {
     "nome": "Malta",
-    "codigo": "2508802"
+    "codigo": "2508802",
+    "uf": "PB"
   },
   {
     "nome": "Mamanguape",
-    "codigo": "2508901"
+    "codigo": "2508901",
+    "uf": "PB"
   },
   {
     "nome": "Manaíra",
-    "codigo": "2509008"
+    "codigo": "2509008",
+    "uf": "PB"
   },
   {
     "nome": "Mari",
-    "codigo": "2509107"
+    "codigo": "2509107",
+    "uf": "PB"
   },
   {
     "nome": "Massaranduba",
-    "codigo": "2509206"
+    "codigo": "2509206",
+    "uf": "PB"
   },
   {
     "nome": "Mataraca",
-    "codigo": "2509305"
+    "codigo": "2509305",
+    "uf": "PB"
   },
   {
     "nome": "Mogeiro",
-    "codigo": "2509404"
+    "codigo": "2509404",
+    "uf": "PB"
   },
   {
     "nome": "Montadas",
-    "codigo": "2509503"
+    "codigo": "2509503",
+    "uf": "PB"
   },
   {
     "nome": "Monte Horebe",
-    "codigo": "2509602"
+    "codigo": "2509602",
+    "uf": "PB"
   },
   {
     "nome": "Monteiro",
-    "codigo": "2509701"
+    "codigo": "2509701",
+    "uf": "PB"
   },
   {
     "nome": "Mulungu",
-    "codigo": "2509800"
+    "codigo": "2509800",
+    "uf": "PB"
   },
   {
     "nome": "Natuba",
-    "codigo": "2509909"
+    "codigo": "2509909",
+    "uf": "PB"
   },
   {
     "nome": "Nazarezinho",
-    "codigo": "2510006"
+    "codigo": "2510006",
+    "uf": "PB"
   },
   {
     "nome": "Nova Floresta",
-    "codigo": "2510105"
+    "codigo": "2510105",
+    "uf": "PB"
   },
   {
     "nome": "Nova Olinda",
-    "codigo": "2510204"
+    "codigo": "2510204",
+    "uf": "PB"
   },
   {
     "nome": "Nova Palmeira",
-    "codigo": "2510303"
+    "codigo": "2510303",
+    "uf": "PB"
   },
   {
     "nome": "Olho d'Água",
-    "codigo": "2510402"
+    "codigo": "2510402",
+    "uf": "PB"
   },
   {
     "nome": "Olivedos",
-    "codigo": "2510501"
+    "codigo": "2510501",
+    "uf": "PB"
   },
   {
     "nome": "Ouro Velho",
-    "codigo": "2510600"
+    "codigo": "2510600",
+    "uf": "PB"
   },
   {
     "nome": "Passagem",
-    "codigo": "2510709"
+    "codigo": "2510709",
+    "uf": "PB"
   },
   {
     "nome": "Patos",
-    "codigo": "2510808"
+    "codigo": "2510808",
+    "uf": "PB"
   },
   {
     "nome": "Paulista",
-    "codigo": "2510907"
+    "codigo": "2510907",
+    "uf": "PB"
   },
   {
     "nome": "Pedra Branca",
-    "codigo": "2511004"
+    "codigo": "2511004",
+    "uf": "PB"
   },
   {
     "nome": "Pedra Lavrada",
-    "codigo": "2511103"
+    "codigo": "2511103",
+    "uf": "PB"
   },
   {
     "nome": "Pedras de Fogo",
-    "codigo": "2511202"
+    "codigo": "2511202",
+    "uf": "PB"
   },
   {
     "nome": "Piancó",
-    "codigo": "2511301"
+    "codigo": "2511301",
+    "uf": "PB"
   },
   {
     "nome": "Picuí",
-    "codigo": "2511400"
+    "codigo": "2511400",
+    "uf": "PB"
   },
   {
     "nome": "Pilar",
-    "codigo": "2511509"
+    "codigo": "2511509",
+    "uf": "PB"
   },
   {
     "nome": "Pilões",
-    "codigo": "2511608"
+    "codigo": "2511608",
+    "uf": "PB"
   },
   {
     "nome": "Pilõezinhos",
-    "codigo": "2511707"
+    "codigo": "2511707",
+    "uf": "PB"
   },
   {
     "nome": "Pirpirituba",
-    "codigo": "2511806"
+    "codigo": "2511806",
+    "uf": "PB"
   },
   {
     "nome": "Pitimbu",
-    "codigo": "2511905"
+    "codigo": "2511905",
+    "uf": "PB"
   },
   {
     "nome": "Pocinhos",
-    "codigo": "2512002"
+    "codigo": "2512002",
+    "uf": "PB"
   },
   {
     "nome": "Pombal",
-    "codigo": "2512101"
+    "codigo": "2512101",
+    "uf": "PB"
   },
   {
     "nome": "Prata",
-    "codigo": "2512200"
+    "codigo": "2512200",
+    "uf": "PB"
   },
   {
     "nome": "Princesa Isabel",
-    "codigo": "2512309"
+    "codigo": "2512309",
+    "uf": "PB"
   },
   {
     "nome": "Puxinanã",
-    "codigo": "2512408"
+    "codigo": "2512408",
+    "uf": "PB"
   },
   {
     "nome": "Queimadas",
-    "codigo": "2512507"
+    "codigo": "2512507",
+    "uf": "PB"
   },
   {
     "nome": "Quixaba",
-    "codigo": "2512606"
+    "codigo": "2512606",
+    "uf": "PB"
   },
   {
     "nome": "Remígio",
-    "codigo": "2512705"
+    "codigo": "2512705",
+    "uf": "PB"
   },
   {
     "nome": "Riacho dos Cavalos",
-    "codigo": "2512804"
+    "codigo": "2512804",
+    "uf": "PB"
   },
   {
     "nome": "Rio Tinto",
-    "codigo": "2512903"
+    "codigo": "2512903",
+    "uf": "PB"
   },
   {
     "nome": "Salgadinho",
-    "codigo": "2513000"
+    "codigo": "2513000",
+    "uf": "PB"
   },
   {
     "nome": "Salgado de São Félix",
-    "codigo": "2513109"
+    "codigo": "2513109",
+    "uf": "PB"
   },
   {
     "nome": "Santa Cruz",
-    "codigo": "2513208"
+    "codigo": "2513208",
+    "uf": "PB"
   },
   {
     "nome": "Santa Helena",
-    "codigo": "2513307"
+    "codigo": "2513307",
+    "uf": "PB"
   },
   {
     "nome": "Santa Luzia",
-    "codigo": "2513406"
+    "codigo": "2513406",
+    "uf": "PB"
   },
   {
     "nome": "Santana de Mangueira",
-    "codigo": "2513505"
+    "codigo": "2513505",
+    "uf": "PB"
   },
   {
     "nome": "Santana dos Garrotes",
-    "codigo": "2513604"
+    "codigo": "2513604",
+    "uf": "PB"
   },
   {
     "nome": "Santa Rita",
-    "codigo": "2513703"
+    "codigo": "2513703",
+    "uf": "PB"
   },
   {
     "nome": "Santa Teresinha",
-    "codigo": "2513802"
+    "codigo": "2513802",
+    "uf": "PB"
   },
   {
     "nome": "São Bento",
-    "codigo": "2513901"
+    "codigo": "2513901",
+    "uf": "PB"
   },
   {
     "nome": "São João do Cariri",
-    "codigo": "2514008"
+    "codigo": "2514008",
+    "uf": "PB"
   },
   {
     "nome": "São João do Tigre",
-    "codigo": "2514107"
+    "codigo": "2514107",
+    "uf": "PB"
   },
   {
     "nome": "São José da Lagoa Tapada",
-    "codigo": "2514206"
+    "codigo": "2514206",
+    "uf": "PB"
   },
   {
     "nome": "São José de Caiana",
-    "codigo": "2514305"
+    "codigo": "2514305",
+    "uf": "PB"
   },
   {
     "nome": "São José de Espinharas",
-    "codigo": "2514404"
+    "codigo": "2514404",
+    "uf": "PB"
   },
   {
     "nome": "São José de Piranhas",
-    "codigo": "2514503"
+    "codigo": "2514503",
+    "uf": "PB"
   },
   {
     "nome": "São José do Bonfim",
-    "codigo": "2514602"
+    "codigo": "2514602",
+    "uf": "PB"
   },
   {
     "nome": "São José do Sabugi",
-    "codigo": "2514701"
+    "codigo": "2514701",
+    "uf": "PB"
   },
   {
     "nome": "São José dos Cordeiros",
-    "codigo": "2514800"
+    "codigo": "2514800",
+    "uf": "PB"
   },
   {
     "nome": "São Mamede",
-    "codigo": "2514909"
+    "codigo": "2514909",
+    "uf": "PB"
   },
   {
     "nome": "São Miguel de Taipu",
-    "codigo": "2515005"
+    "codigo": "2515005",
+    "uf": "PB"
   },
   {
     "nome": "São Sebastião de Lagoa de Roça",
-    "codigo": "2515104"
+    "codigo": "2515104",
+    "uf": "PB"
   },
   {
     "nome": "São Sebastião do Umbuzeiro",
-    "codigo": "2515203"
+    "codigo": "2515203",
+    "uf": "PB"
   },
   {
     "nome": "Sapé",
-    "codigo": "2515302"
+    "codigo": "2515302",
+    "uf": "PB"
   },
   {
     "nome": "São Vicente do Seridó",
-    "codigo": "2515401"
+    "codigo": "2515401",
+    "uf": "PB"
   },
   {
     "nome": "Serra Branca",
-    "codigo": "2515500"
+    "codigo": "2515500",
+    "uf": "PB"
   },
   {
     "nome": "Serra da Raiz",
-    "codigo": "2515609"
+    "codigo": "2515609",
+    "uf": "PB"
   },
   {
     "nome": "Serra Grande",
-    "codigo": "2515708"
+    "codigo": "2515708",
+    "uf": "PB"
   },
   {
     "nome": "Serra Redonda",
-    "codigo": "2515807"
+    "codigo": "2515807",
+    "uf": "PB"
   },
   {
     "nome": "Serraria",
-    "codigo": "2515906"
+    "codigo": "2515906",
+    "uf": "PB"
   },
   {
     "nome": "Solânea",
-    "codigo": "2516003"
+    "codigo": "2516003",
+    "uf": "PB"
   },
   {
     "nome": "Soledade",
-    "codigo": "2516102"
+    "codigo": "2516102",
+    "uf": "PB"
   },
   {
     "nome": "Sousa",
-    "codigo": "2516201"
+    "codigo": "2516201",
+    "uf": "PB"
   },
   {
     "nome": "Sumé",
-    "codigo": "2516300"
+    "codigo": "2516300",
+    "uf": "PB"
   },
   {
     "nome": "Tacima",
-    "codigo": "2516409"
+    "codigo": "2516409",
+    "uf": "PB"
   },
   {
     "nome": "Taperoá",
-    "codigo": "2516508"
+    "codigo": "2516508",
+    "uf": "PB"
   },
   {
     "nome": "Tavares",
-    "codigo": "2516607"
+    "codigo": "2516607",
+    "uf": "PB"
   },
   {
     "nome": "Teixeira",
-    "codigo": "2516706"
+    "codigo": "2516706",
+    "uf": "PB"
   },
   {
     "nome": "Triunfo",
-    "codigo": "2516805"
+    "codigo": "2516805",
+    "uf": "PB"
   },
   {
     "nome": "Uiraúna",
-    "codigo": "2516904"
+    "codigo": "2516904",
+    "uf": "PB"
   },
   {
     "nome": "Umbuzeiro",
-    "codigo": "2517001"
+    "codigo": "2517001",
+    "uf": "PB"
   },
   {
     "nome": "Várzea",
-    "codigo": "2517100"
+    "codigo": "2517100",
+    "uf": "PB"
   },
   {
     "nome": "Baixa Grande do Ribeiro",
-    "codigo": "2201150"
+    "codigo": "2201150",
+    "uf": "PI"
   },
   {
     "nome": "Canavieira",
-    "codigo": "2202251"
+    "codigo": "2202251",
+    "uf": "PI"
   },
   {
     "nome": "Colônia do Gurguéia",
-    "codigo": "2202752"
+    "codigo": "2202752",
+    "uf": "PI"
   },
   {
     "nome": "Bonfim do Piauí",
-    "codigo": "2201929"
+    "codigo": "2201929",
+    "uf": "PI"
   },
   {
     "nome": "Colônia do Piauí",
-    "codigo": "2202778"
+    "codigo": "2202778",
+    "uf": "PI"
   },
   {
     "nome": "Coronel José Dias",
-    "codigo": "2202851"
+    "codigo": "2202851",
+    "uf": "PI"
   },
   {
     "nome": "Fartura do Piauí",
-    "codigo": "2203750"
+    "codigo": "2203750",
+    "uf": "PI"
   },
   {
     "nome": "Lagoa do Barro do Piauí",
-    "codigo": "2205565"
+    "codigo": "2205565",
+    "uf": "PI"
   },
   {
     "nome": "Santa Rosa do Piauí",
-    "codigo": "2209377"
+    "codigo": "2209377",
+    "uf": "PI"
   },
   {
     "nome": "São Braz do Piauí",
-    "codigo": "2209559"
+    "codigo": "2209559",
+    "uf": "PI"
   },
   {
     "nome": "São Lourenço do Piauí",
-    "codigo": "2210359"
+    "codigo": "2210359",
+    "uf": "PI"
   },
   {
     "nome": "Várzea Branca",
-    "codigo": "2211357"
+    "codigo": "2211357",
+    "uf": "PI"
   },
   {
     "nome": "Alegrete do Piauí",
-    "codigo": "2200277"
+    "codigo": "2200277",
+    "uf": "PI"
   },
   {
     "nome": "Caldeirão Grande do Piauí",
-    "codigo": "2202091"
+    "codigo": "2202091",
+    "uf": "PI"
   },
   {
     "nome": "Jacobina do Piauí",
-    "codigo": "2205151"
+    "codigo": "2205151",
+    "uf": "PI"
   },
   {
     "nome": "Marcolândia",
-    "codigo": "2205953"
+    "codigo": "2205953",
+    "uf": "PI"
   },
   {
     "nome": "Patos do Piauí",
-    "codigo": "2207777"
+    "codigo": "2207777",
+    "uf": "PI"
   },
   {
     "nome": "Queimada Nova",
-    "codigo": "2208650"
+    "codigo": "2208650",
+    "uf": "PI"
   },
   {
     "nome": "Santana do Piauí",
-    "codigo": "2209351"
+    "codigo": "2209351",
+    "uf": "PI"
   },
   {
     "nome": "Brasileira",
-    "codigo": "2201960"
+    "codigo": "2201960",
+    "uf": "PI"
   },
   {
     "nome": "São José do Divino",
-    "codigo": "2210052"
+    "codigo": "2210052",
+    "uf": "PI"
   },
   {
     "nome": "Bom Princípio do Piauí",
-    "codigo": "2201919"
+    "codigo": "2201919",
+    "uf": "PI"
   },
   {
     "nome": "Lagoa do Carro",
-    "codigo": "2608453"
+    "codigo": "2608453",
+    "uf": "PE"
   },
   {
     "nome": "Vertente do Lério",
-    "codigo": "2616183"
+    "codigo": "2616183",
+    "uf": "PE"
   },
   {
     "nome": "Xexéu",
-    "codigo": "2616506"
+    "codigo": "2616506",
+    "uf": "PE"
   },
   {
     "nome": "Jucati",
-    "codigo": "2608255"
+    "codigo": "2608255",
+    "uf": "PE"
   },
   {
     "nome": "Santa Cruz",
-    "codigo": "2612455"
+    "codigo": "2612455",
+    "uf": "PE"
   },
   {
     "nome": "Dormentes",
-    "codigo": "2605152"
+    "codigo": "2605152",
+    "uf": "PE"
   },
   {
     "nome": "Afogados da Ingazeira",
-    "codigo": "2600104"
+    "codigo": "2600104",
+    "uf": "PE"
   },
   {
     "nome": "Afrânio",
-    "codigo": "2600203"
+    "codigo": "2600203",
+    "uf": "PE"
   },
   {
     "nome": "Agrestina",
-    "codigo": "2600302"
+    "codigo": "2600302",
+    "uf": "PE"
   },
   {
     "nome": "Água Preta",
-    "codigo": "2600401"
+    "codigo": "2600401",
+    "uf": "PE"
   },
   {
     "nome": "Águas Belas",
-    "codigo": "2600500"
+    "codigo": "2600500",
+    "uf": "PE"
   },
   {
     "nome": "Alagoinha",
-    "codigo": "2600609"
+    "codigo": "2600609",
+    "uf": "PE"
   },
   {
     "nome": "Aliança",
-    "codigo": "2600708"
+    "codigo": "2600708",
+    "uf": "PE"
   },
   {
     "nome": "Altinho",
-    "codigo": "2600807"
+    "codigo": "2600807",
+    "uf": "PE"
   },
   {
     "nome": "Amaraji",
-    "codigo": "2600906"
+    "codigo": "2600906",
+    "uf": "PE"
   },
   {
     "nome": "Angelim",
-    "codigo": "2601003"
+    "codigo": "2601003",
+    "uf": "PE"
   },
   {
     "nome": "Araripina",
-    "codigo": "2601102"
+    "codigo": "2601102",
+    "uf": "PE"
   },
   {
     "nome": "Arcoverde",
-    "codigo": "2601201"
+    "codigo": "2601201",
+    "uf": "PE"
   },
   {
     "nome": "Barra de Guabiraba",
-    "codigo": "2601300"
+    "codigo": "2601300",
+    "uf": "PE"
   },
   {
     "nome": "Barreiros",
-    "codigo": "2601409"
+    "codigo": "2601409",
+    "uf": "PE"
   },
   {
     "nome": "Belém de Maria",
-    "codigo": "2601508"
+    "codigo": "2601508",
+    "uf": "PE"
   },
   {
     "nome": "Belém do São Francisco",
-    "codigo": "2601607"
+    "codigo": "2601607",
+    "uf": "PE"
   },
   {
     "nome": "Belo Jardim",
-    "codigo": "2601706"
+    "codigo": "2601706",
+    "uf": "PE"
   },
   {
     "nome": "Betânia",
-    "codigo": "2601805"
+    "codigo": "2601805",
+    "uf": "PE"
   },
   {
     "nome": "Bezerros",
-    "codigo": "2601904"
+    "codigo": "2601904",
+    "uf": "PE"
   },
   {
     "nome": "Bodocó",
-    "codigo": "2602001"
+    "codigo": "2602001",
+    "uf": "PE"
   },
   {
     "nome": "Bom Conselho",
-    "codigo": "2602100"
+    "codigo": "2602100",
+    "uf": "PE"
   },
   {
     "nome": "Bom Jardim",
-    "codigo": "2602209"
+    "codigo": "2602209",
+    "uf": "PE"
   },
   {
     "nome": "Bonito",
-    "codigo": "2602308"
+    "codigo": "2602308",
+    "uf": "PE"
   },
   {
     "nome": "Brejão",
-    "codigo": "2602407"
+    "codigo": "2602407",
+    "uf": "PE"
   },
   {
     "nome": "Brejinho",
-    "codigo": "2602506"
+    "codigo": "2602506",
+    "uf": "PE"
   },
   {
     "nome": "Brejo da Madre de Deus",
-    "codigo": "2602605"
+    "codigo": "2602605",
+    "uf": "PE"
   },
   {
     "nome": "Buenos Aires",
-    "codigo": "2602704"
+    "codigo": "2602704",
+    "uf": "PE"
   },
   {
     "nome": "Buíque",
-    "codigo": "2602803"
+    "codigo": "2602803",
+    "uf": "PE"
   },
   {
     "nome": "Cabo de Santo Agostinho",
-    "codigo": "2602902"
+    "codigo": "2602902",
+    "uf": "PE"
   },
   {
     "nome": "Cabrobó",
-    "codigo": "2603009"
+    "codigo": "2603009",
+    "uf": "PE"
   },
   {
     "nome": "Cachoeirinha",
-    "codigo": "2603108"
+    "codigo": "2603108",
+    "uf": "PE"
   },
   {
     "nome": "Caetés",
-    "codigo": "2603207"
+    "codigo": "2603207",
+    "uf": "PE"
   },
   {
     "nome": "Calçado",
-    "codigo": "2603306"
+    "codigo": "2603306",
+    "uf": "PE"
   },
   {
     "nome": "Calumbi",
-    "codigo": "2603405"
+    "codigo": "2603405",
+    "uf": "PE"
   },
   {
     "nome": "Camocim de São Félix",
-    "codigo": "2603504"
+    "codigo": "2603504",
+    "uf": "PE"
   },
   {
     "nome": "Camutanga",
-    "codigo": "2603603"
+    "codigo": "2603603",
+    "uf": "PE"
   },
   {
     "nome": "Canhotinho",
-    "codigo": "2603702"
+    "codigo": "2603702",
+    "uf": "PE"
   },
   {
     "nome": "Capoeiras",
-    "codigo": "2603801"
+    "codigo": "2603801",
+    "uf": "PE"
   },
   {
     "nome": "Carnaíba",
-    "codigo": "2603900"
+    "codigo": "2603900",
+    "uf": "PE"
   },
   {
     "nome": "Carpina",
-    "codigo": "2604007"
+    "codigo": "2604007",
+    "uf": "PE"
   },
   {
     "nome": "Caruaru",
-    "codigo": "2604106"
+    "codigo": "2604106",
+    "uf": "PE"
   },
   {
     "nome": "Catende",
-    "codigo": "2604205"
+    "codigo": "2604205",
+    "uf": "PE"
   },
   {
     "nome": "Cedro",
-    "codigo": "2604304"
+    "codigo": "2604304",
+    "uf": "PE"
   },
   {
     "nome": "Chã de Alegria",
-    "codigo": "2604403"
+    "codigo": "2604403",
+    "uf": "PE"
   },
   {
     "nome": "Chã Grande",
-    "codigo": "2604502"
+    "codigo": "2604502",
+    "uf": "PE"
   },
   {
     "nome": "Condado",
-    "codigo": "2604601"
+    "codigo": "2604601",
+    "uf": "PE"
   },
   {
     "nome": "Correntes",
-    "codigo": "2604700"
+    "codigo": "2604700",
+    "uf": "PE"
   },
   {
     "nome": "Cortês",
-    "codigo": "2604809"
+    "codigo": "2604809",
+    "uf": "PE"
   },
   {
     "nome": "Cumaru",
-    "codigo": "2604908"
+    "codigo": "2604908",
+    "uf": "PE"
   },
   {
     "nome": "Cupira",
-    "codigo": "2605004"
+    "codigo": "2605004",
+    "uf": "PE"
   },
   {
     "nome": "Custódia",
-    "codigo": "2605103"
+    "codigo": "2605103",
+    "uf": "PE"
   },
   {
     "nome": "Escada",
-    "codigo": "2605202"
+    "codigo": "2605202",
+    "uf": "PE"
   },
   {
     "nome": "Exu",
-    "codigo": "2605301"
+    "codigo": "2605301",
+    "uf": "PE"
   },
   {
     "nome": "Feira Nova",
-    "codigo": "2605400"
+    "codigo": "2605400",
+    "uf": "PE"
   },
   {
     "nome": "Ferreiros",
-    "codigo": "2605509"
+    "codigo": "2605509",
+    "uf": "PE"
   },
   {
     "nome": "Flores",
-    "codigo": "2605608"
+    "codigo": "2605608",
+    "uf": "PE"
   },
   {
     "nome": "Floresta",
-    "codigo": "2605707"
+    "codigo": "2605707",
+    "uf": "PE"
   },
   {
     "nome": "Frei Miguelinho",
-    "codigo": "2605806"
+    "codigo": "2605806",
+    "uf": "PE"
   },
   {
     "nome": "Gameleira",
-    "codigo": "2605905"
+    "codigo": "2605905",
+    "uf": "PE"
   },
   {
     "nome": "Garanhuns",
-    "codigo": "2606002"
+    "codigo": "2606002",
+    "uf": "PE"
   },
   {
     "nome": "Glória do Goitá",
-    "codigo": "2606101"
+    "codigo": "2606101",
+    "uf": "PE"
   },
   {
     "nome": "Goiana",
-    "codigo": "2606200"
+    "codigo": "2606200",
+    "uf": "PE"
   },
   {
     "nome": "Granito",
-    "codigo": "2606309"
+    "codigo": "2606309",
+    "uf": "PE"
   },
   {
     "nome": "Gravatá",
-    "codigo": "2606408"
+    "codigo": "2606408",
+    "uf": "PE"
   },
   {
     "nome": "Iati",
-    "codigo": "2606507"
+    "codigo": "2606507",
+    "uf": "PE"
   },
   {
     "nome": "Ibimirim",
-    "codigo": "2606606"
+    "codigo": "2606606",
+    "uf": "PE"
   },
   {
     "nome": "Ibirajuba",
-    "codigo": "2606705"
+    "codigo": "2606705",
+    "uf": "PE"
   },
   {
     "nome": "Igarassu",
-    "codigo": "2606804"
+    "codigo": "2606804",
+    "uf": "PE"
   },
   {
     "nome": "Iguaracy",
-    "codigo": "2606903"
+    "codigo": "2606903",
+    "uf": "PE"
   },
   {
     "nome": "Inajá",
-    "codigo": "2607000"
+    "codigo": "2607000",
+    "uf": "PE"
   },
   {
     "nome": "Ingazeira",
-    "codigo": "2607109"
+    "codigo": "2607109",
+    "uf": "PE"
   },
   {
     "nome": "Ipojuca",
-    "codigo": "2607208"
+    "codigo": "2607208",
+    "uf": "PE"
   },
   {
     "nome": "Ipubi",
-    "codigo": "2607307"
+    "codigo": "2607307",
+    "uf": "PE"
   },
   {
     "nome": "Itacuruba",
-    "codigo": "2607406"
+    "codigo": "2607406",
+    "uf": "PE"
   },
   {
     "nome": "Itaíba",
-    "codigo": "2607505"
+    "codigo": "2607505",
+    "uf": "PE"
   },
   {
     "nome": "Ilha de Itamaracá",
-    "codigo": "2607604"
+    "codigo": "2607604",
+    "uf": "PE"
   },
   {
     "nome": "Itapetim",
-    "codigo": "2607703"
+    "codigo": "2607703",
+    "uf": "PE"
   },
   {
     "nome": "Itaquitinga",
-    "codigo": "2607802"
+    "codigo": "2607802",
+    "uf": "PE"
   },
   {
     "nome": "Jaboatão dos Guararapes",
-    "codigo": "2607901"
+    "codigo": "2607901",
+    "uf": "PE"
   },
   {
     "nome": "Jataúba",
-    "codigo": "2608008"
+    "codigo": "2608008",
+    "uf": "PE"
   },
   {
     "nome": "João Alfredo",
-    "codigo": "2608107"
+    "codigo": "2608107",
+    "uf": "PE"
   },
   {
     "nome": "Joaquim Nabuco",
-    "codigo": "2608206"
+    "codigo": "2608206",
+    "uf": "PE"
   },
   {
     "nome": "Jupi",
-    "codigo": "2608305"
+    "codigo": "2608305",
+    "uf": "PE"
   },
   {
     "nome": "Jurema",
-    "codigo": "2608404"
+    "codigo": "2608404",
+    "uf": "PE"
   },
   {
     "nome": "Lagoa de Itaenga",
-    "codigo": "2608503"
+    "codigo": "2608503",
+    "uf": "PE"
   },
   {
     "nome": "Lagoa do Ouro",
-    "codigo": "2608602"
+    "codigo": "2608602",
+    "uf": "PE"
   },
   {
     "nome": "Lagoa dos Gatos",
-    "codigo": "2608701"
+    "codigo": "2608701",
+    "uf": "PE"
   },
   {
     "nome": "Lajedo",
-    "codigo": "2608800"
+    "codigo": "2608800",
+    "uf": "PE"
   },
   {
     "nome": "Limoeiro",
-    "codigo": "2608909"
+    "codigo": "2608909",
+    "uf": "PE"
   },
   {
     "nome": "Macaparana",
-    "codigo": "2609006"
+    "codigo": "2609006",
+    "uf": "PE"
   },
   {
     "nome": "Machados",
-    "codigo": "2609105"
+    "codigo": "2609105",
+    "uf": "PE"
   },
   {
     "nome": "Maraial",
-    "codigo": "2609204"
+    "codigo": "2609204",
+    "uf": "PE"
   },
   {
     "nome": "Mirandiba",
-    "codigo": "2609303"
+    "codigo": "2609303",
+    "uf": "PE"
   },
   {
     "nome": "Moreno",
-    "codigo": "2609402"
+    "codigo": "2609402",
+    "uf": "PE"
   },
   {
     "nome": "Nazaré da Mata",
-    "codigo": "2609501"
+    "codigo": "2609501",
+    "uf": "PE"
   },
   {
     "nome": "Olinda",
-    "codigo": "2609600"
+    "codigo": "2609600",
+    "uf": "PE"
   },
   {
     "nome": "Orobó",
-    "codigo": "2609709"
+    "codigo": "2609709",
+    "uf": "PE"
   },
   {
     "nome": "Orocó",
-    "codigo": "2609808"
+    "codigo": "2609808",
+    "uf": "PE"
   },
   {
     "nome": "Ouricuri",
-    "codigo": "2609907"
+    "codigo": "2609907",
+    "uf": "PE"
   },
   {
     "nome": "Palmares",
-    "codigo": "2610004"
+    "codigo": "2610004",
+    "uf": "PE"
   },
   {
     "nome": "Palmeirina",
-    "codigo": "2610103"
+    "codigo": "2610103",
+    "uf": "PE"
   },
   {
     "nome": "Panelas",
-    "codigo": "2610202"
+    "codigo": "2610202",
+    "uf": "PE"
   },
   {
     "nome": "Paranatama",
-    "codigo": "2610301"
+    "codigo": "2610301",
+    "uf": "PE"
   },
   {
     "nome": "Parnamirim",
-    "codigo": "2610400"
+    "codigo": "2610400",
+    "uf": "PE"
   },
   {
     "nome": "Passira",
-    "codigo": "2610509"
+    "codigo": "2610509",
+    "uf": "PE"
   },
   {
     "nome": "Paudalho",
-    "codigo": "2610608"
+    "codigo": "2610608",
+    "uf": "PE"
   },
   {
     "nome": "Paulista",
-    "codigo": "2610707"
+    "codigo": "2610707",
+    "uf": "PE"
   },
   {
     "nome": "Pedra",
-    "codigo": "2610806"
+    "codigo": "2610806",
+    "uf": "PE"
   },
   {
     "nome": "Pesqueira",
-    "codigo": "2610905"
+    "codigo": "2610905",
+    "uf": "PE"
   },
   {
     "nome": "Petrolândia",
-    "codigo": "2611002"
+    "codigo": "2611002",
+    "uf": "PE"
   },
   {
     "nome": "Petrolina",
-    "codigo": "2611101"
+    "codigo": "2611101",
+    "uf": "PE"
   },
   {
     "nome": "Poção",
-    "codigo": "2611200"
+    "codigo": "2611200",
+    "uf": "PE"
   },
   {
     "nome": "Pombos",
-    "codigo": "2611309"
+    "codigo": "2611309",
+    "uf": "PE"
   },
   {
     "nome": "Primavera",
-    "codigo": "2611408"
+    "codigo": "2611408",
+    "uf": "PE"
   },
   {
     "nome": "Quipapá",
-    "codigo": "2611507"
+    "codigo": "2611507",
+    "uf": "PE"
   },
   {
     "nome": "Recife",
-    "codigo": "2611606"
+    "codigo": "2611606",
+    "uf": "PE"
   },
   {
     "nome": "Riacho das Almas",
-    "codigo": "2611705"
+    "codigo": "2611705",
+    "uf": "PE"
   },
   {
     "nome": "Ribeirão",
-    "codigo": "2611804"
+    "codigo": "2611804",
+    "uf": "PE"
   },
   {
     "nome": "Rio Formoso",
-    "codigo": "2611903"
+    "codigo": "2611903",
+    "uf": "PE"
   },
   {
     "nome": "Sairé",
-    "codigo": "2612000"
+    "codigo": "2612000",
+    "uf": "PE"
   },
   {
     "nome": "Salgadinho",
-    "codigo": "2612109"
+    "codigo": "2612109",
+    "uf": "PE"
   },
   {
     "nome": "Salgueiro",
-    "codigo": "2612208"
+    "codigo": "2612208",
+    "uf": "PE"
   },
   {
     "nome": "Saloá",
-    "codigo": "2612307"
+    "codigo": "2612307",
+    "uf": "PE"
   },
   {
     "nome": "Sanharó",
-    "codigo": "2612406"
+    "codigo": "2612406",
+    "uf": "PE"
   },
   {
     "nome": "Santa Cruz do Capibaribe",
-    "codigo": "2612505"
+    "codigo": "2612505",
+    "uf": "PE"
   },
   {
     "nome": "Santa Maria da Boa Vista",
-    "codigo": "2612604"
+    "codigo": "2612604",
+    "uf": "PE"
   },
   {
     "nome": "Santa Maria do Cambucá",
-    "codigo": "2612703"
+    "codigo": "2612703",
+    "uf": "PE"
   },
   {
     "nome": "Santa Terezinha",
-    "codigo": "2612802"
+    "codigo": "2612802",
+    "uf": "PE"
   },
   {
     "nome": "São Benedito do Sul",
-    "codigo": "2612901"
+    "codigo": "2612901",
+    "uf": "PE"
   },
   {
     "nome": "São Bento do Una",
-    "codigo": "2613008"
+    "codigo": "2613008",
+    "uf": "PE"
   },
   {
     "nome": "São Caitano",
-    "codigo": "2613107"
+    "codigo": "2613107",
+    "uf": "PE"
   },
   {
     "nome": "São João",
-    "codigo": "2613206"
+    "codigo": "2613206",
+    "uf": "PE"
   },
   {
     "nome": "São Joaquim do Monte",
-    "codigo": "2613305"
+    "codigo": "2613305",
+    "uf": "PE"
   },
   {
     "nome": "São José da Coroa Grande",
-    "codigo": "2613404"
+    "codigo": "2613404",
+    "uf": "PE"
   },
   {
     "nome": "São José do Belmonte",
-    "codigo": "2613503"
+    "codigo": "2613503",
+    "uf": "PE"
   },
   {
     "nome": "São José do Egito",
-    "codigo": "2613602"
+    "codigo": "2613602",
+    "uf": "PE"
   },
   {
     "nome": "São Lourenço da Mata",
-    "codigo": "2613701"
+    "codigo": "2613701",
+    "uf": "PE"
   },
   {
     "nome": "São Vicente Férrer",
-    "codigo": "2613800"
+    "codigo": "2613800",
+    "uf": "PE"
   },
   {
     "nome": "Serra Talhada",
-    "codigo": "2613909"
+    "codigo": "2613909",
+    "uf": "PE"
   },
   {
     "nome": "Serrita",
-    "codigo": "2614006"
+    "codigo": "2614006",
+    "uf": "PE"
   },
   {
     "nome": "Sertânia",
-    "codigo": "2614105"
+    "codigo": "2614105",
+    "uf": "PE"
   },
   {
     "nome": "Sirinhaém",
-    "codigo": "2614204"
+    "codigo": "2614204",
+    "uf": "PE"
   },
   {
     "nome": "Moreilândia",
-    "codigo": "2614303"
+    "codigo": "2614303",
+    "uf": "PE"
   },
   {
     "nome": "Solidão",
-    "codigo": "2614402"
+    "codigo": "2614402",
+    "uf": "PE"
   },
   {
     "nome": "Surubim",
-    "codigo": "2614501"
+    "codigo": "2614501",
+    "uf": "PE"
   },
   {
     "nome": "Tabira",
-    "codigo": "2614600"
+    "codigo": "2614600",
+    "uf": "PE"
   },
   {
     "nome": "Tacaimbó",
-    "codigo": "2614709"
+    "codigo": "2614709",
+    "uf": "PE"
   },
   {
     "nome": "Tacaratu",
-    "codigo": "2614808"
+    "codigo": "2614808",
+    "uf": "PE"
   },
   {
     "nome": "Itambé",
-    "codigo": "2607653"
+    "codigo": "2607653",
+    "uf": "PE"
   },
   {
     "nome": "Taquaritinga do Norte",
-    "codigo": "2615003"
+    "codigo": "2615003",
+    "uf": "PE"
   },
   {
     "nome": "Terezinha",
-    "codigo": "2615102"
+    "codigo": "2615102",
+    "uf": "PE"
   },
   {
     "nome": "Terra Nova",
-    "codigo": "2615201"
+    "codigo": "2615201",
+    "uf": "PE"
   },
   {
     "nome": "Timbaúba",
-    "codigo": "2615300"
+    "codigo": "2615300",
+    "uf": "PE"
   },
   {
     "nome": "Toritama",
-    "codigo": "2615409"
+    "codigo": "2615409",
+    "uf": "PE"
   },
   {
     "nome": "Tracunhaém",
-    "codigo": "2615508"
+    "codigo": "2615508",
+    "uf": "PE"
   },
   {
     "nome": "Trindade",
-    "codigo": "2615607"
+    "codigo": "2615607",
+    "uf": "PE"
   },
   {
     "nome": "Triunfo",
-    "codigo": "2615706"
+    "codigo": "2615706",
+    "uf": "PE"
   },
   {
     "nome": "Tupanatinga",
-    "codigo": "2615805"
+    "codigo": "2615805",
+    "uf": "PE"
   },
   {
     "nome": "Tuparetama",
-    "codigo": "2615904"
+    "codigo": "2615904",
+    "uf": "PE"
   },
   {
     "nome": "Venturosa",
-    "codigo": "2616001"
+    "codigo": "2616001",
+    "uf": "PE"
   },
   {
     "nome": "Verdejante",
-    "codigo": "2616100"
+    "codigo": "2616100",
+    "uf": "PE"
   },
   {
     "nome": "Vertentes",
-    "codigo": "2616209"
+    "codigo": "2616209",
+    "uf": "PE"
   },
   {
     "nome": "Vicência",
-    "codigo": "2616308"
+    "codigo": "2616308",
+    "uf": "PE"
   },
   {
     "nome": "Vitória de Santo Antão",
-    "codigo": "2616407"
+    "codigo": "2616407",
+    "uf": "PE"
   },
   {
     "nome": "Camaragibe",
-    "codigo": "2603454"
+    "codigo": "2603454",
+    "uf": "PE"
   },
   {
     "nome": "Abreu e Lima",
-    "codigo": "2600054"
+    "codigo": "2600054",
+    "uf": "PE"
   },
   {
     "nome": "Itapissuma",
-    "codigo": "2607752"
+    "codigo": "2607752",
+    "uf": "PE"
   },
   {
     "nome": "Carnaubeira da Penha",
-    "codigo": "2603926"
+    "codigo": "2603926",
+    "uf": "PE"
   },
   {
     "nome": "Quixaba",
-    "codigo": "2611533"
+    "codigo": "2611533",
+    "uf": "PE"
   },
   {
     "nome": "Santa Cruz da Baixa Verde",
-    "codigo": "2612471"
+    "codigo": "2612471",
+    "uf": "PE"
   },
   {
     "nome": "Paripueira",
-    "codigo": "2706448"
+    "codigo": "2706448",
+    "uf": "AL"
   },
   {
     "nome": "Estrela de Alagoas",
-    "codigo": "2702553"
+    "codigo": "2702553",
+    "uf": "AL"
   },
   {
     "nome": "Pariconha",
-    "codigo": "2706422"
+    "codigo": "2706422",
+    "uf": "AL"
   },
   {
     "nome": "Santana do São Francisco",
-    "codigo": "2806404"
+    "codigo": "2806404",
+    "uf": "SE"
   },
   {
     "nome": "São José da Lapa",
-    "codigo": "3162955"
+    "codigo": "3162955",
+    "uf": "MG"
   },
   {
     "nome": "Capitão Andrade",
-    "codigo": "3112653"
+    "codigo": "3112653",
+    "uf": "MG"
   },
   {
     "nome": "Catuji",
-    "codigo": "3115458"
+    "codigo": "3115458",
+    "uf": "MG"
   },
   {
     "nome": "Jampruca",
-    "codigo": "3135076"
+    "codigo": "3135076",
+    "uf": "MG"
   },
   {
     "nome": "Divisópolis",
-    "codigo": "3122454"
+    "codigo": "3122454",
+    "uf": "MG"
   },
   {
     "nome": "Mata Verde",
-    "codigo": "3140555"
+    "codigo": "3140555",
+    "uf": "MG"
   },
   {
     "nome": "Palmópolis",
-    "codigo": "3146750"
+    "codigo": "3146750",
+    "uf": "MG"
   },
   {
     "nome": "Entre Folhas",
-    "codigo": "3123858"
+    "codigo": "3123858",
+    "uf": "MG"
   },
   {
     "nome": "Ipaba",
-    "codigo": "3131158"
+    "codigo": "3131158",
+    "uf": "MG"
   },
   {
     "nome": "Santa Bárbara do Leste",
-    "codigo": "3157252"
+    "codigo": "3157252",
+    "uf": "MG"
   },
   {
     "nome": "Santa Rita de Minas",
-    "codigo": "3159357"
+    "codigo": "3159357",
+    "uf": "MG"
   },
   {
     "nome": "Ubaporanga",
-    "codigo": "3170057"
+    "codigo": "3170057",
+    "uf": "MG"
   },
   {
     "nome": "Santana do Paraíso",
-    "codigo": "3158953"
+    "codigo": "3158953",
+    "uf": "MG"
   },
   {
     "nome": "Durandé",
-    "codigo": "3123528"
+    "codigo": "3123528",
+    "uf": "MG"
   },
   {
     "nome": "São João do Manhuaçu",
-    "codigo": "3162559"
+    "codigo": "3162559",
+    "uf": "MG"
   },
   {
     "nome": "São João do Manteninha",
-    "codigo": "3162575"
+    "codigo": "3162575",
+    "uf": "MG"
   },
   {
     "nome": "Alfredo Vasconcelos",
-    "codigo": "3101631"
+    "codigo": "3101631",
+    "uf": "MG"
   },
   {
     "nome": "Fervedouro",
-    "codigo": "3125952"
+    "codigo": "3125952",
+    "uf": "MG"
   },
   {
     "nome": "Carneirinho",
-    "codigo": "3114550"
+    "codigo": "3114550",
+    "uf": "MG"
   },
   {
     "nome": "Limeira do Oeste",
-    "codigo": "3138625"
+    "codigo": "3138625",
+    "uf": "MG"
   },
   {
     "nome": "Senador Amaral",
-    "codigo": "3165578"
+    "codigo": "3165578",
+    "uf": "MG"
   },
   {
     "nome": "Juatuba",
-    "codigo": "3136652"
+    "codigo": "3136652",
+    "uf": "MG"
   },
   {
     "nome": "Icaraí de Minas",
-    "codigo": "3130051"
+    "codigo": "3130051",
+    "uf": "MG"
   },
   {
     "nome": "Lontra",
-    "codigo": "3138658"
+    "codigo": "3138658",
+    "uf": "MG"
   },
   {
     "nome": "Montezuma",
-    "codigo": "3143450"
+    "codigo": "3143450",
+    "uf": "MG"
   },
   {
     "nome": "Urucuia",
-    "codigo": "3170529"
+    "codigo": "3170529",
+    "uf": "MG"
   },
   {
     "nome": "Água Branca",
-    "codigo": "2700102"
+    "codigo": "2700102",
+    "uf": "AL"
   },
   {
     "nome": "Anadia",
-    "codigo": "2700201"
+    "codigo": "2700201",
+    "uf": "AL"
   },
   {
     "nome": "Arapiraca",
-    "codigo": "2700300"
+    "codigo": "2700300",
+    "uf": "AL"
   },
   {
     "nome": "Atalaia",
-    "codigo": "2700409"
+    "codigo": "2700409",
+    "uf": "AL"
   },
   {
     "nome": "Barra de Santo Antônio",
-    "codigo": "2700508"
+    "codigo": "2700508",
+    "uf": "AL"
   },
   {
     "nome": "Barra de São Miguel",
-    "codigo": "2700607"
+    "codigo": "2700607",
+    "uf": "AL"
   },
   {
     "nome": "Batalha",
-    "codigo": "2700706"
+    "codigo": "2700706",
+    "uf": "AL"
   },
   {
     "nome": "Belém",
-    "codigo": "2700805"
+    "codigo": "2700805",
+    "uf": "AL"
   },
   {
     "nome": "Belo Monte",
-    "codigo": "2700904"
+    "codigo": "2700904",
+    "uf": "AL"
   },
   {
     "nome": "Boca da Mata",
-    "codigo": "2701001"
+    "codigo": "2701001",
+    "uf": "AL"
   },
   {
     "nome": "Branquinha",
-    "codigo": "2701100"
+    "codigo": "2701100",
+    "uf": "AL"
   },
   {
     "nome": "Cacimbinhas",
-    "codigo": "2701209"
+    "codigo": "2701209",
+    "uf": "AL"
   },
   {
     "nome": "Cajueiro",
-    "codigo": "2701308"
+    "codigo": "2701308",
+    "uf": "AL"
   },
   {
     "nome": "Campo Alegre",
-    "codigo": "2701407"
+    "codigo": "2701407",
+    "uf": "AL"
   },
   {
     "nome": "Campo Grande",
-    "codigo": "2701506"
+    "codigo": "2701506",
+    "uf": "AL"
   },
   {
     "nome": "Canapi",
-    "codigo": "2701605"
+    "codigo": "2701605",
+    "uf": "AL"
   },
   {
     "nome": "Capela",
-    "codigo": "2701704"
+    "codigo": "2701704",
+    "uf": "AL"
   },
   {
     "nome": "Carneiros",
-    "codigo": "2701803"
+    "codigo": "2701803",
+    "uf": "AL"
   },
   {
     "nome": "Chã Preta",
-    "codigo": "2701902"
+    "codigo": "2701902",
+    "uf": "AL"
   },
   {
     "nome": "Coité do Nóia",
-    "codigo": "2702009"
+    "codigo": "2702009",
+    "uf": "AL"
   },
   {
     "nome": "Colônia Leopoldina",
-    "codigo": "2702108"
+    "codigo": "2702108",
+    "uf": "AL"
   },
   {
     "nome": "Coqueiro Seco",
-    "codigo": "2702207"
+    "codigo": "2702207",
+    "uf": "AL"
   },
   {
     "nome": "Coruripe",
-    "codigo": "2702306"
+    "codigo": "2702306",
+    "uf": "AL"
   },
   {
     "nome": "Delmiro Gouveia",
-    "codigo": "2702405"
+    "codigo": "2702405",
+    "uf": "AL"
   },
   {
     "nome": "Dois Riachos",
-    "codigo": "2702504"
+    "codigo": "2702504",
+    "uf": "AL"
   },
   {
     "nome": "Feira Grande",
-    "codigo": "2702603"
+    "codigo": "2702603",
+    "uf": "AL"
   },
   {
     "nome": "Feliz Deserto",
-    "codigo": "2702702"
+    "codigo": "2702702",
+    "uf": "AL"
   },
   {
     "nome": "Flexeiras",
-    "codigo": "2702801"
+    "codigo": "2702801",
+    "uf": "AL"
   },
   {
     "nome": "Girau do Ponciano",
-    "codigo": "2702900"
+    "codigo": "2702900",
+    "uf": "AL"
   },
   {
     "nome": "Ibateguara",
-    "codigo": "2703007"
+    "codigo": "2703007",
+    "uf": "AL"
   },
   {
     "nome": "Igaci",
-    "codigo": "2703106"
+    "codigo": "2703106",
+    "uf": "AL"
   },
   {
     "nome": "Igreja Nova",
-    "codigo": "2703205"
+    "codigo": "2703205",
+    "uf": "AL"
   },
   {
     "nome": "Inhapi",
-    "codigo": "2703304"
+    "codigo": "2703304",
+    "uf": "AL"
   },
   {
     "nome": "Jacaré dos Homens",
-    "codigo": "2703403"
+    "codigo": "2703403",
+    "uf": "AL"
   },
   {
     "nome": "Jacuípe",
-    "codigo": "2703502"
+    "codigo": "2703502",
+    "uf": "AL"
   },
   {
     "nome": "Japaratinga",
-    "codigo": "2703601"
+    "codigo": "2703601",
+    "uf": "AL"
   },
   {
     "nome": "Jaramataia",
-    "codigo": "2703700"
+    "codigo": "2703700",
+    "uf": "AL"
   },
   {
     "nome": "Joaquim Gomes",
-    "codigo": "2703809"
+    "codigo": "2703809",
+    "uf": "AL"
   },
   {
     "nome": "Jundiá",
-    "codigo": "2703908"
+    "codigo": "2703908",
+    "uf": "AL"
   },
   {
     "nome": "Junqueiro",
-    "codigo": "2704005"
+    "codigo": "2704005",
+    "uf": "AL"
   },
   {
     "nome": "Lagoa da Canoa",
-    "codigo": "2704104"
+    "codigo": "2704104",
+    "uf": "AL"
   },
   {
     "nome": "Limoeiro de Anadia",
-    "codigo": "2704203"
+    "codigo": "2704203",
+    "uf": "AL"
   },
   {
     "nome": "Maceió",
-    "codigo": "2704302"
+    "codigo": "2704302",
+    "uf": "AL"
   },
   {
     "nome": "Major Isidoro",
-    "codigo": "2704401"
+    "codigo": "2704401",
+    "uf": "AL"
   },
   {
     "nome": "Maragogi",
-    "codigo": "2704500"
+    "codigo": "2704500",
+    "uf": "AL"
   },
   {
     "nome": "Maravilha",
-    "codigo": "2704609"
+    "codigo": "2704609",
+    "uf": "AL"
   },
   {
     "nome": "Marechal Deodoro",
-    "codigo": "2704708"
+    "codigo": "2704708",
+    "uf": "AL"
   },
   {
     "nome": "Maribondo",
-    "codigo": "2704807"
+    "codigo": "2704807",
+    "uf": "AL"
   },
   {
     "nome": "Mar Vermelho",
-    "codigo": "2704906"
+    "codigo": "2704906",
+    "uf": "AL"
   },
   {
     "nome": "Mata Grande",
-    "codigo": "2705002"
+    "codigo": "2705002",
+    "uf": "AL"
   },
   {
     "nome": "Matriz de Camaragibe",
-    "codigo": "2705101"
+    "codigo": "2705101",
+    "uf": "AL"
   },
   {
     "nome": "Messias",
-    "codigo": "2705200"
+    "codigo": "2705200",
+    "uf": "AL"
   },
   {
     "nome": "Minador do Negrão",
-    "codigo": "2705309"
+    "codigo": "2705309",
+    "uf": "AL"
   },
   {
     "nome": "Monteirópolis",
-    "codigo": "2705408"
+    "codigo": "2705408",
+    "uf": "AL"
   },
   {
     "nome": "Murici",
-    "codigo": "2705507"
+    "codigo": "2705507",
+    "uf": "AL"
   },
   {
     "nome": "Novo Lino",
-    "codigo": "2705606"
+    "codigo": "2705606",
+    "uf": "AL"
   },
   {
     "nome": "Olho d'Água das Flores",
-    "codigo": "2705705"
+    "codigo": "2705705",
+    "uf": "AL"
   },
   {
     "nome": "Olho d'Água do Casado",
-    "codigo": "2705804"
+    "codigo": "2705804",
+    "uf": "AL"
   },
   {
     "nome": "Olho d'Água Grande",
-    "codigo": "2705903"
+    "codigo": "2705903",
+    "uf": "AL"
   },
   {
     "nome": "Olivença",
-    "codigo": "2706000"
+    "codigo": "2706000",
+    "uf": "AL"
   },
   {
     "nome": "Ouro Branco",
-    "codigo": "2706109"
+    "codigo": "2706109",
+    "uf": "AL"
   },
   {
     "nome": "Palestina",
-    "codigo": "2706208"
+    "codigo": "2706208",
+    "uf": "AL"
   },
   {
     "nome": "Palmeira dos Índios",
-    "codigo": "2706307"
+    "codigo": "2706307",
+    "uf": "AL"
   },
   {
     "nome": "Pão de Açúcar",
-    "codigo": "2706406"
+    "codigo": "2706406",
+    "uf": "AL"
   },
   {
     "nome": "Passo de Camaragibe",
-    "codigo": "2706505"
+    "codigo": "2706505",
+    "uf": "AL"
   },
   {
     "nome": "Paulo Jacinto",
-    "codigo": "2706604"
+    "codigo": "2706604",
+    "uf": "AL"
   },
   {
     "nome": "Penedo",
-    "codigo": "2706703"
+    "codigo": "2706703",
+    "uf": "AL"
   },
   {
     "nome": "Piaçabuçu",
-    "codigo": "2706802"
+    "codigo": "2706802",
+    "uf": "AL"
   },
   {
     "nome": "Pilar",
-    "codigo": "2706901"
+    "codigo": "2706901",
+    "uf": "AL"
   },
   {
     "nome": "Pindoba",
-    "codigo": "2707008"
+    "codigo": "2707008",
+    "uf": "AL"
   },
   {
     "nome": "Piranhas",
-    "codigo": "2707107"
+    "codigo": "2707107",
+    "uf": "AL"
   },
   {
     "nome": "Poço das Trincheiras",
-    "codigo": "2707206"
+    "codigo": "2707206",
+    "uf": "AL"
   },
   {
     "nome": "Porto Calvo",
-    "codigo": "2707305"
+    "codigo": "2707305",
+    "uf": "AL"
   },
   {
     "nome": "Porto de Pedras",
-    "codigo": "2707404"
+    "codigo": "2707404",
+    "uf": "AL"
   },
   {
     "nome": "Porto Real do Colégio",
-    "codigo": "2707503"
+    "codigo": "2707503",
+    "uf": "AL"
   },
   {
     "nome": "Quebrangulo",
-    "codigo": "2707602"
+    "codigo": "2707602",
+    "uf": "AL"
   },
   {
     "nome": "Rio Largo",
-    "codigo": "2707701"
+    "codigo": "2707701",
+    "uf": "AL"
   },
   {
     "nome": "Roteiro",
-    "codigo": "2707800"
+    "codigo": "2707800",
+    "uf": "AL"
   },
   {
     "nome": "Santa Luzia do Norte",
-    "codigo": "2707909"
+    "codigo": "2707909",
+    "uf": "AL"
   },
   {
     "nome": "Santana do Ipanema",
-    "codigo": "2708006"
+    "codigo": "2708006",
+    "uf": "AL"
   },
   {
     "nome": "Santana do Mundaú",
-    "codigo": "2708105"
+    "codigo": "2708105",
+    "uf": "AL"
   },
   {
     "nome": "São Brás",
-    "codigo": "2708204"
+    "codigo": "2708204",
+    "uf": "AL"
   },
   {
     "nome": "São José da Laje",
-    "codigo": "2708303"
+    "codigo": "2708303",
+    "uf": "AL"
   },
   {
     "nome": "São José da Tapera",
-    "codigo": "2708402"
+    "codigo": "2708402",
+    "uf": "AL"
   },
   {
     "nome": "São Luís do Quitunde",
-    "codigo": "2708501"
+    "codigo": "2708501",
+    "uf": "AL"
   },
   {
     "nome": "São Miguel dos Campos",
-    "codigo": "2708600"
+    "codigo": "2708600",
+    "uf": "AL"
   },
   {
     "nome": "São Miguel dos Milagres",
-    "codigo": "2708709"
+    "codigo": "2708709",
+    "uf": "AL"
   },
   {
     "nome": "São Sebastião",
-    "codigo": "2708808"
+    "codigo": "2708808",
+    "uf": "AL"
   },
   {
     "nome": "Satuba",
-    "codigo": "2708907"
+    "codigo": "2708907",
+    "uf": "AL"
   },
   {
     "nome": "Tanque d'Arca",
-    "codigo": "2709004"
+    "codigo": "2709004",
+    "uf": "AL"
   },
   {
     "nome": "Taquarana",
-    "codigo": "2709103"
+    "codigo": "2709103",
+    "uf": "AL"
   },
   {
     "nome": "Traipu",
-    "codigo": "2709202"
+    "codigo": "2709202",
+    "uf": "AL"
   },
   {
     "nome": "União dos Palmares",
-    "codigo": "2709301"
+    "codigo": "2709301",
+    "uf": "AL"
   },
   {
     "nome": "Viçosa",
-    "codigo": "2709400"
+    "codigo": "2709400",
+    "uf": "AL"
   },
   {
     "nome": "Craíbas",
-    "codigo": "2702355"
+    "codigo": "2702355",
+    "uf": "AL"
   },
   {
     "nome": "Senador Rui Palmeira",
-    "codigo": "2708956"
+    "codigo": "2708956",
+    "uf": "AL"
   },
   {
     "nome": "Jaíba",
-    "codigo": "3135050"
+    "codigo": "3135050",
+    "uf": "MG"
   },
   {
     "nome": "Mamonas",
-    "codigo": "3139250"
+    "codigo": "3139250",
+    "uf": "MG"
   },
   {
     "nome": "Matias Cardoso",
-    "codigo": "3140852"
+    "codigo": "3140852",
+    "uf": "MG"
   },
   {
     "nome": "Pedras de Maria da Cruz",
-    "codigo": "3149150"
+    "codigo": "3149150",
+    "uf": "MG"
   },
   {
     "nome": "Riachinho",
-    "codigo": "3154457"
+    "codigo": "3154457",
+    "uf": "MG"
   },
   {
     "nome": "Araporã",
-    "codigo": "3103751"
+    "codigo": "3103751",
+    "uf": "MG"
   },
   {
     "nome": "Lagoa Grande",
-    "codigo": "3137536"
+    "codigo": "3137536",
+    "uf": "MG"
   },
   {
     "nome": "Guapimirim",
-    "codigo": "3301850"
+    "codigo": "3301850",
+    "uf": "RJ"
   },
   {
     "nome": "Belford Roxo",
-    "codigo": "3300456"
+    "codigo": "3300456",
+    "uf": "RJ"
   },
   {
     "nome": "Queimados",
-    "codigo": "3304144"
+    "codigo": "3304144",
+    "uf": "RJ"
   },
   {
     "nome": "Japeri",
-    "codigo": "3302270"
+    "codigo": "3302270",
+    "uf": "RJ"
   },
   {
     "nome": "Cardoso Moreira",
-    "codigo": "3301157"
+    "codigo": "3301157",
+    "uf": "RJ"
   },
   {
     "nome": "Varre-Sai",
-    "codigo": "3306156"
+    "codigo": "3306156",
+    "uf": "RJ"
   },
   {
     "nome": "Aperibé",
-    "codigo": "3300159"
+    "codigo": "3300159",
+    "uf": "RJ"
   },
   {
     "nome": "Rio das Ostras",
-    "codigo": "3304524"
+    "codigo": "3304524",
+    "uf": "RJ"
   },
   {
     "nome": "Quatis",
-    "codigo": "3304128"
+    "codigo": "3304128",
+    "uf": "RJ"
   },
   {
     "nome": "Areal",
-    "codigo": "3300225"
+    "codigo": "3300225",
+    "uf": "RJ"
   },
   {
     "nome": "Comendador Levy Gasparian",
-    "codigo": "3300951"
+    "codigo": "3300951",
+    "uf": "RJ"
   },
   {
     "nome": "Marechal Floriano",
-    "codigo": "3203346"
+    "codigo": "3203346",
+    "uf": "ES"
   },
   {
     "nome": "Irupi",
-    "codigo": "3202652"
+    "codigo": "3202652",
+    "uf": "ES"
   },
   {
     "nome": "São Domingos do Norte",
-    "codigo": "3204658"
+    "codigo": "3204658",
+    "uf": "ES"
   },
   {
     "nome": "Vila Pavão",
-    "codigo": "3205150"
+    "codigo": "3205150",
+    "uf": "ES"
   },
   {
     "nome": "Lourdes",
-    "codigo": "3527256"
+    "codigo": "3527256",
+    "uf": "SP"
   },
   {
     "nome": "Santo Antônio do Aracanguá",
-    "codigo": "3548054"
+    "codigo": "3548054",
+    "uf": "SP"
   },
   {
     "nome": "São João de Iracema",
-    "codigo": "3549250"
+    "codigo": "3549250",
+    "uf": "SP"
   },
   {
     "nome": "Ilha Solteira",
-    "codigo": "3520442"
+    "codigo": "3520442",
+    "uf": "SP"
   },
   {
     "nome": "Suzanápolis",
-    "codigo": "3552551"
+    "codigo": "3552551",
+    "uf": "SP"
   },
   {
     "nome": "Canitar",
-    "codigo": "3510153"
+    "codigo": "3510153",
+    "uf": "SP"
   },
   {
     "nome": "Engenheiro Coelho",
-    "codigo": "3515152"
+    "codigo": "3515152",
+    "uf": "SP"
   },
   {
     "nome": "Hortolândia",
-    "codigo": "3519071"
+    "codigo": "3519071",
+    "uf": "SP"
   },
   {
     "nome": "Holambra",
-    "codigo": "3519055"
+    "codigo": "3519055",
+    "uf": "SP"
   },
   {
     "nome": "Tuiuti",
-    "codigo": "3554953"
+    "codigo": "3554953",
+    "uf": "SP"
   },
   {
     "nome": "Vargem",
-    "codigo": "3556354"
+    "codigo": "3556354",
+    "uf": "SP"
   },
   {
     "nome": "Estiva Gerbi",
-    "codigo": "3557303"
+    "codigo": "3557303",
+    "uf": "SP"
   },
   {
     "nome": "Emilianópolis",
-    "codigo": "3515129"
+    "codigo": "3515129",
+    "uf": "SP"
   },
   {
     "nome": "Pedrinhas Paulista",
-    "codigo": "3537156"
+    "codigo": "3537156",
+    "uf": "SP"
   },
   {
     "nome": "Bertioga",
-    "codigo": "3506359"
+    "codigo": "3506359",
+    "uf": "SP"
   },
   {
     "nome": "Cajati",
-    "codigo": "3509254"
+    "codigo": "3509254",
+    "uf": "SP"
   },
   {
     "nome": "Ilha Comprida",
-    "codigo": "3520426"
+    "codigo": "3520426",
+    "uf": "SP"
   },
   {
     "nome": "Ubarana",
-    "codigo": "3555356"
+    "codigo": "3555356",
+    "uf": "SP"
   },
   {
     "nome": "Zacarias",
-    "codigo": "3557154"
+    "codigo": "3557154",
+    "uf": "SP"
   },
   {
     "nome": "Elisiário",
-    "codigo": "3514924"
+    "codigo": "3514924",
+    "uf": "SP"
   },
   {
     "nome": "Marapoama",
-    "codigo": "3528858"
+    "codigo": "3528858",
+    "uf": "SP"
   },
   {
     "nome": "Novais",
-    "codigo": "3533254"
+    "codigo": "3533254",
+    "uf": "SP"
   },
   {
     "nome": "Aspásia",
-    "codigo": "3503950"
+    "codigo": "3503950",
+    "uf": "SP"
   },
   {
     "nome": "Mesópolis",
-    "codigo": "3529658"
+    "codigo": "3529658",
+    "uf": "SP"
   },
   {
     "nome": "Nova Canaã Paulista",
-    "codigo": "3532843"
+    "codigo": "3532843",
+    "uf": "SP"
   },
   {
     "nome": "Pontalinda",
-    "codigo": "3540259"
+    "codigo": "3540259",
+    "uf": "SP"
   },
   {
     "nome": "Parisi",
-    "codigo": "3536257"
+    "codigo": "3536257",
+    "uf": "SP"
   },
   {
     "nome": "Arapeí",
-    "codigo": "3503158"
+    "codigo": "3503158",
+    "uf": "SP"
   },
   {
     "nome": "Potim",
-    "codigo": "3540754"
+    "codigo": "3540754",
+    "uf": "SP"
   },
   {
     "nome": "Alambari",
-    "codigo": "3500758"
+    "codigo": "3500758",
+    "uf": "SP"
   },
   {
     "nome": "Barra do Chapéu",
-    "codigo": "3505351"
+    "codigo": "3505351",
+    "uf": "SP"
   },
   {
     "nome": "Campina do Monte Alegre",
-    "codigo": "3509452"
+    "codigo": "3509452",
+    "uf": "SP"
   },
   {
     "nome": "Fernando de Noronha",
-    "codigo": "2605459"
+    "codigo": "2605459",
+    "uf": "PE"
   },
   {
     "nome": "Baraúna",
-    "codigo": "2401453"
+    "codigo": "2401453",
+    "uf": "RN"
   },
   {
     "nome": "Muquém do São Francisco",
-    "codigo": "2922250"
+    "codigo": "2922250",
+    "uf": "BA"
   },
   {
     "nome": "Nova Fátima",
-    "codigo": "2922730"
+    "codigo": "2922730",
+    "uf": "BA"
   },
   {
     "nome": "Nova Ibiá",
-    "codigo": "2922755"
+    "codigo": "2922755",
+    "uf": "BA"
   },
   {
     "nome": "Nova Redenção",
-    "codigo": "2922854"
+    "codigo": "2922854",
+    "uf": "BA"
   },
   {
     "nome": "Novo Horizonte",
-    "codigo": "2923035"
+    "codigo": "2923035",
+    "uf": "BA"
   },
   {
     "nome": "Novo Triunfo",
-    "codigo": "2923050"
+    "codigo": "2923050",
+    "uf": "BA"
   },
   {
     "nome": "Ourolândia",
-    "codigo": "2923357"
+    "codigo": "2923357",
+    "uf": "BA"
   },
   {
     "nome": "Piraí do Norte",
-    "codigo": "2924678"
+    "codigo": "2924678",
+    "uf": "BA"
   },
   {
     "nome": "Ponto Novo",
-    "codigo": "2925253"
+    "codigo": "2925253",
+    "uf": "BA"
   },
   {
     "nome": "Presidente Tancredo Neves",
-    "codigo": "2925758"
+    "codigo": "2925758",
+    "uf": "BA"
   },
   {
     "nome": "Quixabeira",
-    "codigo": "2925931"
+    "codigo": "2925931",
+    "uf": "BA"
   },
   {
     "nome": "Ribeirão do Largo",
-    "codigo": "2926657"
+    "codigo": "2926657",
+    "uf": "BA"
   },
   {
     "nome": "São Domingos",
-    "codigo": "2928950"
+    "codigo": "2928950",
+    "uf": "BA"
   },
   {
     "nome": "São Félix do Coribe",
-    "codigo": "2929057"
+    "codigo": "2929057",
+    "uf": "BA"
   },
   {
     "nome": "São José do Jacuípe",
-    "codigo": "2929370"
+    "codigo": "2929370",
+    "uf": "BA"
   },
   {
     "nome": "São José da Vitória",
-    "codigo": "2929354"
+    "codigo": "2929354",
+    "uf": "BA"
   },
   {
     "nome": "Saubara",
-    "codigo": "2929750"
+    "codigo": "2929750",
+    "uf": "BA"
   },
   {
     "nome": "Serra do Ramalho",
-    "codigo": "2930154"
+    "codigo": "2930154",
+    "uf": "BA"
   },
   {
     "nome": "Sítio do Mato",
-    "codigo": "2930758"
+    "codigo": "2930758",
+    "uf": "BA"
   },
   {
     "nome": "Sítio do Quinto",
-    "codigo": "2930766"
+    "codigo": "2930766",
+    "uf": "BA"
   },
   {
     "nome": "Sobradinho",
-    "codigo": "2930774"
+    "codigo": "2930774",
+    "uf": "BA"
   },
   {
     "nome": "Umburanas",
-    "codigo": "2932457"
+    "codigo": "2932457",
+    "uf": "BA"
   },
   {
     "nome": "Varzedo",
-    "codigo": "2933174"
+    "codigo": "2933174",
+    "uf": "BA"
   },
   {
     "nome": "Vereda",
-    "codigo": "2933257"
+    "codigo": "2933257",
+    "uf": "BA"
   },
   {
     "nome": "Itaoca",
-    "codigo": "3522158"
+    "codigo": "3522158",
+    "uf": "SP"
   },
   {
     "nome": "Itapirapuã Paulista",
-    "codigo": "3522653"
+    "codigo": "3522653",
+    "uf": "SP"
   },
   {
     "nome": "Ribeirão Grande",
-    "codigo": "3543253"
+    "codigo": "3543253",
+    "uf": "SP"
   },
   {
     "nome": "Bom Sucesso de Itararé",
-    "codigo": "3507159"
+    "codigo": "3507159",
+    "uf": "SP"
   },
   {
     "nome": "Nova Campina",
-    "codigo": "3532827"
+    "codigo": "3532827",
+    "uf": "SP"
   },
   {
     "nome": "Taquarivaí",
-    "codigo": "3553856"
+    "codigo": "3553856",
+    "uf": "SP"
   },
   {
     "nome": "Alumínio",
-    "codigo": "3501152"
+    "codigo": "3501152",
+    "uf": "SP"
   },
   {
     "nome": "Araçariguama",
-    "codigo": "3502754"
+    "codigo": "3502754",
+    "uf": "SP"
   },
   {
     "nome": "Jussari",
-    "codigo": "2918555"
+    "codigo": "2918555",
+    "uf": "BA"
   },
   {
     "nome": "América Dourada",
-    "codigo": "2901155"
+    "codigo": "2901155",
+    "uf": "BA"
   },
   {
     "nome": "Arataca",
-    "codigo": "2902252"
+    "codigo": "2902252",
+    "uf": "BA"
   },
   {
     "nome": "Barro Alto",
-    "codigo": "2903235"
+    "codigo": "2903235",
+    "uf": "BA"
   },
   {
     "nome": "Buritirama",
-    "codigo": "2904753"
+    "codigo": "2904753",
+    "uf": "BA"
   },
   {
     "nome": "Capela do Alto Alegre",
-    "codigo": "2906857"
+    "codigo": "2906857",
+    "uf": "BA"
   },
   {
     "nome": "Capim Grosso",
-    "codigo": "2906873"
+    "codigo": "2906873",
+    "uf": "BA"
   },
   {
     "nome": "Canudos",
-    "codigo": "2906824"
+    "codigo": "2906824",
+    "uf": "BA"
   },
   {
     "nome": "Dias d'Ávila",
-    "codigo": "2910057"
+    "codigo": "2910057",
+    "uf": "BA"
   },
   {
     "nome": "Fátima",
-    "codigo": "2910750"
+    "codigo": "2910750",
+    "uf": "BA"
   },
   {
     "nome": "Filadélfia",
-    "codigo": "2910859"
+    "codigo": "2910859",
+    "uf": "BA"
   },
   {
     "nome": "Gavião",
-    "codigo": "2911253"
+    "codigo": "2911253",
+    "uf": "BA"
   },
   {
     "nome": "Guajeru",
-    "codigo": "2911659"
+    "codigo": "2911659",
+    "uf": "BA"
   },
   {
     "nome": "Heliópolis",
-    "codigo": "2911857"
+    "codigo": "2911857",
+    "uf": "BA"
   },
   {
     "nome": "João Dourado",
-    "codigo": "2918357"
+    "codigo": "2918357",
+    "uf": "BA"
   },
   {
     "nome": "Amparo do São Francisco",
-    "codigo": "2800100"
+    "codigo": "2800100",
+    "uf": "SE"
   },
   {
     "nome": "Aquidabã",
-    "codigo": "2800209"
+    "codigo": "2800209",
+    "uf": "SE"
   },
   {
     "nome": "Aracaju",
-    "codigo": "2800308"
+    "codigo": "2800308",
+    "uf": "SE"
   },
   {
     "nome": "Arauá",
-    "codigo": "2800407"
+    "codigo": "2800407",
+    "uf": "SE"
   },
   {
     "nome": "Areia Branca",
-    "codigo": "2800506"
+    "codigo": "2800506",
+    "uf": "SE"
   },
   {
     "nome": "Barra dos Coqueiros",
-    "codigo": "2800605"
+    "codigo": "2800605",
+    "uf": "SE"
   },
   {
     "nome": "Brejo Grande",
-    "codigo": "2800704"
+    "codigo": "2800704",
+    "uf": "SE"
   },
   {
     "nome": "Boquim",
-    "codigo": "2800670"
+    "codigo": "2800670",
+    "uf": "SE"
   },
   {
     "nome": "Eunápolis",
-    "codigo": "2910727"
+    "codigo": "2910727",
+    "uf": "BA"
   },
   {
     "nome": "Campo do Brito",
-    "codigo": "2801009"
+    "codigo": "2801009",
+    "uf": "SE"
   },
   {
     "nome": "Canhoba",
-    "codigo": "2801108"
+    "codigo": "2801108",
+    "uf": "SE"
   },
   {
     "nome": "Canindé de São Francisco",
-    "codigo": "2801207"
+    "codigo": "2801207",
+    "uf": "SE"
   },
   {
     "nome": "Capela",
-    "codigo": "2801306"
+    "codigo": "2801306",
+    "uf": "SE"
   },
   {
     "nome": "Carira",
-    "codigo": "2801405"
+    "codigo": "2801405",
+    "uf": "SE"
   },
   {
     "nome": "Carmópolis",
-    "codigo": "2801504"
+    "codigo": "2801504",
+    "uf": "SE"
   },
   {
     "nome": "Cedro de São João",
-    "codigo": "2801603"
+    "codigo": "2801603",
+    "uf": "SE"
   },
   {
     "nome": "Cristinápolis",
-    "codigo": "2801702"
+    "codigo": "2801702",
+    "uf": "SE"
   },
   {
     "nome": "Nossa Senhora Aparecida",
-    "codigo": "2804458"
+    "codigo": "2804458",
+    "uf": "SE"
   },
   {
     "nome": "Cumbe",
-    "codigo": "2801900"
+    "codigo": "2801900",
+    "uf": "SE"
   },
   {
     "nome": "Divina Pastora",
-    "codigo": "2802007"
+    "codigo": "2802007",
+    "uf": "SE"
   },
   {
     "nome": "Estância",
-    "codigo": "2802106"
+    "codigo": "2802106",
+    "uf": "SE"
   },
   {
     "nome": "Feira Nova",
-    "codigo": "2802205"
+    "codigo": "2802205",
+    "uf": "SE"
   },
   {
     "nome": "Frei Paulo",
-    "codigo": "2802304"
+    "codigo": "2802304",
+    "uf": "SE"
   },
   {
     "nome": "General Maynard",
-    "codigo": "2802502"
+    "codigo": "2802502",
+    "uf": "SE"
   },
   {
     "nome": "Gararu",
-    "codigo": "2802403"
+    "codigo": "2802403",
+    "uf": "SE"
   },
   {
     "nome": "Gracho Cardoso",
-    "codigo": "2802601"
+    "codigo": "2802601",
+    "uf": "SE"
   },
   {
     "nome": "Ilha das Flores",
-    "codigo": "2802700"
+    "codigo": "2802700",
+    "uf": "SE"
   },
   {
     "nome": "Indiaroba",
-    "codigo": "2802809"
+    "codigo": "2802809",
+    "uf": "SE"
   },
   {
     "nome": "Itabaiana",
-    "codigo": "2802908"
+    "codigo": "2802908",
+    "uf": "SE"
   },
   {
     "nome": "Itabaianinha",
-    "codigo": "2803005"
+    "codigo": "2803005",
+    "uf": "SE"
   },
   {
     "nome": "Itabi",
-    "codigo": "2803104"
+    "codigo": "2803104",
+    "uf": "SE"
   },
   {
     "nome": "Itaporanga d'Ajuda",
-    "codigo": "2803203"
+    "codigo": "2803203",
+    "uf": "SE"
   },
   {
     "nome": "Japaratuba",
-    "codigo": "2803302"
+    "codigo": "2803302",
+    "uf": "SE"
   },
   {
     "nome": "Japoatã",
-    "codigo": "2803401"
+    "codigo": "2803401",
+    "uf": "SE"
   },
   {
     "nome": "Lagarto",
-    "codigo": "2803500"
+    "codigo": "2803500",
+    "uf": "SE"
   },
   {
     "nome": "Laranjeiras",
-    "codigo": "2803609"
+    "codigo": "2803609",
+    "uf": "SE"
   },
   {
     "nome": "Macambira",
-    "codigo": "2803708"
+    "codigo": "2803708",
+    "uf": "SE"
   },
   {
     "nome": "Malhada dos Bois",
-    "codigo": "2803807"
+    "codigo": "2803807",
+    "uf": "SE"
   },
   {
     "nome": "Malhador",
-    "codigo": "2803906"
+    "codigo": "2803906",
+    "uf": "SE"
   },
   {
     "nome": "Maruim",
-    "codigo": "2804003"
+    "codigo": "2804003",
+    "uf": "SE"
   },
   {
     "nome": "Moita Bonita",
-    "codigo": "2804102"
+    "codigo": "2804102",
+    "uf": "SE"
   },
   {
     "nome": "Monte Alegre de Sergipe",
-    "codigo": "2804201"
+    "codigo": "2804201",
+    "uf": "SE"
   },
   {
     "nome": "Muribeca",
-    "codigo": "2804300"
+    "codigo": "2804300",
+    "uf": "SE"
   },
   {
     "nome": "Neópolis",
-    "codigo": "2804409"
+    "codigo": "2804409",
+    "uf": "SE"
   },
   {
     "nome": "Nossa Senhora da Glória",
-    "codigo": "2804508"
+    "codigo": "2804508",
+    "uf": "SE"
   },
   {
     "nome": "Nossa Senhora das Dores",
-    "codigo": "2804607"
+    "codigo": "2804607",
+    "uf": "SE"
   },
   {
     "nome": "Nossa Senhora de Lourdes",
-    "codigo": "2804706"
+    "codigo": "2804706",
+    "uf": "SE"
   },
   {
     "nome": "Nossa Senhora do Socorro",
-    "codigo": "2804805"
+    "codigo": "2804805",
+    "uf": "SE"
   },
   {
     "nome": "Pacatuba",
-    "codigo": "2804904"
+    "codigo": "2804904",
+    "uf": "SE"
   },
   {
     "nome": "Pedra Mole",
-    "codigo": "2805000"
+    "codigo": "2805000",
+    "uf": "SE"
   },
   {
     "nome": "Pedrinhas",
-    "codigo": "2805109"
+    "codigo": "2805109",
+    "uf": "SE"
   },
   {
     "nome": "Pinhão",
-    "codigo": "2805208"
+    "codigo": "2805208",
+    "uf": "SE"
   },
   {
     "nome": "Pirambu",
-    "codigo": "2805307"
+    "codigo": "2805307",
+    "uf": "SE"
   },
   {
     "nome": "Poço Redondo",
-    "codigo": "2805406"
+    "codigo": "2805406",
+    "uf": "SE"
   },
   {
     "nome": "Poço Verde",
-    "codigo": "2805505"
+    "codigo": "2805505",
+    "uf": "SE"
   },
   {
     "nome": "Porto da Folha",
-    "codigo": "2805604"
+    "codigo": "2805604",
+    "uf": "SE"
   },
   {
     "nome": "Propriá",
-    "codigo": "2805703"
+    "codigo": "2805703",
+    "uf": "SE"
   },
   {
     "nome": "Riachão do Dantas",
-    "codigo": "2805802"
+    "codigo": "2805802",
+    "uf": "SE"
   },
   {
     "nome": "Riachuelo",
-    "codigo": "2805901"
+    "codigo": "2805901",
+    "uf": "SE"
   },
   {
     "nome": "Ribeirópolis",
-    "codigo": "2806008"
+    "codigo": "2806008",
+    "uf": "SE"
   },
   {
     "nome": "Rosário do Catete",
-    "codigo": "2806107"
+    "codigo": "2806107",
+    "uf": "SE"
   },
   {
     "nome": "Salgado",
-    "codigo": "2806206"
+    "codigo": "2806206",
+    "uf": "SE"
   },
   {
     "nome": "Santa Luzia do Itanhy",
-    "codigo": "2806305"
+    "codigo": "2806305",
+    "uf": "SE"
   },
   {
     "nome": "Torre de Pedra",
-    "codigo": "3554656"
+    "codigo": "3554656",
+    "uf": "SP"
   },
   {
     "nome": "Santa Rosa de Lima",
-    "codigo": "2806503"
+    "codigo": "2806503",
+    "uf": "SE"
   },
   {
     "nome": "Santo Amaro das Brotas",
-    "codigo": "2806602"
+    "codigo": "2806602",
+    "uf": "SE"
   },
   {
     "nome": "São Cristóvão",
-    "codigo": "2806701"
+    "codigo": "2806701",
+    "uf": "SE"
   },
   {
     "nome": "São Domingos",
-    "codigo": "2806800"
+    "codigo": "2806800",
+    "uf": "SE"
   },
   {
     "nome": "São Francisco",
-    "codigo": "2806909"
+    "codigo": "2806909",
+    "uf": "SE"
   },
   {
     "nome": "São Miguel do Aleixo",
-    "codigo": "2807006"
+    "codigo": "2807006",
+    "uf": "SE"
   },
   {
     "nome": "Simão Dias",
-    "codigo": "2807105"
+    "codigo": "2807105",
+    "uf": "SE"
   },
   {
     "nome": "Siriri",
-    "codigo": "2807204"
+    "codigo": "2807204",
+    "uf": "SE"
   },
   {
     "nome": "Telha",
-    "codigo": "2807303"
+    "codigo": "2807303",
+    "uf": "SE"
   },
   {
     "nome": "Tobias Barreto",
-    "codigo": "2807402"
+    "codigo": "2807402",
+    "uf": "SE"
   },
   {
     "nome": "Tomar do Geru",
-    "codigo": "2807501"
+    "codigo": "2807501",
+    "uf": "SE"
   },
   {
     "nome": "Umbaúba",
-    "codigo": "2807600"
+    "codigo": "2807600",
+    "uf": "SE"
   },
   {
     "nome": "Adustina",
-    "codigo": "2900355"
+    "codigo": "2900355",
+    "uf": "BA"
   },
   {
     "nome": "Andorinha",
-    "codigo": "2901353"
+    "codigo": "2901353",
+    "uf": "BA"
   },
   {
     "nome": "Apuarema",
-    "codigo": "2901957"
+    "codigo": "2901957",
+    "uf": "BA"
   },
   {
     "nome": "Araçás",
-    "codigo": "2902054"
+    "codigo": "2902054",
+    "uf": "BA"
   },
   {
     "nome": "Banzaê",
-    "codigo": "2902658"
+    "codigo": "2902658",
+    "uf": "BA"
   },
   {
     "nome": "Bom Jesus da Serra",
-    "codigo": "2903953"
+    "codigo": "2903953",
+    "uf": "BA"
   },
   {
     "nome": "Bonito",
-    "codigo": "2904050"
+    "codigo": "2904050",
+    "uf": "BA"
   },
   {
     "nome": "Cabaceiras do Paraguaçu",
-    "codigo": "2904852"
+    "codigo": "2904852",
+    "uf": "BA"
   },
   {
     "nome": "Caetanos",
-    "codigo": "2905156"
+    "codigo": "2905156",
+    "uf": "BA"
   },
   {
     "nome": "Caraíbas",
-    "codigo": "2906899"
+    "codigo": "2906899",
+    "uf": "BA"
   },
   {
     "nome": "Caturama",
-    "codigo": "2907558"
+    "codigo": "2907558",
+    "uf": "BA"
   },
   {
     "nome": "Feira da Mata",
-    "codigo": "2910776"
+    "codigo": "2910776",
+    "uf": "BA"
   },
   {
     "nome": "Igrapiúna",
-    "codigo": "2913457"
+    "codigo": "2913457",
+    "uf": "BA"
   },
   {
     "nome": "Itabela",
-    "codigo": "2914653"
+    "codigo": "2914653",
+    "uf": "BA"
   },
   {
     "nome": "Itaguaçu da Bahia",
-    "codigo": "2915353"
+    "codigo": "2915353",
+    "uf": "BA"
   },
   {
     "nome": "Itatim",
-    "codigo": "2916856"
+    "codigo": "2916856",
+    "uf": "BA"
   },
   {
     "nome": "Iuiu",
-    "codigo": "2917334"
+    "codigo": "2917334",
+    "uf": "BA"
   },
   {
     "nome": "Jucuruçu",
-    "codigo": "2918456"
+    "codigo": "2918456",
+    "uf": "BA"
   },
   {
     "nome": "Lagoa Real",
-    "codigo": "2918753"
+    "codigo": "2918753",
+    "uf": "BA"
   },
   {
     "nome": "Lajedo do Tabocal",
-    "codigo": "2919058"
+    "codigo": "2919058",
+    "uf": "BA"
   },
   {
     "nome": "Madre de Deus",
-    "codigo": "2919926"
+    "codigo": "2919926",
+    "uf": "BA"
   },
   {
     "nome": "Matina",
-    "codigo": "2921054"
+    "codigo": "2921054",
+    "uf": "BA"
   },
   {
     "nome": "Mirante",
-    "codigo": "2921450"
+    "codigo": "2921450",
+    "uf": "BA"
   },
   {
     "nome": "Mulungu do Morro",
-    "codigo": "2922052"
+    "codigo": "2922052",
+    "uf": "BA"
   },
   {
     "nome": "Abaíra",
-    "codigo": "2900108"
+    "codigo": "2900108",
+    "uf": "BA"
   },
   {
     "nome": "Abaré",
-    "codigo": "2900207"
+    "codigo": "2900207",
+    "uf": "BA"
   },
   {
     "nome": "Acajutiba",
-    "codigo": "2900306"
+    "codigo": "2900306",
+    "uf": "BA"
   },
   {
     "nome": "Água Fria",
-    "codigo": "2900405"
+    "codigo": "2900405",
+    "uf": "BA"
   },
   {
     "nome": "Érico Cardoso",
-    "codigo": "2900504"
+    "codigo": "2900504",
+    "uf": "BA"
   },
   {
     "nome": "Aiquara",
-    "codigo": "2900603"
+    "codigo": "2900603",
+    "uf": "BA"
   },
   {
     "nome": "Alagoinhas",
-    "codigo": "2900702"
+    "codigo": "2900702",
+    "uf": "BA"
   },
   {
     "nome": "Alcobaça",
-    "codigo": "2900801"
+    "codigo": "2900801",
+    "uf": "BA"
   },
   {
     "nome": "Almadina",
-    "codigo": "2900900"
+    "codigo": "2900900",
+    "uf": "BA"
   },
   {
     "nome": "Amargosa",
-    "codigo": "2901007"
+    "codigo": "2901007",
+    "uf": "BA"
   },
   {
     "nome": "Amélia Rodrigues",
-    "codigo": "2901106"
+    "codigo": "2901106",
+    "uf": "BA"
   },
   {
     "nome": "Anagé",
-    "codigo": "2901205"
+    "codigo": "2901205",
+    "uf": "BA"
   },
   {
     "nome": "Andaraí",
-    "codigo": "2901304"
+    "codigo": "2901304",
+    "uf": "BA"
   },
   {
     "nome": "Angical",
-    "codigo": "2901403"
+    "codigo": "2901403",
+    "uf": "BA"
   },
   {
     "nome": "Anguera",
-    "codigo": "2901502"
+    "codigo": "2901502",
+    "uf": "BA"
   },
   {
     "nome": "Antas",
-    "codigo": "2901601"
+    "codigo": "2901601",
+    "uf": "BA"
   },
   {
     "nome": "Antônio Cardoso",
-    "codigo": "2901700"
+    "codigo": "2901700",
+    "uf": "BA"
   },
   {
     "nome": "Antônio Gonçalves",
-    "codigo": "2901809"
+    "codigo": "2901809",
+    "uf": "BA"
   },
   {
     "nome": "Aporá",
-    "codigo": "2901908"
+    "codigo": "2901908",
+    "uf": "BA"
   },
   {
     "nome": "Aracatu",
-    "codigo": "2902005"
+    "codigo": "2902005",
+    "uf": "BA"
   },
   {
     "nome": "Araci",
-    "codigo": "2902104"
+    "codigo": "2902104",
+    "uf": "BA"
   },
   {
     "nome": "Aramari",
-    "codigo": "2902203"
+    "codigo": "2902203",
+    "uf": "BA"
   },
   {
     "nome": "Aratuípe",
-    "codigo": "2902302"
+    "codigo": "2902302",
+    "uf": "BA"
   },
   {
     "nome": "Aurelino Leal",
-    "codigo": "2902401"
+    "codigo": "2902401",
+    "uf": "BA"
   },
   {
     "nome": "Baianópolis",
-    "codigo": "2902500"
+    "codigo": "2902500",
+    "uf": "BA"
   },
   {
     "nome": "Baixa Grande",
-    "codigo": "2902609"
+    "codigo": "2902609",
+    "uf": "BA"
   },
   {
     "nome": "Barra",
-    "codigo": "2902708"
+    "codigo": "2902708",
+    "uf": "BA"
   },
   {
     "nome": "Barra da Estiva",
-    "codigo": "2902807"
+    "codigo": "2902807",
+    "uf": "BA"
   },
   {
     "nome": "Barra do Choça",
-    "codigo": "2902906"
+    "codigo": "2902906",
+    "uf": "BA"
   },
   {
     "nome": "Barra do Mendes",
-    "codigo": "2903003"
+    "codigo": "2903003",
+    "uf": "BA"
   },
   {
     "nome": "Barra do Rocha",
-    "codigo": "2903102"
+    "codigo": "2903102",
+    "uf": "BA"
   },
   {
     "nome": "Barreiras",
-    "codigo": "2903201"
+    "codigo": "2903201",
+    "uf": "BA"
   },
   {
     "nome": "Barro Preto",
-    "codigo": "2903300"
+    "codigo": "2903300",
+    "uf": "BA"
   },
   {
     "nome": "Belmonte",
-    "codigo": "2903409"
+    "codigo": "2903409",
+    "uf": "BA"
   },
   {
     "nome": "Belo Campo",
-    "codigo": "2903508"
+    "codigo": "2903508",
+    "uf": "BA"
   },
   {
     "nome": "Biritinga",
-    "codigo": "2903607"
+    "codigo": "2903607",
+    "uf": "BA"
   },
   {
     "nome": "Boa Nova",
-    "codigo": "2903706"
+    "codigo": "2903706",
+    "uf": "BA"
   },
   {
     "nome": "Boa Vista do Tupim",
-    "codigo": "2903805"
+    "codigo": "2903805",
+    "uf": "BA"
   },
   {
     "nome": "Bom Jesus da Lapa",
-    "codigo": "2903904"
+    "codigo": "2903904",
+    "uf": "BA"
   },
   {
     "nome": "Boninal",
-    "codigo": "2904001"
+    "codigo": "2904001",
+    "uf": "BA"
   },
   {
     "nome": "Boquira",
-    "codigo": "2904100"
+    "codigo": "2904100",
+    "uf": "BA"
   },
   {
     "nome": "Botuporã",
-    "codigo": "2904209"
+    "codigo": "2904209",
+    "uf": "BA"
   },
   {
     "nome": "Brejões",
-    "codigo": "2904308"
+    "codigo": "2904308",
+    "uf": "BA"
   },
   {
     "nome": "Brejolândia",
-    "codigo": "2904407"
+    "codigo": "2904407",
+    "uf": "BA"
   },
   {
     "nome": "Brotas de Macaúbas",
-    "codigo": "2904506"
+    "codigo": "2904506",
+    "uf": "BA"
   },
   {
     "nome": "Brumado",
-    "codigo": "2904605"
+    "codigo": "2904605",
+    "uf": "BA"
   },
   {
     "nome": "Buerarema",
-    "codigo": "2904704"
+    "codigo": "2904704",
+    "uf": "BA"
   },
   {
     "nome": "Caatiba",
-    "codigo": "2904803"
+    "codigo": "2904803",
+    "uf": "BA"
   },
   {
     "nome": "Cachoeira",
-    "codigo": "2904902"
+    "codigo": "2904902",
+    "uf": "BA"
   },
   {
     "nome": "Caculé",
-    "codigo": "2905008"
+    "codigo": "2905008",
+    "uf": "BA"
   },
   {
     "nome": "Caém",
-    "codigo": "2905107"
+    "codigo": "2905107",
+    "uf": "BA"
   },
   {
     "nome": "Caetité",
-    "codigo": "2905206"
+    "codigo": "2905206",
+    "uf": "BA"
   },
   {
     "nome": "Cafarnaum",
-    "codigo": "2905305"
+    "codigo": "2905305",
+    "uf": "BA"
   },
   {
     "nome": "Cairu",
-    "codigo": "2905404"
+    "codigo": "2905404",
+    "uf": "BA"
   },
   {
     "nome": "Caldeirão Grande",
-    "codigo": "2905503"
+    "codigo": "2905503",
+    "uf": "BA"
   },
   {
     "nome": "Camacan",
-    "codigo": "2905602"
+    "codigo": "2905602",
+    "uf": "BA"
   },
   {
     "nome": "Camaçari",
-    "codigo": "2905701"
+    "codigo": "2905701",
+    "uf": "BA"
   },
   {
     "nome": "Camamu",
-    "codigo": "2905800"
+    "codigo": "2905800",
+    "uf": "BA"
   },
   {
     "nome": "Campo Alegre de Lourdes",
-    "codigo": "2905909"
+    "codigo": "2905909",
+    "uf": "BA"
   },
   {
     "nome": "Campo Formoso",
-    "codigo": "2906006"
+    "codigo": "2906006",
+    "uf": "BA"
   },
   {
     "nome": "Canápolis",
-    "codigo": "2906105"
+    "codigo": "2906105",
+    "uf": "BA"
   },
   {
     "nome": "Canarana",
-    "codigo": "2906204"
+    "codigo": "2906204",
+    "uf": "BA"
   },
   {
     "nome": "Canavieiras",
-    "codigo": "2906303"
+    "codigo": "2906303",
+    "uf": "BA"
   },
   {
     "nome": "Candeal",
-    "codigo": "2906402"
+    "codigo": "2906402",
+    "uf": "BA"
   },
   {
     "nome": "Candeias",
-    "codigo": "2906501"
+    "codigo": "2906501",
+    "uf": "BA"
   },
   {
     "nome": "Candiba",
-    "codigo": "2906600"
+    "codigo": "2906600",
+    "uf": "BA"
   },
   {
     "nome": "Cândido Sales",
-    "codigo": "2906709"
+    "codigo": "2906709",
+    "uf": "BA"
   },
   {
     "nome": "Cansanção",
-    "codigo": "2906808"
+    "codigo": "2906808",
+    "uf": "BA"
   },
   {
     "nome": "Caravelas",
-    "codigo": "2906907"
+    "codigo": "2906907",
+    "uf": "BA"
   },
   {
     "nome": "Cardeal da Silva",
-    "codigo": "2907004"
+    "codigo": "2907004",
+    "uf": "BA"
   },
   {
     "nome": "Carinhanha",
-    "codigo": "2907103"
+    "codigo": "2907103",
+    "uf": "BA"
   },
   {
     "nome": "Casa Nova",
-    "codigo": "2907202"
+    "codigo": "2907202",
+    "uf": "BA"
   },
   {
     "nome": "Castro Alves",
-    "codigo": "2907301"
+    "codigo": "2907301",
+    "uf": "BA"
   },
   {
     "nome": "Catolândia",
-    "codigo": "2907400"
+    "codigo": "2907400",
+    "uf": "BA"
   },
   {
     "nome": "Catu",
-    "codigo": "2907509"
+    "codigo": "2907509",
+    "uf": "BA"
   },
   {
     "nome": "Central",
-    "codigo": "2907608"
+    "codigo": "2907608",
+    "uf": "BA"
   },
   {
     "nome": "Chorrochó",
-    "codigo": "2907707"
+    "codigo": "2907707",
+    "uf": "BA"
   },
   {
     "nome": "Cícero Dantas",
-    "codigo": "2907806"
+    "codigo": "2907806",
+    "uf": "BA"
   },
   {
     "nome": "Cipó",
-    "codigo": "2907905"
+    "codigo": "2907905",
+    "uf": "BA"
   },
   {
     "nome": "Coaraci",
-    "codigo": "2908002"
+    "codigo": "2908002",
+    "uf": "BA"
   },
   {
     "nome": "Cocos",
-    "codigo": "2908101"
+    "codigo": "2908101",
+    "uf": "BA"
   },
   {
     "nome": "Conceição da Feira",
-    "codigo": "2908200"
+    "codigo": "2908200",
+    "uf": "BA"
   },
   {
     "nome": "Conceição do Almeida",
-    "codigo": "2908309"
+    "codigo": "2908309",
+    "uf": "BA"
   },
   {
     "nome": "Conceição do Coité",
-    "codigo": "2908408"
+    "codigo": "2908408",
+    "uf": "BA"
   },
   {
     "nome": "Conceição do Jacuípe",
-    "codigo": "2908507"
+    "codigo": "2908507",
+    "uf": "BA"
   },
   {
     "nome": "Conde",
-    "codigo": "2908606"
+    "codigo": "2908606",
+    "uf": "BA"
   },
   {
     "nome": "Condeúba",
-    "codigo": "2908705"
+    "codigo": "2908705",
+    "uf": "BA"
   },
   {
     "nome": "Contendas do Sincorá",
-    "codigo": "2908804"
+    "codigo": "2908804",
+    "uf": "BA"
   },
   {
     "nome": "Coração de Maria",
-    "codigo": "2908903"
+    "codigo": "2908903",
+    "uf": "BA"
   },
   {
     "nome": "Cordeiros",
-    "codigo": "2909000"
+    "codigo": "2909000",
+    "uf": "BA"
   },
   {
     "nome": "Coribe",
-    "codigo": "2909109"
+    "codigo": "2909109",
+    "uf": "BA"
   },
   {
     "nome": "Coronel João Sá",
-    "codigo": "2909208"
+    "codigo": "2909208",
+    "uf": "BA"
   },
   {
     "nome": "Correntina",
-    "codigo": "2909307"
+    "codigo": "2909307",
+    "uf": "BA"
   },
   {
     "nome": "Cotegipe",
-    "codigo": "2909406"
+    "codigo": "2909406",
+    "uf": "BA"
   },
   {
     "nome": "Cravolândia",
-    "codigo": "2909505"
+    "codigo": "2909505",
+    "uf": "BA"
   },
   {
     "nome": "Crisópolis",
-    "codigo": "2909604"
+    "codigo": "2909604",
+    "uf": "BA"
   },
   {
     "nome": "Cristópolis",
-    "codigo": "2909703"
+    "codigo": "2909703",
+    "uf": "BA"
   },
   {
     "nome": "Cruz das Almas",
-    "codigo": "2909802"
+    "codigo": "2909802",
+    "uf": "BA"
   },
   {
     "nome": "Curaçá",
-    "codigo": "2909901"
+    "codigo": "2909901",
+    "uf": "BA"
   },
   {
     "nome": "Dário Meira",
-    "codigo": "2910008"
+    "codigo": "2910008",
+    "uf": "BA"
   },
   {
     "nome": "Dom Basílio",
-    "codigo": "2910107"
+    "codigo": "2910107",
+    "uf": "BA"
   },
   {
     "nome": "Dom Macedo Costa",
-    "codigo": "2910206"
+    "codigo": "2910206",
+    "uf": "BA"
   },
   {
     "nome": "Elísio Medrado",
-    "codigo": "2910305"
+    "codigo": "2910305",
+    "uf": "BA"
   },
   {
     "nome": "Encruzilhada",
-    "codigo": "2910404"
+    "codigo": "2910404",
+    "uf": "BA"
   },
   {
     "nome": "Entre Rios",
-    "codigo": "2910503"
+    "codigo": "2910503",
+    "uf": "BA"
   },
   {
     "nome": "Esplanada",
-    "codigo": "2910602"
+    "codigo": "2910602",
+    "uf": "BA"
   },
   {
     "nome": "Euclides da Cunha",
-    "codigo": "2910701"
+    "codigo": "2910701",
+    "uf": "BA"
   },
   {
     "nome": "Feira de Santana",
-    "codigo": "2910800"
+    "codigo": "2910800",
+    "uf": "BA"
   },
   {
     "nome": "Firmino Alves",
-    "codigo": "2910909"
+    "codigo": "2910909",
+    "uf": "BA"
   },
   {
     "nome": "Floresta Azul",
-    "codigo": "2911006"
+    "codigo": "2911006",
+    "uf": "BA"
   },
   {
     "nome": "Formosa do Rio Preto",
-    "codigo": "2911105"
+    "codigo": "2911105",
+    "uf": "BA"
   },
   {
     "nome": "Gandu",
-    "codigo": "2911204"
+    "codigo": "2911204",
+    "uf": "BA"
   },
   {
     "nome": "Gentio do Ouro",
-    "codigo": "2911303"
+    "codigo": "2911303",
+    "uf": "BA"
   },
   {
     "nome": "Glória",
-    "codigo": "2911402"
+    "codigo": "2911402",
+    "uf": "BA"
   },
   {
     "nome": "Gongogi",
-    "codigo": "2911501"
+    "codigo": "2911501",
+    "uf": "BA"
   },
   {
     "nome": "Governador Mangabeira",
-    "codigo": "2911600"
+    "codigo": "2911600",
+    "uf": "BA"
   },
   {
     "nome": "Guanambi",
-    "codigo": "2911709"
+    "codigo": "2911709",
+    "uf": "BA"
   },
   {
     "nome": "Guaratinga",
-    "codigo": "2911808"
+    "codigo": "2911808",
+    "uf": "BA"
   },
   {
     "nome": "Iaçu",
-    "codigo": "2911907"
+    "codigo": "2911907",
+    "uf": "BA"
   },
   {
     "nome": "Ibiassucê",
-    "codigo": "2912004"
+    "codigo": "2912004",
+    "uf": "BA"
   },
   {
     "nome": "Ibicaraí",
-    "codigo": "2912103"
+    "codigo": "2912103",
+    "uf": "BA"
   },
   {
     "nome": "Ibicoara",
-    "codigo": "2912202"
+    "codigo": "2912202",
+    "uf": "BA"
   },
   {
     "nome": "Ibicuí",
-    "codigo": "2912301"
+    "codigo": "2912301",
+    "uf": "BA"
   },
   {
     "nome": "Ibipeba",
-    "codigo": "2912400"
+    "codigo": "2912400",
+    "uf": "BA"
   },
   {
     "nome": "Santa Rita de Cássia",
-    "codigo": "2928406"
+    "codigo": "2928406",
+    "uf": "BA"
   },
   {
     "nome": "Ibipitanga",
-    "codigo": "2912509"
+    "codigo": "2912509",
+    "uf": "BA"
   },
   {
     "nome": "Ibiquera",
-    "codigo": "2912608"
+    "codigo": "2912608",
+    "uf": "BA"
   },
   {
     "nome": "Ibirapitanga",
-    "codigo": "2912707"
+    "codigo": "2912707",
+    "uf": "BA"
   },
   {
     "nome": "Ibirapuã",
-    "codigo": "2912806"
+    "codigo": "2912806",
+    "uf": "BA"
   },
   {
     "nome": "Ibirataia",
-    "codigo": "2912905"
+    "codigo": "2912905",
+    "uf": "BA"
   },
   {
     "nome": "Ibitiara",
-    "codigo": "2913002"
+    "codigo": "2913002",
+    "uf": "BA"
   },
   {
     "nome": "Ibititá",
-    "codigo": "2913101"
+    "codigo": "2913101",
+    "uf": "BA"
   },
   {
     "nome": "Ibotirama",
-    "codigo": "2913200"
+    "codigo": "2913200",
+    "uf": "BA"
   },
   {
     "nome": "Ichu",
-    "codigo": "2913309"
+    "codigo": "2913309",
+    "uf": "BA"
   },
   {
     "nome": "Igaporã",
-    "codigo": "2913408"
+    "codigo": "2913408",
+    "uf": "BA"
   },
   {
     "nome": "Iguaí",
-    "codigo": "2913507"
+    "codigo": "2913507",
+    "uf": "BA"
   },
   {
     "nome": "Ilhéus",
-    "codigo": "2913606"
+    "codigo": "2913606",
+    "uf": "BA"
   },
   {
     "nome": "Inhambupe",
-    "codigo": "2913705"
+    "codigo": "2913705",
+    "uf": "BA"
   },
   {
     "nome": "Ipecaetá",
-    "codigo": "2913804"
+    "codigo": "2913804",
+    "uf": "BA"
   },
   {
     "nome": "Ipiaú",
-    "codigo": "2913903"
+    "codigo": "2913903",
+    "uf": "BA"
   },
   {
     "nome": "Ipirá",
-    "codigo": "2914000"
+    "codigo": "2914000",
+    "uf": "BA"
   },
   {
     "nome": "Ipupiara",
-    "codigo": "2914109"
+    "codigo": "2914109",
+    "uf": "BA"
   },
   {
     "nome": "Irajuba",
-    "codigo": "2914208"
+    "codigo": "2914208",
+    "uf": "BA"
   },
   {
     "nome": "Iramaia",
-    "codigo": "2914307"
+    "codigo": "2914307",
+    "uf": "BA"
   },
   {
     "nome": "Iraquara",
-    "codigo": "2914406"
+    "codigo": "2914406",
+    "uf": "BA"
   },
   {
     "nome": "Irará",
-    "codigo": "2914505"
+    "codigo": "2914505",
+    "uf": "BA"
   },
   {
     "nome": "Irecê",
-    "codigo": "2914604"
+    "codigo": "2914604",
+    "uf": "BA"
   },
   {
     "nome": "Itaberaba",
-    "codigo": "2914703"
+    "codigo": "2914703",
+    "uf": "BA"
   },
   {
     "nome": "Itabuna",
-    "codigo": "2914802"
+    "codigo": "2914802",
+    "uf": "BA"
   },
   {
     "nome": "Itacaré",
-    "codigo": "2914901"
+    "codigo": "2914901",
+    "uf": "BA"
   },
   {
     "nome": "Itaeté",
-    "codigo": "2915007"
+    "codigo": "2915007",
+    "uf": "BA"
   },
   {
     "nome": "Itagi",
-    "codigo": "2915106"
+    "codigo": "2915106",
+    "uf": "BA"
   },
   {
     "nome": "Itagibá",
-    "codigo": "2915205"
+    "codigo": "2915205",
+    "uf": "BA"
   },
   {
     "nome": "Itagimirim",
-    "codigo": "2915304"
+    "codigo": "2915304",
+    "uf": "BA"
   },
   {
     "nome": "Itaju do Colônia",
-    "codigo": "2915403"
+    "codigo": "2915403",
+    "uf": "BA"
   },
   {
     "nome": "Itajuípe",
-    "codigo": "2915502"
+    "codigo": "2915502",
+    "uf": "BA"
   },
   {
     "nome": "Itamaraju",
-    "codigo": "2915601"
+    "codigo": "2915601",
+    "uf": "BA"
   },
   {
     "nome": "Itamari",
-    "codigo": "2915700"
+    "codigo": "2915700",
+    "uf": "BA"
   },
   {
     "nome": "Itambé",
-    "codigo": "2915809"
+    "codigo": "2915809",
+    "uf": "BA"
   },
   {
     "nome": "Itanagra",
-    "codigo": "2915908"
+    "codigo": "2915908",
+    "uf": "BA"
   },
   {
     "nome": "Itanhém",
-    "codigo": "2916005"
+    "codigo": "2916005",
+    "uf": "BA"
   },
   {
     "nome": "Itaparica",
-    "codigo": "2916104"
+    "codigo": "2916104",
+    "uf": "BA"
   },
   {
     "nome": "Itapé",
-    "codigo": "2916203"
+    "codigo": "2916203",
+    "uf": "BA"
   },
   {
     "nome": "Itapebi",
-    "codigo": "2916302"
+    "codigo": "2916302",
+    "uf": "BA"
   },
   {
     "nome": "Itapetinga",
-    "codigo": "2916401"
+    "codigo": "2916401",
+    "uf": "BA"
   },
   {
     "nome": "Itapicuru",
-    "codigo": "2916500"
+    "codigo": "2916500",
+    "uf": "BA"
   },
   {
     "nome": "Itapitanga",
-    "codigo": "2916609"
+    "codigo": "2916609",
+    "uf": "BA"
   },
   {
     "nome": "Itaquara",
-    "codigo": "2916708"
+    "codigo": "2916708",
+    "uf": "BA"
   },
   {
     "nome": "Itarantim",
-    "codigo": "2916807"
+    "codigo": "2916807",
+    "uf": "BA"
   },
   {
     "nome": "Itiruçu",
-    "codigo": "2916906"
+    "codigo": "2916906",
+    "uf": "BA"
   },
   {
     "nome": "Itiúba",
-    "codigo": "2917003"
+    "codigo": "2917003",
+    "uf": "BA"
   },
   {
     "nome": "Itororó",
-    "codigo": "2917102"
+    "codigo": "2917102",
+    "uf": "BA"
   },
   {
     "nome": "Ituaçu",
-    "codigo": "2917201"
+    "codigo": "2917201",
+    "uf": "BA"
   },
   {
     "nome": "Ituberá",
-    "codigo": "2917300"
+    "codigo": "2917300",
+    "uf": "BA"
   },
   {
     "nome": "Jacaraci",
-    "codigo": "2917409"
+    "codigo": "2917409",
+    "uf": "BA"
   },
   {
     "nome": "Jacobina",
-    "codigo": "2917508"
+    "codigo": "2917508",
+    "uf": "BA"
   },
   {
     "nome": "Jaguaquara",
-    "codigo": "2917607"
+    "codigo": "2917607",
+    "uf": "BA"
   },
   {
     "nome": "Jaguarari",
-    "codigo": "2917706"
+    "codigo": "2917706",
+    "uf": "BA"
   },
   {
     "nome": "Jaguaripe",
-    "codigo": "2917805"
+    "codigo": "2917805",
+    "uf": "BA"
   },
   {
     "nome": "Jandaíra",
-    "codigo": "2917904"
+    "codigo": "2917904",
+    "uf": "BA"
   },
   {
     "nome": "Jequié",
-    "codigo": "2918001"
+    "codigo": "2918001",
+    "uf": "BA"
   },
   {
     "nome": "Jeremoabo",
-    "codigo": "2918100"
+    "codigo": "2918100",
+    "uf": "BA"
   },
   {
     "nome": "Jiquiriçá",
-    "codigo": "2918209"
+    "codigo": "2918209",
+    "uf": "BA"
   },
   {
     "nome": "Jitaúna",
-    "codigo": "2918308"
+    "codigo": "2918308",
+    "uf": "BA"
   },
   {
     "nome": "Juazeiro",
-    "codigo": "2918407"
+    "codigo": "2918407",
+    "uf": "BA"
   },
   {
     "nome": "Jussara",
-    "codigo": "2918506"
+    "codigo": "2918506",
+    "uf": "BA"
   },
   {
     "nome": "Jussiape",
-    "codigo": "2918605"
+    "codigo": "2918605",
+    "uf": "BA"
   },
   {
     "nome": "Lafaiete Coutinho",
-    "codigo": "2918704"
+    "codigo": "2918704",
+    "uf": "BA"
   },
   {
     "nome": "Laje",
-    "codigo": "2918803"
+    "codigo": "2918803",
+    "uf": "BA"
   },
   {
     "nome": "Lajedão",
-    "codigo": "2918902"
+    "codigo": "2918902",
+    "uf": "BA"
   },
   {
     "nome": "Lajedinho",
-    "codigo": "2919009"
+    "codigo": "2919009",
+    "uf": "BA"
   },
   {
     "nome": "Lamarão",
-    "codigo": "2919108"
+    "codigo": "2919108",
+    "uf": "BA"
   },
   {
     "nome": "Lauro de Freitas",
-    "codigo": "2919207"
+    "codigo": "2919207",
+    "uf": "BA"
   },
   {
     "nome": "Lençóis",
-    "codigo": "2919306"
+    "codigo": "2919306",
+    "uf": "BA"
   },
   {
     "nome": "Licínio de Almeida",
-    "codigo": "2919405"
+    "codigo": "2919405",
+    "uf": "BA"
   },
   {
     "nome": "Livramento de Nossa Senhora",
-    "codigo": "2919504"
+    "codigo": "2919504",
+    "uf": "BA"
   },
   {
     "nome": "Macajuba",
-    "codigo": "2919603"
+    "codigo": "2919603",
+    "uf": "BA"
   },
   {
     "nome": "Macarani",
-    "codigo": "2919702"
+    "codigo": "2919702",
+    "uf": "BA"
   },
   {
     "nome": "Macaúbas",
-    "codigo": "2919801"
+    "codigo": "2919801",
+    "uf": "BA"
   },
   {
     "nome": "Macururé",
-    "codigo": "2919900"
+    "codigo": "2919900",
+    "uf": "BA"
   },
   {
     "nome": "Maiquinique",
-    "codigo": "2920007"
+    "codigo": "2920007",
+    "uf": "BA"
   },
   {
     "nome": "Mairi",
-    "codigo": "2920106"
+    "codigo": "2920106",
+    "uf": "BA"
   },
   {
     "nome": "Malhada",
-    "codigo": "2920205"
+    "codigo": "2920205",
+    "uf": "BA"
   },
   {
     "nome": "Malhada de Pedras",
-    "codigo": "2920304"
+    "codigo": "2920304",
+    "uf": "BA"
   },
   {
     "nome": "Manoel Vitorino",
-    "codigo": "2920403"
+    "codigo": "2920403",
+    "uf": "BA"
   },
   {
     "nome": "Maracás",
-    "codigo": "2920502"
+    "codigo": "2920502",
+    "uf": "BA"
   },
   {
     "nome": "Maragogipe",
-    "codigo": "2920601"
+    "codigo": "2920601",
+    "uf": "BA"
   },
   {
     "nome": "Maraú",
-    "codigo": "2920700"
+    "codigo": "2920700",
+    "uf": "BA"
   },
   {
     "nome": "Marcionílio Souza",
-    "codigo": "2920809"
+    "codigo": "2920809",
+    "uf": "BA"
   },
   {
     "nome": "Mascote",
-    "codigo": "2920908"
+    "codigo": "2920908",
+    "uf": "BA"
   },
   {
     "nome": "Mata de São João",
-    "codigo": "2921005"
+    "codigo": "2921005",
+    "uf": "BA"
   },
   {
     "nome": "Medeiros Neto",
-    "codigo": "2921104"
+    "codigo": "2921104",
+    "uf": "BA"
   },
   {
     "nome": "Miguel Calmon",
-    "codigo": "2921203"
+    "codigo": "2921203",
+    "uf": "BA"
   },
   {
     "nome": "Milagres",
-    "codigo": "2921302"
+    "codigo": "2921302",
+    "uf": "BA"
   },
   {
     "nome": "Mirangaba",
-    "codigo": "2921401"
+    "codigo": "2921401",
+    "uf": "BA"
   },
   {
     "nome": "Monte Santo",
-    "codigo": "2921500"
+    "codigo": "2921500",
+    "uf": "BA"
   },
   {
     "nome": "Morpará",
-    "codigo": "2921609"
+    "codigo": "2921609",
+    "uf": "BA"
   },
   {
     "nome": "Morro do Chapéu",
-    "codigo": "2921708"
+    "codigo": "2921708",
+    "uf": "BA"
   },
   {
     "nome": "Mortugaba",
-    "codigo": "2921807"
+    "codigo": "2921807",
+    "uf": "BA"
   },
   {
     "nome": "Mucugê",
-    "codigo": "2921906"
+    "codigo": "2921906",
+    "uf": "BA"
   },
   {
     "nome": "Mucuri",
-    "codigo": "2922003"
+    "codigo": "2922003",
+    "uf": "BA"
   },
   {
     "nome": "Mundo Novo",
-    "codigo": "2922102"
+    "codigo": "2922102",
+    "uf": "BA"
   },
   {
     "nome": "Muniz Ferreira",
-    "codigo": "2922201"
+    "codigo": "2922201",
+    "uf": "BA"
   },
   {
     "nome": "Muritiba",
-    "codigo": "2922300"
+    "codigo": "2922300",
+    "uf": "BA"
   },
   {
     "nome": "Mutuípe",
-    "codigo": "2922409"
+    "codigo": "2922409",
+    "uf": "BA"
   },
   {
     "nome": "Nazaré",
-    "codigo": "2922508"
+    "codigo": "2922508",
+    "uf": "BA"
   },
   {
     "nome": "Nilo Peçanha",
-    "codigo": "2922607"
+    "codigo": "2922607",
+    "uf": "BA"
   },
   {
     "nome": "Nova Canaã",
-    "codigo": "2922706"
+    "codigo": "2922706",
+    "uf": "BA"
   },
   {
     "nome": "Nova Itarana",
-    "codigo": "2922805"
+    "codigo": "2922805",
+    "uf": "BA"
   },
   {
     "nome": "Nova Soure",
-    "codigo": "2922904"
+    "codigo": "2922904",
+    "uf": "BA"
   },
   {
     "nome": "Nova Viçosa",
-    "codigo": "2923001"
+    "codigo": "2923001",
+    "uf": "BA"
   },
   {
     "nome": "Olindina",
-    "codigo": "2923100"
+    "codigo": "2923100",
+    "uf": "BA"
   },
   {
     "nome": "Oliveira dos Brejinhos",
-    "codigo": "2923209"
+    "codigo": "2923209",
+    "uf": "BA"
   },
   {
     "nome": "Ouriçangas",
-    "codigo": "2923308"
+    "codigo": "2923308",
+    "uf": "BA"
   },
   {
     "nome": "Palmas de Monte Alto",
-    "codigo": "2923407"
+    "codigo": "2923407",
+    "uf": "BA"
   },
   {
     "nome": "Palmeiras",
-    "codigo": "2923506"
+    "codigo": "2923506",
+    "uf": "BA"
   },
   {
     "nome": "Paramirim",
-    "codigo": "2923605"
+    "codigo": "2923605",
+    "uf": "BA"
   },
   {
     "nome": "Paratinga",
-    "codigo": "2923704"
+    "codigo": "2923704",
+    "uf": "BA"
   },
   {
     "nome": "Paripiranga",
-    "codigo": "2923803"
+    "codigo": "2923803",
+    "uf": "BA"
   },
   {
     "nome": "Pau Brasil",
-    "codigo": "2923902"
+    "codigo": "2923902",
+    "uf": "BA"
   },
   {
     "nome": "Paulo Afonso",
-    "codigo": "2924009"
+    "codigo": "2924009",
+    "uf": "BA"
   },
   {
     "nome": "Pedrão",
-    "codigo": "2924108"
+    "codigo": "2924108",
+    "uf": "BA"
   },
   {
     "nome": "Pedro Alexandre",
-    "codigo": "2924207"
+    "codigo": "2924207",
+    "uf": "BA"
   },
   {
     "nome": "Piatã",
-    "codigo": "2924306"
+    "codigo": "2924306",
+    "uf": "BA"
   },
   {
     "nome": "Pilão Arcado",
-    "codigo": "2924405"
+    "codigo": "2924405",
+    "uf": "BA"
   },
   {
     "nome": "Pindaí",
-    "codigo": "2924504"
+    "codigo": "2924504",
+    "uf": "BA"
   },
   {
     "nome": "Pindobaçu",
-    "codigo": "2924603"
+    "codigo": "2924603",
+    "uf": "BA"
   },
   {
     "nome": "Piripá",
-    "codigo": "2924702"
+    "codigo": "2924702",
+    "uf": "BA"
   },
   {
     "nome": "Piritiba",
-    "codigo": "2924801"
+    "codigo": "2924801",
+    "uf": "BA"
   },
   {
     "nome": "Planaltino",
-    "codigo": "2924900"
+    "codigo": "2924900",
+    "uf": "BA"
   },
   {
     "nome": "Planalto",
-    "codigo": "2925006"
+    "codigo": "2925006",
+    "uf": "BA"
   },
   {
     "nome": "Poções",
-    "codigo": "2925105"
+    "codigo": "2925105",
+    "uf": "BA"
   },
   {
     "nome": "Pojuca",
-    "codigo": "2925204"
+    "codigo": "2925204",
+    "uf": "BA"
   },
   {
     "nome": "Porto Seguro",
-    "codigo": "2925303"
+    "codigo": "2925303",
+    "uf": "BA"
   },
   {
     "nome": "Potiraguá",
-    "codigo": "2925402"
+    "codigo": "2925402",
+    "uf": "BA"
   },
   {
     "nome": "Prado",
-    "codigo": "2925501"
+    "codigo": "2925501",
+    "uf": "BA"
   },
   {
     "nome": "Presidente Dutra",
-    "codigo": "2925600"
+    "codigo": "2925600",
+    "uf": "BA"
   },
   {
     "nome": "Presidente Jânio Quadros",
-    "codigo": "2925709"
+    "codigo": "2925709",
+    "uf": "BA"
   },
   {
     "nome": "Queimadas",
-    "codigo": "2925808"
+    "codigo": "2925808",
+    "uf": "BA"
   },
   {
     "nome": "Quijingue",
-    "codigo": "2925907"
+    "codigo": "2925907",
+    "uf": "BA"
   },
   {
     "nome": "Remanso",
-    "codigo": "2926004"
+    "codigo": "2926004",
+    "uf": "BA"
   },
   {
     "nome": "Retirolândia",
-    "codigo": "2926103"
+    "codigo": "2926103",
+    "uf": "BA"
   },
   {
     "nome": "Riachão das Neves",
-    "codigo": "2926202"
+    "codigo": "2926202",
+    "uf": "BA"
   },
   {
     "nome": "Riachão do Jacuípe",
-    "codigo": "2926301"
+    "codigo": "2926301",
+    "uf": "BA"
   },
   {
     "nome": "Riacho de Santana",
-    "codigo": "2926400"
+    "codigo": "2926400",
+    "uf": "BA"
   },
   {
     "nome": "Ribeira do Amparo",
-    "codigo": "2926509"
+    "codigo": "2926509",
+    "uf": "BA"
   },
   {
     "nome": "Ribeira do Pombal",
-    "codigo": "2926608"
+    "codigo": "2926608",
+    "uf": "BA"
   },
   {
     "nome": "Rio de Contas",
-    "codigo": "2926707"
+    "codigo": "2926707",
+    "uf": "BA"
   },
   {
     "nome": "Rio do Antônio",
-    "codigo": "2926806"
+    "codigo": "2926806",
+    "uf": "BA"
   },
   {
     "nome": "Rio do Pires",
-    "codigo": "2926905"
+    "codigo": "2926905",
+    "uf": "BA"
   },
   {
     "nome": "Rio Real",
-    "codigo": "2927002"
+    "codigo": "2927002",
+    "uf": "BA"
   },
   {
     "nome": "Rodelas",
-    "codigo": "2927101"
+    "codigo": "2927101",
+    "uf": "BA"
   },
   {
     "nome": "Ruy Barbosa",
-    "codigo": "2927200"
+    "codigo": "2927200",
+    "uf": "BA"
   },
   {
     "nome": "Salinas da Margarida",
-    "codigo": "2927309"
+    "codigo": "2927309",
+    "uf": "BA"
   },
   {
     "nome": "Salvador",
-    "codigo": "2927408"
+    "codigo": "2927408",
+    "uf": "BA"
   },
   {
     "nome": "Santa Bárbara",
-    "codigo": "2927507"
+    "codigo": "2927507",
+    "uf": "BA"
   },
   {
     "nome": "Santa Brígida",
-    "codigo": "2927606"
+    "codigo": "2927606",
+    "uf": "BA"
   },
   {
     "nome": "Santa Cruz Cabrália",
-    "codigo": "2927705"
+    "codigo": "2927705",
+    "uf": "BA"
   },
   {
     "nome": "Santa Cruz da Vitória",
-    "codigo": "2927804"
+    "codigo": "2927804",
+    "uf": "BA"
   },
   {
     "nome": "Santa Inês",
-    "codigo": "2927903"
+    "codigo": "2927903",
+    "uf": "BA"
   },
   {
     "nome": "Santaluz",
-    "codigo": "2928000"
+    "codigo": "2928000",
+    "uf": "BA"
   },
   {
     "nome": "Santa Maria da Vitória",
-    "codigo": "2928109"
+    "codigo": "2928109",
+    "uf": "BA"
   },
   {
     "nome": "Santana",
-    "codigo": "2928208"
+    "codigo": "2928208",
+    "uf": "BA"
   },
   {
     "nome": "Santanópolis",
-    "codigo": "2928307"
+    "codigo": "2928307",
+    "uf": "BA"
   },
   {
     "nome": "Santa Terezinha",
-    "codigo": "2928505"
+    "codigo": "2928505",
+    "uf": "BA"
   },
   {
     "nome": "Santo Amaro",
-    "codigo": "2928604"
+    "codigo": "2928604",
+    "uf": "BA"
   },
   {
     "nome": "Santo Antônio de Jesus",
-    "codigo": "2928703"
+    "codigo": "2928703",
+    "uf": "BA"
   },
   {
     "nome": "Santo Estêvão",
-    "codigo": "2928802"
+    "codigo": "2928802",
+    "uf": "BA"
   },
   {
     "nome": "São Desidério",
-    "codigo": "2928901"
+    "codigo": "2928901",
+    "uf": "BA"
   },
   {
     "nome": "São Félix",
-    "codigo": "2929008"
+    "codigo": "2929008",
+    "uf": "BA"
   },
   {
     "nome": "São Felipe",
-    "codigo": "2929107"
+    "codigo": "2929107",
+    "uf": "BA"
   },
   {
     "nome": "São Francisco do Conde",
-    "codigo": "2929206"
+    "codigo": "2929206",
+    "uf": "BA"
   },
   {
     "nome": "São Gonçalo dos Campos",
-    "codigo": "2929305"
+    "codigo": "2929305",
+    "uf": "BA"
   },
   {
     "nome": "São Miguel das Matas",
-    "codigo": "2929404"
+    "codigo": "2929404",
+    "uf": "BA"
   },
   {
     "nome": "São Sebastião do Passé",
-    "codigo": "2929503"
+    "codigo": "2929503",
+    "uf": "BA"
   },
   {
     "nome": "Sapeaçu",
-    "codigo": "2929602"
+    "codigo": "2929602",
+    "uf": "BA"
   },
   {
     "nome": "Sátiro Dias",
-    "codigo": "2929701"
+    "codigo": "2929701",
+    "uf": "BA"
   },
   {
     "nome": "Saúde",
-    "codigo": "2929800"
+    "codigo": "2929800",
+    "uf": "BA"
   },
   {
     "nome": "Seabra",
-    "codigo": "2929909"
+    "codigo": "2929909",
+    "uf": "BA"
   },
   {
     "nome": "Sebastião Laranjeiras",
-    "codigo": "2930006"
+    "codigo": "2930006",
+    "uf": "BA"
   },
   {
     "nome": "Senhor do Bonfim",
-    "codigo": "2930105"
+    "codigo": "2930105",
+    "uf": "BA"
   },
   {
     "nome": "Sento Sé",
-    "codigo": "2930204"
+    "codigo": "2930204",
+    "uf": "BA"
   },
   {
     "nome": "Serra Dourada",
-    "codigo": "2930303"
+    "codigo": "2930303",
+    "uf": "BA"
   },
   {
     "nome": "Serra Preta",
-    "codigo": "2930402"
+    "codigo": "2930402",
+    "uf": "BA"
   },
   {
     "nome": "Serrinha",
-    "codigo": "2930501"
+    "codigo": "2930501",
+    "uf": "BA"
   },
   {
     "nome": "Serrolândia",
-    "codigo": "2930600"
+    "codigo": "2930600",
+    "uf": "BA"
   },
   {
     "nome": "Simões Filho",
-    "codigo": "2930709"
+    "codigo": "2930709",
+    "uf": "BA"
   },
   {
     "nome": "Souto Soares",
-    "codigo": "2930808"
+    "codigo": "2930808",
+    "uf": "BA"
   },
   {
     "nome": "Tabocas do Brejo Velho",
-    "codigo": "2930907"
+    "codigo": "2930907",
+    "uf": "BA"
   },
   {
     "nome": "Tanhaçu",
-    "codigo": "2931004"
+    "codigo": "2931004",
+    "uf": "BA"
   },
   {
     "nome": "Tanquinho",
-    "codigo": "2931103"
+    "codigo": "2931103",
+    "uf": "BA"
   },
   {
     "nome": "Taperoá",
-    "codigo": "2931202"
+    "codigo": "2931202",
+    "uf": "BA"
   },
   {
     "nome": "Tapiramutá",
-    "codigo": "2931301"
+    "codigo": "2931301",
+    "uf": "BA"
   },
   {
     "nome": "Teodoro Sampaio",
-    "codigo": "2931400"
+    "codigo": "2931400",
+    "uf": "BA"
   },
   {
     "nome": "Teofilândia",
-    "codigo": "2931509"
+    "codigo": "2931509",
+    "uf": "BA"
   },
   {
     "nome": "Teolândia",
-    "codigo": "2931608"
+    "codigo": "2931608",
+    "uf": "BA"
   },
   {
     "nome": "Terra Nova",
-    "codigo": "2931707"
+    "codigo": "2931707",
+    "uf": "BA"
   },
   {
     "nome": "Tremedal",
-    "codigo": "2931806"
+    "codigo": "2931806",
+    "uf": "BA"
   },
   {
     "nome": "Tucano",
-    "codigo": "2931905"
+    "codigo": "2931905",
+    "uf": "BA"
   },
   {
     "nome": "Uauá",
-    "codigo": "2932002"
+    "codigo": "2932002",
+    "uf": "BA"
   },
   {
     "nome": "Ubaíra",
-    "codigo": "2932101"
+    "codigo": "2932101",
+    "uf": "BA"
   },
   {
     "nome": "Ubaitaba",
-    "codigo": "2932200"
+    "codigo": "2932200",
+    "uf": "BA"
   },
   {
     "nome": "Ubatã",
-    "codigo": "2932309"
+    "codigo": "2932309",
+    "uf": "BA"
   },
   {
     "nome": "Uibaí",
-    "codigo": "2932408"
+    "codigo": "2932408",
+    "uf": "BA"
   },
   {
     "nome": "Una",
-    "codigo": "2932507"
+    "codigo": "2932507",
+    "uf": "BA"
   },
   {
     "nome": "Urandi",
-    "codigo": "2932606"
+    "codigo": "2932606",
+    "uf": "BA"
   },
   {
     "nome": "Uruçuca",
-    "codigo": "2932705"
+    "codigo": "2932705",
+    "uf": "BA"
   },
   {
     "nome": "Utinga",
-    "codigo": "2932804"
+    "codigo": "2932804",
+    "uf": "BA"
   },
   {
     "nome": "Valença",
-    "codigo": "2932903"
+    "codigo": "2932903",
+    "uf": "BA"
   },
   {
     "nome": "Valente",
-    "codigo": "2933000"
+    "codigo": "2933000",
+    "uf": "BA"
   },
   {
     "nome": "Várzea do Poço",
-    "codigo": "2933109"
+    "codigo": "2933109",
+    "uf": "BA"
   },
   {
     "nome": "Vera Cruz",
-    "codigo": "2933208"
+    "codigo": "2933208",
+    "uf": "BA"
   },
   {
     "nome": "Vitória da Conquista",
-    "codigo": "2933307"
+    "codigo": "2933307",
+    "uf": "BA"
   },
   {
     "nome": "Wagner",
-    "codigo": "2933406"
+    "codigo": "2933406",
+    "uf": "BA"
   },
   {
     "nome": "Wenceslau Guimarães",
-    "codigo": "2933505"
+    "codigo": "2933505",
+    "uf": "BA"
   },
   {
     "nome": "Xique-Xique",
-    "codigo": "2933604"
+    "codigo": "2933604",
+    "uf": "BA"
   },
   {
     "nome": "Lapão",
-    "codigo": "2919157"
+    "codigo": "2919157",
+    "uf": "BA"
   },
   {
     "nome": "Maetinga",
-    "codigo": "2919959"
+    "codigo": "2919959",
+    "uf": "BA"
   },
   {
     "nome": "Mansidão",
-    "codigo": "2920452"
+    "codigo": "2920452",
+    "uf": "BA"
   },
   {
     "nome": "Nordestina",
-    "codigo": "2922656"
+    "codigo": "2922656",
+    "uf": "BA"
   },
   {
     "nome": "Pé de Serra",
-    "codigo": "2924058"
+    "codigo": "2924058",
+    "uf": "BA"
   },
   {
     "nome": "Pintadas",
-    "codigo": "2924652"
+    "codigo": "2924652",
+    "uf": "BA"
   },
   {
     "nome": "Rafael Jambeiro",
-    "codigo": "2925956"
+    "codigo": "2925956",
+    "uf": "BA"
   },
   {
     "nome": "Santa Luzia",
-    "codigo": "2928059"
+    "codigo": "2928059",
+    "uf": "BA"
   },
   {
     "nome": "São Gabriel",
-    "codigo": "2929255"
+    "codigo": "2929255",
+    "uf": "BA"
   },
   {
     "nome": "Tanque Novo",
-    "codigo": "2931053"
+    "codigo": "2931053",
+    "uf": "BA"
   },
   {
     "nome": "Teixeira de Freitas",
-    "codigo": "2931350"
+    "codigo": "2931350",
+    "uf": "BA"
   },
   {
     "nome": "Várzea Nova",
-    "codigo": "2933158"
+    "codigo": "2933158",
+    "uf": "BA"
   },
   {
     "nome": "Várzea da Roça",
-    "codigo": "2933059"
+    "codigo": "2933059",
+    "uf": "BA"
   },
   {
     "nome": "Wanderley",
-    "codigo": "2933455"
+    "codigo": "2933455",
+    "uf": "BA"
   },
   {
     "nome": "Abadia dos Dourados",
-    "codigo": "3100104"
+    "codigo": "3100104",
+    "uf": "MG"
   },
   {
     "nome": "Abaeté",
-    "codigo": "3100203"
+    "codigo": "3100203",
+    "uf": "MG"
   },
   {
     "nome": "Abre Campo",
-    "codigo": "3100302"
+    "codigo": "3100302",
+    "uf": "MG"
   },
   {
     "nome": "Acaiaca",
-    "codigo": "3100401"
+    "codigo": "3100401",
+    "uf": "MG"
   },
   {
     "nome": "Açucena",
-    "codigo": "3100500"
+    "codigo": "3100500",
+    "uf": "MG"
   },
   {
     "nome": "Água Boa",
-    "codigo": "3100609"
+    "codigo": "3100609",
+    "uf": "MG"
   },
   {
     "nome": "Água Comprida",
-    "codigo": "3100708"
+    "codigo": "3100708",
+    "uf": "MG"
   },
   {
     "nome": "Aguanil",
-    "codigo": "3100807"
+    "codigo": "3100807",
+    "uf": "MG"
   },
   {
     "nome": "Águas Formosas",
-    "codigo": "3100906"
+    "codigo": "3100906",
+    "uf": "MG"
   },
   {
     "nome": "Águas Vermelhas",
-    "codigo": "3101003"
+    "codigo": "3101003",
+    "uf": "MG"
   },
   {
     "nome": "Aimorés",
-    "codigo": "3101102"
+    "codigo": "3101102",
+    "uf": "MG"
   },
   {
     "nome": "Aiuruoca",
-    "codigo": "3101201"
+    "codigo": "3101201",
+    "uf": "MG"
   },
   {
     "nome": "Alagoa",
-    "codigo": "3101300"
+    "codigo": "3101300",
+    "uf": "MG"
   },
   {
     "nome": "Albertina",
-    "codigo": "3101409"
+    "codigo": "3101409",
+    "uf": "MG"
   },
   {
     "nome": "Além Paraíba",
-    "codigo": "3101508"
+    "codigo": "3101508",
+    "uf": "MG"
   },
   {
     "nome": "Alfenas",
-    "codigo": "3101607"
+    "codigo": "3101607",
+    "uf": "MG"
   },
   {
     "nome": "Almenara",
-    "codigo": "3101706"
+    "codigo": "3101706",
+    "uf": "MG"
   },
   {
     "nome": "Alpercata",
-    "codigo": "3101805"
+    "codigo": "3101805",
+    "uf": "MG"
   },
   {
     "nome": "Alpinópolis",
-    "codigo": "3101904"
+    "codigo": "3101904",
+    "uf": "MG"
   },
   {
     "nome": "Alterosa",
-    "codigo": "3102001"
+    "codigo": "3102001",
+    "uf": "MG"
   },
   {
     "nome": "Alto Rio Doce",
-    "codigo": "3102100"
+    "codigo": "3102100",
+    "uf": "MG"
   },
   {
     "nome": "Alvarenga",
-    "codigo": "3102209"
+    "codigo": "3102209",
+    "uf": "MG"
   },
   {
     "nome": "Alvinópolis",
-    "codigo": "3102308"
+    "codigo": "3102308",
+    "uf": "MG"
   },
   {
     "nome": "Alvorada de Minas",
-    "codigo": "3102407"
+    "codigo": "3102407",
+    "uf": "MG"
   },
   {
     "nome": "Amparo do Serra",
-    "codigo": "3102506"
+    "codigo": "3102506",
+    "uf": "MG"
   },
   {
     "nome": "Andradas",
-    "codigo": "3102605"
+    "codigo": "3102605",
+    "uf": "MG"
   },
   {
     "nome": "Cachoeira de Pajeú",
-    "codigo": "3102704"
+    "codigo": "3102704",
+    "uf": "MG"
   },
   {
     "nome": "Andrelândia",
-    "codigo": "3102803"
+    "codigo": "3102803",
+    "uf": "MG"
   },
   {
     "nome": "Antônio Carlos",
-    "codigo": "3102902"
+    "codigo": "3102902",
+    "uf": "MG"
   },
   {
     "nome": "Antônio Dias",
-    "codigo": "3103009"
+    "codigo": "3103009",
+    "uf": "MG"
   },
   {
     "nome": "Antônio Prado de Minas",
-    "codigo": "3103108"
+    "codigo": "3103108",
+    "uf": "MG"
   },
   {
     "nome": "Araçaí",
-    "codigo": "3103207"
+    "codigo": "3103207",
+    "uf": "MG"
   },
   {
     "nome": "Aracitaba",
-    "codigo": "3103306"
+    "codigo": "3103306",
+    "uf": "MG"
   },
   {
     "nome": "Araçuaí",
-    "codigo": "3103405"
+    "codigo": "3103405",
+    "uf": "MG"
   },
   {
     "nome": "Araguari",
-    "codigo": "3103504"
+    "codigo": "3103504",
+    "uf": "MG"
   },
   {
     "nome": "Arantina",
-    "codigo": "3103603"
+    "codigo": "3103603",
+    "uf": "MG"
   },
   {
     "nome": "Araponga",
-    "codigo": "3103702"
+    "codigo": "3103702",
+    "uf": "MG"
   },
   {
     "nome": "Arapuá",
-    "codigo": "3103801"
+    "codigo": "3103801",
+    "uf": "MG"
   },
   {
     "nome": "Araújos",
-    "codigo": "3103900"
+    "codigo": "3103900",
+    "uf": "MG"
   },
   {
     "nome": "Araxá",
-    "codigo": "3104007"
+    "codigo": "3104007",
+    "uf": "MG"
   },
   {
     "nome": "Arceburgo",
-    "codigo": "3104106"
+    "codigo": "3104106",
+    "uf": "MG"
   },
   {
     "nome": "Arcos",
-    "codigo": "3104205"
+    "codigo": "3104205",
+    "uf": "MG"
   },
   {
     "nome": "Areado",
-    "codigo": "3104304"
+    "codigo": "3104304",
+    "uf": "MG"
   },
   {
     "nome": "Argirita",
-    "codigo": "3104403"
+    "codigo": "3104403",
+    "uf": "MG"
   },
   {
     "nome": "Arinos",
-    "codigo": "3104502"
+    "codigo": "3104502",
+    "uf": "MG"
   },
   {
     "nome": "Astolfo Dutra",
-    "codigo": "3104601"
+    "codigo": "3104601",
+    "uf": "MG"
   },
   {
     "nome": "Ataléia",
-    "codigo": "3104700"
+    "codigo": "3104700",
+    "uf": "MG"
   },
   {
     "nome": "Augusto de Lima",
-    "codigo": "3104809"
+    "codigo": "3104809",
+    "uf": "MG"
   },
   {
     "nome": "Baependi",
-    "codigo": "3104908"
+    "codigo": "3104908",
+    "uf": "MG"
   },
   {
     "nome": "Baldim",
-    "codigo": "3105004"
+    "codigo": "3105004",
+    "uf": "MG"
   },
   {
     "nome": "Bambuí",
-    "codigo": "3105103"
+    "codigo": "3105103",
+    "uf": "MG"
   },
   {
     "nome": "Bandeira",
-    "codigo": "3105202"
+    "codigo": "3105202",
+    "uf": "MG"
   },
   {
     "nome": "Bandeira do Sul",
-    "codigo": "3105301"
+    "codigo": "3105301",
+    "uf": "MG"
   },
   {
     "nome": "Barão de Cocais",
-    "codigo": "3105400"
+    "codigo": "3105400",
+    "uf": "MG"
   },
   {
     "nome": "Barão de Monte Alto",
-    "codigo": "3105509"
+    "codigo": "3105509",
+    "uf": "MG"
   },
   {
     "nome": "Barbacena",
-    "codigo": "3105608"
+    "codigo": "3105608",
+    "uf": "MG"
   },
   {
     "nome": "Barra Longa",
-    "codigo": "3105707"
+    "codigo": "3105707",
+    "uf": "MG"
   },
   {
     "nome": "Três Marias",
-    "codigo": "3169356"
+    "codigo": "3169356",
+    "uf": "MG"
   },
   {
     "nome": "Barroso",
-    "codigo": "3105905"
+    "codigo": "3105905",
+    "uf": "MG"
   },
   {
     "nome": "Bela Vista de Minas",
-    "codigo": "3106002"
+    "codigo": "3106002",
+    "uf": "MG"
   },
   {
     "nome": "Belmiro Braga",
-    "codigo": "3106101"
+    "codigo": "3106101",
+    "uf": "MG"
   },
   {
     "nome": "Belo Horizonte",
-    "codigo": "3106200"
+    "codigo": "3106200",
+    "uf": "MG"
   },
   {
     "nome": "Belo Oriente",
-    "codigo": "3106309"
+    "codigo": "3106309",
+    "uf": "MG"
   },
   {
     "nome": "Belo Vale",
-    "codigo": "3106408"
+    "codigo": "3106408",
+    "uf": "MG"
   },
   {
     "nome": "Berilo",
-    "codigo": "3106507"
+    "codigo": "3106507",
+    "uf": "MG"
   },
   {
     "nome": "Bertópolis",
-    "codigo": "3106606"
+    "codigo": "3106606",
+    "uf": "MG"
   },
   {
     "nome": "Betim",
-    "codigo": "3106705"
+    "codigo": "3106705",
+    "uf": "MG"
   },
   {
     "nome": "Bias Fortes",
-    "codigo": "3106804"
+    "codigo": "3106804",
+    "uf": "MG"
   },
   {
     "nome": "Bicas",
-    "codigo": "3106903"
+    "codigo": "3106903",
+    "uf": "MG"
   },
   {
     "nome": "Biquinhas",
-    "codigo": "3107000"
+    "codigo": "3107000",
+    "uf": "MG"
   },
   {
     "nome": "Boa Esperança",
-    "codigo": "3107109"
+    "codigo": "3107109",
+    "uf": "MG"
   },
   {
     "nome": "Bocaina de Minas",
-    "codigo": "3107208"
+    "codigo": "3107208",
+    "uf": "MG"
   },
   {
     "nome": "Bocaiúva",
-    "codigo": "3107307"
+    "codigo": "3107307",
+    "uf": "MG"
   },
   {
     "nome": "Bom Despacho",
-    "codigo": "3107406"
+    "codigo": "3107406",
+    "uf": "MG"
   },
   {
     "nome": "Bom Jardim de Minas",
-    "codigo": "3107505"
+    "codigo": "3107505",
+    "uf": "MG"
   },
   {
     "nome": "Bom Jesus da Penha",
-    "codigo": "3107604"
+    "codigo": "3107604",
+    "uf": "MG"
   },
   {
     "nome": "Bom Jesus do Amparo",
-    "codigo": "3107703"
+    "codigo": "3107703",
+    "uf": "MG"
   },
   {
     "nome": "Bom Jesus do Galho",
-    "codigo": "3107802"
+    "codigo": "3107802",
+    "uf": "MG"
   },
   {
     "nome": "Bom Repouso",
-    "codigo": "3107901"
+    "codigo": "3107901",
+    "uf": "MG"
   },
   {
     "nome": "Bom Sucesso",
-    "codigo": "3108008"
+    "codigo": "3108008",
+    "uf": "MG"
   },
   {
     "nome": "Bonfim",
-    "codigo": "3108107"
+    "codigo": "3108107",
+    "uf": "MG"
   },
   {
     "nome": "Bonfinópolis de Minas",
-    "codigo": "3108206"
+    "codigo": "3108206",
+    "uf": "MG"
   },
   {
     "nome": "Borda da Mata",
-    "codigo": "3108305"
+    "codigo": "3108305",
+    "uf": "MG"
   },
   {
     "nome": "Botelhos",
-    "codigo": "3108404"
+    "codigo": "3108404",
+    "uf": "MG"
   },
   {
     "nome": "Botumirim",
-    "codigo": "3108503"
+    "codigo": "3108503",
+    "uf": "MG"
   },
   {
     "nome": "Brasília de Minas",
-    "codigo": "3108602"
+    "codigo": "3108602",
+    "uf": "MG"
   },
   {
     "nome": "Brás Pires",
-    "codigo": "3108701"
+    "codigo": "3108701",
+    "uf": "MG"
   },
   {
     "nome": "Braúnas",
-    "codigo": "3108800"
+    "codigo": "3108800",
+    "uf": "MG"
   },
   {
     "nome": "Brazópolis",
-    "codigo": "3108909"
+    "codigo": "3108909",
+    "uf": "MG"
   },
   {
     "nome": "Brumadinho",
-    "codigo": "3109006"
+    "codigo": "3109006",
+    "uf": "MG"
   },
   {
     "nome": "Bueno Brandão",
-    "codigo": "3109105"
+    "codigo": "3109105",
+    "uf": "MG"
   },
   {
     "nome": "Buenópolis",
-    "codigo": "3109204"
+    "codigo": "3109204",
+    "uf": "MG"
   },
   {
     "nome": "Buritis",
-    "codigo": "3109303"
+    "codigo": "3109303",
+    "uf": "MG"
   },
   {
     "nome": "Buritizeiro",
-    "codigo": "3109402"
+    "codigo": "3109402",
+    "uf": "MG"
   },
   {
     "nome": "Cabo Verde",
-    "codigo": "3109501"
+    "codigo": "3109501",
+    "uf": "MG"
   },
   {
     "nome": "Cachoeira da Prata",
-    "codigo": "3109600"
+    "codigo": "3109600",
+    "uf": "MG"
   },
   {
     "nome": "Cachoeira de Minas",
-    "codigo": "3109709"
+    "codigo": "3109709",
+    "uf": "MG"
   },
   {
     "nome": "Cachoeira Dourada",
-    "codigo": "3109808"
+    "codigo": "3109808",
+    "uf": "MG"
   },
   {
     "nome": "Caetanópolis",
-    "codigo": "3109907"
+    "codigo": "3109907",
+    "uf": "MG"
   },
   {
     "nome": "Caeté",
-    "codigo": "3110004"
+    "codigo": "3110004",
+    "uf": "MG"
   },
   {
     "nome": "Caiana",
-    "codigo": "3110103"
+    "codigo": "3110103",
+    "uf": "MG"
   },
   {
     "nome": "Cajuri",
-    "codigo": "3110202"
+    "codigo": "3110202",
+    "uf": "MG"
   },
   {
     "nome": "Caldas",
-    "codigo": "3110301"
+    "codigo": "3110301",
+    "uf": "MG"
   },
   {
     "nome": "Camacho",
-    "codigo": "3110400"
+    "codigo": "3110400",
+    "uf": "MG"
   },
   {
     "nome": "Camanducaia",
-    "codigo": "3110509"
+    "codigo": "3110509",
+    "uf": "MG"
   },
   {
     "nome": "Cambuí",
-    "codigo": "3110608"
+    "codigo": "3110608",
+    "uf": "MG"
   },
   {
     "nome": "Cambuquira",
-    "codigo": "3110707"
+    "codigo": "3110707",
+    "uf": "MG"
   },
   {
     "nome": "Campanário",
-    "codigo": "3110806"
+    "codigo": "3110806",
+    "uf": "MG"
   },
   {
     "nome": "Campanha",
-    "codigo": "3110905"
+    "codigo": "3110905",
+    "uf": "MG"
   },
   {
     "nome": "Campestre",
-    "codigo": "3111002"
+    "codigo": "3111002",
+    "uf": "MG"
   },
   {
     "nome": "Campina Verde",
-    "codigo": "3111101"
+    "codigo": "3111101",
+    "uf": "MG"
   },
   {
     "nome": "Campo Belo",
-    "codigo": "3111200"
+    "codigo": "3111200",
+    "uf": "MG"
   },
   {
     "nome": "Campo do Meio",
-    "codigo": "3111309"
+    "codigo": "3111309",
+    "uf": "MG"
   },
   {
     "nome": "Campo Florido",
-    "codigo": "3111408"
+    "codigo": "3111408",
+    "uf": "MG"
   },
   {
     "nome": "Campos Altos",
-    "codigo": "3111507"
+    "codigo": "3111507",
+    "uf": "MG"
   },
   {
     "nome": "Campos Gerais",
-    "codigo": "3111606"
+    "codigo": "3111606",
+    "uf": "MG"
   },
   {
     "nome": "Canaã",
-    "codigo": "3111705"
+    "codigo": "3111705",
+    "uf": "MG"
   },
   {
     "nome": "Canápolis",
-    "codigo": "3111804"
+    "codigo": "3111804",
+    "uf": "MG"
   },
   {
     "nome": "Cana Verde",
-    "codigo": "3111903"
+    "codigo": "3111903",
+    "uf": "MG"
   },
   {
     "nome": "Candeias",
-    "codigo": "3112000"
+    "codigo": "3112000",
+    "uf": "MG"
   },
   {
     "nome": "Caparaó",
-    "codigo": "3112109"
+    "codigo": "3112109",
+    "uf": "MG"
   },
   {
     "nome": "Capela Nova",
-    "codigo": "3112208"
+    "codigo": "3112208",
+    "uf": "MG"
   },
   {
     "nome": "Capelinha",
-    "codigo": "3112307"
+    "codigo": "3112307",
+    "uf": "MG"
   },
   {
     "nome": "Capetinga",
-    "codigo": "3112406"
+    "codigo": "3112406",
+    "uf": "MG"
   },
   {
     "nome": "Capim Branco",
-    "codigo": "3112505"
+    "codigo": "3112505",
+    "uf": "MG"
   },
   {
     "nome": "Capinópolis",
-    "codigo": "3112604"
+    "codigo": "3112604",
+    "uf": "MG"
   },
   {
     "nome": "Capitão Enéas",
-    "codigo": "3112703"
+    "codigo": "3112703",
+    "uf": "MG"
   },
   {
     "nome": "Capitólio",
-    "codigo": "3112802"
+    "codigo": "3112802",
+    "uf": "MG"
   },
   {
     "nome": "Caputira",
-    "codigo": "3112901"
+    "codigo": "3112901",
+    "uf": "MG"
   },
   {
     "nome": "Caraí",
-    "codigo": "3113008"
+    "codigo": "3113008",
+    "uf": "MG"
   },
   {
     "nome": "Caranaíba",
-    "codigo": "3113107"
+    "codigo": "3113107",
+    "uf": "MG"
   },
   {
     "nome": "Carandaí",
-    "codigo": "3113206"
+    "codigo": "3113206",
+    "uf": "MG"
   },
   {
     "nome": "Carangola",
-    "codigo": "3113305"
+    "codigo": "3113305",
+    "uf": "MG"
   },
   {
     "nome": "Caratinga",
-    "codigo": "3113404"
+    "codigo": "3113404",
+    "uf": "MG"
   },
   {
     "nome": "Carbonita",
-    "codigo": "3113503"
+    "codigo": "3113503",
+    "uf": "MG"
   },
   {
     "nome": "Careaçu",
-    "codigo": "3113602"
+    "codigo": "3113602",
+    "uf": "MG"
   },
   {
     "nome": "Carlos Chagas",
-    "codigo": "3113701"
+    "codigo": "3113701",
+    "uf": "MG"
   },
   {
     "nome": "Carmésia",
-    "codigo": "3113800"
+    "codigo": "3113800",
+    "uf": "MG"
   },
   {
     "nome": "Carmo da Cachoeira",
-    "codigo": "3113909"
+    "codigo": "3113909",
+    "uf": "MG"
   },
   {
     "nome": "Carmo da Mata",
-    "codigo": "3114006"
+    "codigo": "3114006",
+    "uf": "MG"
   },
   {
     "nome": "Carmo de Minas",
-    "codigo": "3114105"
+    "codigo": "3114105",
+    "uf": "MG"
   },
   {
     "nome": "Carmo do Cajuru",
-    "codigo": "3114204"
+    "codigo": "3114204",
+    "uf": "MG"
   },
   {
     "nome": "Carmo do Paranaíba",
-    "codigo": "3114303"
+    "codigo": "3114303",
+    "uf": "MG"
   },
   {
     "nome": "Carmo do Rio Claro",
-    "codigo": "3114402"
+    "codigo": "3114402",
+    "uf": "MG"
   },
   {
     "nome": "Carmópolis de Minas",
-    "codigo": "3114501"
+    "codigo": "3114501",
+    "uf": "MG"
   },
   {
     "nome": "Carrancas",
-    "codigo": "3114600"
+    "codigo": "3114600",
+    "uf": "MG"
   },
   {
     "nome": "Carvalhópolis",
-    "codigo": "3114709"
+    "codigo": "3114709",
+    "uf": "MG"
   },
   {
     "nome": "Carvalhos",
-    "codigo": "3114808"
+    "codigo": "3114808",
+    "uf": "MG"
   },
   {
     "nome": "Casa Grande",
-    "codigo": "3114907"
+    "codigo": "3114907",
+    "uf": "MG"
   },
   {
     "nome": "Cascalho Rico",
-    "codigo": "3115003"
+    "codigo": "3115003",
+    "uf": "MG"
   },
   {
     "nome": "Cássia",
-    "codigo": "3115102"
+    "codigo": "3115102",
+    "uf": "MG"
   },
   {
     "nome": "Conceição da Barra de Minas",
-    "codigo": "3115201"
+    "codigo": "3115201",
+    "uf": "MG"
   },
   {
     "nome": "Cataguases",
-    "codigo": "3115300"
+    "codigo": "3115300",
+    "uf": "MG"
   },
   {
     "nome": "Catas Altas da Noruega",
-    "codigo": "3115409"
+    "codigo": "3115409",
+    "uf": "MG"
   },
   {
     "nome": "Caxambu",
-    "codigo": "3115508"
+    "codigo": "3115508",
+    "uf": "MG"
   },
   {
     "nome": "Cedro do Abaeté",
-    "codigo": "3115607"
+    "codigo": "3115607",
+    "uf": "MG"
   },
   {
     "nome": "Central de Minas",
-    "codigo": "3115706"
+    "codigo": "3115706",
+    "uf": "MG"
   },
   {
     "nome": "Centralina",
-    "codigo": "3115805"
+    "codigo": "3115805",
+    "uf": "MG"
   },
   {
     "nome": "Chácara",
-    "codigo": "3115904"
+    "codigo": "3115904",
+    "uf": "MG"
   },
   {
     "nome": "Chalé",
-    "codigo": "3116001"
+    "codigo": "3116001",
+    "uf": "MG"
   },
   {
     "nome": "Chapada do Norte",
-    "codigo": "3116100"
+    "codigo": "3116100",
+    "uf": "MG"
   },
   {
     "nome": "Chiador",
-    "codigo": "3116209"
+    "codigo": "3116209",
+    "uf": "MG"
   },
   {
     "nome": "Cipotânea",
-    "codigo": "3116308"
+    "codigo": "3116308",
+    "uf": "MG"
   },
   {
     "nome": "Claraval",
-    "codigo": "3116407"
+    "codigo": "3116407",
+    "uf": "MG"
   },
   {
     "nome": "Claro dos Poções",
-    "codigo": "3116506"
+    "codigo": "3116506",
+    "uf": "MG"
   },
   {
     "nome": "Cláudio",
-    "codigo": "3116605"
+    "codigo": "3116605",
+    "uf": "MG"
   },
   {
     "nome": "Coimbra",
-    "codigo": "3116704"
+    "codigo": "3116704",
+    "uf": "MG"
   },
   {
     "nome": "Coluna",
-    "codigo": "3116803"
+    "codigo": "3116803",
+    "uf": "MG"
   },
   {
     "nome": "Comendador Gomes",
-    "codigo": "3116902"
+    "codigo": "3116902",
+    "uf": "MG"
   },
   {
     "nome": "Comercinho",
-    "codigo": "3117009"
+    "codigo": "3117009",
+    "uf": "MG"
   },
   {
     "nome": "Conceição da Aparecida",
-    "codigo": "3117108"
+    "codigo": "3117108",
+    "uf": "MG"
   },
   {
     "nome": "Conceição das Pedras",
-    "codigo": "3117207"
+    "codigo": "3117207",
+    "uf": "MG"
   },
   {
     "nome": "Conceição das Alagoas",
-    "codigo": "3117306"
+    "codigo": "3117306",
+    "uf": "MG"
   },
   {
     "nome": "Conceição de Ipanema",
-    "codigo": "3117405"
+    "codigo": "3117405",
+    "uf": "MG"
   },
   {
     "nome": "Conceição do Mato Dentro",
-    "codigo": "3117504"
+    "codigo": "3117504",
+    "uf": "MG"
   },
   {
     "nome": "Conceição do Pará",
-    "codigo": "3117603"
+    "codigo": "3117603",
+    "uf": "MG"
   },
   {
     "nome": "Conceição do Rio Verde",
-    "codigo": "3117702"
+    "codigo": "3117702",
+    "uf": "MG"
   },
   {
     "nome": "Conceição dos Ouros",
-    "codigo": "3117801"
+    "codigo": "3117801",
+    "uf": "MG"
   },
   {
     "nome": "Congonhal",
-    "codigo": "3117900"
+    "codigo": "3117900",
+    "uf": "MG"
   },
   {
     "nome": "Congonhas",
-    "codigo": "3118007"
+    "codigo": "3118007",
+    "uf": "MG"
   },
   {
     "nome": "Congonhas do Norte",
-    "codigo": "3118106"
+    "codigo": "3118106",
+    "uf": "MG"
   },
   {
     "nome": "Conquista",
-    "codigo": "3118205"
+    "codigo": "3118205",
+    "uf": "MG"
   },
   {
     "nome": "Conselheiro Lafaiete",
-    "codigo": "3118304"
+    "codigo": "3118304",
+    "uf": "MG"
   },
   {
     "nome": "Conselheiro Pena",
-    "codigo": "3118403"
+    "codigo": "3118403",
+    "uf": "MG"
   },
   {
     "nome": "Consolação",
-    "codigo": "3118502"
+    "codigo": "3118502",
+    "uf": "MG"
   },
   {
     "nome": "Contagem",
-    "codigo": "3118601"
+    "codigo": "3118601",
+    "uf": "MG"
   },
   {
     "nome": "Coqueiral",
-    "codigo": "3118700"
+    "codigo": "3118700",
+    "uf": "MG"
   },
   {
     "nome": "Coração de Jesus",
-    "codigo": "3118809"
+    "codigo": "3118809",
+    "uf": "MG"
   },
   {
     "nome": "Cordisburgo",
-    "codigo": "3118908"
+    "codigo": "3118908",
+    "uf": "MG"
   },
   {
     "nome": "Cordislândia",
-    "codigo": "3119005"
+    "codigo": "3119005",
+    "uf": "MG"
   },
   {
     "nome": "Corinto",
-    "codigo": "3119104"
+    "codigo": "3119104",
+    "uf": "MG"
   },
   {
     "nome": "Coroaci",
-    "codigo": "3119203"
+    "codigo": "3119203",
+    "uf": "MG"
   },
   {
     "nome": "Coromandel",
-    "codigo": "3119302"
+    "codigo": "3119302",
+    "uf": "MG"
   },
   {
     "nome": "Coronel Fabriciano",
-    "codigo": "3119401"
+    "codigo": "3119401",
+    "uf": "MG"
   },
   {
     "nome": "Coronel Murta",
-    "codigo": "3119500"
+    "codigo": "3119500",
+    "uf": "MG"
   },
   {
     "nome": "Coronel Pacheco",
-    "codigo": "3119609"
+    "codigo": "3119609",
+    "uf": "MG"
   },
   {
     "nome": "Coronel Xavier Chaves",
-    "codigo": "3119708"
+    "codigo": "3119708",
+    "uf": "MG"
   },
   {
     "nome": "Córrego Danta",
-    "codigo": "3119807"
+    "codigo": "3119807",
+    "uf": "MG"
   },
   {
     "nome": "Córrego do Bom Jesus",
-    "codigo": "3119906"
+    "codigo": "3119906",
+    "uf": "MG"
   },
   {
     "nome": "Córrego Novo",
-    "codigo": "3120003"
+    "codigo": "3120003",
+    "uf": "MG"
   },
   {
     "nome": "Couto de Magalhães de Minas",
-    "codigo": "3120102"
+    "codigo": "3120102",
+    "uf": "MG"
   },
   {
     "nome": "Cristais",
-    "codigo": "3120201"
+    "codigo": "3120201",
+    "uf": "MG"
   },
   {
     "nome": "Cristália",
-    "codigo": "3120300"
+    "codigo": "3120300",
+    "uf": "MG"
   },
   {
     "nome": "Cristiano Otoni",
-    "codigo": "3120409"
+    "codigo": "3120409",
+    "uf": "MG"
   },
   {
     "nome": "Cristina",
-    "codigo": "3120508"
+    "codigo": "3120508",
+    "uf": "MG"
   },
   {
     "nome": "Crucilândia",
-    "codigo": "3120607"
+    "codigo": "3120607",
+    "uf": "MG"
   },
   {
     "nome": "Cruzeiro da Fortaleza",
-    "codigo": "3120706"
+    "codigo": "3120706",
+    "uf": "MG"
   },
   {
     "nome": "Cruzília",
-    "codigo": "3120805"
+    "codigo": "3120805",
+    "uf": "MG"
   },
   {
     "nome": "Curvelo",
-    "codigo": "3120904"
+    "codigo": "3120904",
+    "uf": "MG"
   },
   {
     "nome": "Datas",
-    "codigo": "3121001"
+    "codigo": "3121001",
+    "uf": "MG"
   },
   {
     "nome": "Delfim Moreira",
-    "codigo": "3121100"
+    "codigo": "3121100",
+    "uf": "MG"
   },
   {
     "nome": "Delfinópolis",
-    "codigo": "3121209"
+    "codigo": "3121209",
+    "uf": "MG"
   },
   {
     "nome": "Descoberto",
-    "codigo": "3121308"
+    "codigo": "3121308",
+    "uf": "MG"
   },
   {
     "nome": "Desterro de Entre Rios",
-    "codigo": "3121407"
+    "codigo": "3121407",
+    "uf": "MG"
   },
   {
     "nome": "Desterro do Melo",
-    "codigo": "3121506"
+    "codigo": "3121506",
+    "uf": "MG"
   },
   {
     "nome": "Diamantina",
-    "codigo": "3121605"
+    "codigo": "3121605",
+    "uf": "MG"
   },
   {
     "nome": "Diogo de Vasconcelos",
-    "codigo": "3121704"
+    "codigo": "3121704",
+    "uf": "MG"
   },
   {
     "nome": "Dionísio",
-    "codigo": "3121803"
+    "codigo": "3121803",
+    "uf": "MG"
   },
   {
     "nome": "Divinésia",
-    "codigo": "3121902"
+    "codigo": "3121902",
+    "uf": "MG"
   },
   {
     "nome": "Divino",
-    "codigo": "3122009"
+    "codigo": "3122009",
+    "uf": "MG"
   },
   {
     "nome": "Divino das Laranjeiras",
-    "codigo": "3122108"
+    "codigo": "3122108",
+    "uf": "MG"
   },
   {
     "nome": "Divinolândia de Minas",
-    "codigo": "3122207"
+    "codigo": "3122207",
+    "uf": "MG"
   },
   {
     "nome": "Divinópolis",
-    "codigo": "3122306"
+    "codigo": "3122306",
+    "uf": "MG"
   },
   {
     "nome": "Divisa Nova",
-    "codigo": "3122405"
+    "codigo": "3122405",
+    "uf": "MG"
   },
   {
     "nome": "Dom Cavati",
-    "codigo": "3122504"
+    "codigo": "3122504",
+    "uf": "MG"
   },
   {
     "nome": "Dom Joaquim",
-    "codigo": "3122603"
+    "codigo": "3122603",
+    "uf": "MG"
   },
   {
     "nome": "Dom Silvério",
-    "codigo": "3122702"
+    "codigo": "3122702",
+    "uf": "MG"
   },
   {
     "nome": "Dom Viçoso",
-    "codigo": "3122801"
+    "codigo": "3122801",
+    "uf": "MG"
   },
   {
     "nome": "Dona Euzébia",
-    "codigo": "3122900"
+    "codigo": "3122900",
+    "uf": "MG"
   },
   {
     "nome": "Dores de Campos",
-    "codigo": "3123007"
+    "codigo": "3123007",
+    "uf": "MG"
   },
   {
     "nome": "Dores de Guanhães",
-    "codigo": "3123106"
+    "codigo": "3123106",
+    "uf": "MG"
   },
   {
     "nome": "Dores do Indaiá",
-    "codigo": "3123205"
+    "codigo": "3123205",
+    "uf": "MG"
   },
   {
     "nome": "Dores do Turvo",
-    "codigo": "3123304"
+    "codigo": "3123304",
+    "uf": "MG"
   },
   {
     "nome": "Doresópolis",
-    "codigo": "3123403"
+    "codigo": "3123403",
+    "uf": "MG"
   },
   {
     "nome": "Douradoquara",
-    "codigo": "3123502"
+    "codigo": "3123502",
+    "uf": "MG"
   },
   {
     "nome": "Elói Mendes",
-    "codigo": "3123601"
+    "codigo": "3123601",
+    "uf": "MG"
   },
   {
     "nome": "Engenheiro Caldas",
-    "codigo": "3123700"
+    "codigo": "3123700",
+    "uf": "MG"
   },
   {
     "nome": "Engenheiro Navarro",
-    "codigo": "3123809"
+    "codigo": "3123809",
+    "uf": "MG"
   },
   {
     "nome": "Entre Rios de Minas",
-    "codigo": "3123908"
+    "codigo": "3123908",
+    "uf": "MG"
   },
   {
     "nome": "Ervália",
-    "codigo": "3124005"
+    "codigo": "3124005",
+    "uf": "MG"
   },
   {
     "nome": "Esmeraldas",
-    "codigo": "3124104"
+    "codigo": "3124104",
+    "uf": "MG"
   },
   {
     "nome": "Espera Feliz",
-    "codigo": "3124203"
+    "codigo": "3124203",
+    "uf": "MG"
   },
   {
     "nome": "Espinosa",
-    "codigo": "3124302"
+    "codigo": "3124302",
+    "uf": "MG"
   },
   {
     "nome": "Espírito Santo do Dourado",
-    "codigo": "3124401"
+    "codigo": "3124401",
+    "uf": "MG"
   },
   {
     "nome": "Estiva",
-    "codigo": "3124500"
+    "codigo": "3124500",
+    "uf": "MG"
   },
   {
     "nome": "Estrela Dalva",
-    "codigo": "3124609"
+    "codigo": "3124609",
+    "uf": "MG"
   },
   {
     "nome": "Estrela do Indaiá",
-    "codigo": "3124708"
+    "codigo": "3124708",
+    "uf": "MG"
   },
   {
     "nome": "Estrela do Sul",
-    "codigo": "3124807"
+    "codigo": "3124807",
+    "uf": "MG"
   },
   {
     "nome": "Eugenópolis",
-    "codigo": "3124906"
+    "codigo": "3124906",
+    "uf": "MG"
   },
   {
     "nome": "Ewbank da Câmara",
-    "codigo": "3125002"
+    "codigo": "3125002",
+    "uf": "MG"
   },
   {
     "nome": "Extrema",
-    "codigo": "3125101"
+    "codigo": "3125101",
+    "uf": "MG"
   },
   {
     "nome": "Fama",
-    "codigo": "3125200"
+    "codigo": "3125200",
+    "uf": "MG"
   },
   {
     "nome": "Faria Lemos",
-    "codigo": "3125309"
+    "codigo": "3125309",
+    "uf": "MG"
   },
   {
     "nome": "Felício dos Santos",
-    "codigo": "3125408"
+    "codigo": "3125408",
+    "uf": "MG"
   },
   {
     "nome": "São Gonçalo do Rio Preto",
-    "codigo": "3125507"
+    "codigo": "3125507",
+    "uf": "MG"
   },
   {
     "nome": "Felisburgo",
-    "codigo": "3125606"
+    "codigo": "3125606",
+    "uf": "MG"
   },
   {
     "nome": "Felixlândia",
-    "codigo": "3125705"
+    "codigo": "3125705",
+    "uf": "MG"
   },
   {
     "nome": "Fernandes Tourinho",
-    "codigo": "3125804"
+    "codigo": "3125804",
+    "uf": "MG"
   },
   {
     "nome": "Ferros",
-    "codigo": "3125903"
+    "codigo": "3125903",
+    "uf": "MG"
   },
   {
     "nome": "Florestal",
-    "codigo": "3126000"
+    "codigo": "3126000",
+    "uf": "MG"
   },
   {
     "nome": "Formiga",
-    "codigo": "3126109"
+    "codigo": "3126109",
+    "uf": "MG"
   },
   {
     "nome": "Formoso",
-    "codigo": "3126208"
+    "codigo": "3126208",
+    "uf": "MG"
   },
   {
     "nome": "Fortaleza de Minas",
-    "codigo": "3126307"
+    "codigo": "3126307",
+    "uf": "MG"
   },
   {
     "nome": "Fortuna de Minas",
-    "codigo": "3126406"
+    "codigo": "3126406",
+    "uf": "MG"
   },
   {
     "nome": "Francisco Badaró",
-    "codigo": "3126505"
+    "codigo": "3126505",
+    "uf": "MG"
   },
   {
     "nome": "Francisco Dumont",
-    "codigo": "3126604"
+    "codigo": "3126604",
+    "uf": "MG"
   },
   {
     "nome": "Francisco Sá",
-    "codigo": "3126703"
+    "codigo": "3126703",
+    "uf": "MG"
   },
   {
     "nome": "Frei Gaspar",
-    "codigo": "3126802"
+    "codigo": "3126802",
+    "uf": "MG"
   },
   {
     "nome": "Frei Inocêncio",
-    "codigo": "3126901"
+    "codigo": "3126901",
+    "uf": "MG"
   },
   {
     "nome": "Fronteira",
-    "codigo": "3127008"
+    "codigo": "3127008",
+    "uf": "MG"
   },
   {
     "nome": "Frutal",
-    "codigo": "3127107"
+    "codigo": "3127107",
+    "uf": "MG"
   },
   {
     "nome": "Funilândia",
-    "codigo": "3127206"
+    "codigo": "3127206",
+    "uf": "MG"
   },
   {
     "nome": "Galiléia",
-    "codigo": "3127305"
+    "codigo": "3127305",
+    "uf": "MG"
   },
   {
     "nome": "Gonçalves",
-    "codigo": "3127404"
+    "codigo": "3127404",
+    "uf": "MG"
   },
   {
     "nome": "Gonzaga",
-    "codigo": "3127503"
+    "codigo": "3127503",
+    "uf": "MG"
   },
   {
     "nome": "Gouveia",
-    "codigo": "3127602"
+    "codigo": "3127602",
+    "uf": "MG"
   },
   {
     "nome": "Governador Valadares",
-    "codigo": "3127701"
+    "codigo": "3127701",
+    "uf": "MG"
   },
   {
     "nome": "Grão Mogol",
-    "codigo": "3127800"
+    "codigo": "3127800",
+    "uf": "MG"
   },
   {
     "nome": "Grupiara",
-    "codigo": "3127909"
+    "codigo": "3127909",
+    "uf": "MG"
   },
   {
     "nome": "Guanhães",
-    "codigo": "3128006"
+    "codigo": "3128006",
+    "uf": "MG"
   },
   {
     "nome": "Guapé",
-    "codigo": "3128105"
+    "codigo": "3128105",
+    "uf": "MG"
   },
   {
     "nome": "Guaraciaba",
-    "codigo": "3128204"
+    "codigo": "3128204",
+    "uf": "MG"
   },
   {
     "nome": "Guaranésia",
-    "codigo": "3128303"
+    "codigo": "3128303",
+    "uf": "MG"
   },
   {
     "nome": "Guarani",
-    "codigo": "3128402"
+    "codigo": "3128402",
+    "uf": "MG"
   },
   {
     "nome": "Guarará",
-    "codigo": "3128501"
+    "codigo": "3128501",
+    "uf": "MG"
   },
   {
     "nome": "Guarda-Mor",
-    "codigo": "3128600"
+    "codigo": "3128600",
+    "uf": "MG"
   },
   {
     "nome": "Guaxupé",
-    "codigo": "3128709"
+    "codigo": "3128709",
+    "uf": "MG"
   },
   {
     "nome": "Guidoval",
-    "codigo": "3128808"
+    "codigo": "3128808",
+    "uf": "MG"
   },
   {
     "nome": "Guimarânia",
-    "codigo": "3128907"
+    "codigo": "3128907",
+    "uf": "MG"
   },
   {
     "nome": "Guiricema",
-    "codigo": "3129004"
+    "codigo": "3129004",
+    "uf": "MG"
   },
   {
     "nome": "Gurinhatã",
-    "codigo": "3129103"
+    "codigo": "3129103",
+    "uf": "MG"
   },
   {
     "nome": "Heliodora",
-    "codigo": "3129202"
+    "codigo": "3129202",
+    "uf": "MG"
   },
   {
     "nome": "Iapu",
-    "codigo": "3129301"
+    "codigo": "3129301",
+    "uf": "MG"
   },
   {
     "nome": "Ibertioga",
-    "codigo": "3129400"
+    "codigo": "3129400",
+    "uf": "MG"
   },
   {
     "nome": "Ibiá",
-    "codigo": "3129509"
+    "codigo": "3129509",
+    "uf": "MG"
   },
   {
     "nome": "Ibiaí",
-    "codigo": "3129608"
+    "codigo": "3129608",
+    "uf": "MG"
   },
   {
     "nome": "Ibiraci",
-    "codigo": "3129707"
+    "codigo": "3129707",
+    "uf": "MG"
   },
   {
     "nome": "Ibirité",
-    "codigo": "3129806"
+    "codigo": "3129806",
+    "uf": "MG"
   },
   {
     "nome": "Ibitiúra de Minas",
-    "codigo": "3129905"
+    "codigo": "3129905",
+    "uf": "MG"
   },
   {
     "nome": "Ibituruna",
-    "codigo": "3130002"
+    "codigo": "3130002",
+    "uf": "MG"
   },
   {
     "nome": "Igarapé",
-    "codigo": "3130101"
+    "codigo": "3130101",
+    "uf": "MG"
   },
   {
     "nome": "Igaratinga",
-    "codigo": "3130200"
+    "codigo": "3130200",
+    "uf": "MG"
   },
   {
     "nome": "Iguatama",
-    "codigo": "3130309"
+    "codigo": "3130309",
+    "uf": "MG"
   },
   {
     "nome": "Ijaci",
-    "codigo": "3130408"
+    "codigo": "3130408",
+    "uf": "MG"
   },
   {
     "nome": "Ilicínea",
-    "codigo": "3130507"
+    "codigo": "3130507",
+    "uf": "MG"
   },
   {
     "nome": "Inconfidentes",
-    "codigo": "3130606"
+    "codigo": "3130606",
+    "uf": "MG"
   },
   {
     "nome": "Indianópolis",
-    "codigo": "3130705"
+    "codigo": "3130705",
+    "uf": "MG"
   },
   {
     "nome": "Ingaí",
-    "codigo": "3130804"
+    "codigo": "3130804",
+    "uf": "MG"
   },
   {
     "nome": "Inhapim",
-    "codigo": "3130903"
+    "codigo": "3130903",
+    "uf": "MG"
   },
   {
     "nome": "Inhaúma",
-    "codigo": "3131000"
+    "codigo": "3131000",
+    "uf": "MG"
   },
   {
     "nome": "Inimutaba",
-    "codigo": "3131109"
+    "codigo": "3131109",
+    "uf": "MG"
   },
   {
     "nome": "Ipanema",
-    "codigo": "3131208"
+    "codigo": "3131208",
+    "uf": "MG"
   },
   {
     "nome": "Ipatinga",
-    "codigo": "3131307"
+    "codigo": "3131307",
+    "uf": "MG"
   },
   {
     "nome": "Ipiaçu",
-    "codigo": "3131406"
+    "codigo": "3131406",
+    "uf": "MG"
   },
   {
     "nome": "Ipuiúna",
-    "codigo": "3131505"
+    "codigo": "3131505",
+    "uf": "MG"
   },
   {
     "nome": "Iraí de Minas",
-    "codigo": "3131604"
+    "codigo": "3131604",
+    "uf": "MG"
   },
   {
     "nome": "Itabira",
-    "codigo": "3131703"
+    "codigo": "3131703",
+    "uf": "MG"
   },
   {
     "nome": "Itabirinha",
-    "codigo": "3131802"
+    "codigo": "3131802",
+    "uf": "MG"
   },
   {
     "nome": "Itabirito",
-    "codigo": "3131901"
+    "codigo": "3131901",
+    "uf": "MG"
   },
   {
     "nome": "Itacambira",
-    "codigo": "3132008"
+    "codigo": "3132008",
+    "uf": "MG"
   },
   {
     "nome": "Itacarambi",
-    "codigo": "3132107"
+    "codigo": "3132107",
+    "uf": "MG"
   },
   {
     "nome": "Itaguara",
-    "codigo": "3132206"
+    "codigo": "3132206",
+    "uf": "MG"
   },
   {
     "nome": "Itaipé",
-    "codigo": "3132305"
+    "codigo": "3132305",
+    "uf": "MG"
   },
   {
     "nome": "Itajubá",
-    "codigo": "3132404"
+    "codigo": "3132404",
+    "uf": "MG"
   },
   {
     "nome": "Itamarandiba",
-    "codigo": "3132503"
+    "codigo": "3132503",
+    "uf": "MG"
   },
   {
     "nome": "Itamarati de Minas",
-    "codigo": "3132602"
+    "codigo": "3132602",
+    "uf": "MG"
   },
   {
     "nome": "Itambacuri",
-    "codigo": "3132701"
+    "codigo": "3132701",
+    "uf": "MG"
   },
   {
     "nome": "Itambé do Mato Dentro",
-    "codigo": "3132800"
+    "codigo": "3132800",
+    "uf": "MG"
   },
   {
     "nome": "Itamogi",
-    "codigo": "3132909"
+    "codigo": "3132909",
+    "uf": "MG"
   },
   {
     "nome": "Itamonte",
-    "codigo": "3133006"
+    "codigo": "3133006",
+    "uf": "MG"
   },
   {
     "nome": "Itanhandu",
-    "codigo": "3133105"
+    "codigo": "3133105",
+    "uf": "MG"
   },
   {
     "nome": "Itanhomi",
-    "codigo": "3133204"
+    "codigo": "3133204",
+    "uf": "MG"
   },
   {
     "nome": "Itaobim",
-    "codigo": "3133303"
+    "codigo": "3133303",
+    "uf": "MG"
   },
   {
     "nome": "Itapagipe",
-    "codigo": "3133402"
+    "codigo": "3133402",
+    "uf": "MG"
   },
   {
     "nome": "Itapecerica",
-    "codigo": "3133501"
+    "codigo": "3133501",
+    "uf": "MG"
   },
   {
     "nome": "Itapeva",
-    "codigo": "3133600"
+    "codigo": "3133600",
+    "uf": "MG"
   },
   {
     "nome": "Itatiaiuçu",
-    "codigo": "3133709"
+    "codigo": "3133709",
+    "uf": "MG"
   },
   {
     "nome": "Itaúna",
-    "codigo": "3133808"
+    "codigo": "3133808",
+    "uf": "MG"
   },
   {
     "nome": "Itaverava",
-    "codigo": "3133907"
+    "codigo": "3133907",
+    "uf": "MG"
   },
   {
     "nome": "Itinga",
-    "codigo": "3134004"
+    "codigo": "3134004",
+    "uf": "MG"
   },
   {
     "nome": "Itueta",
-    "codigo": "3134103"
+    "codigo": "3134103",
+    "uf": "MG"
   },
   {
     "nome": "Ituiutaba",
-    "codigo": "3134202"
+    "codigo": "3134202",
+    "uf": "MG"
   },
   {
     "nome": "Itumirim",
-    "codigo": "3134301"
+    "codigo": "3134301",
+    "uf": "MG"
   },
   {
     "nome": "Iturama",
-    "codigo": "3134400"
+    "codigo": "3134400",
+    "uf": "MG"
   },
   {
     "nome": "Itutinga",
-    "codigo": "3134509"
+    "codigo": "3134509",
+    "uf": "MG"
   },
   {
     "nome": "Jaboticatubas",
-    "codigo": "3134608"
+    "codigo": "3134608",
+    "uf": "MG"
   },
   {
     "nome": "Jacinto",
-    "codigo": "3134707"
+    "codigo": "3134707",
+    "uf": "MG"
   },
   {
     "nome": "Jacuí",
-    "codigo": "3134806"
+    "codigo": "3134806",
+    "uf": "MG"
   },
   {
     "nome": "Jacutinga",
-    "codigo": "3134905"
+    "codigo": "3134905",
+    "uf": "MG"
   },
   {
     "nome": "Jaguaraçu",
-    "codigo": "3135001"
+    "codigo": "3135001",
+    "uf": "MG"
   },
   {
     "nome": "Janaúba",
-    "codigo": "3135100"
+    "codigo": "3135100",
+    "uf": "MG"
   },
   {
     "nome": "Januária",
-    "codigo": "3135209"
+    "codigo": "3135209",
+    "uf": "MG"
   },
   {
     "nome": "Japaraíba",
-    "codigo": "3135308"
+    "codigo": "3135308",
+    "uf": "MG"
   },
   {
     "nome": "Jeceaba",
-    "codigo": "3135407"
+    "codigo": "3135407",
+    "uf": "MG"
   },
   {
     "nome": "Jequeri",
-    "codigo": "3135506"
+    "codigo": "3135506",
+    "uf": "MG"
   },
   {
     "nome": "Jequitaí",
-    "codigo": "3135605"
+    "codigo": "3135605",
+    "uf": "MG"
   },
   {
     "nome": "Jequitibá",
-    "codigo": "3135704"
+    "codigo": "3135704",
+    "uf": "MG"
   },
   {
     "nome": "Jequitinhonha",
-    "codigo": "3135803"
+    "codigo": "3135803",
+    "uf": "MG"
   },
   {
     "nome": "Jesuânia",
-    "codigo": "3135902"
+    "codigo": "3135902",
+    "uf": "MG"
   },
   {
     "nome": "Joaíma",
-    "codigo": "3136009"
+    "codigo": "3136009",
+    "uf": "MG"
   },
   {
     "nome": "Joanésia",
-    "codigo": "3136108"
+    "codigo": "3136108",
+    "uf": "MG"
   },
   {
     "nome": "João Monlevade",
-    "codigo": "3136207"
+    "codigo": "3136207",
+    "uf": "MG"
   },
   {
     "nome": "João Pinheiro",
-    "codigo": "3136306"
+    "codigo": "3136306",
+    "uf": "MG"
   },
   {
     "nome": "Joaquim Felício",
-    "codigo": "3136405"
+    "codigo": "3136405",
+    "uf": "MG"
   },
   {
     "nome": "Jordânia",
-    "codigo": "3136504"
+    "codigo": "3136504",
+    "uf": "MG"
   },
   {
     "nome": "Nova União",
-    "codigo": "3136603"
+    "codigo": "3136603",
+    "uf": "MG"
   },
   {
     "nome": "Juiz de Fora",
-    "codigo": "3136702"
+    "codigo": "3136702",
+    "uf": "MG"
   },
   {
     "nome": "Juramento",
-    "codigo": "3136801"
+    "codigo": "3136801",
+    "uf": "MG"
   },
   {
     "nome": "Juruaia",
-    "codigo": "3136900"
+    "codigo": "3136900",
+    "uf": "MG"
   },
   {
     "nome": "Ladainha",
-    "codigo": "3137007"
+    "codigo": "3137007",
+    "uf": "MG"
   },
   {
     "nome": "Lagamar",
-    "codigo": "3137106"
+    "codigo": "3137106",
+    "uf": "MG"
   },
   {
     "nome": "Lagoa da Prata",
-    "codigo": "3137205"
+    "codigo": "3137205",
+    "uf": "MG"
   },
   {
     "nome": "Lagoa dos Patos",
-    "codigo": "3137304"
+    "codigo": "3137304",
+    "uf": "MG"
   },
   {
     "nome": "Lagoa Dourada",
-    "codigo": "3137403"
+    "codigo": "3137403",
+    "uf": "MG"
   },
   {
     "nome": "Lagoa Formosa",
-    "codigo": "3137502"
+    "codigo": "3137502",
+    "uf": "MG"
   },
   {
     "nome": "Lagoa Santa",
-    "codigo": "3137601"
+    "codigo": "3137601",
+    "uf": "MG"
   },
   {
     "nome": "Lajinha",
-    "codigo": "3137700"
+    "codigo": "3137700",
+    "uf": "MG"
   },
   {
     "nome": "Lambari",
-    "codigo": "3137809"
+    "codigo": "3137809",
+    "uf": "MG"
   },
   {
     "nome": "Lamim",
-    "codigo": "3137908"
+    "codigo": "3137908",
+    "uf": "MG"
   },
   {
     "nome": "Laranjal",
-    "codigo": "3138005"
+    "codigo": "3138005",
+    "uf": "MG"
   },
   {
     "nome": "Lassance",
-    "codigo": "3138104"
+    "codigo": "3138104",
+    "uf": "MG"
   },
   {
     "nome": "Lavras",
-    "codigo": "3138203"
+    "codigo": "3138203",
+    "uf": "MG"
   },
   {
     "nome": "Leandro Ferreira",
-    "codigo": "3138302"
+    "codigo": "3138302",
+    "uf": "MG"
   },
   {
     "nome": "Leopoldina",
-    "codigo": "3138401"
+    "codigo": "3138401",
+    "uf": "MG"
   },
   {
     "nome": "Liberdade",
-    "codigo": "3138500"
+    "codigo": "3138500",
+    "uf": "MG"
   },
   {
     "nome": "Lima Duarte",
-    "codigo": "3138609"
+    "codigo": "3138609",
+    "uf": "MG"
   },
   {
     "nome": "Luminárias",
-    "codigo": "3138708"
+    "codigo": "3138708",
+    "uf": "MG"
   },
   {
     "nome": "Luz",
-    "codigo": "3138807"
+    "codigo": "3138807",
+    "uf": "MG"
   },
   {
     "nome": "Machacalis",
-    "codigo": "3138906"
+    "codigo": "3138906",
+    "uf": "MG"
   },
   {
     "nome": "Machado",
-    "codigo": "3139003"
+    "codigo": "3139003",
+    "uf": "MG"
   },
   {
     "nome": "Madre de Deus de Minas",
-    "codigo": "3139102"
+    "codigo": "3139102",
+    "uf": "MG"
   },
   {
     "nome": "Malacacheta",
-    "codigo": "3139201"
+    "codigo": "3139201",
+    "uf": "MG"
   },
   {
     "nome": "Manga",
-    "codigo": "3139300"
+    "codigo": "3139300",
+    "uf": "MG"
   },
   {
     "nome": "Manhuaçu",
-    "codigo": "3139409"
+    "codigo": "3139409",
+    "uf": "MG"
   },
   {
     "nome": "Manhumirim",
-    "codigo": "3139508"
+    "codigo": "3139508",
+    "uf": "MG"
   },
   {
     "nome": "Mantena",
-    "codigo": "3139607"
+    "codigo": "3139607",
+    "uf": "MG"
   },
   {
     "nome": "Maravilhas",
-    "codigo": "3139706"
+    "codigo": "3139706",
+    "uf": "MG"
   },
   {
     "nome": "Mar de Espanha",
-    "codigo": "3139805"
+    "codigo": "3139805",
+    "uf": "MG"
   },
   {
     "nome": "Maria da Fé",
-    "codigo": "3139904"
+    "codigo": "3139904",
+    "uf": "MG"
   },
   {
     "nome": "Mariana",
-    "codigo": "3140001"
+    "codigo": "3140001",
+    "uf": "MG"
   },
   {
     "nome": "Marilac",
-    "codigo": "3140100"
+    "codigo": "3140100",
+    "uf": "MG"
   },
   {
     "nome": "Maripá de Minas",
-    "codigo": "3140209"
+    "codigo": "3140209",
+    "uf": "MG"
   },
   {
     "nome": "Marliéria",
-    "codigo": "3140308"
+    "codigo": "3140308",
+    "uf": "MG"
   },
   {
     "nome": "Marmelópolis",
-    "codigo": "3140407"
+    "codigo": "3140407",
+    "uf": "MG"
   },
   {
     "nome": "Martinho Campos",
-    "codigo": "3140506"
+    "codigo": "3140506",
+    "uf": "MG"
   },
   {
     "nome": "Materlândia",
-    "codigo": "3140605"
+    "codigo": "3140605",
+    "uf": "MG"
   },
   {
     "nome": "Mateus Leme",
-    "codigo": "3140704"
+    "codigo": "3140704",
+    "uf": "MG"
   },
   {
     "nome": "Matias Barbosa",
-    "codigo": "3140803"
+    "codigo": "3140803",
+    "uf": "MG"
   },
   {
     "nome": "Matipó",
-    "codigo": "3140902"
+    "codigo": "3140902",
+    "uf": "MG"
   },
   {
     "nome": "Mato Verde",
-    "codigo": "3141009"
+    "codigo": "3141009",
+    "uf": "MG"
   },
   {
     "nome": "Matozinhos",
-    "codigo": "3141108"
+    "codigo": "3141108",
+    "uf": "MG"
   },
   {
     "nome": "Matutina",
-    "codigo": "3141207"
+    "codigo": "3141207",
+    "uf": "MG"
   },
   {
     "nome": "Medeiros",
-    "codigo": "3141306"
+    "codigo": "3141306",
+    "uf": "MG"
   },
   {
     "nome": "Medina",
-    "codigo": "3141405"
+    "codigo": "3141405",
+    "uf": "MG"
   },
   {
     "nome": "Mendes Pimentel",
-    "codigo": "3141504"
+    "codigo": "3141504",
+    "uf": "MG"
   },
   {
     "nome": "Mercês",
-    "codigo": "3141603"
+    "codigo": "3141603",
+    "uf": "MG"
   },
   {
     "nome": "Mesquita",
-    "codigo": "3141702"
+    "codigo": "3141702",
+    "uf": "MG"
   },
   {
     "nome": "Minas Novas",
-    "codigo": "3141801"
+    "codigo": "3141801",
+    "uf": "MG"
   },
   {
     "nome": "Minduri",
-    "codigo": "3141900"
+    "codigo": "3141900",
+    "uf": "MG"
   },
   {
     "nome": "Mirabela",
-    "codigo": "3142007"
+    "codigo": "3142007",
+    "uf": "MG"
   },
   {
     "nome": "Miradouro",
-    "codigo": "3142106"
+    "codigo": "3142106",
+    "uf": "MG"
   },
   {
     "nome": "Miraí",
-    "codigo": "3142205"
+    "codigo": "3142205",
+    "uf": "MG"
   },
   {
     "nome": "Moeda",
-    "codigo": "3142304"
+    "codigo": "3142304",
+    "uf": "MG"
   },
   {
     "nome": "Moema",
-    "codigo": "3142403"
+    "codigo": "3142403",
+    "uf": "MG"
   },
   {
     "nome": "Monjolos",
-    "codigo": "3142502"
+    "codigo": "3142502",
+    "uf": "MG"
   },
   {
     "nome": "Monsenhor Paulo",
-    "codigo": "3142601"
+    "codigo": "3142601",
+    "uf": "MG"
   },
   {
     "nome": "Montalvânia",
-    "codigo": "3142700"
+    "codigo": "3142700",
+    "uf": "MG"
   },
   {
     "nome": "Monte Alegre de Minas",
-    "codigo": "3142809"
+    "codigo": "3142809",
+    "uf": "MG"
   },
   {
     "nome": "Monte Azul",
-    "codigo": "3142908"
+    "codigo": "3142908",
+    "uf": "MG"
   },
   {
     "nome": "Monte Belo",
-    "codigo": "3143005"
+    "codigo": "3143005",
+    "uf": "MG"
   },
   {
     "nome": "Monte Carmelo",
-    "codigo": "3143104"
+    "codigo": "3143104",
+    "uf": "MG"
   },
   {
     "nome": "Monte Santo de Minas",
-    "codigo": "3143203"
+    "codigo": "3143203",
+    "uf": "MG"
   },
   {
     "nome": "Montes Claros",
-    "codigo": "3143302"
+    "codigo": "3143302",
+    "uf": "MG"
   },
   {
     "nome": "Monte Sião",
-    "codigo": "3143401"
+    "codigo": "3143401",
+    "uf": "MG"
   },
   {
     "nome": "Morada Nova de Minas",
-    "codigo": "3143500"
+    "codigo": "3143500",
+    "uf": "MG"
   },
   {
     "nome": "Morro da Garça",
-    "codigo": "3143609"
+    "codigo": "3143609",
+    "uf": "MG"
   },
   {
     "nome": "Morro do Pilar",
-    "codigo": "3143708"
+    "codigo": "3143708",
+    "uf": "MG"
   },
   {
     "nome": "Munhoz",
-    "codigo": "3143807"
+    "codigo": "3143807",
+    "uf": "MG"
   },
   {
     "nome": "Muriaé",
-    "codigo": "3143906"
+    "codigo": "3143906",
+    "uf": "MG"
   },
   {
     "nome": "Mutum",
-    "codigo": "3144003"
+    "codigo": "3144003",
+    "uf": "MG"
   },
   {
     "nome": "Muzambinho",
-    "codigo": "3144102"
+    "codigo": "3144102",
+    "uf": "MG"
   },
   {
     "nome": "Nacip Raydan",
-    "codigo": "3144201"
+    "codigo": "3144201",
+    "uf": "MG"
   },
   {
     "nome": "Nanuque",
-    "codigo": "3144300"
+    "codigo": "3144300",
+    "uf": "MG"
   },
   {
     "nome": "Natércia",
-    "codigo": "3144409"
+    "codigo": "3144409",
+    "uf": "MG"
   },
   {
     "nome": "Nazareno",
-    "codigo": "3144508"
+    "codigo": "3144508",
+    "uf": "MG"
   },
   {
     "nome": "Nepomuceno",
-    "codigo": "3144607"
+    "codigo": "3144607",
+    "uf": "MG"
   },
   {
     "nome": "Nova Era",
-    "codigo": "3144706"
+    "codigo": "3144706",
+    "uf": "MG"
   },
   {
     "nome": "Nova Lima",
-    "codigo": "3144805"
+    "codigo": "3144805",
+    "uf": "MG"
   },
   {
     "nome": "Nova Módica",
-    "codigo": "3144904"
+    "codigo": "3144904",
+    "uf": "MG"
   },
   {
     "nome": "Nova Ponte",
-    "codigo": "3145000"
+    "codigo": "3145000",
+    "uf": "MG"
   },
   {
     "nome": "Nova Resende",
-    "codigo": "3145109"
+    "codigo": "3145109",
+    "uf": "MG"
   },
   {
     "nome": "Nova Serrana",
-    "codigo": "3145208"
+    "codigo": "3145208",
+    "uf": "MG"
   },
   {
     "nome": "Novo Cruzeiro",
-    "codigo": "3145307"
+    "codigo": "3145307",
+    "uf": "MG"
   },
   {
     "nome": "Olaria",
-    "codigo": "3145406"
+    "codigo": "3145406",
+    "uf": "MG"
   },
   {
     "nome": "Olímpio Noronha",
-    "codigo": "3145505"
+    "codigo": "3145505",
+    "uf": "MG"
   },
   {
     "nome": "Oliveira",
-    "codigo": "3145604"
+    "codigo": "3145604",
+    "uf": "MG"
   },
   {
     "nome": "Oliveira Fortes",
-    "codigo": "3145703"
+    "codigo": "3145703",
+    "uf": "MG"
   },
   {
     "nome": "Onça de Pitangui",
-    "codigo": "3145802"
+    "codigo": "3145802",
+    "uf": "MG"
   },
   {
     "nome": "Ouro Branco",
-    "codigo": "3145901"
+    "codigo": "3145901",
+    "uf": "MG"
   },
   {
     "nome": "Ouro Fino",
-    "codigo": "3146008"
+    "codigo": "3146008",
+    "uf": "MG"
   },
   {
     "nome": "Ouro Preto",
-    "codigo": "3146107"
+    "codigo": "3146107",
+    "uf": "MG"
   },
   {
     "nome": "Ouro Verde de Minas",
-    "codigo": "3146206"
+    "codigo": "3146206",
+    "uf": "MG"
   },
   {
     "nome": "Padre Paraíso",
-    "codigo": "3146305"
+    "codigo": "3146305",
+    "uf": "MG"
   },
   {
     "nome": "Paineiras",
-    "codigo": "3146404"
+    "codigo": "3146404",
+    "uf": "MG"
   },
   {
     "nome": "Pains",
-    "codigo": "3146503"
+    "codigo": "3146503",
+    "uf": "MG"
   },
   {
     "nome": "Paiva",
-    "codigo": "3146602"
+    "codigo": "3146602",
+    "uf": "MG"
   },
   {
     "nome": "Palma",
-    "codigo": "3146701"
+    "codigo": "3146701",
+    "uf": "MG"
   },
   {
     "nome": "Fronteira dos Vales",
-    "codigo": "3127057"
+    "codigo": "3127057",
+    "uf": "MG"
   },
   {
     "nome": "Papagaios",
-    "codigo": "3146909"
+    "codigo": "3146909",
+    "uf": "MG"
   },
   {
     "nome": "Paracatu",
-    "codigo": "3147006"
+    "codigo": "3147006",
+    "uf": "MG"
   },
   {
     "nome": "Pará de Minas",
-    "codigo": "3147105"
+    "codigo": "3147105",
+    "uf": "MG"
   },
   {
     "nome": "Paraguaçu",
-    "codigo": "3147204"
+    "codigo": "3147204",
+    "uf": "MG"
   },
   {
     "nome": "Paraisópolis",
-    "codigo": "3147303"
+    "codigo": "3147303",
+    "uf": "MG"
   },
   {
     "nome": "Paraopeba",
-    "codigo": "3147402"
+    "codigo": "3147402",
+    "uf": "MG"
   },
   {
     "nome": "Passabém",
-    "codigo": "3147501"
+    "codigo": "3147501",
+    "uf": "MG"
   },
   {
     "nome": "Passa Quatro",
-    "codigo": "3147600"
+    "codigo": "3147600",
+    "uf": "MG"
   },
   {
     "nome": "Passa Tempo",
-    "codigo": "3147709"
+    "codigo": "3147709",
+    "uf": "MG"
   },
   {
     "nome": "Passa Vinte",
-    "codigo": "3147808"
+    "codigo": "3147808",
+    "uf": "MG"
   },
   {
     "nome": "Passos",
-    "codigo": "3147907"
+    "codigo": "3147907",
+    "uf": "MG"
   },
   {
     "nome": "Patos de Minas",
-    "codigo": "3148004"
+    "codigo": "3148004",
+    "uf": "MG"
   },
   {
     "nome": "Patrocínio",
-    "codigo": "3148103"
+    "codigo": "3148103",
+    "uf": "MG"
   },
   {
     "nome": "Patrocínio do Muriaé",
-    "codigo": "3148202"
+    "codigo": "3148202",
+    "uf": "MG"
   },
   {
     "nome": "Paula Cândido",
-    "codigo": "3148301"
+    "codigo": "3148301",
+    "uf": "MG"
   },
   {
     "nome": "Paulistas",
-    "codigo": "3148400"
+    "codigo": "3148400",
+    "uf": "MG"
   },
   {
     "nome": "Pavão",
-    "codigo": "3148509"
+    "codigo": "3148509",
+    "uf": "MG"
   },
   {
     "nome": "Peçanha",
-    "codigo": "3148608"
+    "codigo": "3148608",
+    "uf": "MG"
   },
   {
     "nome": "Pedra Azul",
-    "codigo": "3148707"
+    "codigo": "3148707",
+    "uf": "MG"
   },
   {
     "nome": "Pedra do Anta",
-    "codigo": "3148806"
+    "codigo": "3148806",
+    "uf": "MG"
   },
   {
     "nome": "Pedra do Indaiá",
-    "codigo": "3148905"
+    "codigo": "3148905",
+    "uf": "MG"
   },
   {
     "nome": "Pedra Dourada",
-    "codigo": "3149002"
+    "codigo": "3149002",
+    "uf": "MG"
   },
   {
     "nome": "Pedralva",
-    "codigo": "3149101"
+    "codigo": "3149101",
+    "uf": "MG"
   },
   {
     "nome": "Pedrinópolis",
-    "codigo": "3149200"
+    "codigo": "3149200",
+    "uf": "MG"
   },
   {
     "nome": "Pedro Leopoldo",
-    "codigo": "3149309"
+    "codigo": "3149309",
+    "uf": "MG"
   },
   {
     "nome": "Pedro Teixeira",
-    "codigo": "3149408"
+    "codigo": "3149408",
+    "uf": "MG"
   },
   {
     "nome": "Pequeri",
-    "codigo": "3149507"
+    "codigo": "3149507",
+    "uf": "MG"
   },
   {
     "nome": "Pequi",
-    "codigo": "3149606"
+    "codigo": "3149606",
+    "uf": "MG"
   },
   {
     "nome": "Perdigão",
-    "codigo": "3149705"
+    "codigo": "3149705",
+    "uf": "MG"
   },
   {
     "nome": "Perdizes",
-    "codigo": "3149804"
+    "codigo": "3149804",
+    "uf": "MG"
   },
   {
     "nome": "Perdões",
-    "codigo": "3149903"
+    "codigo": "3149903",
+    "uf": "MG"
   },
   {
     "nome": "Pescador",
-    "codigo": "3150000"
+    "codigo": "3150000",
+    "uf": "MG"
   },
   {
     "nome": "Piau",
-    "codigo": "3150109"
+    "codigo": "3150109",
+    "uf": "MG"
   },
   {
     "nome": "Piedade de Ponte Nova",
-    "codigo": "3150208"
+    "codigo": "3150208",
+    "uf": "MG"
   },
   {
     "nome": "Piedade do Rio Grande",
-    "codigo": "3150307"
+    "codigo": "3150307",
+    "uf": "MG"
   },
   {
     "nome": "Piedade dos Gerais",
-    "codigo": "3150406"
+    "codigo": "3150406",
+    "uf": "MG"
   },
   {
     "nome": "Pimenta",
-    "codigo": "3150505"
+    "codigo": "3150505",
+    "uf": "MG"
   },
   {
     "nome": "Piracema",
-    "codigo": "3150604"
+    "codigo": "3150604",
+    "uf": "MG"
   },
   {
     "nome": "Pirajuba",
-    "codigo": "3150703"
+    "codigo": "3150703",
+    "uf": "MG"
   },
   {
     "nome": "Piranga",
-    "codigo": "3150802"
+    "codigo": "3150802",
+    "uf": "MG"
   },
   {
     "nome": "Piranguçu",
-    "codigo": "3150901"
+    "codigo": "3150901",
+    "uf": "MG"
   },
   {
     "nome": "Piranguinho",
-    "codigo": "3151008"
+    "codigo": "3151008",
+    "uf": "MG"
   },
   {
     "nome": "Pirapetinga",
-    "codigo": "3151107"
+    "codigo": "3151107",
+    "uf": "MG"
   },
   {
     "nome": "Pirapora",
-    "codigo": "3151206"
+    "codigo": "3151206",
+    "uf": "MG"
   },
   {
     "nome": "Piraúba",
-    "codigo": "3151305"
+    "codigo": "3151305",
+    "uf": "MG"
   },
   {
     "nome": "Pitangui",
-    "codigo": "3151404"
+    "codigo": "3151404",
+    "uf": "MG"
   },
   {
     "nome": "Piumhi",
-    "codigo": "3151503"
+    "codigo": "3151503",
+    "uf": "MG"
   },
   {
     "nome": "Planura",
-    "codigo": "3151602"
+    "codigo": "3151602",
+    "uf": "MG"
   },
   {
     "nome": "Poço Fundo",
-    "codigo": "3151701"
+    "codigo": "3151701",
+    "uf": "MG"
   },
   {
     "nome": "Poços de Caldas",
-    "codigo": "3151800"
+    "codigo": "3151800",
+    "uf": "MG"
   },
   {
     "nome": "Pocrane",
-    "codigo": "3151909"
+    "codigo": "3151909",
+    "uf": "MG"
   },
   {
     "nome": "Pompéu",
-    "codigo": "3152006"
+    "codigo": "3152006",
+    "uf": "MG"
   },
   {
     "nome": "Ponte Nova",
-    "codigo": "3152105"
+    "codigo": "3152105",
+    "uf": "MG"
   },
   {
     "nome": "Porteirinha",
-    "codigo": "3152204"
+    "codigo": "3152204",
+    "uf": "MG"
   },
   {
     "nome": "Porto Firme",
-    "codigo": "3152303"
+    "codigo": "3152303",
+    "uf": "MG"
   },
   {
     "nome": "Poté",
-    "codigo": "3152402"
+    "codigo": "3152402",
+    "uf": "MG"
   },
   {
     "nome": "Pouso Alegre",
-    "codigo": "3152501"
+    "codigo": "3152501",
+    "uf": "MG"
   },
   {
     "nome": "Pouso Alto",
-    "codigo": "3152600"
+    "codigo": "3152600",
+    "uf": "MG"
   },
   {
     "nome": "Prados",
-    "codigo": "3152709"
+    "codigo": "3152709",
+    "uf": "MG"
   },
   {
     "nome": "Prata",
-    "codigo": "3152808"
+    "codigo": "3152808",
+    "uf": "MG"
   },
   {
     "nome": "Pratápolis",
-    "codigo": "3152907"
+    "codigo": "3152907",
+    "uf": "MG"
   },
   {
     "nome": "Pratinha",
-    "codigo": "3153004"
+    "codigo": "3153004",
+    "uf": "MG"
   },
   {
     "nome": "Presidente Bernardes",
-    "codigo": "3153103"
+    "codigo": "3153103",
+    "uf": "MG"
   },
   {
     "nome": "Presidente Juscelino",
-    "codigo": "3153202"
+    "codigo": "3153202",
+    "uf": "MG"
   },
   {
     "nome": "Presidente Kubitschek",
-    "codigo": "3153301"
+    "codigo": "3153301",
+    "uf": "MG"
   },
   {
     "nome": "Presidente Olegário",
-    "codigo": "3153400"
+    "codigo": "3153400",
+    "uf": "MG"
   },
   {
     "nome": "Alto Jequitibá",
-    "codigo": "3153509"
+    "codigo": "3153509",
+    "uf": "MG"
   },
   {
     "nome": "Prudente de Morais",
-    "codigo": "3153608"
+    "codigo": "3153608",
+    "uf": "MG"
   },
   {
     "nome": "Quartel Geral",
-    "codigo": "3153707"
+    "codigo": "3153707",
+    "uf": "MG"
   },
   {
     "nome": "Queluzito",
-    "codigo": "3153806"
+    "codigo": "3153806",
+    "uf": "MG"
   },
   {
     "nome": "Raposos",
-    "codigo": "3153905"
+    "codigo": "3153905",
+    "uf": "MG"
   },
   {
     "nome": "Raul Soares",
-    "codigo": "3154002"
+    "codigo": "3154002",
+    "uf": "MG"
   },
   {
     "nome": "Recreio",
-    "codigo": "3154101"
+    "codigo": "3154101",
+    "uf": "MG"
   },
   {
     "nome": "Resende Costa",
-    "codigo": "3154200"
+    "codigo": "3154200",
+    "uf": "MG"
   },
   {
     "nome": "Resplendor",
-    "codigo": "3154309"
+    "codigo": "3154309",
+    "uf": "MG"
   },
   {
     "nome": "Ressaquinha",
-    "codigo": "3154408"
+    "codigo": "3154408",
+    "uf": "MG"
   },
   {
     "nome": "Riacho dos Machados",
-    "codigo": "3154507"
+    "codigo": "3154507",
+    "uf": "MG"
   },
   {
     "nome": "Ribeirão das Neves",
-    "codigo": "3154606"
+    "codigo": "3154606",
+    "uf": "MG"
   },
   {
     "nome": "Ribeirão Vermelho",
-    "codigo": "3154705"
+    "codigo": "3154705",
+    "uf": "MG"
   },
   {
     "nome": "Rio Acima",
-    "codigo": "3154804"
+    "codigo": "3154804",
+    "uf": "MG"
   },
   {
     "nome": "Rio Casca",
-    "codigo": "3154903"
+    "codigo": "3154903",
+    "uf": "MG"
   },
   {
     "nome": "Rio Doce",
-    "codigo": "3155009"
+    "codigo": "3155009",
+    "uf": "MG"
   },
   {
     "nome": "Rio do Prado",
-    "codigo": "3155108"
+    "codigo": "3155108",
+    "uf": "MG"
   },
   {
     "nome": "Rio Espera",
-    "codigo": "3155207"
+    "codigo": "3155207",
+    "uf": "MG"
   },
   {
     "nome": "Rio Manso",
-    "codigo": "3155306"
+    "codigo": "3155306",
+    "uf": "MG"
   },
   {
     "nome": "Rio Novo",
-    "codigo": "3155405"
+    "codigo": "3155405",
+    "uf": "MG"
   },
   {
     "nome": "Rio Paranaíba",
-    "codigo": "3155504"
+    "codigo": "3155504",
+    "uf": "MG"
   },
   {
     "nome": "Rio Pardo de Minas",
-    "codigo": "3155603"
+    "codigo": "3155603",
+    "uf": "MG"
   },
   {
     "nome": "Rio Piracicaba",
-    "codigo": "3155702"
+    "codigo": "3155702",
+    "uf": "MG"
   },
   {
     "nome": "Rio Pomba",
-    "codigo": "3155801"
+    "codigo": "3155801",
+    "uf": "MG"
   },
   {
     "nome": "Rio Preto",
-    "codigo": "3155900"
+    "codigo": "3155900",
+    "uf": "MG"
   },
   {
     "nome": "Rio Vermelho",
-    "codigo": "3156007"
+    "codigo": "3156007",
+    "uf": "MG"
   },
   {
     "nome": "Ritápolis",
-    "codigo": "3156106"
+    "codigo": "3156106",
+    "uf": "MG"
   },
   {
     "nome": "Rochedo de Minas",
-    "codigo": "3156205"
+    "codigo": "3156205",
+    "uf": "MG"
   },
   {
     "nome": "Rodeiro",
-    "codigo": "3156304"
+    "codigo": "3156304",
+    "uf": "MG"
   },
   {
     "nome": "Romaria",
-    "codigo": "3156403"
+    "codigo": "3156403",
+    "uf": "MG"
   },
   {
     "nome": "Rubelita",
-    "codigo": "3156502"
+    "codigo": "3156502",
+    "uf": "MG"
   },
   {
     "nome": "Rubim",
-    "codigo": "3156601"
+    "codigo": "3156601",
+    "uf": "MG"
   },
   {
     "nome": "Sabará",
-    "codigo": "3156700"
+    "codigo": "3156700",
+    "uf": "MG"
   },
   {
     "nome": "Sabinópolis",
-    "codigo": "3156809"
+    "codigo": "3156809",
+    "uf": "MG"
   },
   {
     "nome": "Sacramento",
-    "codigo": "3156908"
+    "codigo": "3156908",
+    "uf": "MG"
   },
   {
     "nome": "Salinas",
-    "codigo": "3157005"
+    "codigo": "3157005",
+    "uf": "MG"
   },
   {
     "nome": "Salto da Divisa",
-    "codigo": "3157104"
+    "codigo": "3157104",
+    "uf": "MG"
   },
   {
     "nome": "Santa Bárbara",
-    "codigo": "3157203"
+    "codigo": "3157203",
+    "uf": "MG"
   },
   {
     "nome": "Santa Bárbara do Tugúrio",
-    "codigo": "3157302"
+    "codigo": "3157302",
+    "uf": "MG"
   },
   {
     "nome": "Santa Cruz do Escalvado",
-    "codigo": "3157401"
+    "codigo": "3157401",
+    "uf": "MG"
   },
   {
     "nome": "Santa Efigênia de Minas",
-    "codigo": "3157500"
+    "codigo": "3157500",
+    "uf": "MG"
   },
   {
     "nome": "Santa Fé de Minas",
-    "codigo": "3157609"
+    "codigo": "3157609",
+    "uf": "MG"
   },
   {
     "nome": "Santa Juliana",
-    "codigo": "3157708"
+    "codigo": "3157708",
+    "uf": "MG"
   },
   {
     "nome": "Santa Luzia",
-    "codigo": "3157807"
+    "codigo": "3157807",
+    "uf": "MG"
   },
   {
     "nome": "Santa Margarida",
-    "codigo": "3157906"
+    "codigo": "3157906",
+    "uf": "MG"
   },
   {
     "nome": "Santa Maria de Itabira",
-    "codigo": "3158003"
+    "codigo": "3158003",
+    "uf": "MG"
   },
   {
     "nome": "Santa Maria do Salto",
-    "codigo": "3158102"
+    "codigo": "3158102",
+    "uf": "MG"
   },
   {
     "nome": "Santa Maria do Suaçuí",
-    "codigo": "3158201"
+    "codigo": "3158201",
+    "uf": "MG"
   },
   {
     "nome": "Santana da Vargem",
-    "codigo": "3158300"
+    "codigo": "3158300",
+    "uf": "MG"
   },
   {
     "nome": "Santana de Cataguases",
-    "codigo": "3158409"
+    "codigo": "3158409",
+    "uf": "MG"
   },
   {
     "nome": "Santana de Pirapama",
-    "codigo": "3158508"
+    "codigo": "3158508",
+    "uf": "MG"
   },
   {
     "nome": "Santana do Deserto",
-    "codigo": "3158607"
+    "codigo": "3158607",
+    "uf": "MG"
   },
   {
     "nome": "Santana do Garambéu",
-    "codigo": "3158706"
+    "codigo": "3158706",
+    "uf": "MG"
   },
   {
     "nome": "Santana do Jacaré",
-    "codigo": "3158805"
+    "codigo": "3158805",
+    "uf": "MG"
   },
   {
     "nome": "Santana do Manhuaçu",
-    "codigo": "3158904"
+    "codigo": "3158904",
+    "uf": "MG"
   },
   {
     "nome": "Santana do Riacho",
-    "codigo": "3159001"
+    "codigo": "3159001",
+    "uf": "MG"
   },
   {
     "nome": "Santana dos Montes",
-    "codigo": "3159100"
+    "codigo": "3159100",
+    "uf": "MG"
   },
   {
     "nome": "Santa Rita de Caldas",
-    "codigo": "3159209"
+    "codigo": "3159209",
+    "uf": "MG"
   },
   {
     "nome": "Santa Rita de Jacutinga",
-    "codigo": "3159308"
+    "codigo": "3159308",
+    "uf": "MG"
   },
   {
     "nome": "Santa Rita de Ibitipoca",
-    "codigo": "3159407"
+    "codigo": "3159407",
+    "uf": "MG"
   },
   {
     "nome": "Santa Rita do Itueto",
-    "codigo": "3159506"
+    "codigo": "3159506",
+    "uf": "MG"
   },
   {
     "nome": "Santa Rita do Sapucaí",
-    "codigo": "3159605"
+    "codigo": "3159605",
+    "uf": "MG"
   },
   {
     "nome": "Santa Rosa da Serra",
-    "codigo": "3159704"
+    "codigo": "3159704",
+    "uf": "MG"
   },
   {
     "nome": "Santa Vitória",
-    "codigo": "3159803"
+    "codigo": "3159803",
+    "uf": "MG"
   },
   {
     "nome": "Santo Antônio do Amparo",
-    "codigo": "3159902"
+    "codigo": "3159902",
+    "uf": "MG"
   },
   {
     "nome": "Santo Antônio do Aventureiro",
-    "codigo": "3160009"
+    "codigo": "3160009",
+    "uf": "MG"
   },
   {
     "nome": "Santo Antônio do Grama",
-    "codigo": "3160108"
+    "codigo": "3160108",
+    "uf": "MG"
   },
   {
     "nome": "Santo Antônio do Itambé",
-    "codigo": "3160207"
+    "codigo": "3160207",
+    "uf": "MG"
   },
   {
     "nome": "Santo Antônio do Jacinto",
-    "codigo": "3160306"
+    "codigo": "3160306",
+    "uf": "MG"
   },
   {
     "nome": "Santo Antônio do Monte",
-    "codigo": "3160405"
+    "codigo": "3160405",
+    "uf": "MG"
   },
   {
     "nome": "Santo Antônio do Rio Abaixo",
-    "codigo": "3160504"
+    "codigo": "3160504",
+    "uf": "MG"
   },
   {
     "nome": "Santo Hipólito",
-    "codigo": "3160603"
+    "codigo": "3160603",
+    "uf": "MG"
   },
   {
     "nome": "Santos Dumont",
-    "codigo": "3160702"
+    "codigo": "3160702",
+    "uf": "MG"
   },
   {
     "nome": "São Bento Abade",
-    "codigo": "3160801"
+    "codigo": "3160801",
+    "uf": "MG"
   },
   {
     "nome": "São Brás do Suaçuí",
-    "codigo": "3160900"
+    "codigo": "3160900",
+    "uf": "MG"
   },
   {
     "nome": "São Domingos do Prata",
-    "codigo": "3161007"
+    "codigo": "3161007",
+    "uf": "MG"
   },
   {
     "nome": "São Francisco",
-    "codigo": "3161106"
+    "codigo": "3161106",
+    "uf": "MG"
   },
   {
     "nome": "São Francisco de Paula",
-    "codigo": "3161205"
+    "codigo": "3161205",
+    "uf": "MG"
   },
   {
     "nome": "São Francisco de Sales",
-    "codigo": "3161304"
+    "codigo": "3161304",
+    "uf": "MG"
   },
   {
     "nome": "São Francisco do Glória",
-    "codigo": "3161403"
+    "codigo": "3161403",
+    "uf": "MG"
   },
   {
     "nome": "São Geraldo",
-    "codigo": "3161502"
+    "codigo": "3161502",
+    "uf": "MG"
   },
   {
     "nome": "São Geraldo da Piedade",
-    "codigo": "3161601"
+    "codigo": "3161601",
+    "uf": "MG"
   },
   {
     "nome": "São Gonçalo do Abaeté",
-    "codigo": "3161700"
+    "codigo": "3161700",
+    "uf": "MG"
   },
   {
     "nome": "São Gonçalo do Pará",
-    "codigo": "3161809"
+    "codigo": "3161809",
+    "uf": "MG"
   },
   {
     "nome": "São Gonçalo do Rio Abaixo",
-    "codigo": "3161908"
+    "codigo": "3161908",
+    "uf": "MG"
   },
   {
     "nome": "São Gonçalo do Sapucaí",
-    "codigo": "3162005"
+    "codigo": "3162005",
+    "uf": "MG"
   },
   {
     "nome": "São Gotardo",
-    "codigo": "3162104"
+    "codigo": "3162104",
+    "uf": "MG"
   },
   {
     "nome": "São João Batista do Glória",
-    "codigo": "3162203"
+    "codigo": "3162203",
+    "uf": "MG"
   },
   {
     "nome": "São João da Mata",
-    "codigo": "3162302"
+    "codigo": "3162302",
+    "uf": "MG"
   },
   {
     "nome": "São João da Ponte",
-    "codigo": "3162401"
+    "codigo": "3162401",
+    "uf": "MG"
   },
   {
     "nome": "São João del Rei",
-    "codigo": "3162500"
+    "codigo": "3162500",
+    "uf": "MG"
   },
   {
     "nome": "São João do Oriente",
-    "codigo": "3162609"
+    "codigo": "3162609",
+    "uf": "MG"
   },
   {
     "nome": "São João do Paraíso",
-    "codigo": "3162708"
+    "codigo": "3162708",
+    "uf": "MG"
   },
   {
     "nome": "São João Evangelista",
-    "codigo": "3162807"
+    "codigo": "3162807",
+    "uf": "MG"
   },
   {
     "nome": "São João Nepomuceno",
-    "codigo": "3162906"
+    "codigo": "3162906",
+    "uf": "MG"
   },
   {
     "nome": "São José da Safira",
-    "codigo": "3163003"
+    "codigo": "3163003",
+    "uf": "MG"
   },
   {
     "nome": "São José da Varginha",
-    "codigo": "3163102"
+    "codigo": "3163102",
+    "uf": "MG"
   },
   {
     "nome": "São José do Alegre",
-    "codigo": "3163201"
+    "codigo": "3163201",
+    "uf": "MG"
   },
   {
     "nome": "São José do Divino",
-    "codigo": "3163300"
+    "codigo": "3163300",
+    "uf": "MG"
   },
   {
     "nome": "São José do Goiabal",
-    "codigo": "3163409"
+    "codigo": "3163409",
+    "uf": "MG"
   },
   {
     "nome": "São José do Jacuri",
-    "codigo": "3163508"
+    "codigo": "3163508",
+    "uf": "MG"
   },
   {
     "nome": "São José do Mantimento",
-    "codigo": "3163607"
+    "codigo": "3163607",
+    "uf": "MG"
   },
   {
     "nome": "São Lourenço",
-    "codigo": "3163706"
+    "codigo": "3163706",
+    "uf": "MG"
   },
   {
     "nome": "São Miguel do Anta",
-    "codigo": "3163805"
+    "codigo": "3163805",
+    "uf": "MG"
   },
   {
     "nome": "São Pedro da União",
-    "codigo": "3163904"
+    "codigo": "3163904",
+    "uf": "MG"
   },
   {
     "nome": "São Pedro dos Ferros",
-    "codigo": "3164001"
+    "codigo": "3164001",
+    "uf": "MG"
   },
   {
     "nome": "São Pedro do Suaçuí",
-    "codigo": "3164100"
+    "codigo": "3164100",
+    "uf": "MG"
   },
   {
     "nome": "São Romão",
-    "codigo": "3164209"
+    "codigo": "3164209",
+    "uf": "MG"
   },
   {
     "nome": "São Roque de Minas",
-    "codigo": "3164308"
+    "codigo": "3164308",
+    "uf": "MG"
   },
   {
     "nome": "São Sebastião da Bela Vista",
-    "codigo": "3164407"
+    "codigo": "3164407",
+    "uf": "MG"
   },
   {
     "nome": "São Sebastião do Maranhão",
-    "codigo": "3164506"
+    "codigo": "3164506",
+    "uf": "MG"
   },
   {
     "nome": "São Sebastião do Oeste",
-    "codigo": "3164605"
+    "codigo": "3164605",
+    "uf": "MG"
   },
   {
     "nome": "São Sebastião do Paraíso",
-    "codigo": "3164704"
+    "codigo": "3164704",
+    "uf": "MG"
   },
   {
     "nome": "São Sebastião do Rio Preto",
-    "codigo": "3164803"
+    "codigo": "3164803",
+    "uf": "MG"
   },
   {
     "nome": "São Sebastião do Rio Verde",
-    "codigo": "3164902"
+    "codigo": "3164902",
+    "uf": "MG"
   },
   {
     "nome": "São Tiago",
-    "codigo": "3165008"
+    "codigo": "3165008",
+    "uf": "MG"
   },
   {
     "nome": "São Tomás de Aquino",
-    "codigo": "3165107"
+    "codigo": "3165107",
+    "uf": "MG"
   },
   {
     "nome": "São Tomé das Letras",
-    "codigo": "3165206"
+    "codigo": "3165206",
+    "uf": "MG"
   },
   {
     "nome": "São Vicente de Minas",
-    "codigo": "3165305"
+    "codigo": "3165305",
+    "uf": "MG"
   },
   {
     "nome": "Sapucaí-Mirim",
-    "codigo": "3165404"
+    "codigo": "3165404",
+    "uf": "MG"
   },
   {
     "nome": "Sardoá",
-    "codigo": "3165503"
+    "codigo": "3165503",
+    "uf": "MG"
   },
   {
     "nome": "Senador Cortes",
-    "codigo": "3165602"
+    "codigo": "3165602",
+    "uf": "MG"
   },
   {
     "nome": "Senador Firmino",
-    "codigo": "3165701"
+    "codigo": "3165701",
+    "uf": "MG"
   },
   {
     "nome": "Senador José Bento",
-    "codigo": "3165800"
+    "codigo": "3165800",
+    "uf": "MG"
   },
   {
     "nome": "Senador Modestino Gonçalves",
-    "codigo": "3165909"
+    "codigo": "3165909",
+    "uf": "MG"
   },
   {
     "nome": "Senhora de Oliveira",
-    "codigo": "3166006"
+    "codigo": "3166006",
+    "uf": "MG"
   },
   {
     "nome": "Senhora do Porto",
-    "codigo": "3166105"
+    "codigo": "3166105",
+    "uf": "MG"
   },
   {
     "nome": "Senhora dos Remédios",
-    "codigo": "3166204"
+    "codigo": "3166204",
+    "uf": "MG"
   },
   {
     "nome": "Sericita",
-    "codigo": "3166303"
+    "codigo": "3166303",
+    "uf": "MG"
   },
   {
     "nome": "Seritinga",
-    "codigo": "3166402"
+    "codigo": "3166402",
+    "uf": "MG"
   },
   {
     "nome": "Serra Azul de Minas",
-    "codigo": "3166501"
+    "codigo": "3166501",
+    "uf": "MG"
   },
   {
     "nome": "Serra da Saudade",
-    "codigo": "3166600"
+    "codigo": "3166600",
+    "uf": "MG"
   },
   {
     "nome": "Serra dos Aimorés",
-    "codigo": "3166709"
+    "codigo": "3166709",
+    "uf": "MG"
   },
   {
     "nome": "Serra do Salitre",
-    "codigo": "3166808"
+    "codigo": "3166808",
+    "uf": "MG"
   },
   {
     "nome": "Serrania",
-    "codigo": "3166907"
+    "codigo": "3166907",
+    "uf": "MG"
   },
   {
     "nome": "Serranos",
-    "codigo": "3167004"
+    "codigo": "3167004",
+    "uf": "MG"
   },
   {
     "nome": "Serro",
-    "codigo": "3167103"
+    "codigo": "3167103",
+    "uf": "MG"
   },
   {
     "nome": "Sete Lagoas",
-    "codigo": "3167202"
+    "codigo": "3167202",
+    "uf": "MG"
   },
   {
     "nome": "Silveirânia",
-    "codigo": "3167301"
+    "codigo": "3167301",
+    "uf": "MG"
   },
   {
     "nome": "Silvianópolis",
-    "codigo": "3167400"
+    "codigo": "3167400",
+    "uf": "MG"
   },
   {
     "nome": "Simão Pereira",
-    "codigo": "3167509"
+    "codigo": "3167509",
+    "uf": "MG"
   },
   {
     "nome": "Simonésia",
-    "codigo": "3167608"
+    "codigo": "3167608",
+    "uf": "MG"
   },
   {
     "nome": "Sobrália",
-    "codigo": "3167707"
+    "codigo": "3167707",
+    "uf": "MG"
   },
   {
     "nome": "Soledade de Minas",
-    "codigo": "3167806"
+    "codigo": "3167806",
+    "uf": "MG"
   },
   {
     "nome": "Tabuleiro",
-    "codigo": "3167905"
+    "codigo": "3167905",
+    "uf": "MG"
   },
   {
     "nome": "Taiobeiras",
-    "codigo": "3168002"
+    "codigo": "3168002",
+    "uf": "MG"
   },
   {
     "nome": "Tapira",
-    "codigo": "3168101"
+    "codigo": "3168101",
+    "uf": "MG"
   },
   {
     "nome": "Tapiraí",
-    "codigo": "3168200"
+    "codigo": "3168200",
+    "uf": "MG"
   },
   {
     "nome": "Taquaraçu de Minas",
-    "codigo": "3168309"
+    "codigo": "3168309",
+    "uf": "MG"
   },
   {
     "nome": "Tarumirim",
-    "codigo": "3168408"
+    "codigo": "3168408",
+    "uf": "MG"
   },
   {
     "nome": "Teixeiras",
-    "codigo": "3168507"
+    "codigo": "3168507",
+    "uf": "MG"
   },
   {
     "nome": "Teófilo Otoni",
-    "codigo": "3168606"
+    "codigo": "3168606",
+    "uf": "MG"
   },
   {
     "nome": "Timóteo",
-    "codigo": "3168705"
+    "codigo": "3168705",
+    "uf": "MG"
   },
   {
     "nome": "Tiradentes",
-    "codigo": "3168804"
+    "codigo": "3168804",
+    "uf": "MG"
   },
   {
     "nome": "Tiros",
-    "codigo": "3168903"
+    "codigo": "3168903",
+    "uf": "MG"
   },
   {
     "nome": "Tocantins",
-    "codigo": "3169000"
+    "codigo": "3169000",
+    "uf": "MG"
   },
   {
     "nome": "Toledo",
-    "codigo": "3169109"
+    "codigo": "3169109",
+    "uf": "MG"
   },
   {
     "nome": "Tombos",
-    "codigo": "3169208"
+    "codigo": "3169208",
+    "uf": "MG"
   },
   {
     "nome": "Três Corações",
-    "codigo": "3169307"
+    "codigo": "3169307",
+    "uf": "MG"
   },
   {
     "nome": "Três Pontas",
-    "codigo": "3169406"
+    "codigo": "3169406",
+    "uf": "MG"
   },
   {
     "nome": "Tumiritinga",
-    "codigo": "3169505"
+    "codigo": "3169505",
+    "uf": "MG"
   },
   {
     "nome": "Tupaciguara",
-    "codigo": "3169604"
+    "codigo": "3169604",
+    "uf": "MG"
   },
   {
     "nome": "Turmalina",
-    "codigo": "3169703"
+    "codigo": "3169703",
+    "uf": "MG"
   },
   {
     "nome": "Turvolândia",
-    "codigo": "3169802"
+    "codigo": "3169802",
+    "uf": "MG"
   },
   {
     "nome": "Ubá",
-    "codigo": "3169901"
+    "codigo": "3169901",
+    "uf": "MG"
   },
   {
     "nome": "Ubaí",
-    "codigo": "3170008"
+    "codigo": "3170008",
+    "uf": "MG"
   },
   {
     "nome": "Uberaba",
-    "codigo": "3170107"
+    "codigo": "3170107",
+    "uf": "MG"
   },
   {
     "nome": "Uberlândia",
-    "codigo": "3170206"
+    "codigo": "3170206",
+    "uf": "MG"
   },
   {
     "nome": "Umburatiba",
-    "codigo": "3170305"
+    "codigo": "3170305",
+    "uf": "MG"
   },
   {
     "nome": "Unaí",
-    "codigo": "3170404"
+    "codigo": "3170404",
+    "uf": "MG"
   },
   {
     "nome": "Urucânia",
-    "codigo": "3170503"
+    "codigo": "3170503",
+    "uf": "MG"
   },
   {
     "nome": "Vargem Bonita",
-    "codigo": "3170602"
+    "codigo": "3170602",
+    "uf": "MG"
   },
   {
     "nome": "Varginha",
-    "codigo": "3170701"
+    "codigo": "3170701",
+    "uf": "MG"
   },
   {
     "nome": "Várzea da Palma",
-    "codigo": "3170800"
+    "codigo": "3170800",
+    "uf": "MG"
   },
   {
     "nome": "Varzelândia",
-    "codigo": "3170909"
+    "codigo": "3170909",
+    "uf": "MG"
   },
   {
     "nome": "Vazante",
-    "codigo": "3171006"
+    "codigo": "3171006",
+    "uf": "MG"
   },
   {
     "nome": "Wenceslau Braz",
-    "codigo": "3172202"
+    "codigo": "3172202",
+    "uf": "MG"
   },
   {
     "nome": "Veríssimo",
-    "codigo": "3171105"
+    "codigo": "3171105",
+    "uf": "MG"
   },
   {
     "nome": "Vespasiano",
-    "codigo": "3171204"
+    "codigo": "3171204",
+    "uf": "MG"
   },
   {
     "nome": "Viçosa",
-    "codigo": "3171303"
+    "codigo": "3171303",
+    "uf": "MG"
   },
   {
     "nome": "Vieiras",
-    "codigo": "3171402"
+    "codigo": "3171402",
+    "uf": "MG"
   },
   {
     "nome": "Mathias Lobato",
-    "codigo": "3171501"
+    "codigo": "3171501",
+    "uf": "MG"
   },
   {
     "nome": "Virgem da Lapa",
-    "codigo": "3171600"
+    "codigo": "3171600",
+    "uf": "MG"
   },
   {
     "nome": "Virgínia",
-    "codigo": "3171709"
+    "codigo": "3171709",
+    "uf": "MG"
   },
   {
     "nome": "Virginópolis",
-    "codigo": "3171808"
+    "codigo": "3171808",
+    "uf": "MG"
   },
   {
     "nome": "Virgolândia",
-    "codigo": "3171907"
+    "codigo": "3171907",
+    "uf": "MG"
   },
   {
     "nome": "Visconde do Rio Branco",
-    "codigo": "3172004"
+    "codigo": "3172004",
+    "uf": "MG"
   },
   {
     "nome": "Volta Grande",
-    "codigo": "3172103"
+    "codigo": "3172103",
+    "uf": "MG"
   },
   {
     "nome": "Saltinho",
-    "codigo": "3545159"
+    "codigo": "3545159",
+    "uf": "SP"
   },
   {
     "nome": "São Lourenço da Serra",
-    "codigo": "3549953"
+    "codigo": "3549953",
+    "uf": "SP"
   },
   {
     "nome": "Doutor Ulysses",
-    "codigo": "4128633"
+    "codigo": "4128633",
+    "uf": "PR"
   },
   {
     "nome": "Itaperuçu",
-    "codigo": "4111258"
+    "codigo": "4111258",
+    "uf": "PR"
   },
   {
     "nome": "Pinhais",
-    "codigo": "4119152"
+    "codigo": "4119152",
+    "uf": "PR"
   },
   {
     "nome": "Tunas do Paraná",
-    "codigo": "4127882"
+    "codigo": "4127882",
+    "uf": "PR"
   },
   {
     "nome": "Nova Santa Bárbara",
-    "codigo": "4117214"
+    "codigo": "4117214",
+    "uf": "PR"
   },
   {
     "nome": "Mauá da Serra",
-    "codigo": "4115754"
+    "codigo": "4115754",
+    "uf": "PR"
   },
   {
     "nome": "Pitangueiras",
-    "codigo": "4119657"
+    "codigo": "4119657",
+    "uf": "PR"
   },
   {
     "nome": "Anahy",
-    "codigo": "4101051"
+    "codigo": "4101051",
+    "uf": "PR"
   },
   {
     "nome": "Diamante do Sul",
-    "codigo": "4107124"
+    "codigo": "4107124",
+    "uf": "PR"
   },
   {
     "nome": "Iguatu",
-    "codigo": "4110052"
+    "codigo": "4110052",
+    "uf": "PR"
   },
   {
     "nome": "Santa Lúcia",
-    "codigo": "4123824"
+    "codigo": "4123824",
+    "uf": "PR"
   },
   {
     "nome": "Boa Esperança do Iguaçu",
-    "codigo": "4103024"
+    "codigo": "4103024",
+    "uf": "PR"
   },
   {
     "nome": "Cruzeiro do Iguaçu",
-    "codigo": "4106571"
+    "codigo": "4106571",
+    "uf": "PR"
   },
   {
     "nome": "Flor da Serra do Sul",
-    "codigo": "4107850"
+    "codigo": "4107850",
+    "uf": "PR"
   },
   {
     "nome": "Nova Esperança do Sudoeste",
-    "codigo": "4116950"
+    "codigo": "4116950",
+    "uf": "PR"
   },
   {
     "nome": "Nova Laranjeiras",
-    "codigo": "4117057"
+    "codigo": "4117057",
+    "uf": "PR"
   },
   {
     "nome": "Rio Bonito do Iguaçu",
-    "codigo": "4122156"
+    "codigo": "4122156",
+    "uf": "PR"
   },
   {
     "nome": "Virmond",
-    "codigo": "4128658"
+    "codigo": "4128658",
+    "uf": "PR"
   },
   {
     "nome": "Iracema do Oeste",
-    "codigo": "4110656"
+    "codigo": "4110656",
+    "uf": "PR"
   },
   {
     "nome": "Maripá",
-    "codigo": "4115358"
+    "codigo": "4115358",
+    "uf": "PR"
   },
   {
     "nome": "São Pedro do Iguaçu",
-    "codigo": "4125753"
+    "codigo": "4125753",
+    "uf": "PR"
   },
   {
     "nome": "Cafezal do Sul",
-    "codigo": "4103479"
+    "codigo": "4103479",
+    "uf": "PR"
   },
   {
     "nome": "Saudade do Iguaçu",
-    "codigo": "4126272"
+    "codigo": "4126272",
+    "uf": "PR"
   },
   {
     "nome": "Pinhal de São Bento",
-    "codigo": "4119251"
+    "codigo": "4119251",
+    "uf": "PR"
   },
   {
     "nome": "Ventania",
-    "codigo": "4128534"
+    "codigo": "4128534",
+    "uf": "PR"
   },
   {
     "nome": "Candói",
-    "codigo": "4104428"
+    "codigo": "4104428",
+    "uf": "PR"
   },
   {
     "nome": "Laranjal",
-    "codigo": "4113254"
+    "codigo": "4113254",
+    "uf": "PR"
   },
   {
     "nome": "Mato Rico",
-    "codigo": "4115739"
+    "codigo": "4115739",
+    "uf": "PR"
   },
   {
     "nome": "Santa Maria do Oeste",
-    "codigo": "4123857"
+    "codigo": "4123857",
+    "uf": "PR"
   },
   {
     "nome": "Lidianópolis",
-    "codigo": "4113429"
+    "codigo": "4113429",
+    "uf": "PR"
   },
   {
     "nome": "Ângulo",
-    "codigo": "4101150"
+    "codigo": "4101150",
+    "uf": "PR"
   },
   {
     "nome": "Farol",
-    "codigo": "4107553"
+    "codigo": "4107553",
+    "uf": "PR"
   },
   {
     "nome": "Rancho Alegre D'Oeste",
-    "codigo": "4121356"
+    "codigo": "4121356",
+    "uf": "PR"
   },
   {
     "nome": "São Manoel do Paraná",
-    "codigo": "4125555"
+    "codigo": "4125555",
+    "uf": "PR"
   },
   {
     "nome": "Novo Itacolomi",
-    "codigo": "4117297"
+    "codigo": "4117297",
+    "uf": "PR"
   },
   {
     "nome": "Santa Mônica",
-    "codigo": "4123956"
+    "codigo": "4123956",
+    "uf": "PR"
   },
   {
     "nome": "Brasilândia do Sul",
-    "codigo": "4103370"
+    "codigo": "4103370",
+    "uf": "PR"
   },
   {
     "nome": "Alto Paraíso",
-    "codigo": "4128625"
+    "codigo": "4128625",
+    "uf": "PR"
   },
   {
     "nome": "Itaipulândia",
-    "codigo": "4110953"
+    "codigo": "4110953",
+    "uf": "PR"
   },
   {
     "nome": "Ramilândia",
-    "codigo": "4121257"
+    "codigo": "4121257",
+    "uf": "PR"
   },
   {
     "nome": "Entre Rios do Oeste",
-    "codigo": "4107538"
+    "codigo": "4107538",
+    "uf": "PR"
   },
   {
     "nome": "Mercedes",
-    "codigo": "4115853"
+    "codigo": "4115853",
+    "uf": "PR"
   },
   {
     "nome": "Pato Bragado",
-    "codigo": "4118451"
+    "codigo": "4118451",
+    "uf": "PR"
   },
   {
     "nome": "Quatro Pontes",
-    "codigo": "4120853"
+    "codigo": "4120853",
+    "uf": "PR"
   },
   {
     "nome": "Bombinhas",
-    "codigo": "4202453"
+    "codigo": "4202453",
+    "uf": "SC"
   },
   {
     "nome": "Morro Grande",
-    "codigo": "4211256"
+    "codigo": "4211256",
+    "uf": "SC"
   },
   {
     "nome": "Passo de Torres",
-    "codigo": "4212254"
+    "codigo": "4212254",
+    "uf": "SC"
   },
   {
     "nome": "Cocal do Sul",
-    "codigo": "4204251"
+    "codigo": "4204251",
+    "uf": "SC"
   },
   {
     "nome": "Capivari de Baixo",
-    "codigo": "4203956"
+    "codigo": "4203956",
+    "uf": "SC"
   },
   {
     "nome": "Sangão",
-    "codigo": "4215455"
+    "codigo": "4215455",
+    "uf": "SC"
   },
   {
     "nome": "Balneário Barra do Sul",
-    "codigo": "4202057"
+    "codigo": "4202057",
+    "uf": "SC"
   },
   {
     "nome": "São João do Itaperiú",
-    "codigo": "4216354"
+    "codigo": "4216354",
+    "uf": "SC"
   },
   {
     "nome": "Calmon",
-    "codigo": "4203154"
+    "codigo": "4203154",
+    "uf": "SC"
   },
   {
     "nome": "Santa Terezinha",
-    "codigo": "4215679"
+    "codigo": "4215679",
+    "uf": "SC"
   },
   {
     "nome": "Braço do Trombudo",
-    "codigo": "4202859"
+    "codigo": "4202859",
+    "uf": "SC"
   },
   {
     "nome": "Mirim Doce",
-    "codigo": "4210852"
+    "codigo": "4210852",
+    "uf": "SC"
   },
   {
     "nome": "Monte Carlo",
-    "codigo": "4211058"
+    "codigo": "4211058",
+    "uf": "SC"
   },
   {
     "nome": "Vargem",
-    "codigo": "4219150"
+    "codigo": "4219150",
+    "uf": "SC"
   },
   {
     "nome": "Vargem Bonita",
-    "codigo": "4219176"
+    "codigo": "4219176",
+    "uf": "SC"
   },
   {
     "nome": "Cerro Negro",
-    "codigo": "4204178"
+    "codigo": "4204178",
+    "uf": "SC"
   },
   {
     "nome": "Ponte Alta do Norte",
-    "codigo": "4213351"
+    "codigo": "4213351",
+    "uf": "SC"
   },
   {
     "nome": "Rio Rufino",
-    "codigo": "4215059"
+    "codigo": "4215059",
+    "uf": "SC"
   },
   {
     "nome": "São Cristóvão do Sul",
-    "codigo": "4216057"
+    "codigo": "4216057",
+    "uf": "SC"
   },
   {
     "nome": "Macieira",
-    "codigo": "4210050"
+    "codigo": "4210050",
+    "uf": "SC"
   },
   {
     "nome": "Águas Frias",
-    "codigo": "4200556"
+    "codigo": "4200556",
+    "uf": "SC"
   },
   {
     "nome": "Cordilheira Alta",
-    "codigo": "4204350"
+    "codigo": "4204350",
+    "uf": "SC"
   },
   {
     "nome": "Formosa do Sul",
-    "codigo": "4205431"
+    "codigo": "4205431",
+    "uf": "SC"
   },
   {
     "nome": "Guatambú",
-    "codigo": "4206652"
+    "codigo": "4206652",
+    "uf": "SC"
   },
   {
     "nome": "Irati",
-    "codigo": "4207858"
+    "codigo": "4207858",
+    "uf": "SC"
   },
   {
     "nome": "Jardinópolis",
-    "codigo": "4208955"
+    "codigo": "4208955",
+    "uf": "SC"
   },
   {
     "nome": "Nova Itaberaba",
-    "codigo": "4211454"
+    "codigo": "4211454",
+    "uf": "SC"
   },
   {
     "nome": "Novo Horizonte",
-    "codigo": "4211652"
+    "codigo": "4211652",
+    "uf": "SC"
   },
   {
     "nome": "Planalto Alegre",
-    "codigo": "4213153"
+    "codigo": "4213153",
+    "uf": "SC"
   },
   {
     "nome": "Sul Brasil",
-    "codigo": "4217758"
+    "codigo": "4217758",
+    "uf": "SC"
   },
   {
     "nome": "Arabutã",
-    "codigo": "4201273"
+    "codigo": "4201273",
+    "uf": "SC"
   },
   {
     "nome": "Arvoredo",
-    "codigo": "4201653"
+    "codigo": "4201653",
+    "uf": "SC"
   },
   {
     "nome": "Afonso Cláudio",
-    "codigo": "3200102"
+    "codigo": "3200102",
+    "uf": "ES"
   },
   {
     "nome": "Alegre",
-    "codigo": "3200201"
+    "codigo": "3200201",
+    "uf": "ES"
   },
   {
     "nome": "Alfredo Chaves",
-    "codigo": "3200300"
+    "codigo": "3200300",
+    "uf": "ES"
   },
   {
     "nome": "Anchieta",
-    "codigo": "3200409"
+    "codigo": "3200409",
+    "uf": "ES"
   },
   {
     "nome": "Apiacá",
-    "codigo": "3200508"
+    "codigo": "3200508",
+    "uf": "ES"
   },
   {
     "nome": "Aracruz",
-    "codigo": "3200607"
+    "codigo": "3200607",
+    "uf": "ES"
   },
   {
     "nome": "Atílio Vivácqua",
-    "codigo": "3200706"
+    "codigo": "3200706",
+    "uf": "ES"
   },
   {
     "nome": "Baixo Guandu",
-    "codigo": "3200805"
+    "codigo": "3200805",
+    "uf": "ES"
   },
   {
     "nome": "Barra de São Francisco",
-    "codigo": "3200904"
+    "codigo": "3200904",
+    "uf": "ES"
   },
   {
     "nome": "Boa Esperança",
-    "codigo": "3201001"
+    "codigo": "3201001",
+    "uf": "ES"
   },
   {
     "nome": "Bom Jesus do Norte",
-    "codigo": "3201100"
+    "codigo": "3201100",
+    "uf": "ES"
   },
   {
     "nome": "Cachoeiro de Itapemirim",
-    "codigo": "3201209"
+    "codigo": "3201209",
+    "uf": "ES"
   },
   {
     "nome": "Cariacica",
-    "codigo": "3201308"
+    "codigo": "3201308",
+    "uf": "ES"
   },
   {
     "nome": "Castelo",
-    "codigo": "3201407"
+    "codigo": "3201407",
+    "uf": "ES"
   },
   {
     "nome": "Colatina",
-    "codigo": "3201506"
+    "codigo": "3201506",
+    "uf": "ES"
   },
   {
     "nome": "Conceição da Barra",
-    "codigo": "3201605"
+    "codigo": "3201605",
+    "uf": "ES"
   },
   {
     "nome": "Conceição do Castelo",
-    "codigo": "3201704"
+    "codigo": "3201704",
+    "uf": "ES"
   },
   {
     "nome": "Divino de São Lourenço",
-    "codigo": "3201803"
+    "codigo": "3201803",
+    "uf": "ES"
   },
   {
     "nome": "Domingos Martins",
-    "codigo": "3201902"
+    "codigo": "3201902",
+    "uf": "ES"
   },
   {
     "nome": "Dores do Rio Preto",
-    "codigo": "3202009"
+    "codigo": "3202009",
+    "uf": "ES"
   },
   {
     "nome": "Ecoporanga",
-    "codigo": "3202108"
+    "codigo": "3202108",
+    "uf": "ES"
   },
   {
     "nome": "Fundão",
-    "codigo": "3202207"
+    "codigo": "3202207",
+    "uf": "ES"
   },
   {
     "nome": "Guaçuí",
-    "codigo": "3202306"
+    "codigo": "3202306",
+    "uf": "ES"
   },
   {
     "nome": "Guarapari",
-    "codigo": "3202405"
+    "codigo": "3202405",
+    "uf": "ES"
   },
   {
     "nome": "Ibiraçu",
-    "codigo": "3202504"
+    "codigo": "3202504",
+    "uf": "ES"
   },
   {
     "nome": "Iconha",
-    "codigo": "3202603"
+    "codigo": "3202603",
+    "uf": "ES"
   },
   {
     "nome": "Itaguaçu",
-    "codigo": "3202702"
+    "codigo": "3202702",
+    "uf": "ES"
   },
   {
     "nome": "Itapemirim",
-    "codigo": "3202801"
+    "codigo": "3202801",
+    "uf": "ES"
   },
   {
     "nome": "Itarana",
-    "codigo": "3202900"
+    "codigo": "3202900",
+    "uf": "ES"
   },
   {
     "nome": "Iúna",
-    "codigo": "3203007"
+    "codigo": "3203007",
+    "uf": "ES"
   },
   {
     "nome": "Jerônimo Monteiro",
-    "codigo": "3203106"
+    "codigo": "3203106",
+    "uf": "ES"
   },
   {
     "nome": "Linhares",
-    "codigo": "3203205"
+    "codigo": "3203205",
+    "uf": "ES"
   },
   {
     "nome": "Mantenópolis",
-    "codigo": "3203304"
+    "codigo": "3203304",
+    "uf": "ES"
   },
   {
     "nome": "Mimoso do Sul",
-    "codigo": "3203403"
+    "codigo": "3203403",
+    "uf": "ES"
   },
   {
     "nome": "Montanha",
-    "codigo": "3203502"
+    "codigo": "3203502",
+    "uf": "ES"
   },
   {
     "nome": "Mucurici",
-    "codigo": "3203601"
+    "codigo": "3203601",
+    "uf": "ES"
   },
   {
     "nome": "Muniz Freire",
-    "codigo": "3203700"
+    "codigo": "3203700",
+    "uf": "ES"
   },
   {
     "nome": "Muqui",
-    "codigo": "3203809"
+    "codigo": "3203809",
+    "uf": "ES"
   },
   {
     "nome": "Nova Venécia",
-    "codigo": "3203908"
+    "codigo": "3203908",
+    "uf": "ES"
   },
   {
     "nome": "Pancas",
-    "codigo": "3204005"
+    "codigo": "3204005",
+    "uf": "ES"
   },
   {
     "nome": "Pinheiros",
-    "codigo": "3204104"
+    "codigo": "3204104",
+    "uf": "ES"
   },
   {
     "nome": "Piúma",
-    "codigo": "3204203"
+    "codigo": "3204203",
+    "uf": "ES"
   },
   {
     "nome": "Presidente Kennedy",
-    "codigo": "3204302"
+    "codigo": "3204302",
+    "uf": "ES"
   },
   {
     "nome": "Rio Novo do Sul",
-    "codigo": "3204401"
+    "codigo": "3204401",
+    "uf": "ES"
   },
   {
     "nome": "Santa Leopoldina",
-    "codigo": "3204500"
+    "codigo": "3204500",
+    "uf": "ES"
   },
   {
     "nome": "Santa Teresa",
-    "codigo": "3204609"
+    "codigo": "3204609",
+    "uf": "ES"
   },
   {
     "nome": "São Gabriel da Palha",
-    "codigo": "3204708"
+    "codigo": "3204708",
+    "uf": "ES"
   },
   {
     "nome": "São José do Calçado",
-    "codigo": "3204807"
+    "codigo": "3204807",
+    "uf": "ES"
   },
   {
     "nome": "São Mateus",
-    "codigo": "3204906"
+    "codigo": "3204906",
+    "uf": "ES"
   },
   {
     "nome": "Serra",
-    "codigo": "3205002"
+    "codigo": "3205002",
+    "uf": "ES"
   },
   {
     "nome": "Viana",
-    "codigo": "3205101"
+    "codigo": "3205101",
+    "uf": "ES"
   },
   {
     "nome": "Vila Velha",
-    "codigo": "3205200"
+    "codigo": "3205200",
+    "uf": "ES"
   },
   {
     "nome": "Vitória",
-    "codigo": "3205309"
+    "codigo": "3205309",
+    "uf": "ES"
   },
   {
     "nome": "Marilândia",
-    "codigo": "3203353"
+    "codigo": "3203353",
+    "uf": "ES"
   },
   {
     "nome": "Ibatiba",
-    "codigo": "3202454"
+    "codigo": "3202454",
+    "uf": "ES"
   },
   {
     "nome": "Rio Bananal",
-    "codigo": "3204351"
+    "codigo": "3204351",
+    "uf": "ES"
   },
   {
     "nome": "Jaguaré",
-    "codigo": "3203056"
+    "codigo": "3203056",
+    "uf": "ES"
   },
   {
     "nome": "Pedro Canário",
-    "codigo": "3204054"
+    "codigo": "3204054",
+    "uf": "ES"
   },
   {
     "nome": "Água Doce do Norte",
-    "codigo": "3200169"
+    "codigo": "3200169",
+    "uf": "ES"
   },
   {
     "nome": "Alto Rio Novo",
-    "codigo": "3200359"
+    "codigo": "3200359",
+    "uf": "ES"
   },
   {
     "nome": "João Neiva",
-    "codigo": "3203130"
+    "codigo": "3203130",
+    "uf": "ES"
   },
   {
     "nome": "Laranja da Terra",
-    "codigo": "3203163"
+    "codigo": "3203163",
+    "uf": "ES"
   },
   {
     "nome": "Santa Maria de Jetibá",
-    "codigo": "3204559"
+    "codigo": "3204559",
+    "uf": "ES"
   },
   {
     "nome": "Vargem Alta",
-    "codigo": "3205036"
+    "codigo": "3205036",
+    "uf": "ES"
   },
   {
     "nome": "Venda Nova do Imigrante",
-    "codigo": "3205069"
+    "codigo": "3205069",
+    "uf": "ES"
   },
   {
     "nome": "Itaú de Minas",
-    "codigo": "3133758"
+    "codigo": "3133758",
+    "uf": "MG"
   },
   {
     "nome": "Águia Branca",
-    "codigo": "3200136"
+    "codigo": "3200136",
+    "uf": "ES"
   },
   {
     "nome": "Coronel Martins",
-    "codigo": "4204459"
+    "codigo": "4204459",
+    "uf": "SC"
   },
   {
     "nome": "Ipuaçu",
-    "codigo": "4207684"
+    "codigo": "4207684",
+    "uf": "SC"
   },
   {
     "nome": "Lajeado Grande",
-    "codigo": "4209458"
+    "codigo": "4209458",
+    "uf": "SC"
   },
   {
     "nome": "Ouro Verde",
-    "codigo": "4211850"
+    "codigo": "4211850",
+    "uf": "SC"
   },
   {
     "nome": "Passos Maia",
-    "codigo": "4212270"
+    "codigo": "4212270",
+    "uf": "SC"
   },
   {
     "nome": "Belmonte",
-    "codigo": "4202156"
+    "codigo": "4202156",
+    "uf": "SC"
   },
   {
     "nome": "Paraíso",
-    "codigo": "4212239"
+    "codigo": "4212239",
+    "uf": "SC"
   },
   {
     "nome": "Riqueza",
-    "codigo": "4215075"
+    "codigo": "4215075",
+    "uf": "SC"
   },
   {
     "nome": "Santa Helena",
-    "codigo": "4215554"
+    "codigo": "4215554",
+    "uf": "SC"
   },
   {
     "nome": "São João do Oeste",
-    "codigo": "4216255"
+    "codigo": "4216255",
+    "uf": "SC"
   },
   {
     "nome": "São Miguel da Boa Vista",
-    "codigo": "4217154"
+    "codigo": "4217154",
+    "uf": "SC"
   },
   {
     "nome": "Nova Santa Rita",
-    "codigo": "4313375"
+    "codigo": "4313375",
+    "uf": "RS"
   },
   {
     "nome": "Mariana Pimentel",
-    "codigo": "4311981"
+    "codigo": "4311981",
+    "uf": "RS"
   },
   {
     "nome": "Sertão Santana",
-    "codigo": "4320552"
+    "codigo": "4320552",
+    "uf": "RS"
   },
   {
     "nome": "Gramado Xavier",
-    "codigo": "4309159"
+    "codigo": "4309159",
+    "uf": "RS"
   },
   {
     "nome": "Passo do Sobrado",
-    "codigo": "4314076"
+    "codigo": "4314076",
+    "uf": "RS"
   },
   {
     "nome": "Sinimbu",
-    "codigo": "4320677"
+    "codigo": "4320677",
+    "uf": "RS"
   },
   {
     "nome": "Vale do Sol",
-    "codigo": "4322533"
+    "codigo": "4322533",
+    "uf": "RS"
   },
   {
     "nome": "Barão do Triunfo",
-    "codigo": "4301750"
+    "codigo": "4301750",
+    "uf": "RS"
   },
   {
     "nome": "Minas do Leão",
-    "codigo": "4312252"
+    "codigo": "4312252",
+    "uf": "RS"
   },
   {
     "nome": "Morrinhos do Sul",
-    "codigo": "4312443"
+    "codigo": "4312443",
+    "uf": "RS"
   },
   {
     "nome": "Três Forquilhas",
-    "codigo": "4321832"
+    "codigo": "4321832",
+    "uf": "RS"
   },
   {
     "nome": "Arambaré",
-    "codigo": "4300851"
+    "codigo": "4300851",
+    "uf": "RS"
   },
   {
     "nome": "Sentinela do Sul",
-    "codigo": "4320354"
+    "codigo": "4320354",
+    "uf": "RS"
   },
   {
     "nome": "Maquiné",
-    "codigo": "4311775"
+    "codigo": "4311775",
+    "uf": "RS"
   },
   {
     "nome": "Xangri-lá",
-    "codigo": "4323804"
+    "codigo": "4323804",
+    "uf": "RS"
   },
   {
     "nome": "Pinhal Grande",
-    "codigo": "4314472"
+    "codigo": "4314472",
+    "uf": "RS"
   },
   {
     "nome": "Quevedos",
-    "codigo": "4315321"
+    "codigo": "4315321",
+    "uf": "RS"
   },
   {
     "nome": "São João do Polêsine",
-    "codigo": "4318432"
+    "codigo": "4318432",
+    "uf": "RS"
   },
   {
     "nome": "São Martinho da Serra",
-    "codigo": "4319125"
+    "codigo": "4319125",
+    "uf": "RS"
   },
   {
     "nome": "Vila Nova do Sul",
-    "codigo": "4323457"
+    "codigo": "4323457",
+    "uf": "RS"
   },
   {
     "nome": "Coxilha",
-    "codigo": "4305975"
+    "codigo": "4305975",
+    "uf": "RS"
   },
   {
     "nome": "Gentil",
-    "codigo": "4308854"
+    "codigo": "4308854",
+    "uf": "RS"
   },
   {
     "nome": "Angra dos Reis",
-    "codigo": "3300100"
+    "codigo": "3300100",
+    "uf": "RJ"
   },
   {
     "nome": "Araruama",
-    "codigo": "3300209"
+    "codigo": "3300209",
+    "uf": "RJ"
   },
   {
     "nome": "Barra do Piraí",
-    "codigo": "3300308"
+    "codigo": "3300308",
+    "uf": "RJ"
   },
   {
     "nome": "Barra Mansa",
-    "codigo": "3300407"
+    "codigo": "3300407",
+    "uf": "RJ"
   },
   {
     "nome": "Bom Jardim",
-    "codigo": "3300506"
+    "codigo": "3300506",
+    "uf": "RJ"
   },
   {
     "nome": "Bom Jesus do Itabapoana",
-    "codigo": "3300605"
+    "codigo": "3300605",
+    "uf": "RJ"
   },
   {
     "nome": "Cabo Frio",
-    "codigo": "3300704"
+    "codigo": "3300704",
+    "uf": "RJ"
   },
   {
     "nome": "Cachoeiras de Macacu",
-    "codigo": "3300803"
+    "codigo": "3300803",
+    "uf": "RJ"
   },
   {
     "nome": "Cambuci",
-    "codigo": "3300902"
+    "codigo": "3300902",
+    "uf": "RJ"
   },
   {
     "nome": "Campos dos Goytacazes",
-    "codigo": "3301009"
+    "codigo": "3301009",
+    "uf": "RJ"
   },
   {
     "nome": "Cantagalo",
-    "codigo": "3301108"
+    "codigo": "3301108",
+    "uf": "RJ"
   },
   {
     "nome": "Carmo",
-    "codigo": "3301207"
+    "codigo": "3301207",
+    "uf": "RJ"
   },
   {
     "nome": "Casimiro de Abreu",
-    "codigo": "3301306"
+    "codigo": "3301306",
+    "uf": "RJ"
   },
   {
     "nome": "Conceição de Macabu",
-    "codigo": "3301405"
+    "codigo": "3301405",
+    "uf": "RJ"
   },
   {
     "nome": "Cordeiro",
-    "codigo": "3301504"
+    "codigo": "3301504",
+    "uf": "RJ"
   },
   {
     "nome": "Duas Barras",
-    "codigo": "3301603"
+    "codigo": "3301603",
+    "uf": "RJ"
   },
   {
     "nome": "Duque de Caxias",
-    "codigo": "3301702"
+    "codigo": "3301702",
+    "uf": "RJ"
   },
   {
     "nome": "Engenheiro Paulo de Frontin",
-    "codigo": "3301801"
+    "codigo": "3301801",
+    "uf": "RJ"
   },
   {
     "nome": "Itaboraí",
-    "codigo": "3301900"
+    "codigo": "3301900",
+    "uf": "RJ"
   },
   {
     "nome": "Itaguaí",
-    "codigo": "3302007"
+    "codigo": "3302007",
+    "uf": "RJ"
   },
   {
     "nome": "Itaocara",
-    "codigo": "3302106"
+    "codigo": "3302106",
+    "uf": "RJ"
   },
   {
     "nome": "Itaperuna",
-    "codigo": "3302205"
+    "codigo": "3302205",
+    "uf": "RJ"
   },
   {
     "nome": "Laje do Muriaé",
-    "codigo": "3302304"
+    "codigo": "3302304",
+    "uf": "RJ"
   },
   {
     "nome": "Macaé",
-    "codigo": "3302403"
+    "codigo": "3302403",
+    "uf": "RJ"
   },
   {
     "nome": "Magé",
-    "codigo": "3302502"
+    "codigo": "3302502",
+    "uf": "RJ"
   },
   {
     "nome": "Mangaratiba",
-    "codigo": "3302601"
+    "codigo": "3302601",
+    "uf": "RJ"
   },
   {
     "nome": "Maricá",
-    "codigo": "3302700"
+    "codigo": "3302700",
+    "uf": "RJ"
   },
   {
     "nome": "Mendes",
-    "codigo": "3302809"
+    "codigo": "3302809",
+    "uf": "RJ"
   },
   {
     "nome": "Miguel Pereira",
-    "codigo": "3302908"
+    "codigo": "3302908",
+    "uf": "RJ"
   },
   {
     "nome": "Miracema",
-    "codigo": "3303005"
+    "codigo": "3303005",
+    "uf": "RJ"
   },
   {
     "nome": "Natividade",
-    "codigo": "3303104"
+    "codigo": "3303104",
+    "uf": "RJ"
   },
   {
     "nome": "Nilópolis",
-    "codigo": "3303203"
+    "codigo": "3303203",
+    "uf": "RJ"
   },
   {
     "nome": "Niterói",
-    "codigo": "3303302"
+    "codigo": "3303302",
+    "uf": "RJ"
   },
   {
     "nome": "Nova Friburgo",
-    "codigo": "3303401"
+    "codigo": "3303401",
+    "uf": "RJ"
   },
   {
     "nome": "Nova Iguaçu",
-    "codigo": "3303500"
+    "codigo": "3303500",
+    "uf": "RJ"
   },
   {
     "nome": "Paracambi",
-    "codigo": "3303609"
+    "codigo": "3303609",
+    "uf": "RJ"
   },
   {
     "nome": "Paraíba do Sul",
-    "codigo": "3303708"
+    "codigo": "3303708",
+    "uf": "RJ"
   },
   {
     "nome": "Paraty",
-    "codigo": "3303807"
+    "codigo": "3303807",
+    "uf": "RJ"
   },
   {
     "nome": "Petrópolis",
-    "codigo": "3303906"
+    "codigo": "3303906",
+    "uf": "RJ"
   },
   {
     "nome": "Piraí",
-    "codigo": "3304003"
+    "codigo": "3304003",
+    "uf": "RJ"
   },
   {
     "nome": "Porciúncula",
-    "codigo": "3304102"
+    "codigo": "3304102",
+    "uf": "RJ"
   },
   {
     "nome": "Resende",
-    "codigo": "3304201"
+    "codigo": "3304201",
+    "uf": "RJ"
   },
   {
     "nome": "Rio Bonito",
-    "codigo": "3304300"
+    "codigo": "3304300",
+    "uf": "RJ"
   },
   {
     "nome": "Rio Claro",
-    "codigo": "3304409"
+    "codigo": "3304409",
+    "uf": "RJ"
   },
   {
     "nome": "Rio das Flores",
-    "codigo": "3304508"
+    "codigo": "3304508",
+    "uf": "RJ"
   },
   {
     "nome": "Santa Maria Madalena",
-    "codigo": "3304607"
+    "codigo": "3304607",
+    "uf": "RJ"
   },
   {
     "nome": "Santo Antônio de Pádua",
-    "codigo": "3304706"
+    "codigo": "3304706",
+    "uf": "RJ"
   },
   {
     "nome": "São Fidélis",
-    "codigo": "3304805"
+    "codigo": "3304805",
+    "uf": "RJ"
   },
   {
     "nome": "São Gonçalo",
-    "codigo": "3304904"
+    "codigo": "3304904",
+    "uf": "RJ"
   },
   {
     "nome": "São João da Barra",
-    "codigo": "3305000"
+    "codigo": "3305000",
+    "uf": "RJ"
   },
   {
     "nome": "São João de Meriti",
-    "codigo": "3305109"
+    "codigo": "3305109",
+    "uf": "RJ"
   },
   {
     "nome": "São Pedro da Aldeia",
-    "codigo": "3305208"
+    "codigo": "3305208",
+    "uf": "RJ"
   },
   {
     "nome": "São Sebastião do Alto",
-    "codigo": "3305307"
+    "codigo": "3305307",
+    "uf": "RJ"
   },
   {
     "nome": "Sapucaia",
-    "codigo": "3305406"
+    "codigo": "3305406",
+    "uf": "RJ"
   },
   {
     "nome": "Saquarema",
-    "codigo": "3305505"
+    "codigo": "3305505",
+    "uf": "RJ"
   },
   {
     "nome": "Silva Jardim",
-    "codigo": "3305604"
+    "codigo": "3305604",
+    "uf": "RJ"
   },
   {
     "nome": "Sumidouro",
-    "codigo": "3305703"
+    "codigo": "3305703",
+    "uf": "RJ"
   },
   {
     "nome": "Teresópolis",
-    "codigo": "3305802"
+    "codigo": "3305802",
+    "uf": "RJ"
   },
   {
     "nome": "Trajano de Moraes",
-    "codigo": "3305901"
+    "codigo": "3305901",
+    "uf": "RJ"
   },
   {
     "nome": "Três Rios",
-    "codigo": "3306008"
+    "codigo": "3306008",
+    "uf": "RJ"
   },
   {
     "nome": "Valença",
-    "codigo": "3306107"
+    "codigo": "3306107",
+    "uf": "RJ"
   },
   {
     "nome": "Vassouras",
-    "codigo": "3306206"
+    "codigo": "3306206",
+    "uf": "RJ"
   },
   {
     "nome": "Volta Redonda",
-    "codigo": "3306305"
+    "codigo": "3306305",
+    "uf": "RJ"
   },
   {
     "nome": "Arraial do Cabo",
-    "codigo": "3300258"
+    "codigo": "3300258",
+    "uf": "RJ"
   },
   {
     "nome": "Italva",
-    "codigo": "3302056"
+    "codigo": "3302056",
+    "uf": "RJ"
   },
   {
     "nome": "Mato Castelhano",
-    "codigo": "4312138"
+    "codigo": "4312138",
+    "uf": "RS"
   },
   {
     "nome": "Mormaço",
-    "codigo": "4312427"
+    "codigo": "4312427",
+    "uf": "RS"
   },
   {
     "nome": "Muliterno",
-    "codigo": "4312625"
+    "codigo": "4312625",
+    "uf": "RS"
   },
   {
     "nome": "Nicolau Vergueiro",
-    "codigo": "4312674"
+    "codigo": "4312674",
+    "uf": "RS"
   },
   {
     "nome": "Pontão",
-    "codigo": "4314779"
+    "codigo": "4314779",
+    "uf": "RS"
   },
   {
     "nome": "Santo Antônio do Palma",
-    "codigo": "4317558"
+    "codigo": "4317558",
+    "uf": "RS"
   },
   {
     "nome": "Barra Funda",
-    "codigo": "4301958"
+    "codigo": "4301958",
+    "uf": "RS"
   },
   {
     "nome": "Coqueiros do Sul",
-    "codigo": "4305850"
+    "codigo": "4305850",
+    "uf": "RS"
   },
   {
     "nome": "Engenho Velho",
-    "codigo": "4306924"
+    "codigo": "4306924",
+    "uf": "RS"
   },
   {
     "nome": "Gramado dos Loureiros",
-    "codigo": "4309126"
+    "codigo": "4309126",
+    "uf": "RS"
   },
   {
     "nome": "Lagoa dos Três Cantos",
-    "codigo": "4311270"
+    "codigo": "4311270",
+    "uf": "RS"
   },
   {
     "nome": "Nova Boa Vista",
-    "codigo": "4312955"
+    "codigo": "4312955",
+    "uf": "RS"
   },
   {
     "nome": "Rio dos Índios",
-    "codigo": "4315552"
+    "codigo": "4315552",
+    "uf": "RS"
   },
   {
     "nome": "Santo Antônio do Planalto",
-    "codigo": "4317756"
+    "codigo": "4317756",
+    "uf": "RS"
   },
   {
     "nome": "Barra do Rio Azul",
-    "codigo": "4301925"
+    "codigo": "4301925",
+    "uf": "RS"
   },
   {
     "nome": "Carlos Gomes",
-    "codigo": "4304853"
+    "codigo": "4304853",
+    "uf": "RS"
   },
   {
     "nome": "Centenário",
-    "codigo": "4305116"
+    "codigo": "4305116",
+    "uf": "RS"
   },
   {
     "nome": "Charrua",
-    "codigo": "4305371"
+    "codigo": "4305371",
+    "uf": "RS"
   },
   {
     "nome": "Ponte Preta",
-    "codigo": "4314787"
+    "codigo": "4314787",
+    "uf": "RS"
   },
   {
     "nome": "Ametista do Sul",
-    "codigo": "4300646"
+    "codigo": "4300646",
+    "uf": "RS"
   },
   {
     "nome": "Dois Irmãos das Missões",
-    "codigo": "4306429"
+    "codigo": "4306429",
+    "uf": "RS"
   },
   {
     "nome": "Novo Tiradentes",
-    "codigo": "4313441"
+    "codigo": "4313441",
+    "uf": "RS"
   },
   {
     "nome": "Pinheirinho do Vale",
-    "codigo": "4314498"
+    "codigo": "4314498",
+    "uf": "RS"
   },
   {
     "nome": "Santo Expedito do Sul",
-    "codigo": "4317954"
+    "codigo": "4317954",
+    "uf": "RS"
   },
   {
     "nome": "Tupanci do Sul",
-    "codigo": "4322186"
+    "codigo": "4322186",
+    "uf": "RS"
   },
   {
     "nome": "Boa Vista das Missões",
-    "codigo": "4302154"
+    "codigo": "4302154",
+    "uf": "RS"
   },
   {
     "nome": "Lajeado do Bugre",
-    "codigo": "4311429"
+    "codigo": "4311429",
+    "uf": "RS"
   },
   {
     "nome": "Novo Barreiro",
-    "codigo": "4313490"
+    "codigo": "4313490",
+    "uf": "RS"
   },
   {
     "nome": "Sagrada Família",
-    "codigo": "4316428"
+    "codigo": "4316428",
+    "uf": "RS"
   },
   {
     "nome": "São José das Missões",
-    "codigo": "4318457"
+    "codigo": "4318457",
+    "uf": "RS"
   },
   {
     "nome": "Nova Pádua",
-    "codigo": "4313086"
+    "codigo": "4313086",
+    "uf": "RS"
   },
   {
     "nome": "Monte Belo do Sul",
-    "codigo": "4312385"
+    "codigo": "4312385",
+    "uf": "RS"
   },
   {
     "nome": "Santa Tereza",
-    "codigo": "4317251"
+    "codigo": "4317251",
+    "uf": "RS"
   },
   {
     "nome": "São Valentim do Sul",
-    "codigo": "4319711"
+    "codigo": "4319711",
+    "uf": "RS"
   },
   {
     "nome": "União da Serra",
-    "codigo": "4322350"
+    "codigo": "4322350",
+    "uf": "RS"
   },
   {
     "nome": "Rio de Janeiro",
-    "codigo": "3304557"
+    "codigo": "3304557",
+    "uf": "RJ"
   },
   {
     "nome": "Itatiaia",
-    "codigo": "3302254"
+    "codigo": "3302254",
+    "uf": "RJ"
   },
   {
     "nome": "Paty do Alferes",
-    "codigo": "3303856"
+    "codigo": "3303856",
+    "uf": "RJ"
   },
   {
     "nome": "Quissamã",
-    "codigo": "3304151"
+    "codigo": "3304151",
+    "uf": "RJ"
   },
   {
     "nome": "São José do Vale do Rio Preto",
-    "codigo": "3305158"
+    "codigo": "3305158",
+    "uf": "RJ"
   },
   {
     "nome": "Ibitirama",
-    "codigo": "3202553"
+    "codigo": "3202553",
+    "uf": "ES"
   },
   {
     "nome": "Campestre da Serra",
-    "codigo": "4303673"
+    "codigo": "4303673",
+    "uf": "RS"
   },
   {
     "nome": "São José dos Ausentes",
-    "codigo": "4318622"
+    "codigo": "4318622",
+    "uf": "RS"
   },
   {
     "nome": "Lindolfo Collor",
-    "codigo": "4311627"
+    "codigo": "4311627",
+    "uf": "RS"
   },
   {
     "nome": "Morro Reuter",
-    "codigo": "4312476"
+    "codigo": "4312476",
+    "uf": "RS"
   },
   {
     "nome": "Picada Café",
-    "codigo": "4314423"
+    "codigo": "4314423",
+    "uf": "RS"
   },
   {
     "nome": "Presidente Lucena",
-    "codigo": "4315149"
+    "codigo": "4315149",
+    "uf": "RS"
   },
   {
     "nome": "Capitão",
-    "codigo": "4304697"
+    "codigo": "4304697",
+    "uf": "RS"
   },
   {
     "nome": "Itapuca",
-    "codigo": "4310579"
+    "codigo": "4310579",
+    "uf": "RS"
   },
   {
     "nome": "Colinas",
-    "codigo": "4305587"
+    "codigo": "4305587",
+    "uf": "RS"
   },
   {
     "nome": "Mato Leitão",
-    "codigo": "4312153"
+    "codigo": "4312153",
+    "uf": "RS"
   },
   {
     "nome": "Santa Clara do Sul",
-    "codigo": "4316758"
+    "codigo": "4316758",
+    "uf": "RS"
   },
   {
     "nome": "Sério",
-    "codigo": "4320453"
+    "codigo": "4320453",
+    "uf": "RS"
   },
   {
     "nome": "Travesseiro",
-    "codigo": "4321626"
+    "codigo": "4321626",
+    "uf": "RS"
   },
   {
     "nome": "Maratá",
-    "codigo": "4311791"
+    "codigo": "4311791",
+    "uf": "RS"
   },
   {
     "nome": "Pareci Novo",
-    "codigo": "4314035"
+    "codigo": "4314035",
+    "uf": "RS"
   },
   {
     "nome": "São Pedro da Serra",
-    "codigo": "4319356"
+    "codigo": "4319356",
+    "uf": "RS"
   },
   {
     "nome": "Alto Feliz",
-    "codigo": "4300570"
+    "codigo": "4300570",
+    "uf": "RS"
   },
   {
     "nome": "Linha Nova",
-    "codigo": "4311643"
+    "codigo": "4311643",
+    "uf": "RS"
   },
   {
     "nome": "Vale Real",
-    "codigo": "4322541"
+    "codigo": "4322541",
+    "uf": "RS"
   },
   {
     "nome": "Inhacorá",
-    "codigo": "4310413"
+    "codigo": "4310413",
+    "uf": "RS"
   },
   {
     "nome": "Vitória das Missões",
-    "codigo": "4323754"
+    "codigo": "4323754",
+    "uf": "RS"
   },
   {
     "nome": "Coronel Barros",
-    "codigo": "4305871"
+    "codigo": "4305871",
+    "uf": "RS"
   },
   {
     "nome": "Novo Machado",
-    "codigo": "4313425"
+    "codigo": "4313425",
+    "uf": "RS"
   },
   {
     "nome": "São José do Inhacorá",
-    "codigo": "4318499"
+    "codigo": "4318499",
+    "uf": "RS"
   },
   {
     "nome": "Salvador das Missões",
-    "codigo": "4316477"
+    "codigo": "4316477",
+    "uf": "RS"
   },
   {
     "nome": "São Pedro do Butiá",
-    "codigo": "4319372"
+    "codigo": "4319372",
+    "uf": "RS"
   },
   {
     "nome": "Porto Mauá",
-    "codigo": "4315057"
+    "codigo": "4315057",
+    "uf": "RS"
   },
   {
     "nome": "Porto Vera Cruz",
-    "codigo": "4315073"
+    "codigo": "4315073",
+    "uf": "RS"
   },
   {
     "nome": "Barra do Guarita",
-    "codigo": "4301859"
+    "codigo": "4301859",
+    "uf": "RS"
   },
   {
     "nome": "Bom Progresso",
-    "codigo": "4302378"
+    "codigo": "4302378",
+    "uf": "RS"
   },
   {
     "nome": "Derrubadas",
-    "codigo": "4306320"
+    "codigo": "4306320",
+    "uf": "RS"
   },
   {
     "nome": "São Valério do Sul",
-    "codigo": "4319737"
+    "codigo": "4319737",
+    "uf": "RS"
   },
   {
     "nome": "Tiradentes do Sul",
-    "codigo": "4321477"
+    "codigo": "4321477",
+    "uf": "RS"
   },
   {
     "nome": "Manoel Viana",
-    "codigo": "4311759"
+    "codigo": "4311759",
+    "uf": "RS"
   },
   {
     "nome": "Garruchos",
-    "codigo": "4308656"
+    "codigo": "4308656",
+    "uf": "RS"
   },
   {
     "nome": "Candiota",
-    "codigo": "4304358"
+    "codigo": "4304358",
+    "uf": "RS"
   },
   {
     "nome": "Hulha Negra",
-    "codigo": "4309654"
+    "codigo": "4309654",
+    "uf": "RS"
   },
   {
     "nome": "São José do Povo",
-    "codigo": "5107297"
+    "codigo": "5107297",
+    "uf": "MT"
   },
   {
     "nome": "Adamantina",
-    "codigo": "3500105"
+    "codigo": "3500105",
+    "uf": "SP"
   },
   {
     "nome": "Adolfo",
-    "codigo": "3500204"
+    "codigo": "3500204",
+    "uf": "SP"
   },
   {
     "nome": "Aguaí",
-    "codigo": "3500303"
+    "codigo": "3500303",
+    "uf": "SP"
   },
   {
     "nome": "Águas da Prata",
-    "codigo": "3500402"
+    "codigo": "3500402",
+    "uf": "SP"
   },
   {
     "nome": "Águas de Lindóia",
-    "codigo": "3500501"
+    "codigo": "3500501",
+    "uf": "SP"
   },
   {
     "nome": "Águas de São Pedro",
-    "codigo": "3500600"
+    "codigo": "3500600",
+    "uf": "SP"
   },
   {
     "nome": "Agudos",
-    "codigo": "3500709"
+    "codigo": "3500709",
+    "uf": "SP"
   },
   {
     "nome": "Alfredo Marcondes",
-    "codigo": "3500808"
+    "codigo": "3500808",
+    "uf": "SP"
   },
   {
     "nome": "Altair",
-    "codigo": "3500907"
+    "codigo": "3500907",
+    "uf": "SP"
   },
   {
     "nome": "Altinópolis",
-    "codigo": "3501004"
+    "codigo": "3501004",
+    "uf": "SP"
   },
   {
     "nome": "Alto Alegre",
-    "codigo": "3501103"
+    "codigo": "3501103",
+    "uf": "SP"
   },
   {
     "nome": "Álvares Florence",
-    "codigo": "3501202"
+    "codigo": "3501202",
+    "uf": "SP"
   },
   {
     "nome": "Álvares Machado",
-    "codigo": "3501301"
+    "codigo": "3501301",
+    "uf": "SP"
   },
   {
     "nome": "Álvaro de Carvalho",
-    "codigo": "3501400"
+    "codigo": "3501400",
+    "uf": "SP"
   },
   {
     "nome": "Alvinlândia",
-    "codigo": "3501509"
+    "codigo": "3501509",
+    "uf": "SP"
   },
   {
     "nome": "Americana",
-    "codigo": "3501608"
+    "codigo": "3501608",
+    "uf": "SP"
   },
   {
     "nome": "Américo Brasiliense",
-    "codigo": "3501707"
+    "codigo": "3501707",
+    "uf": "SP"
   },
   {
     "nome": "Américo de Campos",
-    "codigo": "3501806"
+    "codigo": "3501806",
+    "uf": "SP"
   },
   {
     "nome": "Amparo",
-    "codigo": "3501905"
+    "codigo": "3501905",
+    "uf": "SP"
   },
   {
     "nome": "Analândia",
-    "codigo": "3502002"
+    "codigo": "3502002",
+    "uf": "SP"
   },
   {
     "nome": "Andradina",
-    "codigo": "3502101"
+    "codigo": "3502101",
+    "uf": "SP"
   },
   {
     "nome": "Angatuba",
-    "codigo": "3502200"
+    "codigo": "3502200",
+    "uf": "SP"
   },
   {
     "nome": "Anhembi",
-    "codigo": "3502309"
+    "codigo": "3502309",
+    "uf": "SP"
   },
   {
     "nome": "Anhumas",
-    "codigo": "3502408"
+    "codigo": "3502408",
+    "uf": "SP"
   },
   {
     "nome": "Aparecida",
-    "codigo": "3502507"
+    "codigo": "3502507",
+    "uf": "SP"
   },
   {
     "nome": "Aparecida d'Oeste",
-    "codigo": "3502606"
+    "codigo": "3502606",
+    "uf": "SP"
   },
   {
     "nome": "Apiaí",
-    "codigo": "3502705"
+    "codigo": "3502705",
+    "uf": "SP"
   },
   {
     "nome": "Araçatuba",
-    "codigo": "3502804"
+    "codigo": "3502804",
+    "uf": "SP"
   },
   {
     "nome": "Araçoiaba da Serra",
-    "codigo": "3502903"
+    "codigo": "3502903",
+    "uf": "SP"
   },
   {
     "nome": "Aramina",
-    "codigo": "3503000"
+    "codigo": "3503000",
+    "uf": "SP"
   },
   {
     "nome": "Arandu",
-    "codigo": "3503109"
+    "codigo": "3503109",
+    "uf": "SP"
   },
   {
     "nome": "Araraquara",
-    "codigo": "3503208"
+    "codigo": "3503208",
+    "uf": "SP"
   },
   {
     "nome": "Araras",
-    "codigo": "3503307"
+    "codigo": "3503307",
+    "uf": "SP"
   },
   {
     "nome": "Arealva",
-    "codigo": "3503406"
+    "codigo": "3503406",
+    "uf": "SP"
   },
   {
     "nome": "Areias",
-    "codigo": "3503505"
+    "codigo": "3503505",
+    "uf": "SP"
   },
   {
     "nome": "Areiópolis",
-    "codigo": "3503604"
+    "codigo": "3503604",
+    "uf": "SP"
   },
   {
     "nome": "Ariranha",
-    "codigo": "3503703"
+    "codigo": "3503703",
+    "uf": "SP"
   },
   {
     "nome": "Artur Nogueira",
-    "codigo": "3503802"
+    "codigo": "3503802",
+    "uf": "SP"
   },
   {
     "nome": "Arujá",
-    "codigo": "3503901"
+    "codigo": "3503901",
+    "uf": "SP"
   },
   {
     "nome": "Assis",
-    "codigo": "3504008"
+    "codigo": "3504008",
+    "uf": "SP"
   },
   {
     "nome": "Atibaia",
-    "codigo": "3504107"
+    "codigo": "3504107",
+    "uf": "SP"
   },
   {
     "nome": "Auriflama",
-    "codigo": "3504206"
+    "codigo": "3504206",
+    "uf": "SP"
   },
   {
     "nome": "Avaí",
-    "codigo": "3504305"
+    "codigo": "3504305",
+    "uf": "SP"
   },
   {
     "nome": "Avanhandava",
-    "codigo": "3504404"
+    "codigo": "3504404",
+    "uf": "SP"
   },
   {
     "nome": "Avaré",
-    "codigo": "3504503"
+    "codigo": "3504503",
+    "uf": "SP"
   },
   {
     "nome": "Bady Bassitt",
-    "codigo": "3504602"
+    "codigo": "3504602",
+    "uf": "SP"
   },
   {
     "nome": "Balbinos",
-    "codigo": "3504701"
+    "codigo": "3504701",
+    "uf": "SP"
   },
   {
     "nome": "Bálsamo",
-    "codigo": "3504800"
+    "codigo": "3504800",
+    "uf": "SP"
   },
   {
     "nome": "Bananal",
-    "codigo": "3504909"
+    "codigo": "3504909",
+    "uf": "SP"
   },
   {
     "nome": "Barbosa",
-    "codigo": "3505104"
+    "codigo": "3505104",
+    "uf": "SP"
   },
   {
     "nome": "Barão de Antonina",
-    "codigo": "3505005"
+    "codigo": "3505005",
+    "uf": "SP"
   },
   {
     "nome": "Bariri",
-    "codigo": "3505203"
+    "codigo": "3505203",
+    "uf": "SP"
   },
   {
     "nome": "Barra Bonita",
-    "codigo": "3505302"
+    "codigo": "3505302",
+    "uf": "SP"
   },
   {
     "nome": "Barra do Turvo",
-    "codigo": "3505401"
+    "codigo": "3505401",
+    "uf": "SP"
   },
   {
     "nome": "Barretos",
-    "codigo": "3505500"
+    "codigo": "3505500",
+    "uf": "SP"
   },
   {
     "nome": "Barrinha",
-    "codigo": "3505609"
+    "codigo": "3505609",
+    "uf": "SP"
   },
   {
     "nome": "Barueri",
-    "codigo": "3505708"
+    "codigo": "3505708",
+    "uf": "SP"
   },
   {
     "nome": "Bastos",
-    "codigo": "3505807"
+    "codigo": "3505807",
+    "uf": "SP"
   },
   {
     "nome": "Batatais",
-    "codigo": "3505906"
+    "codigo": "3505906",
+    "uf": "SP"
   },
   {
     "nome": "Bauru",
-    "codigo": "3506003"
+    "codigo": "3506003",
+    "uf": "SP"
   },
   {
     "nome": "Bebedouro",
-    "codigo": "3506102"
+    "codigo": "3506102",
+    "uf": "SP"
   },
   {
     "nome": "Bento de Abreu",
-    "codigo": "3506201"
+    "codigo": "3506201",
+    "uf": "SP"
   },
   {
     "nome": "Bernardino de Campos",
-    "codigo": "3506300"
+    "codigo": "3506300",
+    "uf": "SP"
   },
   {
     "nome": "Bilac",
-    "codigo": "3506409"
+    "codigo": "3506409",
+    "uf": "SP"
   },
   {
     "nome": "Birigui",
-    "codigo": "3506508"
+    "codigo": "3506508",
+    "uf": "SP"
   },
   {
     "nome": "Biritiba Mirim",
-    "codigo": "3506607"
+    "codigo": "3506607",
+    "uf": "SP"
   },
   {
     "nome": "Boa Esperança do Sul",
-    "codigo": "3506706"
+    "codigo": "3506706",
+    "uf": "SP"
   },
   {
     "nome": "Bocaina",
-    "codigo": "3506805"
+    "codigo": "3506805",
+    "uf": "SP"
   },
   {
     "nome": "Bofete",
-    "codigo": "3506904"
+    "codigo": "3506904",
+    "uf": "SP"
   },
   {
     "nome": "Boituva",
-    "codigo": "3507001"
+    "codigo": "3507001",
+    "uf": "SP"
   },
   {
     "nome": "Bom Jesus dos Perdões",
-    "codigo": "3507100"
+    "codigo": "3507100",
+    "uf": "SP"
   },
   {
     "nome": "Borá",
-    "codigo": "3507209"
+    "codigo": "3507209",
+    "uf": "SP"
   },
   {
     "nome": "Boracéia",
-    "codigo": "3507308"
+    "codigo": "3507308",
+    "uf": "SP"
   },
   {
     "nome": "Borborema",
-    "codigo": "3507407"
+    "codigo": "3507407",
+    "uf": "SP"
   },
   {
     "nome": "Botucatu",
-    "codigo": "3507506"
+    "codigo": "3507506",
+    "uf": "SP"
   },
   {
     "nome": "Bragança Paulista",
-    "codigo": "3507605"
+    "codigo": "3507605",
+    "uf": "SP"
   },
   {
     "nome": "Braúna",
-    "codigo": "3507704"
+    "codigo": "3507704",
+    "uf": "SP"
   },
   {
     "nome": "Brodowski",
-    "codigo": "3507803"
+    "codigo": "3507803",
+    "uf": "SP"
   },
   {
     "nome": "Brotas",
-    "codigo": "3507902"
+    "codigo": "3507902",
+    "uf": "SP"
   },
   {
     "nome": "Buri",
-    "codigo": "3508009"
+    "codigo": "3508009",
+    "uf": "SP"
   },
   {
     "nome": "Buritama",
-    "codigo": "3508108"
+    "codigo": "3508108",
+    "uf": "SP"
   },
   {
     "nome": "Buritizal",
-    "codigo": "3508207"
+    "codigo": "3508207",
+    "uf": "SP"
   },
   {
     "nome": "Cabrália Paulista",
-    "codigo": "3508306"
+    "codigo": "3508306",
+    "uf": "SP"
   },
   {
     "nome": "Cabreúva",
-    "codigo": "3508405"
+    "codigo": "3508405",
+    "uf": "SP"
   },
   {
     "nome": "Caçapava",
-    "codigo": "3508504"
+    "codigo": "3508504",
+    "uf": "SP"
   },
   {
     "nome": "Cachoeira Paulista",
-    "codigo": "3508603"
+    "codigo": "3508603",
+    "uf": "SP"
   },
   {
     "nome": "Caconde",
-    "codigo": "3508702"
+    "codigo": "3508702",
+    "uf": "SP"
   },
   {
     "nome": "Cafelândia",
-    "codigo": "3508801"
+    "codigo": "3508801",
+    "uf": "SP"
   },
   {
     "nome": "Caiabu",
-    "codigo": "3508900"
+    "codigo": "3508900",
+    "uf": "SP"
   },
   {
     "nome": "Caieiras",
-    "codigo": "3509007"
+    "codigo": "3509007",
+    "uf": "SP"
   },
   {
     "nome": "Caiuá",
-    "codigo": "3509106"
+    "codigo": "3509106",
+    "uf": "SP"
   },
   {
     "nome": "Cajamar",
-    "codigo": "3509205"
+    "codigo": "3509205",
+    "uf": "SP"
   },
   {
     "nome": "Cajobi",
-    "codigo": "3509304"
+    "codigo": "3509304",
+    "uf": "SP"
   },
   {
     "nome": "Cajuru",
-    "codigo": "3509403"
+    "codigo": "3509403",
+    "uf": "SP"
   },
   {
     "nome": "Campinas",
-    "codigo": "3509502"
+    "codigo": "3509502",
+    "uf": "SP"
   },
   {
     "nome": "Campo Limpo Paulista",
-    "codigo": "3509601"
+    "codigo": "3509601",
+    "uf": "SP"
   },
   {
     "nome": "Campos do Jordão",
-    "codigo": "3509700"
+    "codigo": "3509700",
+    "uf": "SP"
   },
   {
     "nome": "Campos Novos Paulista",
-    "codigo": "3509809"
+    "codigo": "3509809",
+    "uf": "SP"
   },
   {
     "nome": "Cananéia",
-    "codigo": "3509908"
+    "codigo": "3509908",
+    "uf": "SP"
   },
   {
     "nome": "Cândido Mota",
-    "codigo": "3510005"
+    "codigo": "3510005",
+    "uf": "SP"
   },
   {
     "nome": "Cândido Rodrigues",
-    "codigo": "3510104"
+    "codigo": "3510104",
+    "uf": "SP"
   },
   {
     "nome": "Capão Bonito",
-    "codigo": "3510203"
+    "codigo": "3510203",
+    "uf": "SP"
   },
   {
     "nome": "Capela do Alto",
-    "codigo": "3510302"
+    "codigo": "3510302",
+    "uf": "SP"
   },
   {
     "nome": "Capivari",
-    "codigo": "3510401"
+    "codigo": "3510401",
+    "uf": "SP"
   },
   {
     "nome": "Caraguatatuba",
-    "codigo": "3510500"
+    "codigo": "3510500",
+    "uf": "SP"
   },
   {
     "nome": "Carapicuíba",
-    "codigo": "3510609"
+    "codigo": "3510609",
+    "uf": "SP"
   },
   {
     "nome": "Cardoso",
-    "codigo": "3510708"
+    "codigo": "3510708",
+    "uf": "SP"
   },
   {
     "nome": "Casa Branca",
-    "codigo": "3510807"
+    "codigo": "3510807",
+    "uf": "SP"
   },
   {
     "nome": "Cássia dos Coqueiros",
-    "codigo": "3510906"
+    "codigo": "3510906",
+    "uf": "SP"
   },
   {
     "nome": "Castilho",
-    "codigo": "3511003"
+    "codigo": "3511003",
+    "uf": "SP"
   },
   {
     "nome": "Catanduva",
-    "codigo": "3511102"
+    "codigo": "3511102",
+    "uf": "SP"
   },
   {
     "nome": "Catiguá",
-    "codigo": "3511201"
+    "codigo": "3511201",
+    "uf": "SP"
   },
   {
     "nome": "Cedral",
-    "codigo": "3511300"
+    "codigo": "3511300",
+    "uf": "SP"
   },
   {
     "nome": "Cerqueira César",
-    "codigo": "3511409"
+    "codigo": "3511409",
+    "uf": "SP"
   },
   {
     "nome": "Cerquilho",
-    "codigo": "3511508"
+    "codigo": "3511508",
+    "uf": "SP"
   },
   {
     "nome": "Cesário Lange",
-    "codigo": "3511607"
+    "codigo": "3511607",
+    "uf": "SP"
   },
   {
     "nome": "Charqueada",
-    "codigo": "3511706"
+    "codigo": "3511706",
+    "uf": "SP"
   },
   {
     "nome": "Chavantes",
-    "codigo": "3557204"
+    "codigo": "3557204",
+    "uf": "SP"
   },
   {
     "nome": "Clementina",
-    "codigo": "3511904"
+    "codigo": "3511904",
+    "uf": "SP"
   },
   {
     "nome": "Colina",
-    "codigo": "3512001"
+    "codigo": "3512001",
+    "uf": "SP"
   },
   {
     "nome": "Colômbia",
-    "codigo": "3512100"
+    "codigo": "3512100",
+    "uf": "SP"
   },
   {
     "nome": "Conchal",
-    "codigo": "3512209"
+    "codigo": "3512209",
+    "uf": "SP"
   },
   {
     "nome": "Conchas",
-    "codigo": "3512308"
+    "codigo": "3512308",
+    "uf": "SP"
   },
   {
     "nome": "Cordeirópolis",
-    "codigo": "3512407"
+    "codigo": "3512407",
+    "uf": "SP"
   },
   {
     "nome": "Coroados",
-    "codigo": "3512506"
+    "codigo": "3512506",
+    "uf": "SP"
   },
   {
     "nome": "Coronel Macedo",
-    "codigo": "3512605"
+    "codigo": "3512605",
+    "uf": "SP"
   },
   {
     "nome": "Corumbataí",
-    "codigo": "3512704"
+    "codigo": "3512704",
+    "uf": "SP"
   },
   {
     "nome": "Cosmópolis",
-    "codigo": "3512803"
+    "codigo": "3512803",
+    "uf": "SP"
   },
   {
     "nome": "Cosmorama",
-    "codigo": "3512902"
+    "codigo": "3512902",
+    "uf": "SP"
   },
   {
     "nome": "Cotia",
-    "codigo": "3513009"
+    "codigo": "3513009",
+    "uf": "SP"
   },
   {
     "nome": "Cravinhos",
-    "codigo": "3513108"
+    "codigo": "3513108",
+    "uf": "SP"
   },
   {
     "nome": "Cristais Paulista",
-    "codigo": "3513207"
+    "codigo": "3513207",
+    "uf": "SP"
   },
   {
     "nome": "Cruzália",
-    "codigo": "3513306"
+    "codigo": "3513306",
+    "uf": "SP"
   },
   {
     "nome": "Cruzeiro",
-    "codigo": "3513405"
+    "codigo": "3513405",
+    "uf": "SP"
   },
   {
     "nome": "Cubatão",
-    "codigo": "3513504"
+    "codigo": "3513504",
+    "uf": "SP"
   },
   {
     "nome": "Cunha",
-    "codigo": "3513603"
+    "codigo": "3513603",
+    "uf": "SP"
   },
   {
     "nome": "Descalvado",
-    "codigo": "3513702"
+    "codigo": "3513702",
+    "uf": "SP"
   },
   {
     "nome": "Diadema",
-    "codigo": "3513801"
+    "codigo": "3513801",
+    "uf": "SP"
   },
   {
     "nome": "Divinolândia",
-    "codigo": "3513900"
+    "codigo": "3513900",
+    "uf": "SP"
   },
   {
     "nome": "Dobrada",
-    "codigo": "3514007"
+    "codigo": "3514007",
+    "uf": "SP"
   },
   {
     "nome": "Dois Córregos",
-    "codigo": "3514106"
+    "codigo": "3514106",
+    "uf": "SP"
   },
   {
     "nome": "Dolcinópolis",
-    "codigo": "3514205"
+    "codigo": "3514205",
+    "uf": "SP"
   },
   {
     "nome": "Dourado",
-    "codigo": "3514304"
+    "codigo": "3514304",
+    "uf": "SP"
   },
   {
     "nome": "Dracena",
-    "codigo": "3514403"
+    "codigo": "3514403",
+    "uf": "SP"
   },
   {
     "nome": "Duartina",
-    "codigo": "3514502"
+    "codigo": "3514502",
+    "uf": "SP"
   },
   {
     "nome": "Dumont",
-    "codigo": "3514601"
+    "codigo": "3514601",
+    "uf": "SP"
   },
   {
     "nome": "Echaporã",
-    "codigo": "3514700"
+    "codigo": "3514700",
+    "uf": "SP"
   },
   {
     "nome": "Eldorado",
-    "codigo": "3514809"
+    "codigo": "3514809",
+    "uf": "SP"
   },
   {
     "nome": "Elias Fausto",
-    "codigo": "3514908"
+    "codigo": "3514908",
+    "uf": "SP"
   },
   {
     "nome": "Embu das Artes",
-    "codigo": "3515004"
+    "codigo": "3515004",
+    "uf": "SP"
   },
   {
     "nome": "Embu-Guaçu",
-    "codigo": "3515103"
+    "codigo": "3515103",
+    "uf": "SP"
   },
   {
     "nome": "Estrela d'Oeste",
-    "codigo": "3515202"
+    "codigo": "3515202",
+    "uf": "SP"
   },
   {
     "nome": "Estrela do Norte",
-    "codigo": "3515301"
+    "codigo": "3515301",
+    "uf": "SP"
   },
   {
     "nome": "Fartura",
-    "codigo": "3515400"
+    "codigo": "3515400",
+    "uf": "SP"
   },
   {
     "nome": "Fernandópolis",
-    "codigo": "3515509"
+    "codigo": "3515509",
+    "uf": "SP"
   },
   {
     "nome": "Fernando Prestes",
-    "codigo": "3515608"
+    "codigo": "3515608",
+    "uf": "SP"
   },
   {
     "nome": "Ferraz de Vasconcelos",
-    "codigo": "3515707"
+    "codigo": "3515707",
+    "uf": "SP"
   },
   {
     "nome": "Flora Rica",
-    "codigo": "3515806"
+    "codigo": "3515806",
+    "uf": "SP"
   },
   {
     "nome": "Floreal",
-    "codigo": "3515905"
+    "codigo": "3515905",
+    "uf": "SP"
   },
   {
     "nome": "Flórida Paulista",
-    "codigo": "3516002"
+    "codigo": "3516002",
+    "uf": "SP"
   },
   {
     "nome": "Florínea",
-    "codigo": "3516101"
+    "codigo": "3516101",
+    "uf": "SP"
   },
   {
     "nome": "Franca",
-    "codigo": "3516200"
+    "codigo": "3516200",
+    "uf": "SP"
   },
   {
     "nome": "Francisco Morato",
-    "codigo": "3516309"
+    "codigo": "3516309",
+    "uf": "SP"
   },
   {
     "nome": "Franco da Rocha",
-    "codigo": "3516408"
+    "codigo": "3516408",
+    "uf": "SP"
   },
   {
     "nome": "Gabriel Monteiro",
-    "codigo": "3516507"
+    "codigo": "3516507",
+    "uf": "SP"
   },
   {
     "nome": "Gália",
-    "codigo": "3516606"
+    "codigo": "3516606",
+    "uf": "SP"
   },
   {
     "nome": "Garça",
-    "codigo": "3516705"
+    "codigo": "3516705",
+    "uf": "SP"
   },
   {
     "nome": "Gastão Vidigal",
-    "codigo": "3516804"
+    "codigo": "3516804",
+    "uf": "SP"
   },
   {
     "nome": "General Salgado",
-    "codigo": "3516903"
+    "codigo": "3516903",
+    "uf": "SP"
   },
   {
     "nome": "Getulina",
-    "codigo": "3517000"
+    "codigo": "3517000",
+    "uf": "SP"
   },
   {
     "nome": "Glicério",
-    "codigo": "3517109"
+    "codigo": "3517109",
+    "uf": "SP"
   },
   {
     "nome": "Guaiçara",
-    "codigo": "3517208"
+    "codigo": "3517208",
+    "uf": "SP"
   },
   {
     "nome": "Guaimbê",
-    "codigo": "3517307"
+    "codigo": "3517307",
+    "uf": "SP"
   },
   {
     "nome": "Guaíra",
-    "codigo": "3517406"
+    "codigo": "3517406",
+    "uf": "SP"
   },
   {
     "nome": "Guapiaçu",
-    "codigo": "3517505"
+    "codigo": "3517505",
+    "uf": "SP"
   },
   {
     "nome": "Guapiara",
-    "codigo": "3517604"
+    "codigo": "3517604",
+    "uf": "SP"
   },
   {
     "nome": "Guará",
-    "codigo": "3517703"
+    "codigo": "3517703",
+    "uf": "SP"
   },
   {
     "nome": "Guaraçaí",
-    "codigo": "3517802"
+    "codigo": "3517802",
+    "uf": "SP"
   },
   {
     "nome": "Guaraci",
-    "codigo": "3517901"
+    "codigo": "3517901",
+    "uf": "SP"
   },
   {
     "nome": "Guarani d'Oeste",
-    "codigo": "3518008"
+    "codigo": "3518008",
+    "uf": "SP"
   },
   {
     "nome": "Guarantã",
-    "codigo": "3518107"
+    "codigo": "3518107",
+    "uf": "SP"
   },
   {
     "nome": "Guararapes",
-    "codigo": "3518206"
+    "codigo": "3518206",
+    "uf": "SP"
   },
   {
     "nome": "Guararema",
-    "codigo": "3518305"
+    "codigo": "3518305",
+    "uf": "SP"
   },
   {
     "nome": "Guaratinguetá",
-    "codigo": "3518404"
+    "codigo": "3518404",
+    "uf": "SP"
   },
   {
     "nome": "Guareí",
-    "codigo": "3518503"
+    "codigo": "3518503",
+    "uf": "SP"
   },
   {
     "nome": "Guariba",
-    "codigo": "3518602"
+    "codigo": "3518602",
+    "uf": "SP"
   },
   {
     "nome": "Guarujá",
-    "codigo": "3518701"
+    "codigo": "3518701",
+    "uf": "SP"
   },
   {
     "nome": "Guarulhos",
-    "codigo": "3518800"
+    "codigo": "3518800",
+    "uf": "SP"
   },
   {
     "nome": "Guzolândia",
-    "codigo": "3518909"
+    "codigo": "3518909",
+    "uf": "SP"
   },
   {
     "nome": "Herculândia",
-    "codigo": "3519006"
+    "codigo": "3519006",
+    "uf": "SP"
   },
   {
     "nome": "Iacanga",
-    "codigo": "3519105"
+    "codigo": "3519105",
+    "uf": "SP"
   },
   {
     "nome": "Iacri",
-    "codigo": "3519204"
+    "codigo": "3519204",
+    "uf": "SP"
   },
   {
     "nome": "Ibaté",
-    "codigo": "3519303"
+    "codigo": "3519303",
+    "uf": "SP"
   },
   {
     "nome": "Ibirá",
-    "codigo": "3519402"
+    "codigo": "3519402",
+    "uf": "SP"
   },
   {
     "nome": "Ibirarema",
-    "codigo": "3519501"
+    "codigo": "3519501",
+    "uf": "SP"
   },
   {
     "nome": "Ibitinga",
-    "codigo": "3519600"
+    "codigo": "3519600",
+    "uf": "SP"
   },
   {
     "nome": "Ibiúna",
-    "codigo": "3519709"
+    "codigo": "3519709",
+    "uf": "SP"
   },
   {
     "nome": "Icém",
-    "codigo": "3519808"
+    "codigo": "3519808",
+    "uf": "SP"
   },
   {
     "nome": "Iepê",
-    "codigo": "3519907"
+    "codigo": "3519907",
+    "uf": "SP"
   },
   {
     "nome": "Igaraçu do Tietê",
-    "codigo": "3520004"
+    "codigo": "3520004",
+    "uf": "SP"
   },
   {
     "nome": "Igarapava",
-    "codigo": "3520103"
+    "codigo": "3520103",
+    "uf": "SP"
   },
   {
     "nome": "Igaratá",
-    "codigo": "3520202"
+    "codigo": "3520202",
+    "uf": "SP"
   },
   {
     "nome": "Iguape",
-    "codigo": "3520301"
+    "codigo": "3520301",
+    "uf": "SP"
   },
   {
     "nome": "Ilhabela",
-    "codigo": "3520400"
+    "codigo": "3520400",
+    "uf": "SP"
   },
   {
     "nome": "Indaiatuba",
-    "codigo": "3520509"
+    "codigo": "3520509",
+    "uf": "SP"
   },
   {
     "nome": "Indiana",
-    "codigo": "3520608"
+    "codigo": "3520608",
+    "uf": "SP"
   },
   {
     "nome": "Indiaporã",
-    "codigo": "3520707"
+    "codigo": "3520707",
+    "uf": "SP"
   },
   {
     "nome": "Inúbia Paulista",
-    "codigo": "3520806"
+    "codigo": "3520806",
+    "uf": "SP"
   },
   {
     "nome": "Ipaussu",
-    "codigo": "3520905"
+    "codigo": "3520905",
+    "uf": "SP"
   },
   {
     "nome": "Iperó",
-    "codigo": "3521002"
+    "codigo": "3521002",
+    "uf": "SP"
   },
   {
     "nome": "Ipeúna",
-    "codigo": "3521101"
+    "codigo": "3521101",
+    "uf": "SP"
   },
   {
     "nome": "Iporanga",
-    "codigo": "3521200"
+    "codigo": "3521200",
+    "uf": "SP"
   },
   {
     "nome": "Ipuã",
-    "codigo": "3521309"
+    "codigo": "3521309",
+    "uf": "SP"
   },
   {
     "nome": "Iracemápolis",
-    "codigo": "3521408"
+    "codigo": "3521408",
+    "uf": "SP"
   },
   {
     "nome": "Irapuã",
-    "codigo": "3521507"
+    "codigo": "3521507",
+    "uf": "SP"
   },
   {
     "nome": "Irapuru",
-    "codigo": "3521606"
+    "codigo": "3521606",
+    "uf": "SP"
   },
   {
     "nome": "Itaberá",
-    "codigo": "3521705"
+    "codigo": "3521705",
+    "uf": "SP"
   },
   {
     "nome": "Itaí",
-    "codigo": "3521804"
+    "codigo": "3521804",
+    "uf": "SP"
   },
   {
     "nome": "Itajobi",
-    "codigo": "3521903"
+    "codigo": "3521903",
+    "uf": "SP"
   },
   {
     "nome": "Itaju",
-    "codigo": "3522000"
+    "codigo": "3522000",
+    "uf": "SP"
   },
   {
     "nome": "Itanhaém",
-    "codigo": "3522109"
+    "codigo": "3522109",
+    "uf": "SP"
   },
   {
     "nome": "Itapecerica da Serra",
-    "codigo": "3522208"
+    "codigo": "3522208",
+    "uf": "SP"
   },
   {
     "nome": "Itapetininga",
-    "codigo": "3522307"
+    "codigo": "3522307",
+    "uf": "SP"
   },
   {
     "nome": "Itapeva",
-    "codigo": "3522406"
+    "codigo": "3522406",
+    "uf": "SP"
   },
   {
     "nome": "Itapevi",
-    "codigo": "3522505"
+    "codigo": "3522505",
+    "uf": "SP"
   },
   {
     "nome": "Itapira",
-    "codigo": "3522604"
+    "codigo": "3522604",
+    "uf": "SP"
   },
   {
     "nome": "Itápolis",
-    "codigo": "3522703"
+    "codigo": "3522703",
+    "uf": "SP"
   },
   {
     "nome": "Itaporanga",
-    "codigo": "3522802"
+    "codigo": "3522802",
+    "uf": "SP"
   },
   {
     "nome": "Itapuí",
-    "codigo": "3522901"
+    "codigo": "3522901",
+    "uf": "SP"
   },
   {
     "nome": "Itapura",
-    "codigo": "3523008"
+    "codigo": "3523008",
+    "uf": "SP"
   },
   {
     "nome": "Itaquaquecetuba",
-    "codigo": "3523107"
+    "codigo": "3523107",
+    "uf": "SP"
   },
   {
     "nome": "Itararé",
-    "codigo": "3523206"
+    "codigo": "3523206",
+    "uf": "SP"
   },
   {
     "nome": "Itariri",
-    "codigo": "3523305"
+    "codigo": "3523305",
+    "uf": "SP"
   },
   {
     "nome": "Itatiba",
-    "codigo": "3523404"
+    "codigo": "3523404",
+    "uf": "SP"
   },
   {
     "nome": "Itatinga",
-    "codigo": "3523503"
+    "codigo": "3523503",
+    "uf": "SP"
   },
   {
     "nome": "Itirapina",
-    "codigo": "3523602"
+    "codigo": "3523602",
+    "uf": "SP"
   },
   {
     "nome": "Itirapuã",
-    "codigo": "3523701"
+    "codigo": "3523701",
+    "uf": "SP"
   },
   {
     "nome": "Itobi",
-    "codigo": "3523800"
+    "codigo": "3523800",
+    "uf": "SP"
   },
   {
     "nome": "Itu",
-    "codigo": "3523909"
+    "codigo": "3523909",
+    "uf": "SP"
   },
   {
     "nome": "Itupeva",
-    "codigo": "3524006"
+    "codigo": "3524006",
+    "uf": "SP"
   },
   {
     "nome": "Ituverava",
-    "codigo": "3524105"
+    "codigo": "3524105",
+    "uf": "SP"
   },
   {
     "nome": "Jaborandi",
-    "codigo": "3524204"
+    "codigo": "3524204",
+    "uf": "SP"
   },
   {
     "nome": "Jaboticabal",
-    "codigo": "3524303"
+    "codigo": "3524303",
+    "uf": "SP"
   },
   {
     "nome": "Jacareí",
-    "codigo": "3524402"
+    "codigo": "3524402",
+    "uf": "SP"
   },
   {
     "nome": "Jaci",
-    "codigo": "3524501"
+    "codigo": "3524501",
+    "uf": "SP"
   },
   {
     "nome": "Jacupiranga",
-    "codigo": "3524600"
+    "codigo": "3524600",
+    "uf": "SP"
   },
   {
     "nome": "Jaguariúna",
-    "codigo": "3524709"
+    "codigo": "3524709",
+    "uf": "SP"
   },
   {
     "nome": "Jales",
-    "codigo": "3524808"
+    "codigo": "3524808",
+    "uf": "SP"
   },
   {
     "nome": "Jambeiro",
-    "codigo": "3524907"
+    "codigo": "3524907",
+    "uf": "SP"
   },
   {
     "nome": "Jandira",
-    "codigo": "3525003"
+    "codigo": "3525003",
+    "uf": "SP"
   },
   {
     "nome": "Jardinópolis",
-    "codigo": "3525102"
+    "codigo": "3525102",
+    "uf": "SP"
   },
   {
     "nome": "Jarinu",
-    "codigo": "3525201"
+    "codigo": "3525201",
+    "uf": "SP"
   },
   {
     "nome": "Jaú",
-    "codigo": "3525300"
+    "codigo": "3525300",
+    "uf": "SP"
   },
   {
     "nome": "Jeriquara",
-    "codigo": "3525409"
+    "codigo": "3525409",
+    "uf": "SP"
   },
   {
     "nome": "Joanópolis",
-    "codigo": "3525508"
+    "codigo": "3525508",
+    "uf": "SP"
   },
   {
     "nome": "João Ramalho",
-    "codigo": "3525607"
+    "codigo": "3525607",
+    "uf": "SP"
   },
   {
     "nome": "José Bonifácio",
-    "codigo": "3525706"
+    "codigo": "3525706",
+    "uf": "SP"
   },
   {
     "nome": "Júlio Mesquita",
-    "codigo": "3525805"
+    "codigo": "3525805",
+    "uf": "SP"
   },
   {
     "nome": "Jundiaí",
-    "codigo": "3525904"
+    "codigo": "3525904",
+    "uf": "SP"
   },
   {
     "nome": "Junqueirópolis",
-    "codigo": "3526001"
+    "codigo": "3526001",
+    "uf": "SP"
   },
   {
     "nome": "Juquiá",
-    "codigo": "3526100"
+    "codigo": "3526100",
+    "uf": "SP"
   },
   {
     "nome": "Juquitiba",
-    "codigo": "3526209"
+    "codigo": "3526209",
+    "uf": "SP"
   },
   {
     "nome": "Lagoinha",
-    "codigo": "3526308"
+    "codigo": "3526308",
+    "uf": "SP"
   },
   {
     "nome": "Laranjal Paulista",
-    "codigo": "3526407"
+    "codigo": "3526407",
+    "uf": "SP"
   },
   {
     "nome": "Lavínia",
-    "codigo": "3526506"
+    "codigo": "3526506",
+    "uf": "SP"
   },
   {
     "nome": "Lavrinhas",
-    "codigo": "3526605"
+    "codigo": "3526605",
+    "uf": "SP"
   },
   {
     "nome": "Leme",
-    "codigo": "3526704"
+    "codigo": "3526704",
+    "uf": "SP"
   },
   {
     "nome": "Lençóis Paulista",
-    "codigo": "3526803"
+    "codigo": "3526803",
+    "uf": "SP"
   },
   {
     "nome": "Limeira",
-    "codigo": "3526902"
+    "codigo": "3526902",
+    "uf": "SP"
   },
   {
     "nome": "Lindóia",
-    "codigo": "3527009"
+    "codigo": "3527009",
+    "uf": "SP"
   },
   {
     "nome": "Lins",
-    "codigo": "3527108"
+    "codigo": "3527108",
+    "uf": "SP"
   },
   {
     "nome": "Lorena",
-    "codigo": "3527207"
+    "codigo": "3527207",
+    "uf": "SP"
   },
   {
     "nome": "Louveira",
-    "codigo": "3527306"
+    "codigo": "3527306",
+    "uf": "SP"
   },
   {
     "nome": "Lucélia",
-    "codigo": "3527405"
+    "codigo": "3527405",
+    "uf": "SP"
   },
   {
     "nome": "Lucianópolis",
-    "codigo": "3527504"
+    "codigo": "3527504",
+    "uf": "SP"
   },
   {
     "nome": "Luís Antônio",
-    "codigo": "3527603"
+    "codigo": "3527603",
+    "uf": "SP"
   },
   {
     "nome": "Luiziânia",
-    "codigo": "3527702"
+    "codigo": "3527702",
+    "uf": "SP"
   },
   {
     "nome": "Lupércio",
-    "codigo": "3527801"
+    "codigo": "3527801",
+    "uf": "SP"
   },
   {
     "nome": "Lutécia",
-    "codigo": "3527900"
+    "codigo": "3527900",
+    "uf": "SP"
   },
   {
     "nome": "Macatuba",
-    "codigo": "3528007"
+    "codigo": "3528007",
+    "uf": "SP"
   },
   {
     "nome": "Macaubal",
-    "codigo": "3528106"
+    "codigo": "3528106",
+    "uf": "SP"
   },
   {
     "nome": "Macedônia",
-    "codigo": "3528205"
+    "codigo": "3528205",
+    "uf": "SP"
   },
   {
     "nome": "Magda",
-    "codigo": "3528304"
+    "codigo": "3528304",
+    "uf": "SP"
   },
   {
     "nome": "Mairinque",
-    "codigo": "3528403"
+    "codigo": "3528403",
+    "uf": "SP"
   },
   {
     "nome": "Mairiporã",
-    "codigo": "3528502"
+    "codigo": "3528502",
+    "uf": "SP"
   },
   {
     "nome": "Manduri",
-    "codigo": "3528601"
+    "codigo": "3528601",
+    "uf": "SP"
   },
   {
     "nome": "Marabá Paulista",
-    "codigo": "3528700"
+    "codigo": "3528700",
+    "uf": "SP"
   },
   {
     "nome": "Maracaí",
-    "codigo": "3528809"
+    "codigo": "3528809",
+    "uf": "SP"
   },
   {
     "nome": "Mariápolis",
-    "codigo": "3528908"
+    "codigo": "3528908",
+    "uf": "SP"
   },
   {
     "nome": "Marília",
-    "codigo": "3529005"
+    "codigo": "3529005",
+    "uf": "SP"
   },
   {
     "nome": "Marinópolis",
-    "codigo": "3529104"
+    "codigo": "3529104",
+    "uf": "SP"
   },
   {
     "nome": "Martinópolis",
-    "codigo": "3529203"
+    "codigo": "3529203",
+    "uf": "SP"
   },
   {
     "nome": "Matão",
-    "codigo": "3529302"
+    "codigo": "3529302",
+    "uf": "SP"
   },
   {
     "nome": "Mauá",
-    "codigo": "3529401"
+    "codigo": "3529401",
+    "uf": "SP"
   },
   {
     "nome": "Mendonça",
-    "codigo": "3529500"
+    "codigo": "3529500",
+    "uf": "SP"
   },
   {
     "nome": "Meridiano",
-    "codigo": "3529609"
+    "codigo": "3529609",
+    "uf": "SP"
   },
   {
     "nome": "Miguelópolis",
-    "codigo": "3529708"
+    "codigo": "3529708",
+    "uf": "SP"
   },
   {
     "nome": "Mineiros do Tietê",
-    "codigo": "3529807"
+    "codigo": "3529807",
+    "uf": "SP"
   },
   {
     "nome": "Miracatu",
-    "codigo": "3529906"
+    "codigo": "3529906",
+    "uf": "SP"
   },
   {
     "nome": "Mira Estrela",
-    "codigo": "3530003"
+    "codigo": "3530003",
+    "uf": "SP"
   },
   {
     "nome": "Mirandópolis",
-    "codigo": "3530102"
+    "codigo": "3530102",
+    "uf": "SP"
   },
   {
     "nome": "Mirante do Paranapanema",
-    "codigo": "3530201"
+    "codigo": "3530201",
+    "uf": "SP"
   },
   {
     "nome": "Mirassol",
-    "codigo": "3530300"
+    "codigo": "3530300",
+    "uf": "SP"
   },
   {
     "nome": "Mirassolândia",
-    "codigo": "3530409"
+    "codigo": "3530409",
+    "uf": "SP"
   },
   {
     "nome": "Mococa",
-    "codigo": "3530508"
+    "codigo": "3530508",
+    "uf": "SP"
   },
   {
     "nome": "Mogi das Cruzes",
-    "codigo": "3530607"
+    "codigo": "3530607",
+    "uf": "SP"
   },
   {
     "nome": "Mogi Guaçu",
-    "codigo": "3530706"
+    "codigo": "3530706",
+    "uf": "SP"
   },
   {
     "nome": "Mogi Mirim",
-    "codigo": "3530805"
+    "codigo": "3530805",
+    "uf": "SP"
   },
   {
     "nome": "Mombuca",
-    "codigo": "3530904"
+    "codigo": "3530904",
+    "uf": "SP"
   },
   {
     "nome": "Monções",
-    "codigo": "3531001"
+    "codigo": "3531001",
+    "uf": "SP"
   },
   {
     "nome": "Mongaguá",
-    "codigo": "3531100"
+    "codigo": "3531100",
+    "uf": "SP"
   },
   {
     "nome": "Monte Alegre do Sul",
-    "codigo": "3531209"
+    "codigo": "3531209",
+    "uf": "SP"
   },
   {
     "nome": "Monte Alto",
-    "codigo": "3531308"
+    "codigo": "3531308",
+    "uf": "SP"
   },
   {
     "nome": "Monte Aprazível",
-    "codigo": "3531407"
+    "codigo": "3531407",
+    "uf": "SP"
   },
   {
     "nome": "Monte Azul Paulista",
-    "codigo": "3531506"
+    "codigo": "3531506",
+    "uf": "SP"
   },
   {
     "nome": "Monte Castelo",
-    "codigo": "3531605"
+    "codigo": "3531605",
+    "uf": "SP"
   },
   {
     "nome": "Monteiro Lobato",
-    "codigo": "3531704"
+    "codigo": "3531704",
+    "uf": "SP"
   },
   {
     "nome": "Monte Mor",
-    "codigo": "3531803"
+    "codigo": "3531803",
+    "uf": "SP"
   },
   {
     "nome": "Morro Agudo",
-    "codigo": "3531902"
+    "codigo": "3531902",
+    "uf": "SP"
   },
   {
     "nome": "Morungaba",
-    "codigo": "3532009"
+    "codigo": "3532009",
+    "uf": "SP"
   },
   {
     "nome": "Murutinga do Sul",
-    "codigo": "3532108"
+    "codigo": "3532108",
+    "uf": "SP"
   },
   {
     "nome": "Narandiba",
-    "codigo": "3532207"
+    "codigo": "3532207",
+    "uf": "SP"
   },
   {
     "nome": "Natividade da Serra",
-    "codigo": "3532306"
+    "codigo": "3532306",
+    "uf": "SP"
   },
   {
     "nome": "Nazaré Paulista",
-    "codigo": "3532405"
+    "codigo": "3532405",
+    "uf": "SP"
   },
   {
     "nome": "Neves Paulista",
-    "codigo": "3532504"
+    "codigo": "3532504",
+    "uf": "SP"
   },
   {
     "nome": "Nhandeara",
-    "codigo": "3532603"
+    "codigo": "3532603",
+    "uf": "SP"
   },
   {
     "nome": "Nipoã",
-    "codigo": "3532702"
+    "codigo": "3532702",
+    "uf": "SP"
   },
   {
     "nome": "Nova Aliança",
-    "codigo": "3532801"
+    "codigo": "3532801",
+    "uf": "SP"
   },
   {
     "nome": "Nova Europa",
-    "codigo": "3532900"
+    "codigo": "3532900",
+    "uf": "SP"
   },
   {
     "nome": "Nova Granada",
-    "codigo": "3533007"
+    "codigo": "3533007",
+    "uf": "SP"
   },
   {
     "nome": "Nova Guataporanga",
-    "codigo": "3533106"
+    "codigo": "3533106",
+    "uf": "SP"
   },
   {
     "nome": "Nova Independência",
-    "codigo": "3533205"
+    "codigo": "3533205",
+    "uf": "SP"
   },
   {
     "nome": "Nova Luzitânia",
-    "codigo": "3533304"
+    "codigo": "3533304",
+    "uf": "SP"
   },
   {
     "nome": "Nova Odessa",
-    "codigo": "3533403"
+    "codigo": "3533403",
+    "uf": "SP"
   },
   {
     "nome": "Novo Horizonte",
-    "codigo": "3533502"
+    "codigo": "3533502",
+    "uf": "SP"
   },
   {
     "nome": "Nuporanga",
-    "codigo": "3533601"
+    "codigo": "3533601",
+    "uf": "SP"
   },
   {
     "nome": "Ocauçu",
-    "codigo": "3533700"
+    "codigo": "3533700",
+    "uf": "SP"
   },
   {
     "nome": "Óleo",
-    "codigo": "3533809"
+    "codigo": "3533809",
+    "uf": "SP"
   },
   {
     "nome": "Olímpia",
-    "codigo": "3533908"
+    "codigo": "3533908",
+    "uf": "SP"
   },
   {
     "nome": "Onda Verde",
-    "codigo": "3534005"
+    "codigo": "3534005",
+    "uf": "SP"
   },
   {
     "nome": "Oriente",
-    "codigo": "3534104"
+    "codigo": "3534104",
+    "uf": "SP"
   },
   {
     "nome": "Orindiúva",
-    "codigo": "3534203"
+    "codigo": "3534203",
+    "uf": "SP"
   },
   {
     "nome": "Orlândia",
-    "codigo": "3534302"
+    "codigo": "3534302",
+    "uf": "SP"
   },
   {
     "nome": "Osasco",
-    "codigo": "3534401"
+    "codigo": "3534401",
+    "uf": "SP"
   },
   {
     "nome": "Oscar Bressane",
-    "codigo": "3534500"
+    "codigo": "3534500",
+    "uf": "SP"
   },
   {
     "nome": "Osvaldo Cruz",
-    "codigo": "3534609"
+    "codigo": "3534609",
+    "uf": "SP"
   },
   {
     "nome": "Ourinhos",
-    "codigo": "3534708"
+    "codigo": "3534708",
+    "uf": "SP"
   },
   {
     "nome": "Ouro Verde",
-    "codigo": "3534807"
+    "codigo": "3534807",
+    "uf": "SP"
   },
   {
     "nome": "Pacaembu",
-    "codigo": "3534906"
+    "codigo": "3534906",
+    "uf": "SP"
   },
   {
     "nome": "Palestina",
-    "codigo": "3535002"
+    "codigo": "3535002",
+    "uf": "SP"
   },
   {
     "nome": "Palmares Paulista",
-    "codigo": "3535101"
+    "codigo": "3535101",
+    "uf": "SP"
   },
   {
     "nome": "Palmeira d'Oeste",
-    "codigo": "3535200"
+    "codigo": "3535200",
+    "uf": "SP"
   },
   {
     "nome": "Palmital",
-    "codigo": "3535309"
+    "codigo": "3535309",
+    "uf": "SP"
   },
   {
     "nome": "Panorama",
-    "codigo": "3535408"
+    "codigo": "3535408",
+    "uf": "SP"
   },
   {
     "nome": "Paraguaçu Paulista",
-    "codigo": "3535507"
+    "codigo": "3535507",
+    "uf": "SP"
   },
   {
     "nome": "Paraibuna",
-    "codigo": "3535606"
+    "codigo": "3535606",
+    "uf": "SP"
   },
   {
     "nome": "Paraíso",
-    "codigo": "3535705"
+    "codigo": "3535705",
+    "uf": "SP"
   },
   {
     "nome": "Paranapanema",
-    "codigo": "3535804"
+    "codigo": "3535804",
+    "uf": "SP"
   },
   {
     "nome": "Paranapuã",
-    "codigo": "3535903"
+    "codigo": "3535903",
+    "uf": "SP"
   },
   {
     "nome": "Parapuã",
-    "codigo": "3536000"
+    "codigo": "3536000",
+    "uf": "SP"
   },
   {
     "nome": "Pardinho",
-    "codigo": "3536109"
+    "codigo": "3536109",
+    "uf": "SP"
   },
   {
     "nome": "Pariquera-Açu",
-    "codigo": "3536208"
+    "codigo": "3536208",
+    "uf": "SP"
   },
   {
     "nome": "Patrocínio Paulista",
-    "codigo": "3536307"
+    "codigo": "3536307",
+    "uf": "SP"
   },
   {
     "nome": "Paulicéia",
-    "codigo": "3536406"
+    "codigo": "3536406",
+    "uf": "SP"
   },
   {
     "nome": "Paulínia",
-    "codigo": "3536505"
+    "codigo": "3536505",
+    "uf": "SP"
   },
   {
     "nome": "Paulo de Faria",
-    "codigo": "3536604"
+    "codigo": "3536604",
+    "uf": "SP"
   },
   {
     "nome": "Pederneiras",
-    "codigo": "3536703"
+    "codigo": "3536703",
+    "uf": "SP"
   },
   {
     "nome": "Pedra Bela",
-    "codigo": "3536802"
+    "codigo": "3536802",
+    "uf": "SP"
   },
   {
     "nome": "Pedranópolis",
-    "codigo": "3536901"
+    "codigo": "3536901",
+    "uf": "SP"
   },
   {
     "nome": "Pedregulho",
-    "codigo": "3537008"
+    "codigo": "3537008",
+    "uf": "SP"
   },
   {
     "nome": "Pedreira",
-    "codigo": "3537107"
+    "codigo": "3537107",
+    "uf": "SP"
   },
   {
     "nome": "Pedro de Toledo",
-    "codigo": "3537206"
+    "codigo": "3537206",
+    "uf": "SP"
   },
   {
     "nome": "Penápolis",
-    "codigo": "3537305"
+    "codigo": "3537305",
+    "uf": "SP"
   },
   {
     "nome": "Pereira Barreto",
-    "codigo": "3537404"
+    "codigo": "3537404",
+    "uf": "SP"
   },
   {
     "nome": "Pereiras",
-    "codigo": "3537503"
+    "codigo": "3537503",
+    "uf": "SP"
   },
   {
     "nome": "Peruíbe",
-    "codigo": "3537602"
+    "codigo": "3537602",
+    "uf": "SP"
   },
   {
     "nome": "Piacatu",
-    "codigo": "3537701"
+    "codigo": "3537701",
+    "uf": "SP"
   },
   {
     "nome": "Piedade",
-    "codigo": "3537800"
+    "codigo": "3537800",
+    "uf": "SP"
   },
   {
     "nome": "Pilar do Sul",
-    "codigo": "3537909"
+    "codigo": "3537909",
+    "uf": "SP"
   },
   {
     "nome": "Pindamonhangaba",
-    "codigo": "3538006"
+    "codigo": "3538006",
+    "uf": "SP"
   },
   {
     "nome": "Pindorama",
-    "codigo": "3538105"
+    "codigo": "3538105",
+    "uf": "SP"
   },
   {
     "nome": "Espírito Santo do Pinhal",
-    "codigo": "3515186"
+    "codigo": "3515186",
+    "uf": "SP"
   },
   {
     "nome": "Pinhalzinho",
-    "codigo": "3538204"
+    "codigo": "3538204",
+    "uf": "SP"
   },
   {
     "nome": "Piquerobi",
-    "codigo": "3538303"
+    "codigo": "3538303",
+    "uf": "SP"
   },
   {
     "nome": "Piquete",
-    "codigo": "3538501"
+    "codigo": "3538501",
+    "uf": "SP"
   },
   {
     "nome": "Piracaia",
-    "codigo": "3538600"
+    "codigo": "3538600",
+    "uf": "SP"
   },
   {
     "nome": "Piracicaba",
-    "codigo": "3538709"
+    "codigo": "3538709",
+    "uf": "SP"
   },
   {
     "nome": "Piraju",
-    "codigo": "3538808"
+    "codigo": "3538808",
+    "uf": "SP"
   },
   {
     "nome": "Pirajuí",
-    "codigo": "3538907"
+    "codigo": "3538907",
+    "uf": "SP"
   },
   {
     "nome": "Pirangi",
-    "codigo": "3539004"
+    "codigo": "3539004",
+    "uf": "SP"
   },
   {
     "nome": "Pirapora do Bom Jesus",
-    "codigo": "3539103"
+    "codigo": "3539103",
+    "uf": "SP"
   },
   {
     "nome": "Pirapozinho",
-    "codigo": "3539202"
+    "codigo": "3539202",
+    "uf": "SP"
   },
   {
     "nome": "Pirassununga",
-    "codigo": "3539301"
+    "codigo": "3539301",
+    "uf": "SP"
   },
   {
     "nome": "Piratininga",
-    "codigo": "3539400"
+    "codigo": "3539400",
+    "uf": "SP"
   },
   {
     "nome": "Pitangueiras",
-    "codigo": "3539509"
+    "codigo": "3539509",
+    "uf": "SP"
   },
   {
     "nome": "Planalto",
-    "codigo": "3539608"
+    "codigo": "3539608",
+    "uf": "SP"
   },
   {
     "nome": "Platina",
-    "codigo": "3539707"
+    "codigo": "3539707",
+    "uf": "SP"
   },
   {
     "nome": "Poá",
-    "codigo": "3539806"
+    "codigo": "3539806",
+    "uf": "SP"
   },
   {
     "nome": "Poloni",
-    "codigo": "3539905"
+    "codigo": "3539905",
+    "uf": "SP"
   },
   {
     "nome": "Pompéia",
-    "codigo": "3540002"
+    "codigo": "3540002",
+    "uf": "SP"
   },
   {
     "nome": "Pongaí",
-    "codigo": "3540101"
+    "codigo": "3540101",
+    "uf": "SP"
   },
   {
     "nome": "Pontal",
-    "codigo": "3540200"
+    "codigo": "3540200",
+    "uf": "SP"
   },
   {
     "nome": "Pontes Gestal",
-    "codigo": "3540309"
+    "codigo": "3540309",
+    "uf": "SP"
   },
   {
     "nome": "Populina",
-    "codigo": "3540408"
+    "codigo": "3540408",
+    "uf": "SP"
   },
   {
     "nome": "Porangaba",
-    "codigo": "3540507"
+    "codigo": "3540507",
+    "uf": "SP"
   },
   {
     "nome": "Porto Feliz",
-    "codigo": "3540606"
+    "codigo": "3540606",
+    "uf": "SP"
   },
   {
     "nome": "Porto Ferreira",
-    "codigo": "3540705"
+    "codigo": "3540705",
+    "uf": "SP"
   },
   {
     "nome": "Potirendaba",
-    "codigo": "3540804"
+    "codigo": "3540804",
+    "uf": "SP"
   },
   {
     "nome": "Pradópolis",
-    "codigo": "3540903"
+    "codigo": "3540903",
+    "uf": "SP"
   },
   {
     "nome": "Praia Grande",
-    "codigo": "3541000"
+    "codigo": "3541000",
+    "uf": "SP"
   },
   {
     "nome": "Presidente Alves",
-    "codigo": "3541109"
+    "codigo": "3541109",
+    "uf": "SP"
   },
   {
     "nome": "Presidente Bernardes",
-    "codigo": "3541208"
+    "codigo": "3541208",
+    "uf": "SP"
   },
   {
     "nome": "Presidente Epitácio",
-    "codigo": "3541307"
+    "codigo": "3541307",
+    "uf": "SP"
   },
   {
     "nome": "Presidente Prudente",
-    "codigo": "3541406"
+    "codigo": "3541406",
+    "uf": "SP"
   },
   {
     "nome": "Presidente Venceslau",
-    "codigo": "3541505"
+    "codigo": "3541505",
+    "uf": "SP"
   },
   {
     "nome": "Promissão",
-    "codigo": "3541604"
+    "codigo": "3541604",
+    "uf": "SP"
   },
   {
     "nome": "Quatá",
-    "codigo": "3541703"
+    "codigo": "3541703",
+    "uf": "SP"
   },
   {
     "nome": "Queiroz",
-    "codigo": "3541802"
+    "codigo": "3541802",
+    "uf": "SP"
   },
   {
     "nome": "Queluz",
-    "codigo": "3541901"
+    "codigo": "3541901",
+    "uf": "SP"
   },
   {
     "nome": "Quintana",
-    "codigo": "3542008"
+    "codigo": "3542008",
+    "uf": "SP"
   },
   {
     "nome": "Rafard",
-    "codigo": "3542107"
+    "codigo": "3542107",
+    "uf": "SP"
   },
   {
     "nome": "Rancharia",
-    "codigo": "3542206"
+    "codigo": "3542206",
+    "uf": "SP"
   },
   {
     "nome": "Redenção da Serra",
-    "codigo": "3542305"
+    "codigo": "3542305",
+    "uf": "SP"
   },
   {
     "nome": "Regente Feijó",
-    "codigo": "3542404"
+    "codigo": "3542404",
+    "uf": "SP"
   },
   {
     "nome": "Reginópolis",
-    "codigo": "3542503"
+    "codigo": "3542503",
+    "uf": "SP"
   },
   {
     "nome": "Registro",
-    "codigo": "3542602"
+    "codigo": "3542602",
+    "uf": "SP"
   },
   {
     "nome": "Restinga",
-    "codigo": "3542701"
+    "codigo": "3542701",
+    "uf": "SP"
   },
   {
     "nome": "Ribeira",
-    "codigo": "3542800"
+    "codigo": "3542800",
+    "uf": "SP"
   },
   {
     "nome": "Ribeirão Bonito",
-    "codigo": "3542909"
+    "codigo": "3542909",
+    "uf": "SP"
   },
   {
     "nome": "Ribeirão Branco",
-    "codigo": "3543006"
+    "codigo": "3543006",
+    "uf": "SP"
   },
   {
     "nome": "Ribeirão Corrente",
-    "codigo": "3543105"
+    "codigo": "3543105",
+    "uf": "SP"
   },
   {
     "nome": "Ribeirão do Sul",
-    "codigo": "3543204"
+    "codigo": "3543204",
+    "uf": "SP"
   },
   {
     "nome": "Ribeirão Pires",
-    "codigo": "3543303"
+    "codigo": "3543303",
+    "uf": "SP"
   },
   {
     "nome": "Ribeirão Preto",
-    "codigo": "3543402"
+    "codigo": "3543402",
+    "uf": "SP"
   },
   {
     "nome": "Riversul",
-    "codigo": "3543501"
+    "codigo": "3543501",
+    "uf": "SP"
   },
   {
     "nome": "Rifaina",
-    "codigo": "3543600"
+    "codigo": "3543600",
+    "uf": "SP"
   },
   {
     "nome": "Rincão",
-    "codigo": "3543709"
+    "codigo": "3543709",
+    "uf": "SP"
   },
   {
     "nome": "Rinópolis",
-    "codigo": "3543808"
+    "codigo": "3543808",
+    "uf": "SP"
   },
   {
     "nome": "Rio Claro",
-    "codigo": "3543907"
+    "codigo": "3543907",
+    "uf": "SP"
   },
   {
     "nome": "Rio das Pedras",
-    "codigo": "3544004"
+    "codigo": "3544004",
+    "uf": "SP"
   },
   {
     "nome": "Rio Grande da Serra",
-    "codigo": "3544103"
+    "codigo": "3544103",
+    "uf": "SP"
   },
   {
     "nome": "Riolândia",
-    "codigo": "3544202"
+    "codigo": "3544202",
+    "uf": "SP"
   },
   {
     "nome": "Roseira",
-    "codigo": "3544301"
+    "codigo": "3544301",
+    "uf": "SP"
   },
   {
     "nome": "Rubiácea",
-    "codigo": "3544400"
+    "codigo": "3544400",
+    "uf": "SP"
   },
   {
     "nome": "Rubinéia",
-    "codigo": "3544509"
+    "codigo": "3544509",
+    "uf": "SP"
   },
   {
     "nome": "Sabino",
-    "codigo": "3544608"
+    "codigo": "3544608",
+    "uf": "SP"
   },
   {
     "nome": "Sagres",
-    "codigo": "3544707"
+    "codigo": "3544707",
+    "uf": "SP"
   },
   {
     "nome": "Sales",
-    "codigo": "3544806"
+    "codigo": "3544806",
+    "uf": "SP"
   },
   {
     "nome": "Sales Oliveira",
-    "codigo": "3544905"
+    "codigo": "3544905",
+    "uf": "SP"
   },
   {
     "nome": "Salesópolis",
-    "codigo": "3545001"
+    "codigo": "3545001",
+    "uf": "SP"
   },
   {
     "nome": "Salmourão",
-    "codigo": "3545100"
+    "codigo": "3545100",
+    "uf": "SP"
   },
   {
     "nome": "Salto",
-    "codigo": "3545209"
+    "codigo": "3545209",
+    "uf": "SP"
   },
   {
     "nome": "Salto de Pirapora",
-    "codigo": "3545308"
+    "codigo": "3545308",
+    "uf": "SP"
   },
   {
     "nome": "Salto Grande",
-    "codigo": "3545407"
+    "codigo": "3545407",
+    "uf": "SP"
   },
   {
     "nome": "Sandovalina",
-    "codigo": "3545506"
+    "codigo": "3545506",
+    "uf": "SP"
   },
   {
     "nome": "Santa Adélia",
-    "codigo": "3545605"
+    "codigo": "3545605",
+    "uf": "SP"
   },
   {
     "nome": "Santa Albertina",
-    "codigo": "3545704"
+    "codigo": "3545704",
+    "uf": "SP"
   },
   {
     "nome": "Santa Bárbara d'Oeste",
-    "codigo": "3545803"
+    "codigo": "3545803",
+    "uf": "SP"
   },
   {
     "nome": "Águas de Santa Bárbara",
-    "codigo": "3500550"
+    "codigo": "3500550",
+    "uf": "SP"
   },
   {
     "nome": "Santa Branca",
-    "codigo": "3546009"
+    "codigo": "3546009",
+    "uf": "SP"
   },
   {
     "nome": "Santa Clara d'Oeste",
-    "codigo": "3546108"
+    "codigo": "3546108",
+    "uf": "SP"
   },
   {
     "nome": "Santa Cruz da Conceição",
-    "codigo": "3546207"
+    "codigo": "3546207",
+    "uf": "SP"
   },
   {
     "nome": "Santa Cruz das Palmeiras",
-    "codigo": "3546306"
+    "codigo": "3546306",
+    "uf": "SP"
   },
   {
     "nome": "Santa Cruz do Rio Pardo",
-    "codigo": "3546405"
+    "codigo": "3546405",
+    "uf": "SP"
   },
   {
     "nome": "Santa Ernestina",
-    "codigo": "3546504"
+    "codigo": "3546504",
+    "uf": "SP"
   },
   {
     "nome": "Santa Fé do Sul",
-    "codigo": "3546603"
+    "codigo": "3546603",
+    "uf": "SP"
   },
   {
     "nome": "Santa Gertrudes",
-    "codigo": "3546702"
+    "codigo": "3546702",
+    "uf": "SP"
   },
   {
     "nome": "Santa Isabel",
-    "codigo": "3546801"
+    "codigo": "3546801",
+    "uf": "SP"
   },
   {
     "nome": "Santa Lúcia",
-    "codigo": "3546900"
+    "codigo": "3546900",
+    "uf": "SP"
   },
   {
     "nome": "Santa Maria da Serra",
-    "codigo": "3547007"
+    "codigo": "3547007",
+    "uf": "SP"
   },
   {
     "nome": "Santa Mercedes",
-    "codigo": "3547106"
+    "codigo": "3547106",
+    "uf": "SP"
   },
   {
     "nome": "Santana da Ponte Pensa",
-    "codigo": "3547205"
+    "codigo": "3547205",
+    "uf": "SP"
   },
   {
     "nome": "Santana de Parnaíba",
-    "codigo": "3547304"
+    "codigo": "3547304",
+    "uf": "SP"
   },
   {
     "nome": "Santa Rita d'Oeste",
-    "codigo": "3547403"
+    "codigo": "3547403",
+    "uf": "SP"
   },
   {
     "nome": "Santa Rita do Passa Quatro",
-    "codigo": "3547502"
+    "codigo": "3547502",
+    "uf": "SP"
   },
   {
     "nome": "Santa Rosa de Viterbo",
-    "codigo": "3547601"
+    "codigo": "3547601",
+    "uf": "SP"
   },
   {
     "nome": "Santo Anastácio",
-    "codigo": "3547700"
+    "codigo": "3547700",
+    "uf": "SP"
   },
   {
     "nome": "Santo André",
-    "codigo": "3547809"
+    "codigo": "3547809",
+    "uf": "SP"
   },
   {
     "nome": "Santo Antônio da Alegria",
-    "codigo": "3547908"
+    "codigo": "3547908",
+    "uf": "SP"
   },
   {
     "nome": "Santo Antônio de Posse",
-    "codigo": "3548005"
+    "codigo": "3548005",
+    "uf": "SP"
   },
   {
     "nome": "Santo Antônio do Jardim",
-    "codigo": "3548104"
+    "codigo": "3548104",
+    "uf": "SP"
   },
   {
     "nome": "Santo Antônio do Pinhal",
-    "codigo": "3548203"
+    "codigo": "3548203",
+    "uf": "SP"
   },
   {
     "nome": "Santo Expedito",
-    "codigo": "3548302"
+    "codigo": "3548302",
+    "uf": "SP"
   },
   {
     "nome": "Santópolis do Aguapeí",
-    "codigo": "3548401"
+    "codigo": "3548401",
+    "uf": "SP"
   },
   {
     "nome": "Santos",
-    "codigo": "3548500"
+    "codigo": "3548500",
+    "uf": "SP"
   },
   {
     "nome": "São Bento do Sapucaí",
-    "codigo": "3548609"
+    "codigo": "3548609",
+    "uf": "SP"
   },
   {
     "nome": "São Bernardo do Campo",
-    "codigo": "3548708"
+    "codigo": "3548708",
+    "uf": "SP"
   },
   {
     "nome": "São Caetano do Sul",
-    "codigo": "3548807"
+    "codigo": "3548807",
+    "uf": "SP"
   },
   {
     "nome": "São Carlos",
-    "codigo": "3548906"
+    "codigo": "3548906",
+    "uf": "SP"
   },
   {
     "nome": "São Francisco",
-    "codigo": "3549003"
+    "codigo": "3549003",
+    "uf": "SP"
   },
   {
     "nome": "São João da Boa Vista",
-    "codigo": "3549102"
+    "codigo": "3549102",
+    "uf": "SP"
   },
   {
     "nome": "São João das Duas Pontes",
-    "codigo": "3549201"
+    "codigo": "3549201",
+    "uf": "SP"
   },
   {
     "nome": "São João do Pau d'Alho",
-    "codigo": "3549300"
+    "codigo": "3549300",
+    "uf": "SP"
   },
   {
     "nome": "São Joaquim da Barra",
-    "codigo": "3549409"
+    "codigo": "3549409",
+    "uf": "SP"
   },
   {
     "nome": "São José da Bela Vista",
-    "codigo": "3549508"
+    "codigo": "3549508",
+    "uf": "SP"
   },
   {
     "nome": "São José do Barreiro",
-    "codigo": "3549607"
+    "codigo": "3549607",
+    "uf": "SP"
   },
   {
     "nome": "São José do Rio Pardo",
-    "codigo": "3549706"
+    "codigo": "3549706",
+    "uf": "SP"
   },
   {
     "nome": "São José do Rio Preto",
-    "codigo": "3549805"
+    "codigo": "3549805",
+    "uf": "SP"
   },
   {
     "nome": "São José dos Campos",
-    "codigo": "3549904"
+    "codigo": "3549904",
+    "uf": "SP"
   },
   {
     "nome": "São Luiz do Paraitinga",
-    "codigo": "3550001"
+    "codigo": "3550001",
+    "uf": "SP"
   },
   {
     "nome": "São Manuel",
-    "codigo": "3550100"
+    "codigo": "3550100",
+    "uf": "SP"
   },
   {
     "nome": "São Miguel Arcanjo",
-    "codigo": "3550209"
+    "codigo": "3550209",
+    "uf": "SP"
   },
   {
     "nome": "São Paulo",
-    "codigo": "3550308"
+    "codigo": "3550308",
+    "uf": "SP"
   },
   {
     "nome": "São Pedro",
-    "codigo": "3550407"
+    "codigo": "3550407",
+    "uf": "SP"
   },
   {
     "nome": "São Pedro do Turvo",
-    "codigo": "3550506"
+    "codigo": "3550506",
+    "uf": "SP"
   },
   {
     "nome": "São Roque",
-    "codigo": "3550605"
+    "codigo": "3550605",
+    "uf": "SP"
   },
   {
     "nome": "São Sebastião",
-    "codigo": "3550704"
+    "codigo": "3550704",
+    "uf": "SP"
   },
   {
     "nome": "São Sebastião da Grama",
-    "codigo": "3550803"
+    "codigo": "3550803",
+    "uf": "SP"
   },
   {
     "nome": "São Simão",
-    "codigo": "3550902"
+    "codigo": "3550902",
+    "uf": "SP"
   },
   {
     "nome": "São Vicente",
-    "codigo": "3551009"
+    "codigo": "3551009",
+    "uf": "SP"
   },
   {
     "nome": "Sarapuí",
-    "codigo": "3551108"
+    "codigo": "3551108",
+    "uf": "SP"
   },
   {
     "nome": "Sarutaiá",
-    "codigo": "3551207"
+    "codigo": "3551207",
+    "uf": "SP"
   },
   {
     "nome": "Sebastianópolis do Sul",
-    "codigo": "3551306"
+    "codigo": "3551306",
+    "uf": "SP"
   },
   {
     "nome": "Serra Azul",
-    "codigo": "3551405"
+    "codigo": "3551405",
+    "uf": "SP"
   },
   {
     "nome": "Serrana",
-    "codigo": "3551504"
+    "codigo": "3551504",
+    "uf": "SP"
   },
   {
     "nome": "Serra Negra",
-    "codigo": "3551603"
+    "codigo": "3551603",
+    "uf": "SP"
   },
   {
     "nome": "Sertãozinho",
-    "codigo": "3551702"
+    "codigo": "3551702",
+    "uf": "SP"
   },
   {
     "nome": "Sete Barras",
-    "codigo": "3551801"
+    "codigo": "3551801",
+    "uf": "SP"
   },
   {
     "nome": "Severínia",
-    "codigo": "3551900"
+    "codigo": "3551900",
+    "uf": "SP"
   },
   {
     "nome": "Silveiras",
-    "codigo": "3552007"
+    "codigo": "3552007",
+    "uf": "SP"
   },
   {
     "nome": "Socorro",
-    "codigo": "3552106"
+    "codigo": "3552106",
+    "uf": "SP"
   },
   {
     "nome": "Sorocaba",
-    "codigo": "3552205"
+    "codigo": "3552205",
+    "uf": "SP"
   },
   {
     "nome": "Sud Mennucci",
-    "codigo": "3552304"
+    "codigo": "3552304",
+    "uf": "SP"
   },
   {
     "nome": "Sumaré",
-    "codigo": "3552403"
+    "codigo": "3552403",
+    "uf": "SP"
   },
   {
     "nome": "Suzano",
-    "codigo": "3552502"
+    "codigo": "3552502",
+    "uf": "SP"
   },
   {
     "nome": "Tabapuã",
-    "codigo": "3552601"
+    "codigo": "3552601",
+    "uf": "SP"
   },
   {
     "nome": "Tabatinga",
-    "codigo": "3552700"
+    "codigo": "3552700",
+    "uf": "SP"
   },
   {
     "nome": "Taboão da Serra",
-    "codigo": "3552809"
+    "codigo": "3552809",
+    "uf": "SP"
   },
   {
     "nome": "Taciba",
-    "codigo": "3552908"
+    "codigo": "3552908",
+    "uf": "SP"
   },
   {
     "nome": "Taguaí",
-    "codigo": "3553005"
+    "codigo": "3553005",
+    "uf": "SP"
   },
   {
     "nome": "Taiaçu",
-    "codigo": "3553104"
+    "codigo": "3553104",
+    "uf": "SP"
   },
   {
     "nome": "Taiúva",
-    "codigo": "3553203"
+    "codigo": "3553203",
+    "uf": "SP"
   },
   {
     "nome": "Tambaú",
-    "codigo": "3553302"
+    "codigo": "3553302",
+    "uf": "SP"
   },
   {
     "nome": "Tanabi",
-    "codigo": "3553401"
+    "codigo": "3553401",
+    "uf": "SP"
   },
   {
     "nome": "Tapiraí",
-    "codigo": "3553500"
+    "codigo": "3553500",
+    "uf": "SP"
   },
   {
     "nome": "Tapiratiba",
-    "codigo": "3553609"
+    "codigo": "3553609",
+    "uf": "SP"
   },
   {
     "nome": "Taquaritinga",
-    "codigo": "3553708"
+    "codigo": "3553708",
+    "uf": "SP"
   },
   {
     "nome": "Taquarituba",
-    "codigo": "3553807"
+    "codigo": "3553807",
+    "uf": "SP"
   },
   {
     "nome": "Tarabai",
-    "codigo": "3553906"
+    "codigo": "3553906",
+    "uf": "SP"
   },
   {
     "nome": "Tatuí",
-    "codigo": "3554003"
+    "codigo": "3554003",
+    "uf": "SP"
   },
   {
     "nome": "Taubaté",
-    "codigo": "3554102"
+    "codigo": "3554102",
+    "uf": "SP"
   },
   {
     "nome": "Tejupá",
-    "codigo": "3554201"
+    "codigo": "3554201",
+    "uf": "SP"
   },
   {
     "nome": "Teodoro Sampaio",
-    "codigo": "3554300"
+    "codigo": "3554300",
+    "uf": "SP"
   },
   {
     "nome": "Terra Roxa",
-    "codigo": "3554409"
+    "codigo": "3554409",
+    "uf": "SP"
   },
   {
     "nome": "Tietê",
-    "codigo": "3554508"
+    "codigo": "3554508",
+    "uf": "SP"
   },
   {
     "nome": "Timburi",
-    "codigo": "3554607"
+    "codigo": "3554607",
+    "uf": "SP"
   },
   {
     "nome": "Torrinha",
-    "codigo": "3554706"
+    "codigo": "3554706",
+    "uf": "SP"
   },
   {
     "nome": "Tremembé",
-    "codigo": "3554805"
+    "codigo": "3554805",
+    "uf": "SP"
   },
   {
     "nome": "Três Fronteiras",
-    "codigo": "3554904"
+    "codigo": "3554904",
+    "uf": "SP"
   },
   {
     "nome": "Tupã",
-    "codigo": "3555000"
+    "codigo": "3555000",
+    "uf": "SP"
   },
   {
     "nome": "Tupi Paulista",
-    "codigo": "3555109"
+    "codigo": "3555109",
+    "uf": "SP"
   },
   {
     "nome": "Turiúba",
-    "codigo": "3555208"
+    "codigo": "3555208",
+    "uf": "SP"
   },
   {
     "nome": "Turmalina",
-    "codigo": "3555307"
+    "codigo": "3555307",
+    "uf": "SP"
   },
   {
     "nome": "Ubatuba",
-    "codigo": "3555406"
+    "codigo": "3555406",
+    "uf": "SP"
   },
   {
     "nome": "Ubirajara",
-    "codigo": "3555505"
+    "codigo": "3555505",
+    "uf": "SP"
   },
   {
     "nome": "Uchoa",
-    "codigo": "3555604"
+    "codigo": "3555604",
+    "uf": "SP"
   },
   {
     "nome": "União Paulista",
-    "codigo": "3555703"
+    "codigo": "3555703",
+    "uf": "SP"
   },
   {
     "nome": "Urânia",
-    "codigo": "3555802"
+    "codigo": "3555802",
+    "uf": "SP"
   },
   {
     "nome": "Uru",
-    "codigo": "3555901"
+    "codigo": "3555901",
+    "uf": "SP"
   },
   {
     "nome": "Urupês",
-    "codigo": "3556008"
+    "codigo": "3556008",
+    "uf": "SP"
   },
   {
     "nome": "Valentim Gentil",
-    "codigo": "3556107"
+    "codigo": "3556107",
+    "uf": "SP"
   },
   {
     "nome": "Valinhos",
-    "codigo": "3556206"
+    "codigo": "3556206",
+    "uf": "SP"
   },
   {
     "nome": "Valparaíso",
-    "codigo": "3556305"
+    "codigo": "3556305",
+    "uf": "SP"
   },
   {
     "nome": "Vargem Grande do Sul",
-    "codigo": "3556404"
+    "codigo": "3556404",
+    "uf": "SP"
   },
   {
     "nome": "Várzea Paulista",
-    "codigo": "3556503"
+    "codigo": "3556503",
+    "uf": "SP"
   },
   {
     "nome": "Vera Cruz",
-    "codigo": "3556602"
+    "codigo": "3556602",
+    "uf": "SP"
   },
   {
     "nome": "Vinhedo",
-    "codigo": "3556701"
+    "codigo": "3556701",
+    "uf": "SP"
   },
   {
     "nome": "Viradouro",
-    "codigo": "3556800"
+    "codigo": "3556800",
+    "uf": "SP"
   },
   {
     "nome": "Vista Alegre do Alto",
-    "codigo": "3556909"
+    "codigo": "3556909",
+    "uf": "SP"
   },
   {
     "nome": "Votorantim",
-    "codigo": "3557006"
+    "codigo": "3557006",
+    "uf": "SP"
   },
   {
     "nome": "Votuporanga",
-    "codigo": "3557105"
+    "codigo": "3557105",
+    "uf": "SP"
   },
   {
     "nome": "Borebi",
-    "codigo": "3507456"
+    "codigo": "3507456",
+    "uf": "SP"
   },
   {
     "nome": "Dirce Reis",
-    "codigo": "3513850"
+    "codigo": "3513850",
+    "uf": "SP"
   },
   {
     "nome": "Embaúba",
-    "codigo": "3514957"
+    "codigo": "3514957",
+    "uf": "SP"
   },
   {
     "nome": "Espírito Santo do Turvo",
-    "codigo": "3515194"
+    "codigo": "3515194",
+    "uf": "SP"
   },
   {
     "nome": "Euclides da Cunha Paulista",
-    "codigo": "3515350"
+    "codigo": "3515350",
+    "uf": "SP"
   },
   {
     "nome": "Guatapará",
-    "codigo": "3518859"
+    "codigo": "3518859",
+    "uf": "SP"
   },
   {
     "nome": "Iaras",
-    "codigo": "3519253"
+    "codigo": "3519253",
+    "uf": "SP"
   },
   {
     "nome": "Motuca",
-    "codigo": "3532058"
+    "codigo": "3532058",
+    "uf": "SP"
   },
   {
     "nome": "Rosana",
-    "codigo": "3544251"
+    "codigo": "3544251",
+    "uf": "SP"
   },
   {
     "nome": "Tarumã",
-    "codigo": "3553955"
+    "codigo": "3553955",
+    "uf": "SP"
   },
   {
     "nome": "Vargem Grande Paulista",
-    "codigo": "3556453"
+    "codigo": "3556453",
+    "uf": "SP"
   },
   {
     "nome": "São Vendelino",
-    "codigo": "4319752"
+    "codigo": "4319752",
+    "uf": "RS"
   },
   {
     "nome": "Imigrante",
-    "codigo": "4310363"
+    "codigo": "4310363",
+    "uf": "RS"
   },
   {
     "nome": "Imbé",
-    "codigo": "4310330"
+    "codigo": "4310330",
+    "uf": "RS"
   },
   {
     "nome": "Ibirapuitã",
-    "codigo": "4309951"
+    "codigo": "4309951",
+    "uf": "RS"
   },
   {
     "nome": "Estação",
-    "codigo": "4307559"
+    "codigo": "4307559",
+    "uf": "RS"
   },
   {
     "nome": "Vista Gaúcha",
-    "codigo": "4323705"
+    "codigo": "4323705",
+    "uf": "RS"
   },
   {
     "nome": "Vista Alegre do Prata",
-    "codigo": "4323606"
+    "codigo": "4323606",
+    "uf": "RS"
   },
   {
     "nome": "Vista Alegre",
-    "codigo": "4323507"
+    "codigo": "4323507",
+    "uf": "RS"
   },
   {
     "nome": "Vila Maria",
-    "codigo": "4323408"
+    "codigo": "4323408",
+    "uf": "RS"
   },
   {
     "nome": "Vila Flores",
-    "codigo": "4323309"
+    "codigo": "4323309",
+    "uf": "RS"
   },
   {
     "nome": "Taquaruçu do Sul",
-    "codigo": "4321329"
+    "codigo": "4321329",
+    "uf": "RS"
   },
   {
     "nome": "Silveira Martins",
-    "codigo": "4320651"
+    "codigo": "4320651",
+    "uf": "RS"
   },
   {
     "nome": "Segredo",
-    "codigo": "4320263"
+    "codigo": "4320263",
+    "uf": "RS"
   },
   {
     "nome": "Vanini",
-    "codigo": "4322558"
+    "codigo": "4322558",
+    "uf": "RS"
   },
   {
     "nome": "Tupandi",
-    "codigo": "4322251"
+    "codigo": "4322251",
+    "uf": "RS"
   },
   {
     "nome": "Tunas",
-    "codigo": "4322152"
+    "codigo": "4322152",
+    "uf": "RS"
   },
   {
     "nome": "Trindade do Sul",
-    "codigo": "4321956"
+    "codigo": "4321956",
+    "uf": "RS"
   },
   {
     "nome": "Três Palmeiras",
-    "codigo": "4321857"
+    "codigo": "4321857",
+    "uf": "RS"
   },
   {
     "nome": "Três Cachoeiras",
-    "codigo": "4321667"
+    "codigo": "4321667",
+    "uf": "RS"
   },
   {
     "nome": "Três Arroios",
-    "codigo": "4321634"
+    "codigo": "4321634",
+    "uf": "RS"
   },
   {
     "nome": "Terra de Areia",
-    "codigo": "4321436"
+    "codigo": "4321436",
+    "uf": "RS"
   },
   {
     "nome": "Sede Nova",
-    "codigo": "4320230"
+    "codigo": "4320230",
+    "uf": "RS"
   },
   {
     "nome": "Santa Maria do Herval",
-    "codigo": "4316956"
+    "codigo": "4316956",
+    "uf": "RS"
   },
   {
     "nome": "Saldanha Marinho",
-    "codigo": "4316436"
+    "codigo": "4316436",
+    "uf": "RS"
   },
   {
     "nome": "São Miguel das Missões",
-    "codigo": "4319158"
+    "codigo": "4319158",
+    "uf": "RS"
   },
   {
     "nome": "São José do Hortêncio",
-    "codigo": "4318481"
+    "codigo": "4318481",
+    "uf": "RS"
   },
   {
     "nome": "São José do Herval",
-    "codigo": "4318465"
+    "codigo": "4318465",
+    "uf": "RS"
   },
   {
     "nome": "São Jorge",
-    "codigo": "4318440"
+    "codigo": "4318440",
+    "uf": "RS"
   },
   {
     "nome": "São João da Urtiga",
-    "codigo": "4318424"
+    "codigo": "4318424",
+    "uf": "RS"
   },
   {
     "nome": "São Domingos do Sul",
-    "codigo": "4318051"
+    "codigo": "4318051",
+    "uf": "RS"
   },
   {
     "nome": "Riozinho",
-    "codigo": "4315750"
+    "codigo": "4315750",
+    "uf": "RS"
   },
   {
     "nome": "Relvado",
-    "codigo": "4315453"
+    "codigo": "4315453",
+    "uf": "RS"
   },
   {
     "nome": "Quinze de Novembro",
-    "codigo": "4315354"
+    "codigo": "4315354",
+    "uf": "RS"
   },
   {
     "nome": "Protásio Alves",
-    "codigo": "4315172"
+    "codigo": "4315172",
+    "uf": "RS"
   },
   {
     "nome": "Progresso",
-    "codigo": "4315156"
+    "codigo": "4315156",
+    "uf": "RS"
   },
   {
     "nome": "Pouso Novo",
-    "codigo": "4315131"
+    "codigo": "4315131",
+    "uf": "RS"
   },
   {
     "nome": "Poço das Antas",
-    "codigo": "4314753"
+    "codigo": "4314753",
+    "uf": "RS"
   },
   {
     "nome": "Pirapó",
-    "codigo": "4314555"
+    "codigo": "4314555",
+    "uf": "RS"
   },
   {
     "nome": "Pinhal",
-    "codigo": "4314456"
+    "codigo": "4314456",
+    "uf": "RS"
   },
   {
     "nome": "Paverama",
-    "codigo": "4314159"
+    "codigo": "4314159",
+    "uf": "RS"
   },
   {
     "nome": "Paraíso do Sul",
-    "codigo": "4314027"
+    "codigo": "4314027",
+    "uf": "RS"
   },
   {
     "nome": "Pantano Grande",
-    "codigo": "4313953"
+    "codigo": "4313953",
+    "uf": "RS"
   },
   {
     "nome": "Nova Roma do Sul",
-    "codigo": "4313359"
+    "codigo": "4313359",
+    "uf": "RS"
   },
   {
     "nome": "Nova Hartz",
-    "codigo": "4313060"
+    "codigo": "4313060",
+    "uf": "RS"
   },
   {
     "nome": "Nova Esperança do Sul",
-    "codigo": "4313037"
+    "codigo": "4313037",
+    "uf": "RS"
   },
   {
     "nome": "Nova Alvorada",
-    "codigo": "4312757"
+    "codigo": "4312757",
+    "uf": "RS"
   },
   {
     "nome": "Morro Redondo",
-    "codigo": "4312450"
+    "codigo": "4312450",
+    "uf": "RS"
   },
   {
     "nome": "Montauri",
-    "codigo": "4312351"
+    "codigo": "4312351",
+    "uf": "RS"
   },
   {
     "nome": "Lagoão",
-    "codigo": "4311254"
+    "codigo": "4311254",
+    "uf": "RS"
   },
   {
     "nome": "Jaquirana",
-    "codigo": "4311122"
+    "codigo": "4311122",
+    "uf": "RS"
   },
   {
     "nome": "Jaboticaba",
-    "codigo": "4310850"
+    "codigo": "4310850",
+    "uf": "RS"
   },
   {
     "nome": "Ivorá",
-    "codigo": "4310751"
+    "codigo": "4310751",
+    "uf": "RS"
   },
   {
     "nome": "Itacurubi",
-    "codigo": "4310553"
+    "codigo": "4310553",
+    "uf": "RS"
   },
   {
     "nome": "Ipiranga do Sul",
-    "codigo": "4310462"
+    "codigo": "4310462",
+    "uf": "RS"
   },
   {
     "nome": "Abatiá",
-    "codigo": "4100103"
+    "codigo": "4100103",
+    "uf": "PR"
   },
   {
     "nome": "Adrianópolis",
-    "codigo": "4100202"
+    "codigo": "4100202",
+    "uf": "PR"
   },
   {
     "nome": "Agudos do Sul",
-    "codigo": "4100301"
+    "codigo": "4100301",
+    "uf": "PR"
   },
   {
     "nome": "Almirante Tamandaré",
-    "codigo": "4100400"
+    "codigo": "4100400",
+    "uf": "PR"
   },
   {
     "nome": "Alto Paraná",
-    "codigo": "4100608"
+    "codigo": "4100608",
+    "uf": "PR"
   },
   {
     "nome": "Alto Piquiri",
-    "codigo": "4100707"
+    "codigo": "4100707",
+    "uf": "PR"
   },
   {
     "nome": "Alvorada do Sul",
-    "codigo": "4100806"
+    "codigo": "4100806",
+    "uf": "PR"
   },
   {
     "nome": "Amaporã",
-    "codigo": "4100905"
+    "codigo": "4100905",
+    "uf": "PR"
   },
   {
     "nome": "Ampére",
-    "codigo": "4101002"
+    "codigo": "4101002",
+    "uf": "PR"
   },
   {
     "nome": "Andirá",
-    "codigo": "4101101"
+    "codigo": "4101101",
+    "uf": "PR"
   },
   {
     "nome": "Antonina",
-    "codigo": "4101200"
+    "codigo": "4101200",
+    "uf": "PR"
   },
   {
     "nome": "Antônio Olinto",
-    "codigo": "4101309"
+    "codigo": "4101309",
+    "uf": "PR"
   },
   {
     "nome": "Apucarana",
-    "codigo": "4101408"
+    "codigo": "4101408",
+    "uf": "PR"
   },
   {
     "nome": "Arapongas",
-    "codigo": "4101507"
+    "codigo": "4101507",
+    "uf": "PR"
   },
   {
     "nome": "Arapoti",
-    "codigo": "4101606"
+    "codigo": "4101606",
+    "uf": "PR"
   },
   {
     "nome": "Araruna",
-    "codigo": "4101705"
+    "codigo": "4101705",
+    "uf": "PR"
   },
   {
     "nome": "Marilândia do Sul",
-    "codigo": "4114906"
+    "codigo": "4114906",
+    "uf": "PR"
   },
   {
     "nome": "Araucária",
-    "codigo": "4101804"
+    "codigo": "4101804",
+    "uf": "PR"
   },
   {
     "nome": "Assaí",
-    "codigo": "4101903"
+    "codigo": "4101903",
+    "uf": "PR"
   },
   {
     "nome": "Astorga",
-    "codigo": "4102109"
+    "codigo": "4102109",
+    "uf": "PR"
   },
   {
     "nome": "Atalaia",
-    "codigo": "4102208"
+    "codigo": "4102208",
+    "uf": "PR"
   },
   {
     "nome": "Balsa Nova",
-    "codigo": "4102307"
+    "codigo": "4102307",
+    "uf": "PR"
   },
   {
     "nome": "Bandeirantes",
-    "codigo": "4102406"
+    "codigo": "4102406",
+    "uf": "PR"
   },
   {
     "nome": "Barbosa Ferraz",
-    "codigo": "4102505"
+    "codigo": "4102505",
+    "uf": "PR"
   },
   {
     "nome": "Barracão",
-    "codigo": "4102604"
+    "codigo": "4102604",
+    "uf": "PR"
   },
   {
     "nome": "Barra do Jacaré",
-    "codigo": "4102703"
+    "codigo": "4102703",
+    "uf": "PR"
   },
   {
     "nome": "Bela Vista do Paraíso",
-    "codigo": "4102802"
+    "codigo": "4102802",
+    "uf": "PR"
   },
   {
     "nome": "Bituruna",
-    "codigo": "4102901"
+    "codigo": "4102901",
+    "uf": "PR"
   },
   {
     "nome": "Boa Esperança",
-    "codigo": "4103008"
+    "codigo": "4103008",
+    "uf": "PR"
   },
   {
     "nome": "Bocaiúva do Sul",
-    "codigo": "4103107"
+    "codigo": "4103107",
+    "uf": "PR"
   },
   {
     "nome": "Bom Sucesso",
-    "codigo": "4103206"
+    "codigo": "4103206",
+    "uf": "PR"
   },
   {
     "nome": "Borrazópolis",
-    "codigo": "4103305"
+    "codigo": "4103305",
+    "uf": "PR"
   },
   {
     "nome": "Cafeara",
-    "codigo": "4103404"
+    "codigo": "4103404",
+    "uf": "PR"
   },
   {
     "nome": "Califórnia",
-    "codigo": "4103503"
+    "codigo": "4103503",
+    "uf": "PR"
   },
   {
     "nome": "Cambará",
-    "codigo": "4103602"
+    "codigo": "4103602",
+    "uf": "PR"
   },
   {
     "nome": "Cambé",
-    "codigo": "4103701"
+    "codigo": "4103701",
+    "uf": "PR"
   },
   {
     "nome": "Cambira",
-    "codigo": "4103800"
+    "codigo": "4103800",
+    "uf": "PR"
   },
   {
     "nome": "Campina da Lagoa",
-    "codigo": "4103909"
+    "codigo": "4103909",
+    "uf": "PR"
   },
   {
     "nome": "Campina Grande do Sul",
-    "codigo": "4104006"
+    "codigo": "4104006",
+    "uf": "PR"
   },
   {
     "nome": "Campo do Tenente",
-    "codigo": "4104105"
+    "codigo": "4104105",
+    "uf": "PR"
   },
   {
     "nome": "Campo Largo",
-    "codigo": "4104204"
+    "codigo": "4104204",
+    "uf": "PR"
   },
   {
     "nome": "Campo Mourão",
-    "codigo": "4104303"
+    "codigo": "4104303",
+    "uf": "PR"
   },
   {
     "nome": "Cândido de Abreu",
-    "codigo": "4104402"
+    "codigo": "4104402",
+    "uf": "PR"
   },
   {
     "nome": "Capanema",
-    "codigo": "4104501"
+    "codigo": "4104501",
+    "uf": "PR"
   },
   {
     "nome": "Capitão Leônidas Marques",
-    "codigo": "4104600"
+    "codigo": "4104600",
+    "uf": "PR"
   },
   {
     "nome": "Carlópolis",
-    "codigo": "4104709"
+    "codigo": "4104709",
+    "uf": "PR"
   },
   {
     "nome": "Cascavel",
-    "codigo": "4104808"
+    "codigo": "4104808",
+    "uf": "PR"
   },
   {
     "nome": "Castro",
-    "codigo": "4104907"
+    "codigo": "4104907",
+    "uf": "PR"
   },
   {
     "nome": "Catanduvas",
-    "codigo": "4105003"
+    "codigo": "4105003",
+    "uf": "PR"
   },
   {
     "nome": "Centenário do Sul",
-    "codigo": "4105102"
+    "codigo": "4105102",
+    "uf": "PR"
   },
   {
     "nome": "Cerro Azul",
-    "codigo": "4105201"
+    "codigo": "4105201",
+    "uf": "PR"
   },
   {
     "nome": "Chopinzinho",
-    "codigo": "4105409"
+    "codigo": "4105409",
+    "uf": "PR"
   },
   {
     "nome": "Cianorte",
-    "codigo": "4105508"
+    "codigo": "4105508",
+    "uf": "PR"
   },
   {
     "nome": "Cidade Gaúcha",
-    "codigo": "4105607"
+    "codigo": "4105607",
+    "uf": "PR"
   },
   {
     "nome": "Clevelândia",
-    "codigo": "4105706"
+    "codigo": "4105706",
+    "uf": "PR"
   },
   {
     "nome": "Mangueirinha",
-    "codigo": "4114401"
+    "codigo": "4114401",
+    "uf": "PR"
   },
   {
     "nome": "Colombo",
-    "codigo": "4105805"
+    "codigo": "4105805",
+    "uf": "PR"
   },
   {
     "nome": "Colorado",
-    "codigo": "4105904"
+    "codigo": "4105904",
+    "uf": "PR"
   },
   {
     "nome": "Congonhinhas",
-    "codigo": "4106001"
+    "codigo": "4106001",
+    "uf": "PR"
   },
   {
     "nome": "Conselheiro Mairinck",
-    "codigo": "4106100"
+    "codigo": "4106100",
+    "uf": "PR"
   },
   {
     "nome": "Contenda",
-    "codigo": "4106209"
+    "codigo": "4106209",
+    "uf": "PR"
   },
   {
     "nome": "Corbélia",
-    "codigo": "4106308"
+    "codigo": "4106308",
+    "uf": "PR"
   },
   {
     "nome": "Cornélio Procópio",
-    "codigo": "4106407"
+    "codigo": "4106407",
+    "uf": "PR"
   },
   {
     "nome": "Coronel Vivida",
-    "codigo": "4106506"
+    "codigo": "4106506",
+    "uf": "PR"
   },
   {
     "nome": "Cruzeiro do Oeste",
-    "codigo": "4106605"
+    "codigo": "4106605",
+    "uf": "PR"
   },
   {
     "nome": "Cruzeiro do Sul",
-    "codigo": "4106704"
+    "codigo": "4106704",
+    "uf": "PR"
   },
   {
     "nome": "Cruz Machado",
-    "codigo": "4106803"
+    "codigo": "4106803",
+    "uf": "PR"
   },
   {
     "nome": "Curitiba",
-    "codigo": "4106902"
+    "codigo": "4106902",
+    "uf": "PR"
   },
   {
     "nome": "Curiúva",
-    "codigo": "4107009"
+    "codigo": "4107009",
+    "uf": "PR"
   },
   {
     "nome": "Diamante do Norte",
-    "codigo": "4107108"
+    "codigo": "4107108",
+    "uf": "PR"
   },
   {
     "nome": "Dois Vizinhos",
-    "codigo": "4107207"
+    "codigo": "4107207",
+    "uf": "PR"
   },
   {
     "nome": "Doutor Camargo",
-    "codigo": "4107306"
+    "codigo": "4107306",
+    "uf": "PR"
   },
   {
     "nome": "Enéas Marques",
-    "codigo": "4107405"
+    "codigo": "4107405",
+    "uf": "PR"
   },
   {
     "nome": "Engenheiro Beltrão",
-    "codigo": "4107504"
+    "codigo": "4107504",
+    "uf": "PR"
   },
   {
     "nome": "Faxinal",
-    "codigo": "4107603"
+    "codigo": "4107603",
+    "uf": "PR"
   },
   {
     "nome": "Fênix",
-    "codigo": "4107702"
+    "codigo": "4107702",
+    "uf": "PR"
   },
   {
     "nome": "Floraí",
-    "codigo": "4107801"
+    "codigo": "4107801",
+    "uf": "PR"
   },
   {
     "nome": "Floresta",
-    "codigo": "4107900"
+    "codigo": "4107900",
+    "uf": "PR"
   },
   {
     "nome": "Florestópolis",
-    "codigo": "4108007"
+    "codigo": "4108007",
+    "uf": "PR"
   },
   {
     "nome": "Flórida",
-    "codigo": "4108106"
+    "codigo": "4108106",
+    "uf": "PR"
   },
   {
     "nome": "Formosa do Oeste",
-    "codigo": "4108205"
+    "codigo": "4108205",
+    "uf": "PR"
   },
   {
     "nome": "Foz do Iguaçu",
-    "codigo": "4108304"
+    "codigo": "4108304",
+    "uf": "PR"
   },
   {
     "nome": "Francisco Beltrão",
-    "codigo": "4108403"
+    "codigo": "4108403",
+    "uf": "PR"
   },
   {
     "nome": "General Carneiro",
-    "codigo": "4108502"
+    "codigo": "4108502",
+    "uf": "PR"
   },
   {
     "nome": "Goioerê",
-    "codigo": "4108601"
+    "codigo": "4108601",
+    "uf": "PR"
   },
   {
     "nome": "Guaíra",
-    "codigo": "4108809"
+    "codigo": "4108809",
+    "uf": "PR"
   },
   {
     "nome": "Guairaçá",
-    "codigo": "4108908"
+    "codigo": "4108908",
+    "uf": "PR"
   },
   {
     "nome": "Guapirama",
-    "codigo": "4109005"
+    "codigo": "4109005",
+    "uf": "PR"
   },
   {
     "nome": "Guaporema",
-    "codigo": "4109104"
+    "codigo": "4109104",
+    "uf": "PR"
   },
   {
     "nome": "Guaraci",
-    "codigo": "4109203"
+    "codigo": "4109203",
+    "uf": "PR"
   },
   {
     "nome": "Guaraniaçu",
-    "codigo": "4109302"
+    "codigo": "4109302",
+    "uf": "PR"
   },
   {
     "nome": "Guarapuava",
-    "codigo": "4109401"
+    "codigo": "4109401",
+    "uf": "PR"
   },
   {
     "nome": "Guaraqueçaba",
-    "codigo": "4109500"
+    "codigo": "4109500",
+    "uf": "PR"
   },
   {
     "nome": "Guaratuba",
-    "codigo": "4109609"
+    "codigo": "4109609",
+    "uf": "PR"
   },
   {
     "nome": "Ibaiti",
-    "codigo": "4109708"
+    "codigo": "4109708",
+    "uf": "PR"
   },
   {
     "nome": "Ibiporã",
-    "codigo": "4109807"
+    "codigo": "4109807",
+    "uf": "PR"
   },
   {
     "nome": "Icaraíma",
-    "codigo": "4109906"
+    "codigo": "4109906",
+    "uf": "PR"
   },
   {
     "nome": "Iguaraçu",
-    "codigo": "4110003"
+    "codigo": "4110003",
+    "uf": "PR"
   },
   {
     "nome": "Imbituva",
-    "codigo": "4110102"
+    "codigo": "4110102",
+    "uf": "PR"
   },
   {
     "nome": "Inácio Martins",
-    "codigo": "4110201"
+    "codigo": "4110201",
+    "uf": "PR"
   },
   {
     "nome": "Inajá",
-    "codigo": "4110300"
+    "codigo": "4110300",
+    "uf": "PR"
   },
   {
     "nome": "Ipiranga",
-    "codigo": "4110508"
+    "codigo": "4110508",
+    "uf": "PR"
   },
   {
     "nome": "Iporã",
-    "codigo": "4110607"
+    "codigo": "4110607",
+    "uf": "PR"
   },
   {
     "nome": "Irati",
-    "codigo": "4110706"
+    "codigo": "4110706",
+    "uf": "PR"
   },
   {
     "nome": "Iretama",
-    "codigo": "4110805"
+    "codigo": "4110805",
+    "uf": "PR"
   },
   {
     "nome": "Itaguajé",
-    "codigo": "4110904"
+    "codigo": "4110904",
+    "uf": "PR"
   },
   {
     "nome": "Itambaracá",
-    "codigo": "4111001"
+    "codigo": "4111001",
+    "uf": "PR"
   },
   {
     "nome": "Itambé",
-    "codigo": "4111100"
+    "codigo": "4111100",
+    "uf": "PR"
   },
   {
     "nome": "Itapejara d'Oeste",
-    "codigo": "4111209"
+    "codigo": "4111209",
+    "uf": "PR"
   },
   {
     "nome": "Itaúna do Sul",
-    "codigo": "4111308"
+    "codigo": "4111308",
+    "uf": "PR"
   },
   {
     "nome": "Ivaí",
-    "codigo": "4111407"
+    "codigo": "4111407",
+    "uf": "PR"
   },
   {
     "nome": "Ivaiporã",
-    "codigo": "4111506"
+    "codigo": "4111506",
+    "uf": "PR"
   },
   {
     "nome": "Ivatuba",
-    "codigo": "4111605"
+    "codigo": "4111605",
+    "uf": "PR"
   },
   {
     "nome": "Jaboti",
-    "codigo": "4111704"
+    "codigo": "4111704",
+    "uf": "PR"
   },
   {
     "nome": "Jacarezinho",
-    "codigo": "4111803"
+    "codigo": "4111803",
+    "uf": "PR"
   },
   {
     "nome": "Jaguapitã",
-    "codigo": "4111902"
+    "codigo": "4111902",
+    "uf": "PR"
   },
   {
     "nome": "Jaguariaíva",
-    "codigo": "4112009"
+    "codigo": "4112009",
+    "uf": "PR"
   },
   {
     "nome": "Jandaia do Sul",
-    "codigo": "4112108"
+    "codigo": "4112108",
+    "uf": "PR"
   },
   {
     "nome": "Janiópolis",
-    "codigo": "4112207"
+    "codigo": "4112207",
+    "uf": "PR"
   },
   {
     "nome": "Japira",
-    "codigo": "4112306"
+    "codigo": "4112306",
+    "uf": "PR"
   },
   {
     "nome": "Japurá",
-    "codigo": "4112405"
+    "codigo": "4112405",
+    "uf": "PR"
   },
   {
     "nome": "Jardim Alegre",
-    "codigo": "4112504"
+    "codigo": "4112504",
+    "uf": "PR"
   },
   {
     "nome": "Jardim Olinda",
-    "codigo": "4112603"
+    "codigo": "4112603",
+    "uf": "PR"
   },
   {
     "nome": "Jataizinho",
-    "codigo": "4112702"
+    "codigo": "4112702",
+    "uf": "PR"
   },
   {
     "nome": "Joaquim Távora",
-    "codigo": "4112801"
+    "codigo": "4112801",
+    "uf": "PR"
   },
   {
     "nome": "Jundiaí do Sul",
-    "codigo": "4112900"
+    "codigo": "4112900",
+    "uf": "PR"
   },
   {
     "nome": "Jussara",
-    "codigo": "4113007"
+    "codigo": "4113007",
+    "uf": "PR"
   },
   {
     "nome": "Kaloré",
-    "codigo": "4113106"
+    "codigo": "4113106",
+    "uf": "PR"
   },
   {
     "nome": "Lapa",
-    "codigo": "4113205"
+    "codigo": "4113205",
+    "uf": "PR"
   },
   {
     "nome": "Laranjeiras do Sul",
-    "codigo": "4113304"
+    "codigo": "4113304",
+    "uf": "PR"
   },
   {
     "nome": "Leópolis",
-    "codigo": "4113403"
+    "codigo": "4113403",
+    "uf": "PR"
   },
   {
     "nome": "Loanda",
-    "codigo": "4113502"
+    "codigo": "4113502",
+    "uf": "PR"
   },
   {
     "nome": "Lobato",
-    "codigo": "4113601"
+    "codigo": "4113601",
+    "uf": "PR"
   },
   {
     "nome": "Londrina",
-    "codigo": "4113700"
+    "codigo": "4113700",
+    "uf": "PR"
   },
   {
     "nome": "Lupionópolis",
-    "codigo": "4113809"
+    "codigo": "4113809",
+    "uf": "PR"
   },
   {
     "nome": "Mallet",
-    "codigo": "4113908"
+    "codigo": "4113908",
+    "uf": "PR"
   },
   {
     "nome": "Mamborê",
-    "codigo": "4114005"
+    "codigo": "4114005",
+    "uf": "PR"
   },
   {
     "nome": "Mandaguaçu",
-    "codigo": "4114104"
+    "codigo": "4114104",
+    "uf": "PR"
   },
   {
     "nome": "Mandaguari",
-    "codigo": "4114203"
+    "codigo": "4114203",
+    "uf": "PR"
   },
   {
     "nome": "Mandirituba",
-    "codigo": "4114302"
+    "codigo": "4114302",
+    "uf": "PR"
   },
   {
     "nome": "Manoel Ribas",
-    "codigo": "4114500"
+    "codigo": "4114500",
+    "uf": "PR"
   },
   {
     "nome": "Marechal Cândido Rondon",
-    "codigo": "4114609"
+    "codigo": "4114609",
+    "uf": "PR"
   },
   {
     "nome": "Maria Helena",
-    "codigo": "4114708"
+    "codigo": "4114708",
+    "uf": "PR"
   },
   {
     "nome": "Marialva",
-    "codigo": "4114807"
+    "codigo": "4114807",
+    "uf": "PR"
   },
   {
     "nome": "Mariluz",
-    "codigo": "4115101"
+    "codigo": "4115101",
+    "uf": "PR"
   },
   {
     "nome": "Maringá",
-    "codigo": "4115200"
+    "codigo": "4115200",
+    "uf": "PR"
   },
   {
     "nome": "Mariópolis",
-    "codigo": "4115309"
+    "codigo": "4115309",
+    "uf": "PR"
   },
   {
     "nome": "Marmeleiro",
-    "codigo": "4115408"
+    "codigo": "4115408",
+    "uf": "PR"
   },
   {
     "nome": "Marumbi",
-    "codigo": "4115507"
+    "codigo": "4115507",
+    "uf": "PR"
   },
   {
     "nome": "Matelândia",
-    "codigo": "4115606"
+    "codigo": "4115606",
+    "uf": "PR"
   },
   {
     "nome": "Medianeira",
-    "codigo": "4115804"
+    "codigo": "4115804",
+    "uf": "PR"
   },
   {
     "nome": "Mirador",
-    "codigo": "4115903"
+    "codigo": "4115903",
+    "uf": "PR"
   },
   {
     "nome": "Miraselva",
-    "codigo": "4116000"
+    "codigo": "4116000",
+    "uf": "PR"
   },
   {
     "nome": "Moreira Sales",
-    "codigo": "4116109"
+    "codigo": "4116109",
+    "uf": "PR"
   },
   {
     "nome": "Morretes",
-    "codigo": "4116208"
+    "codigo": "4116208",
+    "uf": "PR"
   },
   {
     "nome": "Munhoz de Melo",
-    "codigo": "4116307"
+    "codigo": "4116307",
+    "uf": "PR"
   },
   {
     "nome": "Nossa Senhora das Graças",
-    "codigo": "4116406"
+    "codigo": "4116406",
+    "uf": "PR"
   },
   {
     "nome": "Nova Aliança do Ivaí",
-    "codigo": "4116505"
+    "codigo": "4116505",
+    "uf": "PR"
   },
   {
     "nome": "Nova América da Colina",
-    "codigo": "4116604"
+    "codigo": "4116604",
+    "uf": "PR"
   },
   {
     "nome": "Nova Cantu",
-    "codigo": "4116802"
+    "codigo": "4116802",
+    "uf": "PR"
   },
   {
     "nome": "Nova Esperança",
-    "codigo": "4116901"
+    "codigo": "4116901",
+    "uf": "PR"
   },
   {
     "nome": "Nova Fátima",
-    "codigo": "4117008"
+    "codigo": "4117008",
+    "uf": "PR"
   },
   {
     "nome": "Nova Londrina",
-    "codigo": "4117107"
+    "codigo": "4117107",
+    "uf": "PR"
   },
   {
     "nome": "Ortigueira",
-    "codigo": "4117305"
+    "codigo": "4117305",
+    "uf": "PR"
   },
   {
     "nome": "Ourizona",
-    "codigo": "4117404"
+    "codigo": "4117404",
+    "uf": "PR"
   },
   {
     "nome": "Paiçandu",
-    "codigo": "4117503"
+    "codigo": "4117503",
+    "uf": "PR"
   },
   {
     "nome": "Palmas",
-    "codigo": "4117602"
+    "codigo": "4117602",
+    "uf": "PR"
   },
   {
     "nome": "Palmeira",
-    "codigo": "4117701"
+    "codigo": "4117701",
+    "uf": "PR"
   },
   {
     "nome": "Palmital",
-    "codigo": "4117800"
+    "codigo": "4117800",
+    "uf": "PR"
   },
   {
     "nome": "Palotina",
-    "codigo": "4117909"
+    "codigo": "4117909",
+    "uf": "PR"
   },
   {
     "nome": "Paraíso do Norte",
-    "codigo": "4118006"
+    "codigo": "4118006",
+    "uf": "PR"
   },
   {
     "nome": "Paranacity",
-    "codigo": "4118105"
+    "codigo": "4118105",
+    "uf": "PR"
   },
   {
     "nome": "Paranaguá",
-    "codigo": "4118204"
+    "codigo": "4118204",
+    "uf": "PR"
   },
   {
     "nome": "Paranapoema",
-    "codigo": "4118303"
+    "codigo": "4118303",
+    "uf": "PR"
   },
   {
     "nome": "Paranavaí",
-    "codigo": "4118402"
+    "codigo": "4118402",
+    "uf": "PR"
   },
   {
     "nome": "Pato Branco",
-    "codigo": "4118501"
+    "codigo": "4118501",
+    "uf": "PR"
   },
   {
     "nome": "Paula Freitas",
-    "codigo": "4118600"
+    "codigo": "4118600",
+    "uf": "PR"
   },
   {
     "nome": "Paulo Frontin",
-    "codigo": "4118709"
+    "codigo": "4118709",
+    "uf": "PR"
   },
   {
     "nome": "Peabiru",
-    "codigo": "4118808"
+    "codigo": "4118808",
+    "uf": "PR"
   },
   {
     "nome": "Pérola d'Oeste",
-    "codigo": "4119004"
+    "codigo": "4119004",
+    "uf": "PR"
   },
   {
     "nome": "Piên",
-    "codigo": "4119103"
+    "codigo": "4119103",
+    "uf": "PR"
   },
   {
     "nome": "Pinhalão",
-    "codigo": "4119202"
+    "codigo": "4119202",
+    "uf": "PR"
   },
   {
     "nome": "Pinhão",
-    "codigo": "4119301"
+    "codigo": "4119301",
+    "uf": "PR"
   },
   {
     "nome": "Piraí do Sul",
-    "codigo": "4119400"
+    "codigo": "4119400",
+    "uf": "PR"
   },
   {
     "nome": "Piraquara",
-    "codigo": "4119509"
+    "codigo": "4119509",
+    "uf": "PR"
   },
   {
     "nome": "Pitanga",
-    "codigo": "4119608"
+    "codigo": "4119608",
+    "uf": "PR"
   },
   {
     "nome": "Planaltina do Paraná",
-    "codigo": "4119707"
+    "codigo": "4119707",
+    "uf": "PR"
   },
   {
     "nome": "Planalto",
-    "codigo": "4119806"
+    "codigo": "4119806",
+    "uf": "PR"
   },
   {
     "nome": "Ponta Grossa",
-    "codigo": "4119905"
+    "codigo": "4119905",
+    "uf": "PR"
   },
   {
     "nome": "Porecatu",
-    "codigo": "4120002"
+    "codigo": "4120002",
+    "uf": "PR"
   },
   {
     "nome": "Porto Amazonas",
-    "codigo": "4120101"
+    "codigo": "4120101",
+    "uf": "PR"
   },
   {
     "nome": "Porto Rico",
-    "codigo": "4120200"
+    "codigo": "4120200",
+    "uf": "PR"
   },
   {
     "nome": "Porto Vitória",
-    "codigo": "4120309"
+    "codigo": "4120309",
+    "uf": "PR"
   },
   {
     "nome": "Presidente Castelo Branco",
-    "codigo": "4120408"
+    "codigo": "4120408",
+    "uf": "PR"
   },
   {
     "nome": "Primeiro de Maio",
-    "codigo": "4120507"
+    "codigo": "4120507",
+    "uf": "PR"
   },
   {
     "nome": "Prudentópolis",
-    "codigo": "4120606"
+    "codigo": "4120606",
+    "uf": "PR"
   },
   {
     "nome": "Quatiguá",
-    "codigo": "4120705"
+    "codigo": "4120705",
+    "uf": "PR"
   },
   {
     "nome": "Quatro Barras",
-    "codigo": "4120804"
+    "codigo": "4120804",
+    "uf": "PR"
   },
   {
     "nome": "Querência do Norte",
-    "codigo": "4121000"
+    "codigo": "4121000",
+    "uf": "PR"
   },
   {
     "nome": "Quinta do Sol",
-    "codigo": "4121109"
+    "codigo": "4121109",
+    "uf": "PR"
   },
   {
     "nome": "Quitandinha",
-    "codigo": "4121208"
+    "codigo": "4121208",
+    "uf": "PR"
   },
   {
     "nome": "Rancho Alegre",
-    "codigo": "4121307"
+    "codigo": "4121307",
+    "uf": "PR"
   },
   {
     "nome": "Realeza",
-    "codigo": "4121406"
+    "codigo": "4121406",
+    "uf": "PR"
   },
   {
     "nome": "Rebouças",
-    "codigo": "4121505"
+    "codigo": "4121505",
+    "uf": "PR"
   },
   {
     "nome": "Renascença",
-    "codigo": "4121604"
+    "codigo": "4121604",
+    "uf": "PR"
   },
   {
     "nome": "Reserva",
-    "codigo": "4121703"
+    "codigo": "4121703",
+    "uf": "PR"
   },
   {
     "nome": "Ribeirão Claro",
-    "codigo": "4121802"
+    "codigo": "4121802",
+    "uf": "PR"
   },
   {
     "nome": "Ribeirão do Pinhal",
-    "codigo": "4121901"
+    "codigo": "4121901",
+    "uf": "PR"
   },
   {
     "nome": "Rio Azul",
-    "codigo": "4122008"
+    "codigo": "4122008",
+    "uf": "PR"
   },
   {
     "nome": "Rio Bom",
-    "codigo": "4122107"
+    "codigo": "4122107",
+    "uf": "PR"
   },
   {
     "nome": "Rio Branco do Sul",
-    "codigo": "4122206"
+    "codigo": "4122206",
+    "uf": "PR"
   },
   {
     "nome": "Rio Negro",
-    "codigo": "4122305"
+    "codigo": "4122305",
+    "uf": "PR"
   },
   {
     "nome": "Rolândia",
-    "codigo": "4122404"
+    "codigo": "4122404",
+    "uf": "PR"
   },
   {
     "nome": "Roncador",
-    "codigo": "4122503"
+    "codigo": "4122503",
+    "uf": "PR"
   },
   {
     "nome": "Rondon",
-    "codigo": "4122602"
+    "codigo": "4122602",
+    "uf": "PR"
   },
   {
     "nome": "Sabáudia",
-    "codigo": "4122701"
+    "codigo": "4122701",
+    "uf": "PR"
   },
   {
     "nome": "Salgado Filho",
-    "codigo": "4122800"
+    "codigo": "4122800",
+    "uf": "PR"
   },
   {
     "nome": "Salto do Itararé",
-    "codigo": "4122909"
+    "codigo": "4122909",
+    "uf": "PR"
   },
   {
     "nome": "Salto do Lontra",
-    "codigo": "4123006"
+    "codigo": "4123006",
+    "uf": "PR"
   },
   {
     "nome": "Santa Amélia",
-    "codigo": "4123105"
+    "codigo": "4123105",
+    "uf": "PR"
   },
   {
     "nome": "Santa Cecília do Pavão",
-    "codigo": "4123204"
+    "codigo": "4123204",
+    "uf": "PR"
   },
   {
     "nome": "Santa Cruz de Monte Castelo",
-    "codigo": "4123303"
+    "codigo": "4123303",
+    "uf": "PR"
   },
   {
     "nome": "Santa Fé",
-    "codigo": "4123402"
+    "codigo": "4123402",
+    "uf": "PR"
   },
   {
     "nome": "Santa Inês",
-    "codigo": "4123600"
+    "codigo": "4123600",
+    "uf": "PR"
   },
   {
     "nome": "Santa Isabel do Ivaí",
-    "codigo": "4123709"
+    "codigo": "4123709",
+    "uf": "PR"
   },
   {
     "nome": "Santa Izabel do Oeste",
-    "codigo": "4123808"
+    "codigo": "4123808",
+    "uf": "PR"
   },
   {
     "nome": "Santa Mariana",
-    "codigo": "4123907"
+    "codigo": "4123907",
+    "uf": "PR"
   },
   {
     "nome": "Santana do Itararé",
-    "codigo": "4124004"
+    "codigo": "4124004",
+    "uf": "PR"
   },
   {
     "nome": "Santo Antônio do Sudoeste",
-    "codigo": "4124400"
+    "codigo": "4124400",
+    "uf": "PR"
   },
   {
     "nome": "Santo Antônio da Platina",
-    "codigo": "4124103"
+    "codigo": "4124103",
+    "uf": "PR"
   },
   {
     "nome": "Santo Antônio do Caiuá",
-    "codigo": "4124202"
+    "codigo": "4124202",
+    "uf": "PR"
   },
   {
     "nome": "Santo Antônio do Paraíso",
-    "codigo": "4124301"
+    "codigo": "4124301",
+    "uf": "PR"
   },
   {
     "nome": "Santo Inácio",
-    "codigo": "4124509"
+    "codigo": "4124509",
+    "uf": "PR"
   },
   {
     "nome": "São Carlos do Ivaí",
-    "codigo": "4124608"
+    "codigo": "4124608",
+    "uf": "PR"
   },
   {
     "nome": "São Jerônimo da Serra",
-    "codigo": "4124707"
+    "codigo": "4124707",
+    "uf": "PR"
   },
   {
     "nome": "São João",
-    "codigo": "4124806"
+    "codigo": "4124806",
+    "uf": "PR"
   },
   {
     "nome": "São João do Caiuá",
-    "codigo": "4124905"
+    "codigo": "4124905",
+    "uf": "PR"
   },
   {
     "nome": "São João do Ivaí",
-    "codigo": "4125001"
+    "codigo": "4125001",
+    "uf": "PR"
   },
   {
     "nome": "São João do Triunfo",
-    "codigo": "4125100"
+    "codigo": "4125100",
+    "uf": "PR"
   },
   {
     "nome": "São Jorge do Ivaí",
-    "codigo": "4125308"
+    "codigo": "4125308",
+    "uf": "PR"
   },
   {
     "nome": "São Jorge d'Oeste",
-    "codigo": "4125209"
+    "codigo": "4125209",
+    "uf": "PR"
   },
   {
     "nome": "São José da Boa Vista",
-    "codigo": "4125407"
+    "codigo": "4125407",
+    "uf": "PR"
   },
   {
     "nome": "São José dos Pinhais",
-    "codigo": "4125506"
+    "codigo": "4125506",
+    "uf": "PR"
   },
   {
     "nome": "São Mateus do Sul",
-    "codigo": "4125605"
+    "codigo": "4125605",
+    "uf": "PR"
   },
   {
     "nome": "São Miguel do Iguaçu",
-    "codigo": "4125704"
+    "codigo": "4125704",
+    "uf": "PR"
   },
   {
     "nome": "São Pedro do Ivaí",
-    "codigo": "4125803"
+    "codigo": "4125803",
+    "uf": "PR"
   },
   {
     "nome": "São Pedro do Paraná",
-    "codigo": "4125902"
+    "codigo": "4125902",
+    "uf": "PR"
   },
   {
     "nome": "São Sebastião da Amoreira",
-    "codigo": "4126009"
+    "codigo": "4126009",
+    "uf": "PR"
   },
   {
     "nome": "São Tomé",
-    "codigo": "4126108"
+    "codigo": "4126108",
+    "uf": "PR"
   },
   {
     "nome": "Sapopema",
-    "codigo": "4126207"
+    "codigo": "4126207",
+    "uf": "PR"
   },
   {
     "nome": "Sengés",
-    "codigo": "4126306"
+    "codigo": "4126306",
+    "uf": "PR"
   },
   {
     "nome": "Sertaneja",
-    "codigo": "4126405"
+    "codigo": "4126405",
+    "uf": "PR"
   },
   {
     "nome": "Sertanópolis",
-    "codigo": "4126504"
+    "codigo": "4126504",
+    "uf": "PR"
   },
   {
     "nome": "Siqueira Campos",
-    "codigo": "4126603"
+    "codigo": "4126603",
+    "uf": "PR"
   },
   {
     "nome": "Tamboara",
-    "codigo": "4126702"
+    "codigo": "4126702",
+    "uf": "PR"
   },
   {
     "nome": "Tapejara",
-    "codigo": "4126801"
+    "codigo": "4126801",
+    "uf": "PR"
   },
   {
     "nome": "Teixeira Soares",
-    "codigo": "4127007"
+    "codigo": "4127007",
+    "uf": "PR"
   },
   {
     "nome": "Telêmaco Borba",
-    "codigo": "4127106"
+    "codigo": "4127106",
+    "uf": "PR"
   },
   {
     "nome": "Terra Boa",
-    "codigo": "4127205"
+    "codigo": "4127205",
+    "uf": "PR"
   },
   {
     "nome": "Terra Rica",
-    "codigo": "4127304"
+    "codigo": "4127304",
+    "uf": "PR"
   },
   {
     "nome": "Terra Roxa",
-    "codigo": "4127403"
+    "codigo": "4127403",
+    "uf": "PR"
   },
   {
     "nome": "Tibagi",
-    "codigo": "4127502"
+    "codigo": "4127502",
+    "uf": "PR"
   },
   {
     "nome": "Tijucas do Sul",
-    "codigo": "4127601"
+    "codigo": "4127601",
+    "uf": "PR"
   },
   {
     "nome": "Toledo",
-    "codigo": "4127700"
+    "codigo": "4127700",
+    "uf": "PR"
   },
   {
     "nome": "Tomazina",
-    "codigo": "4127809"
+    "codigo": "4127809",
+    "uf": "PR"
   },
   {
     "nome": "Tuneiras do Oeste",
-    "codigo": "4127908"
+    "codigo": "4127908",
+    "uf": "PR"
   },
   {
     "nome": "Ubiratã",
-    "codigo": "4128005"
+    "codigo": "4128005",
+    "uf": "PR"
   },
   {
     "nome": "Umuarama",
-    "codigo": "4128104"
+    "codigo": "4128104",
+    "uf": "PR"
   },
   {
     "nome": "União da Vitória",
-    "codigo": "4128203"
+    "codigo": "4128203",
+    "uf": "PR"
   },
   {
     "nome": "Uniflor",
-    "codigo": "4128302"
+    "codigo": "4128302",
+    "uf": "PR"
   },
   {
     "nome": "Uraí",
-    "codigo": "4128401"
+    "codigo": "4128401",
+    "uf": "PR"
   },
   {
     "nome": "Wenceslau Braz",
-    "codigo": "4128500"
+    "codigo": "4128500",
+    "uf": "PR"
   },
   {
     "nome": "Verê",
-    "codigo": "4128609"
+    "codigo": "4128609",
+    "uf": "PR"
   },
   {
     "nome": "Vitorino",
-    "codigo": "4128708"
+    "codigo": "4128708",
+    "uf": "PR"
   },
   {
     "nome": "Xambrê",
-    "codigo": "4128807"
+    "codigo": "4128807",
+    "uf": "PR"
   },
   {
     "nome": "Altônia",
-    "codigo": "4100509"
+    "codigo": "4100509",
+    "uf": "PR"
   },
   {
     "nome": "Assis Chateaubriand",
-    "codigo": "4102000"
+    "codigo": "4102000",
+    "uf": "PR"
   },
   {
     "nome": "Quedas do Iguaçu",
-    "codigo": "4120903"
+    "codigo": "4120903",
+    "uf": "PR"
   },
   {
     "nome": "Céu Azul",
-    "codigo": "4105300"
+    "codigo": "4105300",
+    "uf": "PR"
   },
   {
     "nome": "Grandes Rios",
-    "codigo": "4108700"
+    "codigo": "4108700",
+    "uf": "PR"
   },
   {
     "nome": "Indianópolis",
-    "codigo": "4110409"
+    "codigo": "4110409",
+    "uf": "PR"
   },
   {
     "nome": "Matinhos",
-    "codigo": "4115705"
+    "codigo": "4115705",
+    "uf": "PR"
   },
   {
     "nome": "Nova Aurora",
-    "codigo": "4116703"
+    "codigo": "4116703",
+    "uf": "PR"
   },
   {
     "nome": "Nova Olímpia",
-    "codigo": "4117206"
+    "codigo": "4117206",
+    "uf": "PR"
   },
   {
     "nome": "Pérola",
-    "codigo": "4118907"
+    "codigo": "4118907",
+    "uf": "PR"
   },
   {
     "nome": "Santa Helena",
-    "codigo": "4123501"
+    "codigo": "4123501",
+    "uf": "PR"
   },
   {
     "nome": "Tapira",
-    "codigo": "4126900"
+    "codigo": "4126900",
+    "uf": "PR"
   },
   {
     "nome": "Marilena",
-    "codigo": "4115002"
+    "codigo": "4115002",
+    "uf": "PR"
   },
   {
     "nome": "Francisco Alves",
-    "codigo": "4108320"
+    "codigo": "4108320",
+    "uf": "PR"
   },
   {
     "nome": "Nova Santa Rosa",
-    "codigo": "4117222"
+    "codigo": "4117222",
+    "uf": "PR"
   },
   {
     "nome": "Boa Vista da Aparecida",
-    "codigo": "4103057"
+    "codigo": "4103057",
+    "uf": "PR"
   },
   {
     "nome": "Braganey",
-    "codigo": "4103354"
+    "codigo": "4103354",
+    "uf": "PR"
   },
   {
     "nome": "Cafelândia",
-    "codigo": "4103453"
+    "codigo": "4103453",
+    "uf": "PR"
   },
   {
     "nome": "Três Barras do Paraná",
-    "codigo": "4127858"
+    "codigo": "4127858",
+    "uf": "PR"
   },
   {
     "nome": "Vera Cruz do Oeste",
-    "codigo": "4128559"
+    "codigo": "4128559",
+    "uf": "PR"
   },
   {
     "nome": "Pranchita",
-    "codigo": "4120358"
+    "codigo": "4120358",
+    "uf": "PR"
   },
   {
     "nome": "Tupãssi",
-    "codigo": "4127957"
+    "codigo": "4127957",
+    "uf": "PR"
   },
   {
     "nome": "Nova Prata do Iguaçu",
-    "codigo": "4117255"
+    "codigo": "4117255",
+    "uf": "PR"
   },
   {
     "nome": "Jesuítas",
-    "codigo": "4112751"
+    "codigo": "4112751",
+    "uf": "PR"
   },
   {
     "nome": "São Jorge do Patrocínio",
-    "codigo": "4125357"
+    "codigo": "4125357",
+    "uf": "PR"
   },
   {
     "nome": "Abelardo Luz",
-    "codigo": "4200101"
+    "codigo": "4200101",
+    "uf": "SC"
   },
   {
     "nome": "Agrolândia",
-    "codigo": "4200200"
+    "codigo": "4200200",
+    "uf": "SC"
   },
   {
     "nome": "Agronômica",
-    "codigo": "4200309"
+    "codigo": "4200309",
+    "uf": "SC"
   },
   {
     "nome": "Água Doce",
-    "codigo": "4200408"
+    "codigo": "4200408",
+    "uf": "SC"
   },
   {
     "nome": "Águas de Chapecó",
-    "codigo": "4200507"
+    "codigo": "4200507",
+    "uf": "SC"
   },
   {
     "nome": "Águas Mornas",
-    "codigo": "4200606"
+    "codigo": "4200606",
+    "uf": "SC"
   },
   {
     "nome": "Alfredo Wagner",
-    "codigo": "4200705"
+    "codigo": "4200705",
+    "uf": "SC"
   },
   {
     "nome": "Anchieta",
-    "codigo": "4200804"
+    "codigo": "4200804",
+    "uf": "SC"
   },
   {
     "nome": "Angelina",
-    "codigo": "4200903"
+    "codigo": "4200903",
+    "uf": "SC"
   },
   {
     "nome": "Anita Garibaldi",
-    "codigo": "4201000"
+    "codigo": "4201000",
+    "uf": "SC"
   },
   {
     "nome": "Anitápolis",
-    "codigo": "4201109"
+    "codigo": "4201109",
+    "uf": "SC"
   },
   {
     "nome": "Antônio Carlos",
-    "codigo": "4201208"
+    "codigo": "4201208",
+    "uf": "SC"
   },
   {
     "nome": "Araquari",
-    "codigo": "4201307"
+    "codigo": "4201307",
+    "uf": "SC"
   },
   {
     "nome": "Araranguá",
-    "codigo": "4201406"
+    "codigo": "4201406",
+    "uf": "SC"
   },
   {
     "nome": "Armazém",
-    "codigo": "4201505"
+    "codigo": "4201505",
+    "uf": "SC"
   },
   {
     "nome": "Arroio Trinta",
-    "codigo": "4201604"
+    "codigo": "4201604",
+    "uf": "SC"
   },
   {
     "nome": "Ascurra",
-    "codigo": "4201703"
+    "codigo": "4201703",
+    "uf": "SC"
   },
   {
     "nome": "Atalanta",
-    "codigo": "4201802"
+    "codigo": "4201802",
+    "uf": "SC"
   },
   {
     "nome": "Aurora",
-    "codigo": "4201901"
+    "codigo": "4201901",
+    "uf": "SC"
   },
   {
     "nome": "Balneário Camboriú",
-    "codigo": "4202008"
+    "codigo": "4202008",
+    "uf": "SC"
   },
   {
     "nome": "Barra Velha",
-    "codigo": "4202107"
+    "codigo": "4202107",
+    "uf": "SC"
   },
   {
     "nome": "Benedito Novo",
-    "codigo": "4202206"
+    "codigo": "4202206",
+    "uf": "SC"
   },
   {
     "nome": "Biguaçu",
-    "codigo": "4202305"
+    "codigo": "4202305",
+    "uf": "SC"
   },
   {
     "nome": "Blumenau",
-    "codigo": "4202404"
+    "codigo": "4202404",
+    "uf": "SC"
   },
   {
     "nome": "Bom Retiro",
-    "codigo": "4202602"
+    "codigo": "4202602",
+    "uf": "SC"
   },
   {
     "nome": "Botuverá",
-    "codigo": "4202701"
+    "codigo": "4202701",
+    "uf": "SC"
   },
   {
     "nome": "Braço do Norte",
-    "codigo": "4202800"
+    "codigo": "4202800",
+    "uf": "SC"
   },
   {
     "nome": "Brusque",
-    "codigo": "4202909"
+    "codigo": "4202909",
+    "uf": "SC"
   },
   {
     "nome": "Caçador",
-    "codigo": "4203006"
+    "codigo": "4203006",
+    "uf": "SC"
   },
   {
     "nome": "Caibi",
-    "codigo": "4203105"
+    "codigo": "4203105",
+    "uf": "SC"
   },
   {
     "nome": "Camboriú",
-    "codigo": "4203204"
+    "codigo": "4203204",
+    "uf": "SC"
   },
   {
     "nome": "Campo Alegre",
-    "codigo": "4203303"
+    "codigo": "4203303",
+    "uf": "SC"
   },
   {
     "nome": "Campo Belo do Sul",
-    "codigo": "4203402"
+    "codigo": "4203402",
+    "uf": "SC"
   },
   {
     "nome": "Campo Erê",
-    "codigo": "4203501"
+    "codigo": "4203501",
+    "uf": "SC"
   },
   {
     "nome": "Campos Novos",
-    "codigo": "4203600"
+    "codigo": "4203600",
+    "uf": "SC"
   },
   {
     "nome": "Canelinha",
-    "codigo": "4203709"
+    "codigo": "4203709",
+    "uf": "SC"
   },
   {
     "nome": "Canoinhas",
-    "codigo": "4203808"
+    "codigo": "4203808",
+    "uf": "SC"
   },
   {
     "nome": "Capinzal",
-    "codigo": "4203907"
+    "codigo": "4203907",
+    "uf": "SC"
   },
   {
     "nome": "Catanduvas",
-    "codigo": "4204004"
+    "codigo": "4204004",
+    "uf": "SC"
   },
   {
     "nome": "Caxambu do Sul",
-    "codigo": "4204103"
+    "codigo": "4204103",
+    "uf": "SC"
   },
   {
     "nome": "Chapecó",
-    "codigo": "4204202"
+    "codigo": "4204202",
+    "uf": "SC"
   },
   {
     "nome": "Concórdia",
-    "codigo": "4204301"
+    "codigo": "4204301",
+    "uf": "SC"
   },
   {
     "nome": "Coronel Freitas",
-    "codigo": "4204400"
+    "codigo": "4204400",
+    "uf": "SC"
   },
   {
     "nome": "Corupá",
-    "codigo": "4204509"
+    "codigo": "4204509",
+    "uf": "SC"
   },
   {
     "nome": "Criciúma",
-    "codigo": "4204608"
+    "codigo": "4204608",
+    "uf": "SC"
   },
   {
     "nome": "Cunha Porã",
-    "codigo": "4204707"
+    "codigo": "4204707",
+    "uf": "SC"
   },
   {
     "nome": "Curitibanos",
-    "codigo": "4204806"
+    "codigo": "4204806",
+    "uf": "SC"
   },
   {
     "nome": "Descanso",
-    "codigo": "4204905"
+    "codigo": "4204905",
+    "uf": "SC"
   },
   {
     "nome": "Dionísio Cerqueira",
-    "codigo": "4205001"
+    "codigo": "4205001",
+    "uf": "SC"
   },
   {
     "nome": "Dona Emma",
-    "codigo": "4205100"
+    "codigo": "4205100",
+    "uf": "SC"
   },
   {
     "nome": "Erval Velho",
-    "codigo": "4205209"
+    "codigo": "4205209",
+    "uf": "SC"
   },
   {
     "nome": "Faxinal dos Guedes",
-    "codigo": "4205308"
+    "codigo": "4205308",
+    "uf": "SC"
   },
   {
     "nome": "Florianópolis",
-    "codigo": "4205407"
+    "codigo": "4205407",
+    "uf": "SC"
   },
   {
     "nome": "Fraiburgo",
-    "codigo": "4205506"
+    "codigo": "4205506",
+    "uf": "SC"
   },
   {
     "nome": "Galvão",
-    "codigo": "4205605"
+    "codigo": "4205605",
+    "uf": "SC"
   },
   {
     "nome": "Governador Celso Ramos",
-    "codigo": "4206009"
+    "codigo": "4206009",
+    "uf": "SC"
   },
   {
     "nome": "Garopaba",
-    "codigo": "4205704"
+    "codigo": "4205704",
+    "uf": "SC"
   },
   {
     "nome": "Garuva",
-    "codigo": "4205803"
+    "codigo": "4205803",
+    "uf": "SC"
   },
   {
     "nome": "Gaspar",
-    "codigo": "4205902"
+    "codigo": "4205902",
+    "uf": "SC"
   },
   {
     "nome": "Grão-Pará",
-    "codigo": "4206108"
+    "codigo": "4206108",
+    "uf": "SC"
   },
   {
     "nome": "Gravatal",
-    "codigo": "4206207"
+    "codigo": "4206207",
+    "uf": "SC"
   },
   {
     "nome": "Guabiruba",
-    "codigo": "4206306"
+    "codigo": "4206306",
+    "uf": "SC"
   },
   {
     "nome": "Guaraciaba",
-    "codigo": "4206405"
+    "codigo": "4206405",
+    "uf": "SC"
   },
   {
     "nome": "Guaramirim",
-    "codigo": "4206504"
+    "codigo": "4206504",
+    "uf": "SC"
   },
   {
     "nome": "Guarujá do Sul",
-    "codigo": "4206603"
+    "codigo": "4206603",
+    "uf": "SC"
   },
   {
     "nome": "Herval d'Oeste",
-    "codigo": "4206702"
+    "codigo": "4206702",
+    "uf": "SC"
   },
   {
     "nome": "Ibicaré",
-    "codigo": "4206801"
+    "codigo": "4206801",
+    "uf": "SC"
   },
   {
     "nome": "Ibirama",
-    "codigo": "4206900"
+    "codigo": "4206900",
+    "uf": "SC"
   },
   {
     "nome": "Içara",
-    "codigo": "4207007"
+    "codigo": "4207007",
+    "uf": "SC"
   },
   {
     "nome": "Ilhota",
-    "codigo": "4207106"
+    "codigo": "4207106",
+    "uf": "SC"
   },
   {
     "nome": "Imaruí",
-    "codigo": "4207205"
+    "codigo": "4207205",
+    "uf": "SC"
   },
   {
     "nome": "Imbituba",
-    "codigo": "4207304"
+    "codigo": "4207304",
+    "uf": "SC"
   },
   {
     "nome": "Imbuia",
-    "codigo": "4207403"
+    "codigo": "4207403",
+    "uf": "SC"
   },
   {
     "nome": "Indaial",
-    "codigo": "4207502"
+    "codigo": "4207502",
+    "uf": "SC"
   },
   {
     "nome": "Ipira",
-    "codigo": "4207601"
+    "codigo": "4207601",
+    "uf": "SC"
   },
   {
     "nome": "Ipumirim",
-    "codigo": "4207700"
+    "codigo": "4207700",
+    "uf": "SC"
   },
   {
     "nome": "Irani",
-    "codigo": "4207809"
+    "codigo": "4207809",
+    "uf": "SC"
   },
   {
     "nome": "Irineópolis",
-    "codigo": "4207908"
+    "codigo": "4207908",
+    "uf": "SC"
   },
   {
     "nome": "Itá",
-    "codigo": "4208005"
+    "codigo": "4208005",
+    "uf": "SC"
   },
   {
     "nome": "Itaiópolis",
-    "codigo": "4208104"
+    "codigo": "4208104",
+    "uf": "SC"
   },
   {
     "nome": "Itajaí",
-    "codigo": "4208203"
+    "codigo": "4208203",
+    "uf": "SC"
   },
   {
     "nome": "Itapema",
-    "codigo": "4208302"
+    "codigo": "4208302",
+    "uf": "SC"
   },
   {
     "nome": "Itapiranga",
-    "codigo": "4208401"
+    "codigo": "4208401",
+    "uf": "SC"
   },
   {
     "nome": "Ituporanga",
-    "codigo": "4208500"
+    "codigo": "4208500",
+    "uf": "SC"
   },
   {
     "nome": "Jaborá",
-    "codigo": "4208609"
+    "codigo": "4208609",
+    "uf": "SC"
   },
   {
     "nome": "Jacinto Machado",
-    "codigo": "4208708"
+    "codigo": "4208708",
+    "uf": "SC"
   },
   {
     "nome": "Jaguaruna",
-    "codigo": "4208807"
+    "codigo": "4208807",
+    "uf": "SC"
   },
   {
     "nome": "Jaraguá do Sul",
-    "codigo": "4208906"
+    "codigo": "4208906",
+    "uf": "SC"
   },
   {
     "nome": "Joaçaba",
-    "codigo": "4209003"
+    "codigo": "4209003",
+    "uf": "SC"
   },
   {
     "nome": "Joinville",
-    "codigo": "4209102"
+    "codigo": "4209102",
+    "uf": "SC"
   },
   {
     "nome": "Lacerdópolis",
-    "codigo": "4209201"
+    "codigo": "4209201",
+    "uf": "SC"
   },
   {
     "nome": "Lages",
-    "codigo": "4209300"
+    "codigo": "4209300",
+    "uf": "SC"
   },
   {
     "nome": "Laguna",
-    "codigo": "4209409"
+    "codigo": "4209409",
+    "uf": "SC"
   },
   {
     "nome": "Laurentino",
-    "codigo": "4209508"
+    "codigo": "4209508",
+    "uf": "SC"
   },
   {
     "nome": "Lauro Müller",
-    "codigo": "4209607"
+    "codigo": "4209607",
+    "uf": "SC"
   },
   {
     "nome": "Lebon Régis",
-    "codigo": "4209706"
+    "codigo": "4209706",
+    "uf": "SC"
   },
   {
     "nome": "Leoberto Leal",
-    "codigo": "4209805"
+    "codigo": "4209805",
+    "uf": "SC"
   },
   {
     "nome": "Lontras",
-    "codigo": "4209904"
+    "codigo": "4209904",
+    "uf": "SC"
   },
   {
     "nome": "Luiz Alves",
-    "codigo": "4210001"
+    "codigo": "4210001",
+    "uf": "SC"
   },
   {
     "nome": "Mafra",
-    "codigo": "4210100"
+    "codigo": "4210100",
+    "uf": "SC"
   },
   {
     "nome": "Major Gercino",
-    "codigo": "4210209"
+    "codigo": "4210209",
+    "uf": "SC"
   },
   {
     "nome": "Major Vieira",
-    "codigo": "4210308"
+    "codigo": "4210308",
+    "uf": "SC"
   },
   {
     "nome": "Maravilha",
-    "codigo": "4210506"
+    "codigo": "4210506",
+    "uf": "SC"
   },
   {
     "nome": "Massaranduba",
-    "codigo": "4210605"
+    "codigo": "4210605",
+    "uf": "SC"
   },
   {
     "nome": "Matos Costa",
-    "codigo": "4210704"
+    "codigo": "4210704",
+    "uf": "SC"
   },
   {
     "nome": "Meleiro",
-    "codigo": "4210803"
+    "codigo": "4210803",
+    "uf": "SC"
   },
   {
     "nome": "Modelo",
-    "codigo": "4210902"
+    "codigo": "4210902",
+    "uf": "SC"
   },
   {
     "nome": "Mondaí",
-    "codigo": "4211009"
+    "codigo": "4211009",
+    "uf": "SC"
   },
   {
     "nome": "Monte Castelo",
-    "codigo": "4211108"
+    "codigo": "4211108",
+    "uf": "SC"
   },
   {
     "nome": "Morro da Fumaça",
-    "codigo": "4211207"
+    "codigo": "4211207",
+    "uf": "SC"
   },
   {
     "nome": "Navegantes",
-    "codigo": "4211306"
+    "codigo": "4211306",
+    "uf": "SC"
   },
   {
     "nome": "Nova Erechim",
-    "codigo": "4211405"
+    "codigo": "4211405",
+    "uf": "SC"
   },
   {
     "nome": "Nova Trento",
-    "codigo": "4211504"
+    "codigo": "4211504",
+    "uf": "SC"
   },
   {
     "nome": "Nova Veneza",
-    "codigo": "4211603"
+    "codigo": "4211603",
+    "uf": "SC"
   },
   {
     "nome": "Orleans",
-    "codigo": "4211702"
+    "codigo": "4211702",
+    "uf": "SC"
   },
   {
     "nome": "Ouro",
-    "codigo": "4211801"
+    "codigo": "4211801",
+    "uf": "SC"
   },
   {
     "nome": "Palhoça",
-    "codigo": "4211900"
+    "codigo": "4211900",
+    "uf": "SC"
   },
   {
     "nome": "Palma Sola",
-    "codigo": "4212007"
+    "codigo": "4212007",
+    "uf": "SC"
   },
   {
     "nome": "Palmitos",
-    "codigo": "4212106"
+    "codigo": "4212106",
+    "uf": "SC"
   },
   {
     "nome": "Papanduva",
-    "codigo": "4212205"
+    "codigo": "4212205",
+    "uf": "SC"
   },
   {
     "nome": "Paulo Lopes",
-    "codigo": "4212304"
+    "codigo": "4212304",
+    "uf": "SC"
   },
   {
     "nome": "Pedras Grandes",
-    "codigo": "4212403"
+    "codigo": "4212403",
+    "uf": "SC"
   },
   {
     "nome": "Penha",
-    "codigo": "4212502"
+    "codigo": "4212502",
+    "uf": "SC"
   },
   {
     "nome": "Peritiba",
-    "codigo": "4212601"
+    "codigo": "4212601",
+    "uf": "SC"
   },
   {
     "nome": "Petrolândia",
-    "codigo": "4212700"
+    "codigo": "4212700",
+    "uf": "SC"
   },
   {
     "nome": "Balneário Piçarras",
-    "codigo": "4212809"
+    "codigo": "4212809",
+    "uf": "SC"
   },
   {
     "nome": "Pinhalzinho",
-    "codigo": "4212908"
+    "codigo": "4212908",
+    "uf": "SC"
   },
   {
     "nome": "Pinheiro Preto",
-    "codigo": "4213005"
+    "codigo": "4213005",
+    "uf": "SC"
   },
   {
     "nome": "Piratuba",
-    "codigo": "4213104"
+    "codigo": "4213104",
+    "uf": "SC"
   },
   {
     "nome": "Pomerode",
-    "codigo": "4213203"
+    "codigo": "4213203",
+    "uf": "SC"
   },
   {
     "nome": "Ponte Alta",
-    "codigo": "4213302"
+    "codigo": "4213302",
+    "uf": "SC"
   },
   {
     "nome": "Ponte Serrada",
-    "codigo": "4213401"
+    "codigo": "4213401",
+    "uf": "SC"
   },
   {
     "nome": "Porto Belo",
-    "codigo": "4213500"
+    "codigo": "4213500",
+    "uf": "SC"
   },
   {
     "nome": "Porto União",
-    "codigo": "4213609"
+    "codigo": "4213609",
+    "uf": "SC"
   },
   {
     "nome": "Pouso Redondo",
-    "codigo": "4213708"
+    "codigo": "4213708",
+    "uf": "SC"
   },
   {
     "nome": "Praia Grande",
-    "codigo": "4213807"
+    "codigo": "4213807",
+    "uf": "SC"
   },
   {
     "nome": "Presidente Castello Branco",
-    "codigo": "4213906"
+    "codigo": "4213906",
+    "uf": "SC"
   },
   {
     "nome": "Presidente Getúlio",
-    "codigo": "4214003"
+    "codigo": "4214003",
+    "uf": "SC"
   },
   {
     "nome": "Presidente Nereu",
-    "codigo": "4214102"
+    "codigo": "4214102",
+    "uf": "SC"
   },
   {
     "nome": "Quilombo",
-    "codigo": "4214201"
+    "codigo": "4214201",
+    "uf": "SC"
   },
   {
     "nome": "Rancho Queimado",
-    "codigo": "4214300"
+    "codigo": "4214300",
+    "uf": "SC"
   },
   {
     "nome": "Rio das Antas",
-    "codigo": "4214409"
+    "codigo": "4214409",
+    "uf": "SC"
   },
   {
     "nome": "Rio do Campo",
-    "codigo": "4214508"
+    "codigo": "4214508",
+    "uf": "SC"
   },
   {
     "nome": "Rio do Oeste",
-    "codigo": "4214607"
+    "codigo": "4214607",
+    "uf": "SC"
   },
   {
     "nome": "Rio dos Cedros",
-    "codigo": "4214706"
+    "codigo": "4214706",
+    "uf": "SC"
   },
   {
     "nome": "Rio do Sul",
-    "codigo": "4214805"
+    "codigo": "4214805",
+    "uf": "SC"
   },
   {
     "nome": "Rio Fortuna",
-    "codigo": "4214904"
+    "codigo": "4214904",
+    "uf": "SC"
   },
   {
     "nome": "Rio Negrinho",
-    "codigo": "4215000"
+    "codigo": "4215000",
+    "uf": "SC"
   },
   {
     "nome": "Rodeio",
-    "codigo": "4215109"
+    "codigo": "4215109",
+    "uf": "SC"
   },
   {
     "nome": "Romelândia",
-    "codigo": "4215208"
+    "codigo": "4215208",
+    "uf": "SC"
   },
   {
     "nome": "Salete",
-    "codigo": "4215307"
+    "codigo": "4215307",
+    "uf": "SC"
   },
   {
     "nome": "Salto Veloso",
-    "codigo": "4215406"
+    "codigo": "4215406",
+    "uf": "SC"
   },
   {
     "nome": "Santa Cecília",
-    "codigo": "4215505"
+    "codigo": "4215505",
+    "uf": "SC"
   },
   {
     "nome": "Santa Rosa de Lima",
-    "codigo": "4215604"
+    "codigo": "4215604",
+    "uf": "SC"
   },
   {
     "nome": "Santo Amaro da Imperatriz",
-    "codigo": "4215703"
+    "codigo": "4215703",
+    "uf": "SC"
   },
   {
     "nome": "São Bento do Sul",
-    "codigo": "4215802"
+    "codigo": "4215802",
+    "uf": "SC"
   },
   {
     "nome": "São Bonifácio",
-    "codigo": "4215901"
+    "codigo": "4215901",
+    "uf": "SC"
   },
   {
     "nome": "São Carlos",
-    "codigo": "4216008"
+    "codigo": "4216008",
+    "uf": "SC"
   },
   {
     "nome": "São Domingos",
-    "codigo": "4216107"
+    "codigo": "4216107",
+    "uf": "SC"
   },
   {
     "nome": "São Francisco do Sul",
-    "codigo": "4216206"
+    "codigo": "4216206",
+    "uf": "SC"
   },
   {
     "nome": "São João Batista",
-    "codigo": "4216305"
+    "codigo": "4216305",
+    "uf": "SC"
   },
   {
     "nome": "São João do Sul",
-    "codigo": "4216404"
+    "codigo": "4216404",
+    "uf": "SC"
   },
   {
     "nome": "São Joaquim",
-    "codigo": "4216503"
+    "codigo": "4216503",
+    "uf": "SC"
   },
   {
     "nome": "São José",
-    "codigo": "4216602"
+    "codigo": "4216602",
+    "uf": "SC"
   },
   {
     "nome": "São José do Cedro",
-    "codigo": "4216701"
+    "codigo": "4216701",
+    "uf": "SC"
   },
   {
     "nome": "São José do Cerrito",
-    "codigo": "4216800"
+    "codigo": "4216800",
+    "uf": "SC"
   },
   {
     "nome": "São Lourenço do Oeste",
-    "codigo": "4216909"
+    "codigo": "4216909",
+    "uf": "SC"
   },
   {
     "nome": "São Ludgero",
-    "codigo": "4217006"
+    "codigo": "4217006",
+    "uf": "SC"
   },
   {
     "nome": "São Martinho",
-    "codigo": "4217105"
+    "codigo": "4217105",
+    "uf": "SC"
   },
   {
     "nome": "São Miguel do Oeste",
-    "codigo": "4217204"
+    "codigo": "4217204",
+    "uf": "SC"
   },
   {
     "nome": "Saudades",
-    "codigo": "4217303"
+    "codigo": "4217303",
+    "uf": "SC"
   },
   {
     "nome": "Schroeder",
-    "codigo": "4217402"
+    "codigo": "4217402",
+    "uf": "SC"
   },
   {
     "nome": "Seara",
-    "codigo": "4217501"
+    "codigo": "4217501",
+    "uf": "SC"
   },
   {
     "nome": "Siderópolis",
-    "codigo": "4217600"
+    "codigo": "4217600",
+    "uf": "SC"
   },
   {
     "nome": "Sombrio",
-    "codigo": "4217709"
+    "codigo": "4217709",
+    "uf": "SC"
   },
   {
     "nome": "Taió",
-    "codigo": "4217808"
+    "codigo": "4217808",
+    "uf": "SC"
   },
   {
     "nome": "Tangará",
-    "codigo": "4217907"
+    "codigo": "4217907",
+    "uf": "SC"
   },
   {
     "nome": "Tijucas",
-    "codigo": "4218004"
+    "codigo": "4218004",
+    "uf": "SC"
   },
   {
     "nome": "Timbó",
-    "codigo": "4218202"
+    "codigo": "4218202",
+    "uf": "SC"
   },
   {
     "nome": "Três Barras",
-    "codigo": "4218301"
+    "codigo": "4218301",
+    "uf": "SC"
   },
   {
     "nome": "Treze de Maio",
-    "codigo": "4218400"
+    "codigo": "4218400",
+    "uf": "SC"
   },
   {
     "nome": "Treze Tílias",
-    "codigo": "4218509"
+    "codigo": "4218509",
+    "uf": "SC"
   },
   {
     "nome": "Trombudo Central",
-    "codigo": "4218608"
+    "codigo": "4218608",
+    "uf": "SC"
   },
   {
     "nome": "Tubarão",
-    "codigo": "4218707"
+    "codigo": "4218707",
+    "uf": "SC"
   },
   {
     "nome": "Turvo",
-    "codigo": "4218806"
+    "codigo": "4218806",
+    "uf": "SC"
   },
   {
     "nome": "Urubici",
-    "codigo": "4218905"
+    "codigo": "4218905",
+    "uf": "SC"
   },
   {
     "nome": "Urussanga",
-    "codigo": "4219002"
+    "codigo": "4219002",
+    "uf": "SC"
   },
   {
     "nome": "Vargeão",
-    "codigo": "4219101"
+    "codigo": "4219101",
+    "uf": "SC"
   },
   {
     "nome": "Vidal Ramos",
-    "codigo": "4219200"
+    "codigo": "4219200",
+    "uf": "SC"
   },
   {
     "nome": "Videira",
-    "codigo": "4219309"
+    "codigo": "4219309",
+    "uf": "SC"
   },
   {
     "nome": "Witmarsum",
-    "codigo": "4219408"
+    "codigo": "4219408",
+    "uf": "SC"
   },
   {
     "nome": "Xanxerê",
-    "codigo": "4219507"
+    "codigo": "4219507",
+    "uf": "SC"
   },
   {
     "nome": "Xavantina",
-    "codigo": "4219606"
+    "codigo": "4219606",
+    "uf": "SC"
   },
   {
     "nome": "Xaxim",
-    "codigo": "4219705"
+    "codigo": "4219705",
+    "uf": "SC"
   },
   {
     "nome": "Bom Jardim da Serra",
-    "codigo": "4202503"
+    "codigo": "4202503",
+    "uf": "SC"
   },
   {
     "nome": "Maracajá",
-    "codigo": "4210407"
+    "codigo": "4210407",
+    "uf": "SC"
   },
   {
     "nome": "Timbé do Sul",
-    "codigo": "4218103"
+    "codigo": "4218103",
+    "uf": "SC"
   },
   {
     "nome": "Correia Pinto",
-    "codigo": "4204558"
+    "codigo": "4204558",
+    "uf": "SC"
   },
   {
     "nome": "Otacílio Costa",
-    "codigo": "4211751"
+    "codigo": "4211751",
+    "uf": "SC"
   },
   {
     "nome": "Ipê",
-    "codigo": "4310439"
+    "codigo": "4310439",
+    "uf": "RS"
   },
   {
     "nome": "Ibarama",
-    "codigo": "4309753"
+    "codigo": "4309753",
+    "uf": "RS"
   },
   {
     "nome": "Harmonia",
-    "codigo": "4309555"
+    "codigo": "4309555",
+    "uf": "RS"
   },
   {
     "nome": "Guabiju",
-    "codigo": "4309258"
+    "codigo": "4309258",
+    "uf": "RS"
   },
   {
     "nome": "Glorinha",
-    "codigo": "4309050"
+    "codigo": "4309050",
+    "uf": "RS"
   },
   {
     "nome": "Faxinalzinho",
-    "codigo": "4308052"
+    "codigo": "4308052",
+    "uf": "RS"
   },
   {
     "nome": "Fagundes Varela",
-    "codigo": "4307864"
+    "codigo": "4307864",
+    "uf": "RS"
   },
   {
     "nome": "Eugênio de Castro",
-    "codigo": "4307831"
+    "codigo": "4307831",
+    "uf": "RS"
   },
   {
     "nome": "Ernestina",
-    "codigo": "4307054"
+    "codigo": "4307054",
+    "uf": "RS"
   },
   {
     "nome": "Erebango",
-    "codigo": "4306973"
+    "codigo": "4306973",
+    "uf": "RS"
   },
   {
     "nome": "Entre-Ijuís",
-    "codigo": "4306932"
+    "codigo": "4306932",
+    "uf": "RS"
   },
   {
     "nome": "Entre Rios do Sul",
-    "codigo": "4306957"
+    "codigo": "4306957",
+    "uf": "RS"
   },
   {
     "nome": "Eldorado do Sul",
-    "codigo": "4306767"
+    "codigo": "4306767",
+    "uf": "RS"
   },
   {
     "nome": "Doutor Maurício Cardoso",
-    "codigo": "4306734"
+    "codigo": "4306734",
+    "uf": "RS"
   },
   {
     "nome": "Dois Lajeados",
-    "codigo": "4306452"
+    "codigo": "4306452",
+    "uf": "RS"
   },
   {
     "nome": "Dezesseis de Novembro",
-    "codigo": "4306353"
+    "codigo": "4306353",
+    "uf": "RS"
   },
   {
     "nome": "Cristal",
-    "codigo": "4306056"
+    "codigo": "4306056",
+    "uf": "RS"
   },
   {
     "nome": "Cidreira",
-    "codigo": "4305454"
+    "codigo": "4305454",
+    "uf": "RS"
   },
   {
     "nome": "Cerro Grande do Sul",
-    "codigo": "4305173"
+    "codigo": "4305173",
+    "uf": "RS"
   },
   {
     "nome": "Cerro Grande",
-    "codigo": "4305157"
+    "codigo": "4305157",
+    "uf": "RS"
   },
   {
     "nome": "Cerro Branco",
-    "codigo": "4305132"
+    "codigo": "4305132",
+    "uf": "RS"
   },
   {
     "nome": "Caseiros",
-    "codigo": "4304952"
+    "codigo": "4304952",
+    "uf": "RS"
   },
   {
     "nome": "Capela de Santana",
-    "codigo": "4304689"
+    "codigo": "4304689",
+    "uf": "RS"
   },
   {
     "nome": "Campos Borges",
-    "codigo": "4304101"
+    "codigo": "4304101",
+    "uf": "RS"
   },
   {
     "nome": "Camargo",
-    "codigo": "4303558"
+    "codigo": "4303558",
+    "uf": "RS"
   },
   {
     "nome": "Brochier",
-    "codigo": "4302659"
+    "codigo": "4302659",
+    "uf": "RS"
   },
   {
     "nome": "Cantagalo",
-    "codigo": "4104451"
+    "codigo": "4104451",
+    "uf": "PR"
   },
   {
     "nome": "Turvo",
-    "codigo": "4127965"
+    "codigo": "4127965",
+    "uf": "PR"
   },
   {
     "nome": "Altamira do Paraná",
-    "codigo": "4100459"
+    "codigo": "4100459",
+    "uf": "PR"
   },
   {
     "nome": "Figueira",
-    "codigo": "4107751"
+    "codigo": "4107751",
+    "uf": "PR"
   },
   {
     "nome": "Lunardelli",
-    "codigo": "4113759"
+    "codigo": "4113759",
+    "uf": "PR"
   },
   {
     "nome": "Sarandi",
-    "codigo": "4126256"
+    "codigo": "4126256",
+    "uf": "PR"
   },
   {
     "nome": "Juranda",
-    "codigo": "4112959"
+    "codigo": "4112959",
+    "uf": "PR"
   },
   {
     "nome": "Douradina",
-    "codigo": "4107256"
+    "codigo": "4107256",
+    "uf": "PR"
   },
   {
     "nome": "Santa Terezinha de Itaipu",
-    "codigo": "4124053"
+    "codigo": "4124053",
+    "uf": "PR"
   },
   {
     "nome": "Missal",
-    "codigo": "4116059"
+    "codigo": "4116059",
+    "uf": "PR"
   },
   {
     "nome": "São José das Palmeiras",
-    "codigo": "4125456"
+    "codigo": "4125456",
+    "uf": "PR"
   },
   {
     "nome": "Rosário do Ivaí",
-    "codigo": "4122651"
+    "codigo": "4122651",
+    "uf": "PR"
   },
   {
     "nome": "Campo Bonito",
-    "codigo": "4104055"
+    "codigo": "4104055",
+    "uf": "PR"
   },
   {
     "nome": "Sulina",
-    "codigo": "4126652"
+    "codigo": "4126652",
+    "uf": "PR"
   },
   {
     "nome": "Corumbataí do Sul",
-    "codigo": "4106555"
+    "codigo": "4106555",
+    "uf": "PR"
   },
   {
     "nome": "Luiziana",
-    "codigo": "4113734"
+    "codigo": "4113734",
+    "uf": "PR"
   },
   {
     "nome": "Boqueirão do Leão",
-    "codigo": "4302451"
+    "codigo": "4302451",
+    "uf": "RS"
   },
   {
     "nome": "Barão",
-    "codigo": "4301651"
+    "codigo": "4301651",
+    "uf": "RS"
   },
   {
     "nome": "Áurea",
-    "codigo": "4301552"
+    "codigo": "4301552",
+    "uf": "RS"
   },
   {
     "nome": "Arroio do Sal",
-    "codigo": "4301057"
+    "codigo": "4301057",
+    "uf": "RS"
   },
   {
     "nome": "André da Rocha",
-    "codigo": "4300661"
+    "codigo": "4300661",
+    "uf": "RS"
   },
   {
     "nome": "Amaral Ferrador",
-    "codigo": "4300638"
+    "codigo": "4300638",
+    "uf": "RS"
   },
   {
     "nome": "Alto Alegre",
-    "codigo": "4300554"
+    "codigo": "4300554",
+    "uf": "RS"
   },
   {
     "nome": "Alegria",
-    "codigo": "4300455"
+    "codigo": "4300455",
+    "uf": "RS"
   },
   {
     "nome": "Água Santa",
-    "codigo": "4300059"
+    "codigo": "4300059",
+    "uf": "RS"
   },
   {
     "nome": "Agudo",
-    "codigo": "4300109"
+    "codigo": "4300109",
+    "uf": "RS"
   },
   {
     "nome": "Ajuricaba",
-    "codigo": "4300208"
+    "codigo": "4300208",
+    "uf": "RS"
   },
   {
     "nome": "Alecrim",
-    "codigo": "4300307"
+    "codigo": "4300307",
+    "uf": "RS"
   },
   {
     "nome": "Alegrete",
-    "codigo": "4300406"
+    "codigo": "4300406",
+    "uf": "RS"
   },
   {
     "nome": "Alpestre",
-    "codigo": "4300505"
+    "codigo": "4300505",
+    "uf": "RS"
   },
   {
     "nome": "Alvorada",
-    "codigo": "4300604"
+    "codigo": "4300604",
+    "uf": "RS"
   },
   {
     "nome": "Anta Gorda",
-    "codigo": "4300703"
+    "codigo": "4300703",
+    "uf": "RS"
   },
   {
     "nome": "Antônio Prado",
-    "codigo": "4300802"
+    "codigo": "4300802",
+    "uf": "RS"
   },
   {
     "nome": "Aratiba",
-    "codigo": "4300901"
+    "codigo": "4300901",
+    "uf": "RS"
   },
   {
     "nome": "Arroio do Meio",
-    "codigo": "4301008"
+    "codigo": "4301008",
+    "uf": "RS"
   },
   {
     "nome": "Arroio dos Ratos",
-    "codigo": "4301107"
+    "codigo": "4301107",
+    "uf": "RS"
   },
   {
     "nome": "Arroio do Tigre",
-    "codigo": "4301206"
+    "codigo": "4301206",
+    "uf": "RS"
   },
   {
     "nome": "Arroio Grande",
-    "codigo": "4301305"
+    "codigo": "4301305",
+    "uf": "RS"
   },
   {
     "nome": "Arvorezinha",
-    "codigo": "4301404"
+    "codigo": "4301404",
+    "uf": "RS"
   },
   {
     "nome": "Augusto Pestana",
-    "codigo": "4301503"
+    "codigo": "4301503",
+    "uf": "RS"
   },
   {
     "nome": "Bagé",
-    "codigo": "4301602"
+    "codigo": "4301602",
+    "uf": "RS"
   },
   {
     "nome": "Barão de Cotegipe",
-    "codigo": "4301701"
+    "codigo": "4301701",
+    "uf": "RS"
   },
   {
     "nome": "Barracão",
-    "codigo": "4301800"
+    "codigo": "4301800",
+    "uf": "RS"
   },
   {
     "nome": "Barra do Ribeiro",
-    "codigo": "4301909"
+    "codigo": "4301909",
+    "uf": "RS"
   },
   {
     "nome": "Barros Cassal",
-    "codigo": "4302006"
+    "codigo": "4302006",
+    "uf": "RS"
   },
   {
     "nome": "Bento Gonçalves",
-    "codigo": "4302105"
+    "codigo": "4302105",
+    "uf": "RS"
   },
   {
     "nome": "Boa Vista do Buricá",
-    "codigo": "4302204"
+    "codigo": "4302204",
+    "uf": "RS"
   },
   {
     "nome": "Bom Jesus",
-    "codigo": "4302303"
+    "codigo": "4302303",
+    "uf": "RS"
   },
   {
     "nome": "Bom Retiro do Sul",
-    "codigo": "4302402"
+    "codigo": "4302402",
+    "uf": "RS"
   },
   {
     "nome": "Bossoroca",
-    "codigo": "4302501"
+    "codigo": "4302501",
+    "uf": "RS"
   },
   {
     "nome": "Braga",
-    "codigo": "4302600"
+    "codigo": "4302600",
+    "uf": "RS"
   },
   {
     "nome": "Butiá",
-    "codigo": "4302709"
+    "codigo": "4302709",
+    "uf": "RS"
   },
   {
     "nome": "Caçapava do Sul",
-    "codigo": "4302808"
+    "codigo": "4302808",
+    "uf": "RS"
   },
   {
     "nome": "Cacequi",
-    "codigo": "4302907"
+    "codigo": "4302907",
+    "uf": "RS"
   },
   {
     "nome": "Cachoeira do Sul",
-    "codigo": "4303004"
+    "codigo": "4303004",
+    "uf": "RS"
   },
   {
     "nome": "Cachoeirinha",
-    "codigo": "4303103"
+    "codigo": "4303103",
+    "uf": "RS"
   },
   {
     "nome": "Cacique Doble",
-    "codigo": "4303202"
+    "codigo": "4303202",
+    "uf": "RS"
   },
   {
     "nome": "Caibaté",
-    "codigo": "4303301"
+    "codigo": "4303301",
+    "uf": "RS"
   },
   {
     "nome": "Caiçara",
-    "codigo": "4303400"
+    "codigo": "4303400",
+    "uf": "RS"
   },
   {
     "nome": "Camaquã",
-    "codigo": "4303509"
+    "codigo": "4303509",
+    "uf": "RS"
   },
   {
     "nome": "Cambará do Sul",
-    "codigo": "4303608"
+    "codigo": "4303608",
+    "uf": "RS"
   },
   {
     "nome": "Campina das Missões",
-    "codigo": "4303707"
+    "codigo": "4303707",
+    "uf": "RS"
   },
   {
     "nome": "Campinas do Sul",
-    "codigo": "4303806"
+    "codigo": "4303806",
+    "uf": "RS"
   },
   {
     "nome": "Campo Bom",
-    "codigo": "4303905"
+    "codigo": "4303905",
+    "uf": "RS"
   },
   {
     "nome": "Campo Novo",
-    "codigo": "4304002"
+    "codigo": "4304002",
+    "uf": "RS"
   },
   {
     "nome": "Candelária",
-    "codigo": "4304200"
+    "codigo": "4304200",
+    "uf": "RS"
   },
   {
     "nome": "Cândido Godói",
-    "codigo": "4304309"
+    "codigo": "4304309",
+    "uf": "RS"
   },
   {
     "nome": "Canela",
-    "codigo": "4304408"
+    "codigo": "4304408",
+    "uf": "RS"
   },
   {
     "nome": "Canguçu",
-    "codigo": "4304507"
+    "codigo": "4304507",
+    "uf": "RS"
   },
   {
     "nome": "Canoas",
-    "codigo": "4304606"
+    "codigo": "4304606",
+    "uf": "RS"
   },
   {
     "nome": "Carazinho",
-    "codigo": "4304705"
+    "codigo": "4304705",
+    "uf": "RS"
   },
   {
     "nome": "Carlos Barbosa",
-    "codigo": "4304804"
+    "codigo": "4304804",
+    "uf": "RS"
   },
   {
     "nome": "Casca",
-    "codigo": "4304903"
+    "codigo": "4304903",
+    "uf": "RS"
   },
   {
     "nome": "Catuípe",
-    "codigo": "4305009"
+    "codigo": "4305009",
+    "uf": "RS"
   },
   {
     "nome": "Caxias do Sul",
-    "codigo": "4305108"
+    "codigo": "4305108",
+    "uf": "RS"
   },
   {
     "nome": "Cerro Largo",
-    "codigo": "4305207"
+    "codigo": "4305207",
+    "uf": "RS"
   },
   {
     "nome": "Chapada",
-    "codigo": "4305306"
+    "codigo": "4305306",
+    "uf": "RS"
   },
   {
     "nome": "Chiapetta",
-    "codigo": "4305405"
+    "codigo": "4305405",
+    "uf": "RS"
   },
   {
     "nome": "Ciríaco",
-    "codigo": "4305504"
+    "codigo": "4305504",
+    "uf": "RS"
   },
   {
     "nome": "Colorado",
-    "codigo": "4305603"
+    "codigo": "4305603",
+    "uf": "RS"
   },
   {
     "nome": "Condor",
-    "codigo": "4305702"
+    "codigo": "4305702",
+    "uf": "RS"
   },
   {
     "nome": "Constantina",
-    "codigo": "4305801"
+    "codigo": "4305801",
+    "uf": "RS"
   },
   {
     "nome": "Coronel Bicaco",
-    "codigo": "4305900"
+    "codigo": "4305900",
+    "uf": "RS"
   },
   {
     "nome": "Crissiumal",
-    "codigo": "4306007"
+    "codigo": "4306007",
+    "uf": "RS"
   },
   {
     "nome": "Cruz Alta",
-    "codigo": "4306106"
+    "codigo": "4306106",
+    "uf": "RS"
   },
   {
     "nome": "Cruzeiro do Sul",
-    "codigo": "4306205"
+    "codigo": "4306205",
+    "uf": "RS"
   },
   {
     "nome": "David Canabarro",
-    "codigo": "4306304"
+    "codigo": "4306304",
+    "uf": "RS"
   },
   {
     "nome": "Dois Irmãos",
-    "codigo": "4306403"
+    "codigo": "4306403",
+    "uf": "RS"
   },
   {
     "nome": "Dom Feliciano",
-    "codigo": "4306502"
+    "codigo": "4306502",
+    "uf": "RS"
   },
   {
     "nome": "Dom Pedrito",
-    "codigo": "4306601"
+    "codigo": "4306601",
+    "uf": "RS"
   },
   {
     "nome": "Dona Francisca",
-    "codigo": "4306700"
+    "codigo": "4306700",
+    "uf": "RS"
   },
   {
     "nome": "Encantado",
-    "codigo": "4306809"
+    "codigo": "4306809",
+    "uf": "RS"
   },
   {
     "nome": "Encruzilhada do Sul",
-    "codigo": "4306908"
+    "codigo": "4306908",
+    "uf": "RS"
   },
   {
     "nome": "Erechim",
-    "codigo": "4307005"
+    "codigo": "4307005",
+    "uf": "RS"
   },
   {
     "nome": "Herval",
-    "codigo": "4307104"
+    "codigo": "4307104",
+    "uf": "RS"
   },
   {
     "nome": "Erval Grande",
-    "codigo": "4307203"
+    "codigo": "4307203",
+    "uf": "RS"
   },
   {
     "nome": "Erval Seco",
-    "codigo": "4307302"
+    "codigo": "4307302",
+    "uf": "RS"
   },
   {
     "nome": "Esmeralda",
-    "codigo": "4307401"
+    "codigo": "4307401",
+    "uf": "RS"
   },
   {
     "nome": "Espumoso",
-    "codigo": "4307500"
+    "codigo": "4307500",
+    "uf": "RS"
   },
   {
     "nome": "Estância Velha",
-    "codigo": "4307609"
+    "codigo": "4307609",
+    "uf": "RS"
   },
   {
     "nome": "Esteio",
-    "codigo": "4307708"
+    "codigo": "4307708",
+    "uf": "RS"
   },
   {
     "nome": "Estrela",
-    "codigo": "4307807"
+    "codigo": "4307807",
+    "uf": "RS"
   },
   {
     "nome": "Farroupilha",
-    "codigo": "4307906"
+    "codigo": "4307906",
+    "uf": "RS"
   },
   {
     "nome": "Faxinal do Soturno",
-    "codigo": "4308003"
+    "codigo": "4308003",
+    "uf": "RS"
   },
   {
     "nome": "Feliz",
-    "codigo": "4308102"
+    "codigo": "4308102",
+    "uf": "RS"
   },
   {
     "nome": "Flores da Cunha",
-    "codigo": "4308201"
+    "codigo": "4308201",
+    "uf": "RS"
   },
   {
     "nome": "Fontoura Xavier",
-    "codigo": "4308300"
+    "codigo": "4308300",
+    "uf": "RS"
   },
   {
     "nome": "Formigueiro",
-    "codigo": "4308409"
+    "codigo": "4308409",
+    "uf": "RS"
   },
   {
     "nome": "Frederico Westphalen",
-    "codigo": "4308508"
+    "codigo": "4308508",
+    "uf": "RS"
   },
   {
     "nome": "Garibaldi",
-    "codigo": "4308607"
+    "codigo": "4308607",
+    "uf": "RS"
   },
   {
     "nome": "Gaurama",
-    "codigo": "4308706"
+    "codigo": "4308706",
+    "uf": "RS"
   },
   {
     "nome": "General Câmara",
-    "codigo": "4308805"
+    "codigo": "4308805",
+    "uf": "RS"
   },
   {
     "nome": "São Vicente do Sul",
-    "codigo": "4319802"
+    "codigo": "4319802",
+    "uf": "RS"
   },
   {
     "nome": "Getúlio Vargas",
-    "codigo": "4308904"
+    "codigo": "4308904",
+    "uf": "RS"
   },
   {
     "nome": "Flores de Goiás",
-    "codigo": "5207907"
+    "codigo": "5207907",
+    "uf": "GO"
   },
   {
     "nome": "Formosa",
-    "codigo": "5208004"
+    "codigo": "5208004",
+    "uf": "GO"
   },
   {
     "nome": "Formoso",
-    "codigo": "5208103"
+    "codigo": "5208103",
+    "uf": "GO"
   },
   {
     "nome": "Formoso do Araguaia",
-    "codigo": "1708205"
+    "codigo": "1708205",
+    "uf": "TO"
   },
   {
     "nome": "Goianápolis",
-    "codigo": "5208400"
+    "codigo": "5208400",
+    "uf": "GO"
   },
   {
     "nome": "Goiandira",
-    "codigo": "5208509"
+    "codigo": "5208509",
+    "uf": "GO"
   },
   {
     "nome": "Goianésia",
-    "codigo": "5208608"
+    "codigo": "5208608",
+    "uf": "GO"
   },
   {
     "nome": "Goiânia",
-    "codigo": "5208707"
+    "codigo": "5208707",
+    "uf": "GO"
   },
   {
     "nome": "Goianira",
-    "codigo": "5208806"
+    "codigo": "5208806",
+    "uf": "GO"
   },
   {
     "nome": "Goiás",
-    "codigo": "5208905"
+    "codigo": "5208905",
+    "uf": "GO"
   },
   {
     "nome": "Goiatuba",
-    "codigo": "5209101"
+    "codigo": "5209101",
+    "uf": "GO"
   },
   {
     "nome": "Guapó",
-    "codigo": "5209200"
+    "codigo": "5209200",
+    "uf": "GO"
   },
   {
     "nome": "Guarani de Goiás",
-    "codigo": "5209408"
+    "codigo": "5209408",
+    "uf": "GO"
   },
   {
     "nome": "Gurupi",
-    "codigo": "1709500"
+    "codigo": "1709500",
+    "uf": "TO"
   },
   {
     "nome": "Heitoraí",
-    "codigo": "5209606"
+    "codigo": "5209606",
+    "uf": "GO"
   },
   {
     "nome": "Hidrolândia",
-    "codigo": "5209705"
+    "codigo": "5209705",
+    "uf": "GO"
   },
   {
     "nome": "Hidrolina",
-    "codigo": "5209804"
+    "codigo": "5209804",
+    "uf": "GO"
   },
   {
     "nome": "Iaciara",
-    "codigo": "5209903"
+    "codigo": "5209903",
+    "uf": "GO"
   },
   {
     "nome": "Inhumas",
-    "codigo": "5210000"
+    "codigo": "5210000",
+    "uf": "GO"
   },
   {
     "nome": "Ipameri",
-    "codigo": "5210109"
+    "codigo": "5210109",
+    "uf": "GO"
   },
   {
     "nome": "Iporá",
-    "codigo": "5210208"
+    "codigo": "5210208",
+    "uf": "GO"
   },
   {
     "nome": "Israelândia",
-    "codigo": "5210307"
+    "codigo": "5210307",
+    "uf": "GO"
   },
   {
     "nome": "Itaberaí",
-    "codigo": "5210406"
+    "codigo": "5210406",
+    "uf": "GO"
   },
   {
     "nome": "Itacajá",
-    "codigo": "1710508"
+    "codigo": "1710508",
+    "uf": "TO"
   },
   {
     "nome": "Itaguaru",
-    "codigo": "5210604"
+    "codigo": "5210604",
+    "uf": "GO"
   },
   {
     "nome": "Itaguatins",
-    "codigo": "1710706"
+    "codigo": "1710706",
+    "uf": "TO"
   },
   {
     "nome": "Itajá",
-    "codigo": "5210802"
+    "codigo": "5210802",
+    "uf": "GO"
   },
   {
     "nome": "Itapaci",
-    "codigo": "5210901"
+    "codigo": "5210901",
+    "uf": "GO"
   },
   {
     "nome": "Itapirapuã",
-    "codigo": "5211008"
+    "codigo": "5211008",
+    "uf": "GO"
   },
   {
     "nome": "Itaporã do Tocantins",
-    "codigo": "1711100"
+    "codigo": "1711100",
+    "uf": "TO"
   },
   {
     "nome": "Itapuranga",
-    "codigo": "5211206"
+    "codigo": "5211206",
+    "uf": "GO"
   },
   {
     "nome": "Itarumã",
-    "codigo": "5211305"
+    "codigo": "5211305",
+    "uf": "GO"
   },
   {
     "nome": "Itauçu",
-    "codigo": "5211404"
+    "codigo": "5211404",
+    "uf": "GO"
   },
   {
     "nome": "Itumbiara",
-    "codigo": "5211503"
+    "codigo": "5211503",
+    "uf": "GO"
   },
   {
     "nome": "Ivolândia",
-    "codigo": "5211602"
+    "codigo": "5211602",
+    "uf": "GO"
   },
   {
     "nome": "Jandaia",
-    "codigo": "5211701"
+    "codigo": "5211701",
+    "uf": "GO"
   },
   {
     "nome": "Jaraguá",
-    "codigo": "5211800"
+    "codigo": "5211800",
+    "uf": "GO"
   },
   {
     "nome": "Jataí",
-    "codigo": "5211909"
+    "codigo": "5211909",
+    "uf": "GO"
   },
   {
     "nome": "Jaupaci",
-    "codigo": "5212006"
+    "codigo": "5212006",
+    "uf": "GO"
   },
   {
     "nome": "Joviânia",
-    "codigo": "5212105"
+    "codigo": "5212105",
+    "uf": "GO"
   },
   {
     "nome": "Jussara",
-    "codigo": "5212204"
+    "codigo": "5212204",
+    "uf": "GO"
   },
   {
     "nome": "Aliança do Tocantins",
-    "codigo": "1700350"
+    "codigo": "1700350",
+    "uf": "TO"
   },
   {
     "nome": "Leopoldo de Bulhões",
-    "codigo": "5212303"
+    "codigo": "5212303",
+    "uf": "GO"
   },
   {
     "nome": "Luziânia",
-    "codigo": "5212501"
+    "codigo": "5212501",
+    "uf": "GO"
   },
   {
     "nome": "Mairipotaba",
-    "codigo": "5212600"
+    "codigo": "5212600",
+    "uf": "GO"
   },
   {
     "nome": "Mambaí",
-    "codigo": "5212709"
+    "codigo": "5212709",
+    "uf": "GO"
   },
   {
     "nome": "Mara Rosa",
-    "codigo": "5212808"
+    "codigo": "5212808",
+    "uf": "GO"
   },
   {
     "nome": "Marzagão",
-    "codigo": "5212907"
+    "codigo": "5212907",
+    "uf": "GO"
   },
   {
     "nome": "Paranaiguara",
-    "codigo": "5216304"
+    "codigo": "5216304",
+    "uf": "GO"
   },
   {
     "nome": "Maurilândia",
-    "codigo": "5213004"
+    "codigo": "5213004",
+    "uf": "GO"
   },
   {
     "nome": "Mineiros",
-    "codigo": "5213103"
+    "codigo": "5213103",
+    "uf": "GO"
   },
   {
     "nome": "Miracema do Tocantins",
-    "codigo": "1713205"
+    "codigo": "1713205",
+    "uf": "TO"
   },
   {
     "nome": "Miranorte",
-    "codigo": "1713304"
+    "codigo": "1713304",
+    "uf": "TO"
   },
   {
     "nome": "Moiporá",
-    "codigo": "5213400"
+    "codigo": "5213400",
+    "uf": "GO"
   },
   {
     "nome": "Monte Alegre de Goiás",
-    "codigo": "5213509"
+    "codigo": "5213509",
+    "uf": "GO"
   },
   {
     "nome": "Monte do Carmo",
-    "codigo": "1713601"
+    "codigo": "1713601",
+    "uf": "TO"
   },
   {
     "nome": "Montes Claros de Goiás",
-    "codigo": "5213707"
+    "codigo": "5213707",
+    "uf": "GO"
   },
   {
     "nome": "Morrinhos",
-    "codigo": "5213806"
+    "codigo": "5213806",
+    "uf": "GO"
   },
   {
     "nome": "Mossâmedes",
-    "codigo": "5213905"
+    "codigo": "5213905",
+    "uf": "GO"
   },
   {
     "nome": "Mozarlândia",
-    "codigo": "5214002"
+    "codigo": "5214002",
+    "uf": "GO"
   },
   {
     "nome": "Mutunópolis",
-    "codigo": "5214101"
+    "codigo": "5214101",
+    "uf": "GO"
   },
   {
     "nome": "Natividade",
-    "codigo": "1714203"
+    "codigo": "1714203",
+    "uf": "TO"
   },
   {
     "nome": "Nazaré",
-    "codigo": "1714302"
+    "codigo": "1714302",
+    "uf": "TO"
   },
   {
     "nome": "Nazário",
-    "codigo": "5214408"
+    "codigo": "5214408",
+    "uf": "GO"
   },
   {
     "nome": "Nerópolis",
-    "codigo": "5214507"
+    "codigo": "5214507",
+    "uf": "GO"
   },
   {
     "nome": "Niquelândia",
-    "codigo": "5214606"
+    "codigo": "5214606",
+    "uf": "GO"
   },
   {
     "nome": "Nova América",
-    "codigo": "5214705"
+    "codigo": "5214705",
+    "uf": "GO"
   },
   {
     "nome": "Nova Aurora",
-    "codigo": "5214804"
+    "codigo": "5214804",
+    "uf": "GO"
   },
   {
     "nome": "Nova Roma",
-    "codigo": "5214903"
+    "codigo": "5214903",
+    "uf": "GO"
   },
   {
     "nome": "Nova Veneza",
-    "codigo": "5215009"
+    "codigo": "5215009",
+    "uf": "GO"
   },
   {
     "nome": "Novo Acordo",
-    "codigo": "1715101"
+    "codigo": "1715101",
+    "uf": "TO"
   },
   {
     "nome": "Novo Brasil",
-    "codigo": "5215207"
+    "codigo": "5215207",
+    "uf": "GO"
   },
   {
     "nome": "Orizona",
-    "codigo": "5215306"
+    "codigo": "5215306",
+    "uf": "GO"
   },
   {
     "nome": "Ouro Verde de Goiás",
-    "codigo": "5215405"
+    "codigo": "5215405",
+    "uf": "GO"
   },
   {
     "nome": "Ouvidor",
-    "codigo": "5215504"
+    "codigo": "5215504",
+    "uf": "GO"
   },
   {
     "nome": "Padre Bernardo",
-    "codigo": "5215603"
+    "codigo": "5215603",
+    "uf": "GO"
   },
   {
     "nome": "Palmeiras de Goiás",
-    "codigo": "5215702"
+    "codigo": "5215702",
+    "uf": "GO"
   },
   {
     "nome": "Palmelo",
-    "codigo": "5215801"
+    "codigo": "5215801",
+    "uf": "GO"
   },
   {
     "nome": "Palminópolis",
-    "codigo": "5215900"
+    "codigo": "5215900",
+    "uf": "GO"
   },
   {
     "nome": "Panamá",
-    "codigo": "5216007"
+    "codigo": "5216007",
+    "uf": "GO"
   },
   {
     "nome": "Paraíso do Tocantins",
-    "codigo": "1716109"
+    "codigo": "1716109",
+    "uf": "TO"
   },
   {
     "nome": "Paranã",
-    "codigo": "1716208"
+    "codigo": "1716208",
+    "uf": "TO"
   },
   {
     "nome": "Paraúna",
-    "codigo": "5216403"
+    "codigo": "5216403",
+    "uf": "GO"
   },
   {
     "nome": "Pedro Afonso",
-    "codigo": "1716505"
+    "codigo": "1716505",
+    "uf": "TO"
   },
   {
     "nome": "Peixe",
-    "codigo": "1716604"
+    "codigo": "1716604",
+    "uf": "TO"
   },
   {
     "nome": "Colméia",
-    "codigo": "1716703"
+    "codigo": "1716703",
+    "uf": "TO"
   },
   {
     "nome": "Petrolina de Goiás",
-    "codigo": "5216809"
+    "codigo": "5216809",
+    "uf": "GO"
   },
   {
     "nome": "Goiatins",
-    "codigo": "1709005"
+    "codigo": "1709005",
+    "uf": "TO"
   },
   {
     "nome": "Pilar de Goiás",
-    "codigo": "5216908"
+    "codigo": "5216908",
+    "uf": "GO"
   },
   {
     "nome": "Pindorama do Tocantins",
-    "codigo": "1717008"
+    "codigo": "1717008",
+    "uf": "TO"
   },
   {
     "nome": "Piracanjuba",
-    "codigo": "5217104"
+    "codigo": "5217104",
+    "uf": "GO"
   },
   {
     "nome": "Piranhas",
-    "codigo": "5217203"
+    "codigo": "5217203",
+    "uf": "GO"
   },
   {
     "nome": "Pirenópolis",
-    "codigo": "5217302"
+    "codigo": "5217302",
+    "uf": "GO"
   },
   {
     "nome": "Pires do Rio",
-    "codigo": "5217401"
+    "codigo": "5217401",
+    "uf": "GO"
   },
   {
     "nome": "Pium",
-    "codigo": "1717503"
+    "codigo": "1717503",
+    "uf": "TO"
   },
   {
     "nome": "Pontalina",
-    "codigo": "5217708"
+    "codigo": "5217708",
+    "uf": "GO"
   },
   {
     "nome": "Ponte Alta do Bom Jesus",
-    "codigo": "1717800"
+    "codigo": "1717800",
+    "uf": "TO"
   },
   {
     "nome": "Ponte Alta do Tocantins",
-    "codigo": "1717909"
+    "codigo": "1717909",
+    "uf": "TO"
   },
   {
     "nome": "Porangatu",
-    "codigo": "5218003"
+    "codigo": "5218003",
+    "uf": "GO"
   },
   {
     "nome": "Portelândia",
-    "codigo": "5218102"
+    "codigo": "5218102",
+    "uf": "GO"
   },
   {
     "nome": "Porto Nacional",
-    "codigo": "1718204"
+    "codigo": "1718204",
+    "uf": "TO"
   },
   {
     "nome": "Posse",
-    "codigo": "5218300"
+    "codigo": "5218300",
+    "uf": "GO"
   },
   {
     "nome": "Quirinópolis",
-    "codigo": "5218508"
+    "codigo": "5218508",
+    "uf": "GO"
   },
   {
     "nome": "Rialma",
-    "codigo": "5218607"
+    "codigo": "5218607",
+    "uf": "GO"
   },
   {
     "nome": "Rianápolis",
-    "codigo": "5218706"
+    "codigo": "5218706",
+    "uf": "GO"
   },
   {
     "nome": "Lizarda",
-    "codigo": "1712405"
+    "codigo": "1712405",
+    "uf": "TO"
   },
   {
     "nome": "Campo Limpo de Goiás",
-    "codigo": "5204854"
+    "codigo": "5204854",
+    "uf": "GO"
   },
   {
     "nome": "Gameleira de Goiás",
-    "codigo": "5208152"
+    "codigo": "5208152",
+    "uf": "GO"
   },
   {
     "nome": "Ipiranga de Goiás",
-    "codigo": "5210158"
+    "codigo": "5210158",
+    "uf": "GO"
   },
   {
     "nome": "Lagoa Santa",
-    "codigo": "5212253"
+    "codigo": "5212253",
+    "uf": "GO"
   },
   {
     "nome": "Bom Jesus do Araguaia",
-    "codigo": "5101852"
+    "codigo": "5101852",
+    "uf": "MT"
   },
   {
     "nome": "Colniza",
-    "codigo": "5103254"
+    "codigo": "5103254",
+    "uf": "MT"
   },
   {
     "nome": "Conquista D'Oeste",
-    "codigo": "5103361"
+    "codigo": "5103361",
+    "uf": "MT"
   },
   {
     "nome": "Curvelândia",
-    "codigo": "5103437"
+    "codigo": "5103437",
+    "uf": "MT"
   },
   {
     "nome": "Nova Nazaré",
-    "codigo": "5106174"
+    "codigo": "5106174",
+    "uf": "MT"
   },
   {
     "nome": "Nova Santa Helena",
-    "codigo": "5106190"
+    "codigo": "5106190",
+    "uf": "MT"
   },
   {
     "nome": "Novo Santo Antônio",
-    "codigo": "5106315"
+    "codigo": "5106315",
+    "uf": "MT"
   },
   {
     "nome": "Rondolândia",
-    "codigo": "5107578"
+    "codigo": "5107578",
+    "uf": "MT"
   },
   {
     "nome": "Barrocas",
-    "codigo": "2903276"
+    "codigo": "2903276",
+    "uf": "BA"
   },
   {
     "nome": "Luís Eduardo Magalhães",
-    "codigo": "2919553"
+    "codigo": "2919553",
+    "uf": "BA"
   },
   {
     "nome": "Governador Lindenberg",
-    "codigo": "3202256"
+    "codigo": "3202256",
+    "uf": "ES"
   },
   {
     "nome": "Nazária",
-    "codigo": "2206720"
+    "codigo": "2206720",
+    "uf": "PI"
   },
   {
     "nome": "Mojuí dos Campos",
-    "codigo": "1504752"
+    "codigo": "1504752",
+    "uf": "PA"
   },
   {
     "nome": "Balneário Rincão",
-    "codigo": "4220000"
+    "codigo": "4220000",
+    "uf": "SC"
   },
   {
     "nome": "Pescaria Brava",
-    "codigo": "4212650"
+    "codigo": "4212650",
+    "uf": "SC"
   },
   {
     "nome": "Paraíso das Águas",
-    "codigo": "5006275"
+    "codigo": "5006275",
+    "uf": "MS"
   },
   {
     "nome": "Giruá",
-    "codigo": "4309001"
+    "codigo": "4309001",
+    "uf": "RS"
   },
   {
     "nome": "Gramado",
-    "codigo": "4309100"
+    "codigo": "4309100",
+    "uf": "RS"
   },
   {
     "nome": "Gravataí",
-    "codigo": "4309209"
+    "codigo": "4309209",
+    "uf": "RS"
   },
   {
     "nome": "Guaíba",
-    "codigo": "4309308"
+    "codigo": "4309308",
+    "uf": "RS"
   },
   {
     "nome": "Guaporé",
-    "codigo": "4309407"
+    "codigo": "4309407",
+    "uf": "RS"
   },
   {
     "nome": "Guarani das Missões",
-    "codigo": "4309506"
+    "codigo": "4309506",
+    "uf": "RS"
   },
   {
     "nome": "Horizontina",
-    "codigo": "4309605"
+    "codigo": "4309605",
+    "uf": "RS"
   },
   {
     "nome": "Charqueadas",
-    "codigo": "4305355"
+    "codigo": "4305355",
+    "uf": "RS"
   },
   {
     "nome": "Humaitá",
-    "codigo": "4309704"
+    "codigo": "4309704",
+    "uf": "RS"
   },
   {
     "nome": "Ibiaçá",
-    "codigo": "4309803"
+    "codigo": "4309803",
+    "uf": "RS"
   },
   {
     "nome": "Ibiraiaras",
-    "codigo": "4309902"
+    "codigo": "4309902",
+    "uf": "RS"
   },
   {
     "nome": "Ibirubá",
-    "codigo": "4310009"
+    "codigo": "4310009",
+    "uf": "RS"
   },
   {
     "nome": "Igrejinha",
-    "codigo": "4310108"
+    "codigo": "4310108",
+    "uf": "RS"
   },
   {
     "nome": "Ijuí",
-    "codigo": "4310207"
+    "codigo": "4310207",
+    "uf": "RS"
   },
   {
     "nome": "Ilópolis",
-    "codigo": "4310306"
+    "codigo": "4310306",
+    "uf": "RS"
   },
   {
     "nome": "Independência",
-    "codigo": "4310405"
+    "codigo": "4310405",
+    "uf": "RS"
   },
   {
     "nome": "Iraí",
-    "codigo": "4310504"
+    "codigo": "4310504",
+    "uf": "RS"
   },
   {
     "nome": "Itaqui",
-    "codigo": "4310603"
+    "codigo": "4310603",
+    "uf": "RS"
   },
   {
     "nome": "Itatiba do Sul",
-    "codigo": "4310702"
+    "codigo": "4310702",
+    "uf": "RS"
   },
   {
     "nome": "Ivoti",
-    "codigo": "4310801"
+    "codigo": "4310801",
+    "uf": "RS"
   },
   {
     "nome": "Jacutinga",
-    "codigo": "4310900"
+    "codigo": "4310900",
+    "uf": "RS"
   },
   {
     "nome": "Jaguarão",
-    "codigo": "4311007"
+    "codigo": "4311007",
+    "uf": "RS"
   },
   {
     "nome": "Jaguari",
-    "codigo": "4311106"
+    "codigo": "4311106",
+    "uf": "RS"
   },
   {
     "nome": "Júlio de Castilhos",
-    "codigo": "4311205"
+    "codigo": "4311205",
+    "uf": "RS"
   },
   {
     "nome": "Lagoa Vermelha",
-    "codigo": "4311304"
+    "codigo": "4311304",
+    "uf": "RS"
   },
   {
     "nome": "Lajeado",
-    "codigo": "4311403"
+    "codigo": "4311403",
+    "uf": "RS"
   },
   {
     "nome": "Lavras do Sul",
-    "codigo": "4311502"
+    "codigo": "4311502",
+    "uf": "RS"
   },
   {
     "nome": "Liberato Salzano",
-    "codigo": "4311601"
+    "codigo": "4311601",
+    "uf": "RS"
   },
   {
     "nome": "Machadinho",
-    "codigo": "4311700"
+    "codigo": "4311700",
+    "uf": "RS"
   },
   {
     "nome": "Marau",
-    "codigo": "4311809"
+    "codigo": "4311809",
+    "uf": "RS"
   },
   {
     "nome": "Marcelino Ramos",
-    "codigo": "4311908"
+    "codigo": "4311908",
+    "uf": "RS"
   },
   {
     "nome": "Mariano Moro",
-    "codigo": "4312005"
+    "codigo": "4312005",
+    "uf": "RS"
   },
   {
     "nome": "Mata",
-    "codigo": "4312104"
+    "codigo": "4312104",
+    "uf": "RS"
   },
   {
     "nome": "Maximiliano de Almeida",
-    "codigo": "4312203"
+    "codigo": "4312203",
+    "uf": "RS"
   },
   {
     "nome": "Miraguaí",
-    "codigo": "4312302"
+    "codigo": "4312302",
+    "uf": "RS"
   },
   {
     "nome": "Montenegro",
-    "codigo": "4312401"
+    "codigo": "4312401",
+    "uf": "RS"
   },
   {
     "nome": "Mostardas",
-    "codigo": "4312500"
+    "codigo": "4312500",
+    "uf": "RS"
   },
   {
     "nome": "Muçum",
-    "codigo": "4312609"
+    "codigo": "4312609",
+    "uf": "RS"
   },
   {
     "nome": "Não-Me-Toque",
-    "codigo": "4312658"
+    "codigo": "4312658",
+    "uf": "RS"
   },
   {
     "nome": "Nonoai",
-    "codigo": "4312708"
+    "codigo": "4312708",
+    "uf": "RS"
   },
   {
     "nome": "Nova Araçá",
-    "codigo": "4312807"
+    "codigo": "4312807",
+    "uf": "RS"
   },
   {
     "nome": "Nova Bassano",
-    "codigo": "4312906"
+    "codigo": "4312906",
+    "uf": "RS"
   },
   {
     "nome": "Nova Bréscia",
-    "codigo": "4313003"
+    "codigo": "4313003",
+    "uf": "RS"
   },
   {
     "nome": "Nova Palma",
-    "codigo": "4313102"
+    "codigo": "4313102",
+    "uf": "RS"
   },
   {
     "nome": "Nova Petrópolis",
-    "codigo": "4313201"
+    "codigo": "4313201",
+    "uf": "RS"
   },
   {
     "nome": "Nova Prata",
-    "codigo": "4313300"
+    "codigo": "4313300",
+    "uf": "RS"
   },
   {
     "nome": "Novo Hamburgo",
-    "codigo": "4313409"
+    "codigo": "4313409",
+    "uf": "RS"
   },
   {
     "nome": "Osório",
-    "codigo": "4313508"
+    "codigo": "4313508",
+    "uf": "RS"
   },
   {
     "nome": "Paim Filho",
-    "codigo": "4313607"
+    "codigo": "4313607",
+    "uf": "RS"
   },
   {
     "nome": "Palmeira das Missões",
-    "codigo": "4313706"
+    "codigo": "4313706",
+    "uf": "RS"
   },
   {
     "nome": "Palmitinho",
-    "codigo": "4313805"
+    "codigo": "4313805",
+    "uf": "RS"
   },
   {
     "nome": "Panambi",
-    "codigo": "4313904"
+    "codigo": "4313904",
+    "uf": "RS"
   },
   {
     "nome": "Paraí",
-    "codigo": "4314001"
+    "codigo": "4314001",
+    "uf": "RS"
   },
   {
     "nome": "Passo Fundo",
-    "codigo": "4314100"
+    "codigo": "4314100",
+    "uf": "RS"
   },
   {
     "nome": "Pedro Osório",
-    "codigo": "4314209"
+    "codigo": "4314209",
+    "uf": "RS"
   },
   {
     "nome": "Pejuçara",
-    "codigo": "4314308"
+    "codigo": "4314308",
+    "uf": "RS"
   },
   {
     "nome": "Pelotas",
-    "codigo": "4314407"
+    "codigo": "4314407",
+    "uf": "RS"
   },
   {
     "nome": "Pinheiro Machado",
-    "codigo": "4314506"
+    "codigo": "4314506",
+    "uf": "RS"
   },
   {
     "nome": "Piratini",
-    "codigo": "4314605"
+    "codigo": "4314605",
+    "uf": "RS"
   },
   {
     "nome": "Planalto",
-    "codigo": "4314704"
+    "codigo": "4314704",
+    "uf": "RS"
   },
   {
     "nome": "Portão",
-    "codigo": "4314803"
+    "codigo": "4314803",
+    "uf": "RS"
   },
   {
     "nome": "Porto Alegre",
-    "codigo": "4314902"
+    "codigo": "4314902",
+    "uf": "RS"
   },
   {
     "nome": "Porto Lucena",
-    "codigo": "4315008"
+    "codigo": "4315008",
+    "uf": "RS"
   },
   {
     "nome": "Porto Xavier",
-    "codigo": "4315107"
+    "codigo": "4315107",
+    "uf": "RS"
   },
   {
     "nome": "Putinga",
-    "codigo": "4315206"
+    "codigo": "4315206",
+    "uf": "RS"
   },
   {
     "nome": "Quaraí",
-    "codigo": "4315305"
+    "codigo": "4315305",
+    "uf": "RS"
   },
   {
     "nome": "Redentora",
-    "codigo": "4315404"
+    "codigo": "4315404",
+    "uf": "RS"
   },
   {
     "nome": "Restinga Sêca",
-    "codigo": "4315503"
+    "codigo": "4315503",
+    "uf": "RS"
   },
   {
     "nome": "Rio Grande",
-    "codigo": "4315602"
+    "codigo": "4315602",
+    "uf": "RS"
   },
   {
     "nome": "Rio Pardo",
-    "codigo": "4315701"
+    "codigo": "4315701",
+    "uf": "RS"
   },
   {
     "nome": "Roca Sales",
-    "codigo": "4315800"
+    "codigo": "4315800",
+    "uf": "RS"
   },
   {
     "nome": "Rodeio Bonito",
-    "codigo": "4315909"
+    "codigo": "4315909",
+    "uf": "RS"
   },
   {
     "nome": "Rolante",
-    "codigo": "4316006"
+    "codigo": "4316006",
+    "uf": "RS"
   },
   {
     "nome": "Ronda Alta",
-    "codigo": "4316105"
+    "codigo": "4316105",
+    "uf": "RS"
   },
   {
     "nome": "Rondinha",
-    "codigo": "4316204"
+    "codigo": "4316204",
+    "uf": "RS"
   },
   {
     "nome": "Roque Gonzales",
-    "codigo": "4316303"
+    "codigo": "4316303",
+    "uf": "RS"
   },
   {
     "nome": "Rosário do Sul",
-    "codigo": "4316402"
+    "codigo": "4316402",
+    "uf": "RS"
   },
   {
     "nome": "Salvador do Sul",
-    "codigo": "4316501"
+    "codigo": "4316501",
+    "uf": "RS"
   },
   {
     "nome": "Sananduva",
-    "codigo": "4316600"
+    "codigo": "4316600",
+    "uf": "RS"
   },
   {
     "nome": "Santa Bárbara do Sul",
-    "codigo": "4316709"
+    "codigo": "4316709",
+    "uf": "RS"
   },
   {
     "nome": "Santa Cruz do Sul",
-    "codigo": "4316808"
+    "codigo": "4316808",
+    "uf": "RS"
   },
   {
     "nome": "Santa Maria",
-    "codigo": "4316907"
+    "codigo": "4316907",
+    "uf": "RS"
   },
   {
     "nome": "Santana da Boa Vista",
-    "codigo": "4317004"
+    "codigo": "4317004",
+    "uf": "RS"
   },
   {
     "nome": "Sant'Ana do Livramento",
-    "codigo": "4317103"
+    "codigo": "4317103",
+    "uf": "RS"
   },
   {
     "nome": "Santa Rosa",
-    "codigo": "4317202"
+    "codigo": "4317202",
+    "uf": "RS"
   },
   {
     "nome": "Santa Vitória do Palmar",
-    "codigo": "4317301"
+    "codigo": "4317301",
+    "uf": "RS"
   },
   {
     "nome": "Santiago",
-    "codigo": "4317400"
+    "codigo": "4317400",
+    "uf": "RS"
   },
   {
     "nome": "Santo Ângelo",
-    "codigo": "4317509"
+    "codigo": "4317509",
+    "uf": "RS"
   },
   {
     "nome": "Santo Antônio da Patrulha",
-    "codigo": "4317608"
+    "codigo": "4317608",
+    "uf": "RS"
   },
   {
     "nome": "Santo Antônio das Missões",
-    "codigo": "4317707"
+    "codigo": "4317707",
+    "uf": "RS"
   },
   {
     "nome": "Santo Augusto",
-    "codigo": "4317806"
+    "codigo": "4317806",
+    "uf": "RS"
   },
   {
     "nome": "Santo Cristo",
-    "codigo": "4317905"
+    "codigo": "4317905",
+    "uf": "RS"
   },
   {
     "nome": "São Borja",
-    "codigo": "4318002"
+    "codigo": "4318002",
+    "uf": "RS"
   },
   {
     "nome": "São Francisco de Assis",
-    "codigo": "4318101"
+    "codigo": "4318101",
+    "uf": "RS"
   },
   {
     "nome": "São Francisco de Paula",
-    "codigo": "4318200"
+    "codigo": "4318200",
+    "uf": "RS"
   },
   {
     "nome": "São Gabriel",
-    "codigo": "4318309"
+    "codigo": "4318309",
+    "uf": "RS"
   },
   {
     "nome": "São Jerônimo",
-    "codigo": "4318408"
+    "codigo": "4318408",
+    "uf": "RS"
   },
   {
     "nome": "São José do Norte",
-    "codigo": "4318507"
+    "codigo": "4318507",
+    "uf": "RS"
   },
   {
     "nome": "São José do Ouro",
-    "codigo": "4318606"
+    "codigo": "4318606",
+    "uf": "RS"
   },
   {
     "nome": "São Leopoldo",
-    "codigo": "4318705"
+    "codigo": "4318705",
+    "uf": "RS"
   },
   {
     "nome": "São Lourenço do Sul",
-    "codigo": "4318804"
+    "codigo": "4318804",
+    "uf": "RS"
   },
   {
     "nome": "São Luiz Gonzaga",
-    "codigo": "4318903"
+    "codigo": "4318903",
+    "uf": "RS"
   },
   {
     "nome": "São Marcos",
-    "codigo": "4319000"
+    "codigo": "4319000",
+    "uf": "RS"
   },
   {
     "nome": "São Martinho",
-    "codigo": "4319109"
+    "codigo": "4319109",
+    "uf": "RS"
   },
   {
     "nome": "São Nicolau",
-    "codigo": "4319208"
+    "codigo": "4319208",
+    "uf": "RS"
   },
   {
     "nome": "São Paulo das Missões",
-    "codigo": "4319307"
+    "codigo": "4319307",
+    "uf": "RS"
   },
   {
     "nome": "São Pedro do Sul",
-    "codigo": "4319406"
+    "codigo": "4319406",
+    "uf": "RS"
   },
   {
     "nome": "São Sebastião do Caí",
-    "codigo": "4319505"
+    "codigo": "4319505",
+    "uf": "RS"
   },
   {
     "nome": "São Sepé",
-    "codigo": "4319604"
+    "codigo": "4319604",
+    "uf": "RS"
   },
   {
     "nome": "São Valentim",
-    "codigo": "4319703"
+    "codigo": "4319703",
+    "uf": "RS"
   },
   {
     "nome": "Sapiranga",
-    "codigo": "4319901"
+    "codigo": "4319901",
+    "uf": "RS"
   },
   {
     "nome": "Sapucaia do Sul",
-    "codigo": "4320008"
+    "codigo": "4320008",
+    "uf": "RS"
   },
   {
     "nome": "Sarandi",
-    "codigo": "4320107"
+    "codigo": "4320107",
+    "uf": "RS"
   },
   {
     "nome": "Seberi",
-    "codigo": "4320206"
+    "codigo": "4320206",
+    "uf": "RS"
   },
   {
     "nome": "Selbach",
-    "codigo": "4320305"
+    "codigo": "4320305",
+    "uf": "RS"
   },
   {
     "nome": "Serafina Corrêa",
-    "codigo": "4320404"
+    "codigo": "4320404",
+    "uf": "RS"
   },
   {
     "nome": "Sertão",
-    "codigo": "4320503"
+    "codigo": "4320503",
+    "uf": "RS"
   },
   {
     "nome": "Severiano de Almeida",
-    "codigo": "4320602"
+    "codigo": "4320602",
+    "uf": "RS"
   },
   {
     "nome": "Capão da Canoa",
-    "codigo": "4304630"
+    "codigo": "4304630",
+    "uf": "RS"
   },
   {
     "nome": "Sobradinho",
-    "codigo": "4320701"
+    "codigo": "4320701",
+    "uf": "RS"
   },
   {
     "nome": "Soledade",
-    "codigo": "4320800"
+    "codigo": "4320800",
+    "uf": "RS"
   },
   {
     "nome": "Tapejara",
-    "codigo": "4320909"
+    "codigo": "4320909",
+    "uf": "RS"
   },
   {
     "nome": "Tapera",
-    "codigo": "4321006"
+    "codigo": "4321006",
+    "uf": "RS"
   },
   {
     "nome": "Tapes",
-    "codigo": "4321105"
+    "codigo": "4321105",
+    "uf": "RS"
   },
   {
     "nome": "Taquara",
-    "codigo": "4321204"
+    "codigo": "4321204",
+    "uf": "RS"
   },
   {
     "nome": "Taquari",
-    "codigo": "4321303"
+    "codigo": "4321303",
+    "uf": "RS"
   },
   {
     "nome": "Tenente Portela",
-    "codigo": "4321402"
+    "codigo": "4321402",
+    "uf": "RS"
   },
   {
     "nome": "Torres",
-    "codigo": "4321501"
+    "codigo": "4321501",
+    "uf": "RS"
   },
   {
     "nome": "Tramandaí",
-    "codigo": "4321600"
+    "codigo": "4321600",
+    "uf": "RS"
   },
   {
     "nome": "Três Coroas",
-    "codigo": "4321709"
+    "codigo": "4321709",
+    "uf": "RS"
   },
   {
     "nome": "Três de Maio",
-    "codigo": "4321808"
+    "codigo": "4321808",
+    "uf": "RS"
   },
   {
     "nome": "Três Passos",
-    "codigo": "4321907"
+    "codigo": "4321907",
+    "uf": "RS"
   },
   {
     "nome": "Triunfo",
-    "codigo": "4322004"
+    "codigo": "4322004",
+    "uf": "RS"
   },
   {
     "nome": "Tucunduva",
-    "codigo": "4322103"
+    "codigo": "4322103",
+    "uf": "RS"
   },
   {
     "nome": "Tupanciretã",
-    "codigo": "4322202"
+    "codigo": "4322202",
+    "uf": "RS"
   },
   {
     "nome": "Tuparendi",
-    "codigo": "4322301"
+    "codigo": "4322301",
+    "uf": "RS"
   },
   {
     "nome": "Uruguaiana",
-    "codigo": "4322400"
+    "codigo": "4322400",
+    "uf": "RS"
   },
   {
     "nome": "Vacaria",
-    "codigo": "4322509"
+    "codigo": "4322509",
+    "uf": "RS"
   },
   {
     "nome": "Venâncio Aires",
-    "codigo": "4322608"
+    "codigo": "4322608",
+    "uf": "RS"
   },
   {
     "nome": "Vera Cruz",
-    "codigo": "4322707"
+    "codigo": "4322707",
+    "uf": "RS"
   },
   {
     "nome": "Veranópolis",
-    "codigo": "4322806"
+    "codigo": "4322806",
+    "uf": "RS"
   },
   {
     "nome": "Viadutos",
-    "codigo": "4322905"
+    "codigo": "4322905",
+    "uf": "RS"
   },
   {
     "nome": "Viamão",
-    "codigo": "4323002"
+    "codigo": "4323002",
+    "uf": "RS"
   },
   {
     "nome": "Vicente Dutra",
-    "codigo": "4323101"
+    "codigo": "4323101",
+    "uf": "RS"
   },
   {
     "nome": "Palmares do Sul",
-    "codigo": "4313656"
+    "codigo": "4313656",
+    "uf": "RS"
   },
   {
     "nome": "Victor Graeff",
-    "codigo": "4323200"
+    "codigo": "4323200",
+    "uf": "RS"
   },
   {
     "nome": "Tavares",
-    "codigo": "4321352"
+    "codigo": "4321352",
+    "uf": "RS"
   },
   {
     "nome": "Capão do Leão",
-    "codigo": "4304663"
+    "codigo": "4304663",
+    "uf": "RS"
   },
   {
     "nome": "Salto do Jacuí",
-    "codigo": "4316451"
+    "codigo": "4316451",
+    "uf": "RS"
   },
   {
     "nome": "Cotiporã",
-    "codigo": "4305959"
+    "codigo": "4305959",
+    "uf": "RS"
   },
   {
     "nome": "Colíder",
-    "codigo": "5103205"
+    "codigo": "5103205",
+    "uf": "MT"
   },
   {
     "nome": "Nova Brasilândia",
-    "codigo": "5106208"
+    "codigo": "5106208",
+    "uf": "MT"
   },
   {
     "nome": "Paranatinga",
-    "codigo": "5106307"
+    "codigo": "5106307",
+    "uf": "MT"
   },
   {
     "nome": "Sinop",
-    "codigo": "5107909"
+    "codigo": "5107909",
+    "uf": "MT"
   },
   {
     "nome": "Alta Floresta",
-    "codigo": "5100250"
+    "codigo": "5100250",
+    "uf": "MT"
   },
   {
     "nome": "Araputanga",
-    "codigo": "5101258"
+    "codigo": "5101258",
+    "uf": "MT"
   },
   {
     "nome": "Jauru",
-    "codigo": "5105002"
+    "codigo": "5105002",
+    "uf": "MT"
   },
   {
     "nome": "São José dos Quatro Marcos",
-    "codigo": "5107107"
+    "codigo": "5107107",
+    "uf": "MT"
   },
   {
     "nome": "Rio Branco",
-    "codigo": "5107206"
+    "codigo": "5107206",
+    "uf": "MT"
   },
   {
     "nome": "Salto do Céu",
-    "codigo": "5107750"
+    "codigo": "5107750",
+    "uf": "MT"
   },
   {
     "nome": "Pontes e Lacerda",
-    "codigo": "5106752"
+    "codigo": "5106752",
+    "uf": "MT"
   },
   {
     "nome": "Acorizal",
-    "codigo": "5100102"
+    "codigo": "5100102",
+    "uf": "MT"
   },
   {
     "nome": "Água Clara",
-    "codigo": "5000203"
+    "codigo": "5000203",
+    "uf": "MS"
   },
   {
     "nome": "Alto Araguaia",
-    "codigo": "5100300"
+    "codigo": "5100300",
+    "uf": "MT"
   },
   {
     "nome": "Alto Garças",
-    "codigo": "5100409"
+    "codigo": "5100409",
+    "uf": "MT"
   },
   {
     "nome": "Alto Paraguai",
-    "codigo": "5100508"
+    "codigo": "5100508",
+    "uf": "MT"
   },
   {
     "nome": "Amambai",
-    "codigo": "5000609"
+    "codigo": "5000609",
+    "uf": "MS"
   },
   {
     "nome": "Anastácio",
-    "codigo": "5000708"
+    "codigo": "5000708",
+    "uf": "MS"
   },
   {
     "nome": "Anaurilândia",
-    "codigo": "5000807"
+    "codigo": "5000807",
+    "uf": "MS"
   },
   {
     "nome": "Antônio João",
-    "codigo": "5000906"
+    "codigo": "5000906",
+    "uf": "MS"
   },
   {
     "nome": "Aparecida do Taboado",
-    "codigo": "5001003"
+    "codigo": "5001003",
+    "uf": "MS"
   },
   {
     "nome": "Aquidauana",
-    "codigo": "5001102"
+    "codigo": "5001102",
+    "uf": "MS"
   },
   {
     "nome": "Araguainha",
-    "codigo": "5101209"
+    "codigo": "5101209",
+    "uf": "MT"
   },
   {
     "nome": "Arenápolis",
-    "codigo": "5101308"
+    "codigo": "5101308",
+    "uf": "MT"
   },
   {
     "nome": "Aripuanã",
-    "codigo": "5101407"
+    "codigo": "5101407",
+    "uf": "MT"
   },
   {
     "nome": "Bandeirantes",
-    "codigo": "5001508"
+    "codigo": "5001508",
+    "uf": "MS"
   },
   {
     "nome": "Barão de Melgaço",
-    "codigo": "5101605"
+    "codigo": "5101605",
+    "uf": "MT"
   },
   {
     "nome": "Barra do Bugres",
-    "codigo": "5101704"
+    "codigo": "5101704",
+    "uf": "MT"
   },
   {
     "nome": "Barra do Garças",
-    "codigo": "5101803"
+    "codigo": "5101803",
+    "uf": "MT"
   },
   {
     "nome": "Bataguassu",
-    "codigo": "5001904"
+    "codigo": "5001904",
+    "uf": "MS"
   },
   {
     "nome": "Batayporã",
-    "codigo": "5002001"
+    "codigo": "5002001",
+    "uf": "MS"
   },
   {
     "nome": "Bela Vista",
-    "codigo": "5002100"
+    "codigo": "5002100",
+    "uf": "MS"
   },
   {
     "nome": "Bonito",
-    "codigo": "5002209"
+    "codigo": "5002209",
+    "uf": "MS"
   },
   {
     "nome": "Brasilândia",
-    "codigo": "5002308"
+    "codigo": "5002308",
+    "uf": "MS"
   },
   {
     "nome": "Cáceres",
-    "codigo": "5102504"
+    "codigo": "5102504",
+    "uf": "MT"
   },
   {
     "nome": "Camapuã",
-    "codigo": "5002605"
+    "codigo": "5002605",
+    "uf": "MS"
   },
   {
     "nome": "Campo Grande",
-    "codigo": "5002704"
+    "codigo": "5002704",
+    "uf": "MS"
   },
   {
     "nome": "Caracol",
-    "codigo": "5002803"
+    "codigo": "5002803",
+    "uf": "MS"
   },
   {
     "nome": "Caarapó",
-    "codigo": "5002407"
+    "codigo": "5002407",
+    "uf": "MS"
   },
   {
     "nome": "Cassilândia",
-    "codigo": "5002902"
+    "codigo": "5002902",
+    "uf": "MS"
   },
   {
     "nome": "Chapada dos Guimarães",
-    "codigo": "5103007"
+    "codigo": "5103007",
+    "uf": "MT"
   },
   {
     "nome": "Corguinho",
-    "codigo": "5003108"
+    "codigo": "5003108",
+    "uf": "MS"
   },
   {
     "nome": "Corumbá",
-    "codigo": "5003207"
+    "codigo": "5003207",
+    "uf": "MS"
   },
   {
     "nome": "Coxim",
-    "codigo": "5003306"
+    "codigo": "5003306",
+    "uf": "MS"
   },
   {
     "nome": "Cuiabá",
-    "codigo": "5103403"
+    "codigo": "5103403",
+    "uf": "MT"
   },
   {
     "nome": "Diamantino",
-    "codigo": "5103502"
+    "codigo": "5103502",
+    "uf": "MT"
   },
   {
     "nome": "Dom Aquino",
-    "codigo": "5103601"
+    "codigo": "5103601",
+    "uf": "MT"
   },
   {
     "nome": "Dourados",
-    "codigo": "5003702"
+    "codigo": "5003702",
+    "uf": "MS"
   },
   {
     "nome": "Fátima do Sul",
-    "codigo": "5003801"
+    "codigo": "5003801",
+    "uf": "MS"
   },
   {
     "nome": "General Carneiro",
-    "codigo": "5103908"
+    "codigo": "5103908",
+    "uf": "MT"
   },
   {
     "nome": "Glória de Dourados",
-    "codigo": "5004007"
+    "codigo": "5004007",
+    "uf": "MS"
   },
   {
     "nome": "Guia Lopes da Laguna",
-    "codigo": "5004106"
+    "codigo": "5004106",
+    "uf": "MS"
   },
   {
     "nome": "Guiratinga",
-    "codigo": "5104203"
+    "codigo": "5104203",
+    "uf": "MT"
   },
   {
     "nome": "Iguatemi",
-    "codigo": "5004304"
+    "codigo": "5004304",
+    "uf": "MS"
   },
   {
     "nome": "Inocência",
-    "codigo": "5004403"
+    "codigo": "5004403",
+    "uf": "MS"
   },
   {
     "nome": "Itaporã",
-    "codigo": "5004502"
+    "codigo": "5004502",
+    "uf": "MS"
   },
   {
     "nome": "Itiquira",
-    "codigo": "5104609"
+    "codigo": "5104609",
+    "uf": "MT"
   },
   {
     "nome": "Ivinhema",
-    "codigo": "5004700"
+    "codigo": "5004700",
+    "uf": "MS"
   },
   {
     "nome": "Jaciara",
-    "codigo": "5104807"
+    "codigo": "5104807",
+    "uf": "MT"
   },
   {
     "nome": "Jaraguari",
-    "codigo": "5004908"
+    "codigo": "5004908",
+    "uf": "MS"
   },
   {
     "nome": "Jardim",
-    "codigo": "5005004"
+    "codigo": "5005004",
+    "uf": "MS"
   },
   {
     "nome": "Jateí",
-    "codigo": "5005103"
+    "codigo": "5005103",
+    "uf": "MS"
   },
   {
     "nome": "Ladário",
-    "codigo": "5005202"
+    "codigo": "5005202",
+    "uf": "MS"
   },
   {
     "nome": "Luciara",
-    "codigo": "5105309"
+    "codigo": "5105309",
+    "uf": "MT"
   },
   {
     "nome": "Maracaju",
-    "codigo": "5005400"
+    "codigo": "5005400",
+    "uf": "MS"
   },
   {
     "nome": "Vila Bela da Santíssima Trindade",
-    "codigo": "5105507"
+    "codigo": "5105507",
+    "uf": "MT"
   },
   {
     "nome": "Miranda",
-    "codigo": "5005608"
+    "codigo": "5005608",
+    "uf": "MS"
   },
   {
     "nome": "Naviraí",
-    "codigo": "5005707"
+    "codigo": "5005707",
+    "uf": "MS"
   },
   {
     "nome": "Nioaque",
-    "codigo": "5005806"
+    "codigo": "5005806",
+    "uf": "MS"
   },
   {
     "nome": "Nobres",
-    "codigo": "5105903"
+    "codigo": "5105903",
+    "uf": "MT"
   },
   {
     "nome": "Nortelândia",
-    "codigo": "5106000"
+    "codigo": "5106000",
+    "uf": "MT"
   },
   {
     "nome": "Nossa Senhora do Livramento",
-    "codigo": "5106109"
+    "codigo": "5106109",
+    "uf": "MT"
   },
   {
     "nome": "Nova Andradina",
-    "codigo": "5006200"
+    "codigo": "5006200",
+    "uf": "MS"
   },
   {
     "nome": "Paranaíba",
-    "codigo": "5006309"
+    "codigo": "5006309",
+    "uf": "MS"
   },
   {
     "nome": "Pedro Gomes",
-    "codigo": "5006408"
+    "codigo": "5006408",
+    "uf": "MS"
   },
   {
     "nome": "Poconé",
-    "codigo": "5106505"
+    "codigo": "5106505",
+    "uf": "MT"
   },
   {
     "nome": "Ponta Porã",
-    "codigo": "5006606"
+    "codigo": "5006606",
+    "uf": "MS"
   },
   {
     "nome": "Ponte Branca",
-    "codigo": "5106703"
+    "codigo": "5106703",
+    "uf": "MT"
   },
   {
     "nome": "Porto dos Gaúchos",
-    "codigo": "5106802"
+    "codigo": "5106802",
+    "uf": "MT"
   },
   {
     "nome": "Porto Murtinho",
-    "codigo": "5006903"
+    "codigo": "5006903",
+    "uf": "MS"
   },
   {
     "nome": "Poxoréu",
-    "codigo": "5107008"
+    "codigo": "5107008",
+    "uf": "MT"
   },
   {
     "nome": "Ribas do Rio Pardo",
-    "codigo": "5007109"
+    "codigo": "5007109",
+    "uf": "MS"
   },
   {
     "nome": "Rio Brilhante",
-    "codigo": "5007208"
+    "codigo": "5007208",
+    "uf": "MS"
   },
   {
     "nome": "Rio Negro",
-    "codigo": "5007307"
+    "codigo": "5007307",
+    "uf": "MS"
   },
   {
     "nome": "Rio Verde de Mato Grosso",
-    "codigo": "5007406"
+    "codigo": "5007406",
+    "uf": "MS"
   },
   {
     "nome": "Rochedo",
-    "codigo": "5007505"
+    "codigo": "5007505",
+    "uf": "MS"
   },
   {
     "nome": "Rondonópolis",
-    "codigo": "5107602"
+    "codigo": "5107602",
+    "uf": "MT"
   },
   {
     "nome": "Rosário Oeste",
-    "codigo": "5107701"
+    "codigo": "5107701",
+    "uf": "MT"
   },
   {
     "nome": "Santo Antônio do Leverger",
-    "codigo": "5107800"
+    "codigo": "5107800",
+    "uf": "MT"
   },
   {
     "nome": "Sidrolândia",
-    "codigo": "5007901"
+    "codigo": "5007901",
+    "uf": "MS"
   },
   {
     "nome": "Terenos",
-    "codigo": "5008008"
+    "codigo": "5008008",
+    "uf": "MS"
   },
   {
     "nome": "Tesouro",
-    "codigo": "5108105"
+    "codigo": "5108105",
+    "uf": "MT"
   },
   {
     "nome": "Torixoréu",
-    "codigo": "5108204"
+    "codigo": "5108204",
+    "uf": "MT"
   },
   {
     "nome": "Três Lagoas",
-    "codigo": "5008305"
+    "codigo": "5008305",
+    "uf": "MS"
   },
   {
     "nome": "Várzea Grande",
-    "codigo": "5108402"
+    "codigo": "5108402",
+    "uf": "MT"
   },
   {
     "nome": "Angélica",
-    "codigo": "5000856"
+    "codigo": "5000856",
+    "uf": "MS"
   },
   {
     "nome": "Aral Moreira",
-    "codigo": "5001243"
+    "codigo": "5001243",
+    "uf": "MS"
   },
   {
     "nome": "Eldorado",
-    "codigo": "5003751"
+    "codigo": "5003751",
+    "uf": "MS"
   },
   {
     "nome": "Deodápolis",
-    "codigo": "5003454"
+    "codigo": "5003454",
+    "uf": "MS"
   },
   {
     "nome": "Mirassol d'Oeste",
-    "codigo": "5105622"
+    "codigo": "5105622",
+    "uf": "MT"
   },
   {
     "nome": "Mundo Novo",
-    "codigo": "5005681"
+    "codigo": "5005681",
+    "uf": "MS"
   },
   {
     "nome": "Pedra Preta",
-    "codigo": "5106372"
+    "codigo": "5106372",
+    "uf": "MT"
   },
   {
     "nome": "São Félix do Araguaia",
-    "codigo": "5107859"
+    "codigo": "5107859",
+    "uf": "MT"
   },
   {
     "nome": "Tangará da Serra",
-    "codigo": "5107958"
+    "codigo": "5107958",
+    "uf": "MT"
   },
   {
     "nome": "Vicentina",
-    "codigo": "5008404"
+    "codigo": "5008404",
+    "uf": "MS"
   },
   {
     "nome": "Juscimeira",
-    "codigo": "5105200"
+    "codigo": "5105200",
+    "uf": "MT"
   },
   {
     "nome": "Água Boa",
-    "codigo": "5100201"
+    "codigo": "5100201",
+    "uf": "MT"
   },
   {
     "nome": "Canarana",
-    "codigo": "5102702"
+    "codigo": "5102702",
+    "uf": "MT"
   },
   {
     "nome": "Nova Xavantina",
-    "codigo": "5106257"
+    "codigo": "5106257",
+    "uf": "MT"
   },
   {
     "nome": "Santa Terezinha",
-    "codigo": "5107776"
+    "codigo": "5107776",
+    "uf": "MT"
   },
   {
     "nome": "São José do Rio Claro",
-    "codigo": "5107305"
+    "codigo": "5107305",
+    "uf": "MT"
   },
   {
     "nome": "Abadiânia",
-    "codigo": "5200100"
+    "codigo": "5200100",
+    "uf": "GO"
   },
   {
     "nome": "Água Limpa",
-    "codigo": "5200209"
+    "codigo": "5200209",
+    "uf": "GO"
   },
   {
     "nome": "Alexânia",
-    "codigo": "5200308"
+    "codigo": "5200308",
+    "uf": "GO"
   },
   {
     "nome": "Almas",
-    "codigo": "1700400"
+    "codigo": "1700400",
+    "uf": "TO"
   },
   {
     "nome": "Aloândia",
-    "codigo": "5200506"
+    "codigo": "5200506",
+    "uf": "GO"
   },
   {
     "nome": "Alto Paraíso de Goiás",
-    "codigo": "5200605"
+    "codigo": "5200605",
+    "uf": "GO"
   },
   {
     "nome": "Alvorada",
-    "codigo": "1700707"
+    "codigo": "1700707",
+    "uf": "TO"
   },
   {
     "nome": "Alvorada do Norte",
-    "codigo": "5200803"
+    "codigo": "5200803",
+    "uf": "GO"
   },
   {
     "nome": "Amorinópolis",
-    "codigo": "5200902"
+    "codigo": "5200902",
+    "uf": "GO"
   },
   {
     "nome": "Ananás",
-    "codigo": "1701002"
+    "codigo": "1701002",
+    "uf": "TO"
   },
   {
     "nome": "Anápolis",
-    "codigo": "5201108"
+    "codigo": "5201108",
+    "uf": "GO"
   },
   {
     "nome": "Anhanguera",
-    "codigo": "5201207"
+    "codigo": "5201207",
+    "uf": "GO"
   },
   {
     "nome": "Anicuns",
-    "codigo": "5201306"
+    "codigo": "5201306",
+    "uf": "GO"
   },
   {
     "nome": "Aparecida de Goiânia",
-    "codigo": "5201405"
+    "codigo": "5201405",
+    "uf": "GO"
   },
   {
     "nome": "Aporé",
-    "codigo": "5201504"
+    "codigo": "5201504",
+    "uf": "GO"
   },
   {
     "nome": "Araçu",
-    "codigo": "5201603"
+    "codigo": "5201603",
+    "uf": "GO"
   },
   {
     "nome": "Aragarças",
-    "codigo": "5201702"
+    "codigo": "5201702",
+    "uf": "GO"
   },
   {
     "nome": "Aragoiânia",
-    "codigo": "5201801"
+    "codigo": "5201801",
+    "uf": "GO"
   },
   {
     "nome": "Araguacema",
-    "codigo": "1701903"
+    "codigo": "1701903",
+    "uf": "TO"
   },
   {
     "nome": "Araguaçu",
-    "codigo": "1702000"
+    "codigo": "1702000",
+    "uf": "TO"
   },
   {
     "nome": "Araguaína",
-    "codigo": "1702109"
+    "codigo": "1702109",
+    "uf": "TO"
   },
   {
     "nome": "Araguatins",
-    "codigo": "1702208"
+    "codigo": "1702208",
+    "uf": "TO"
   },
   {
     "nome": "Arapoema",
-    "codigo": "1702307"
+    "codigo": "1702307",
+    "uf": "TO"
   },
   {
     "nome": "Arraias",
-    "codigo": "1702406"
+    "codigo": "1702406",
+    "uf": "TO"
   },
   {
     "nome": "Aruanã",
-    "codigo": "5202502"
+    "codigo": "5202502",
+    "uf": "GO"
   },
   {
     "nome": "Aurilândia",
-    "codigo": "5202601"
+    "codigo": "5202601",
+    "uf": "GO"
   },
   {
     "nome": "Aurora do Tocantins",
-    "codigo": "1702703"
+    "codigo": "1702703",
+    "uf": "TO"
   },
   {
     "nome": "Avelinópolis",
-    "codigo": "5202809"
+    "codigo": "5202809",
+    "uf": "GO"
   },
   {
     "nome": "Axixá do Tocantins",
-    "codigo": "1702901"
+    "codigo": "1702901",
+    "uf": "TO"
   },
   {
     "nome": "Babaçulândia",
-    "codigo": "1703008"
+    "codigo": "1703008",
+    "uf": "TO"
   },
   {
     "nome": "Baliza",
-    "codigo": "5203104"
+    "codigo": "5203104",
+    "uf": "GO"
   },
   {
     "nome": "Barro Alto",
-    "codigo": "5203203"
+    "codigo": "5203203",
+    "uf": "GO"
   },
   {
     "nome": "Bela Vista de Goiás",
-    "codigo": "5203302"
+    "codigo": "5203302",
+    "uf": "GO"
   },
   {
     "nome": "Bom Jardim de Goiás",
-    "codigo": "5203401"
+    "codigo": "5203401",
+    "uf": "GO"
   },
   {
     "nome": "Bom Jesus de Goiás",
-    "codigo": "5203500"
+    "codigo": "5203500",
+    "uf": "GO"
   },
   {
     "nome": "Brazabrantes",
-    "codigo": "5203609"
+    "codigo": "5203609",
+    "uf": "GO"
   },
   {
     "nome": "Brejinho de Nazaré",
-    "codigo": "1703701"
+    "codigo": "1703701",
+    "uf": "TO"
   },
   {
     "nome": "Britânia",
-    "codigo": "5203807"
+    "codigo": "5203807",
+    "uf": "GO"
   },
   {
     "nome": "Buriti Alegre",
-    "codigo": "5203906"
+    "codigo": "5203906",
+    "uf": "GO"
   },
   {
     "nome": "Cabeceiras",
-    "codigo": "5204003"
+    "codigo": "5204003",
+    "uf": "GO"
   },
   {
     "nome": "Cachoeira Alta",
-    "codigo": "5204102"
+    "codigo": "5204102",
+    "uf": "GO"
   },
   {
     "nome": "Cachoeira de Goiás",
-    "codigo": "5204201"
+    "codigo": "5204201",
+    "uf": "GO"
   },
   {
     "nome": "Caçu",
-    "codigo": "5204300"
+    "codigo": "5204300",
+    "uf": "GO"
   },
   {
     "nome": "Caiapônia",
-    "codigo": "5204409"
+    "codigo": "5204409",
+    "uf": "GO"
   },
   {
     "nome": "Caldas Novas",
-    "codigo": "5204508"
+    "codigo": "5204508",
+    "uf": "GO"
   },
   {
     "nome": "Campestre de Goiás",
-    "codigo": "5204607"
+    "codigo": "5204607",
+    "uf": "GO"
   },
   {
     "nome": "Campinorte",
-    "codigo": "5204706"
+    "codigo": "5204706",
+    "uf": "GO"
   },
   {
     "nome": "Campo Alegre de Goiás",
-    "codigo": "5204805"
+    "codigo": "5204805",
+    "uf": "GO"
   },
   {
     "nome": "Campos Belos",
-    "codigo": "5204904"
+    "codigo": "5204904",
+    "uf": "GO"
   },
   {
     "nome": "Carmo do Rio Verde",
-    "codigo": "5205000"
+    "codigo": "5205000",
+    "uf": "GO"
   },
   {
     "nome": "Catalão",
-    "codigo": "5205109"
+    "codigo": "5205109",
+    "uf": "GO"
   },
   {
     "nome": "Caturaí",
-    "codigo": "5205208"
+    "codigo": "5205208",
+    "uf": "GO"
   },
   {
     "nome": "Cavalcante",
-    "codigo": "5205307"
+    "codigo": "5205307",
+    "uf": "GO"
   },
   {
     "nome": "Ceres",
-    "codigo": "5205406"
+    "codigo": "5205406",
+    "uf": "GO"
   },
   {
     "nome": "Divinópolis de Goiás",
-    "codigo": "5208301"
+    "codigo": "5208301",
+    "uf": "GO"
   },
   {
     "nome": "Colinas do Tocantins",
-    "codigo": "1705508"
+    "codigo": "1705508",
+    "uf": "TO"
   },
   {
     "nome": "Conceição do Tocantins",
-    "codigo": "1705607"
+    "codigo": "1705607",
+    "uf": "TO"
   },
   {
     "nome": "Córrego do Ouro",
-    "codigo": "5205703"
+    "codigo": "5205703",
+    "uf": "GO"
   },
   {
     "nome": "Corumbá de Goiás",
-    "codigo": "5205802"
+    "codigo": "5205802",
+    "uf": "GO"
   },
   {
     "nome": "Corumbaíba",
-    "codigo": "5205901"
+    "codigo": "5205901",
+    "uf": "GO"
   },
   {
     "nome": "Couto Magalhães",
-    "codigo": "1706001"
+    "codigo": "1706001",
+    "uf": "TO"
   },
   {
     "nome": "Cristalândia",
-    "codigo": "1706100"
+    "codigo": "1706100",
+    "uf": "TO"
   },
   {
     "nome": "Cristalina",
-    "codigo": "5206206"
+    "codigo": "5206206",
+    "uf": "GO"
   },
   {
     "nome": "Cristianópolis",
-    "codigo": "5206305"
+    "codigo": "5206305",
+    "uf": "GO"
   },
   {
     "nome": "Crixás",
-    "codigo": "5206404"
+    "codigo": "5206404",
+    "uf": "GO"
   },
   {
     "nome": "Cromínia",
-    "codigo": "5206503"
+    "codigo": "5206503",
+    "uf": "GO"
   },
   {
     "nome": "Cumari",
-    "codigo": "5206602"
+    "codigo": "5206602",
+    "uf": "GO"
   },
   {
     "nome": "Damianópolis",
-    "codigo": "5206701"
+    "codigo": "5206701",
+    "uf": "GO"
   },
   {
     "nome": "Damolândia",
-    "codigo": "5206800"
+    "codigo": "5206800",
+    "uf": "GO"
   },
   {
     "nome": "Davinópolis",
-    "codigo": "5206909"
+    "codigo": "5206909",
+    "uf": "GO"
   },
   {
     "nome": "Dianópolis",
-    "codigo": "1707009"
+    "codigo": "1707009",
+    "uf": "TO"
   },
   {
     "nome": "Diorama",
-    "codigo": "5207105"
+    "codigo": "5207105",
+    "uf": "GO"
   },
   {
     "nome": "Dois Irmãos do Tocantins",
-    "codigo": "1707207"
+    "codigo": "1707207",
+    "uf": "TO"
   },
   {
     "nome": "Dueré",
-    "codigo": "1707306"
+    "codigo": "1707306",
+    "uf": "TO"
   },
   {
     "nome": "Edéia",
-    "codigo": "5207402"
+    "codigo": "5207402",
+    "uf": "GO"
   },
   {
     "nome": "Estrela do Norte",
-    "codigo": "5207501"
+    "codigo": "5207501",
+    "uf": "GO"
   },
   {
     "nome": "Fazenda Nova",
-    "codigo": "5207600"
+    "codigo": "5207600",
+    "uf": "GO"
   },
   {
     "nome": "Filadélfia",
-    "codigo": "1707702"
+    "codigo": "1707702",
+    "uf": "TO"
   },
   {
     "nome": "Firminópolis",
-    "codigo": "5207808"
+    "codigo": "5207808",
+    "uf": "GO"
   },
   {
     "nome": "Rio Verde",
-    "codigo": "5218805"
+    "codigo": "5218805",
+    "uf": "GO"
   },
   {
     "nome": "Rubiataba",
-    "codigo": "5218904"
+    "codigo": "5218904",
+    "uf": "GO"
   },
   {
     "nome": "Sanclerlândia",
-    "codigo": "5219001"
+    "codigo": "5219001",
+    "uf": "GO"
   },
   {
     "nome": "Santa Bárbara de Goiás",
-    "codigo": "5219100"
+    "codigo": "5219100",
+    "uf": "GO"
   },
   {
     "nome": "Santa Cruz de Goiás",
-    "codigo": "5219209"
+    "codigo": "5219209",
+    "uf": "GO"
   },
   {
     "nome": "Santa Helena de Goiás",
-    "codigo": "5219308"
+    "codigo": "5219308",
+    "uf": "GO"
   },
   {
     "nome": "Santa Rita do Araguaia",
-    "codigo": "5219407"
+    "codigo": "5219407",
+    "uf": "GO"
   },
   {
     "nome": "Santa Rosa de Goiás",
-    "codigo": "5219506"
+    "codigo": "5219506",
+    "uf": "GO"
   },
   {
     "nome": "Santa Tereza de Goiás",
-    "codigo": "5219605"
+    "codigo": "5219605",
+    "uf": "GO"
   },
   {
     "nome": "Santa Terezinha de Goiás",
-    "codigo": "5219704"
+    "codigo": "5219704",
+    "uf": "GO"
   },
   {
     "nome": "São Domingos",
-    "codigo": "5219803"
+    "codigo": "5219803",
+    "uf": "GO"
   },
   {
     "nome": "São Francisco de Goiás",
-    "codigo": "5219902"
+    "codigo": "5219902",
+    "uf": "GO"
   },
   {
     "nome": "Planaltina",
-    "codigo": "5217609"
+    "codigo": "5217609",
+    "uf": "GO"
   },
   {
     "nome": "São João d'Aliança",
-    "codigo": "5220009"
+    "codigo": "5220009",
+    "uf": "GO"
   },
   {
     "nome": "São Luís de Montes Belos",
-    "codigo": "5220108"
+    "codigo": "5220108",
+    "uf": "GO"
   },
   {
     "nome": "São Miguel do Araguaia",
-    "codigo": "5220207"
+    "codigo": "5220207",
+    "uf": "GO"
   },
   {
     "nome": "São Sebastião do Tocantins",
-    "codigo": "1720309"
+    "codigo": "1720309",
+    "uf": "TO"
   },
   {
     "nome": "São Simão",
-    "codigo": "5220405"
+    "codigo": "5220405",
+    "uf": "GO"
   },
   {
     "nome": "Serranópolis",
-    "codigo": "5220504"
+    "codigo": "5220504",
+    "uf": "GO"
   },
   {
     "nome": "Silvânia",
-    "codigo": "5220603"
+    "codigo": "5220603",
+    "uf": "GO"
   },
   {
     "nome": "Sítio d'Abadia",
-    "codigo": "5220702"
+    "codigo": "5220702",
+    "uf": "GO"
   },
   {
     "nome": "Sítio Novo do Tocantins",
-    "codigo": "1720804"
+    "codigo": "1720804",
+    "uf": "TO"
   },
   {
     "nome": "Taguatinga",
-    "codigo": "1720903"
+    "codigo": "1720903",
+    "uf": "TO"
   },
   {
     "nome": "Taquaral de Goiás",
-    "codigo": "5221007"
+    "codigo": "5221007",
+    "uf": "GO"
   },
   {
     "nome": "Tocantínia",
-    "codigo": "1721109"
+    "codigo": "1721109",
+    "uf": "TO"
   },
   {
     "nome": "Tocantinópolis",
-    "codigo": "1721208"
+    "codigo": "1721208",
+    "uf": "TO"
   },
   {
     "nome": "Três Ranchos",
-    "codigo": "5221304"
+    "codigo": "5221304",
+    "uf": "GO"
   },
   {
     "nome": "Trindade",
-    "codigo": "5221403"
+    "codigo": "5221403",
+    "uf": "GO"
   },
   {
     "nome": "Guaraí",
-    "codigo": "1709302"
+    "codigo": "1709302",
+    "uf": "TO"
   },
   {
     "nome": "Presidente Kennedy",
-    "codigo": "1718402"
+    "codigo": "1718402",
+    "uf": "TO"
   },
   {
     "nome": "Turvânia",
-    "codigo": "5221502"
+    "codigo": "5221502",
+    "uf": "GO"
   },
   {
     "nome": "Uruaçu",
-    "codigo": "5221601"
+    "codigo": "5221601",
+    "uf": "GO"
   },
   {
     "nome": "Uruana",
-    "codigo": "5221700"
+    "codigo": "5221700",
+    "uf": "GO"
   },
   {
     "nome": "Urutaí",
-    "codigo": "5221809"
+    "codigo": "5221809",
+    "uf": "GO"
   },
   {
     "nome": "Varjão",
-    "codigo": "5221908"
+    "codigo": "5221908",
+    "uf": "GO"
   },
   {
     "nome": "Vianópolis",
-    "codigo": "5222005"
+    "codigo": "5222005",
+    "uf": "GO"
   },
   {
     "nome": "Xambioá",
-    "codigo": "1722107"
+    "codigo": "1722107",
+    "uf": "TO"
   },
   {
     "nome": "Acreúna",
-    "codigo": "5200134"
+    "codigo": "5200134",
+    "uf": "GO"
   },
   {
     "nome": "Minaçu",
-    "codigo": "5213087"
+    "codigo": "5213087",
+    "uf": "GO"
   },
   {
     "nome": "Palmeirópolis",
-    "codigo": "1715754"
+    "codigo": "1715754",
+    "uf": "TO"
   },
   {
     "nome": "Mundo Novo",
-    "codigo": "5214051"
+    "codigo": "5214051",
+    "uf": "GO"
   },
   {
     "nome": "Nova Crixás",
-    "codigo": "5214838"
+    "codigo": "5214838",
+    "uf": "GO"
   },
   {
     "nome": "Nova Glória",
-    "codigo": "5214861"
+    "codigo": "5214861",
+    "uf": "GO"
   },
   {
     "nome": "Vicentinópolis",
-    "codigo": "5222054"
+    "codigo": "5222054",
+    "uf": "GO"
   },
   {
     "nome": "Silvanópolis",
-    "codigo": "1720655"
+    "codigo": "1720655",
+    "uf": "TO"
   },
   {
     "nome": "Americano do Brasil",
-    "codigo": "5200852"
+    "codigo": "5200852",
+    "uf": "GO"
   },
   {
     "nome": "Nova Olinda",
-    "codigo": "1714880"
+    "codigo": "1714880",
+    "uf": "TO"
   },
   {
     "nome": "Wanderlândia",
-    "codigo": "1722081"
+    "codigo": "1722081",
+    "uf": "TO"
   },
   {
     "nome": "Figueirópolis",
-    "codigo": "1707652"
+    "codigo": "1707652",
+    "uf": "TO"
   },
   {
     "nome": "Araguapaz",
-    "codigo": "5202155"
+    "codigo": "5202155",
+    "uf": "GO"
   },
   {
     "nome": "Arenópolis",
-    "codigo": "5202353"
+    "codigo": "5202353",
+    "uf": "GO"
   },
   {
     "nome": "Cachoeira Dourada",
-    "codigo": "5204250"
+    "codigo": "5204250",
+    "uf": "GO"
   },
   {
     "nome": "Doverlândia",
-    "codigo": "5207253"
+    "codigo": "5207253",
+    "uf": "GO"
   },
   {
     "nome": "Santo Antônio do Descoberto",
-    "codigo": "5219753"
+    "codigo": "5219753",
+    "uf": "GO"
   },
   {
     "nome": "Rio Sono",
-    "codigo": "1718758"
+    "codigo": "1718758",
+    "uf": "TO"
   },
   {
     "nome": "Indiara",
-    "codigo": "5209952"
+    "codigo": "5209952",
+    "uf": "GO"
   },
   {
     "nome": "Fátima",
-    "codigo": "1707553"
+    "codigo": "1707553",
+    "uf": "TO"
   },
   {
     "nome": "Augustinópolis",
-    "codigo": "1702554"
+    "codigo": "1702554",
+    "uf": "TO"
   },
   {
     "nome": "Campinaçu",
-    "codigo": "5204656"
+    "codigo": "5204656",
+    "uf": "GO"
   },
   {
     "nome": "Santa Isabel",
-    "codigo": "5219357"
+    "codigo": "5219357",
+    "uf": "GO"
   },
   {
     "nome": "São Valério",
-    "codigo": "1720499"
+    "codigo": "1720499",
+    "uf": "TO"
   },
   {
     "nome": "Barrolândia",
-    "codigo": "1703107"
+    "codigo": "1703107",
+    "uf": "TO"
   },
   {
     "nome": "Bernardo Sayão",
-    "codigo": "1703206"
+    "codigo": "1703206",
+    "uf": "TO"
   },
   {
     "nome": "Combinado",
-    "codigo": "1705557"
+    "codigo": "1705557",
+    "uf": "TO"
   },
   {
     "nome": "Goianorte",
-    "codigo": "1708304"
+    "codigo": "1708304",
+    "uf": "TO"
   },
   {
     "nome": "Brasília",
-    "codigo": "5300108"
+    "codigo": "5300108",
+    "uf": "DF"
   },
   {
     "nome": "Novo Alegre",
-    "codigo": "1715150"
+    "codigo": "1715150",
+    "uf": "TO"
   },
   {
     "nome": "Pequizeiro",
-    "codigo": "1716653"
+    "codigo": "1716653",
+    "uf": "TO"
   },
   {
     "nome": "Marianópolis do Tocantins",
-    "codigo": "1712504"
+    "codigo": "1712504",
+    "uf": "TO"
   },
   {
     "nome": "Aparecida do Rio Negro",
-    "codigo": "1701101"
+    "codigo": "1701101",
+    "uf": "TO"
   },
   {
     "nome": "Buriti do Tocantins",
-    "codigo": "1703800"
+    "codigo": "1703800",
+    "uf": "TO"
   },
   {
     "nome": "Caseara",
-    "codigo": "1703909"
+    "codigo": "1703909",
+    "uf": "TO"
   },
   {
     "nome": "Divinópolis do Tocantins",
-    "codigo": "1707108"
+    "codigo": "1707108",
+    "uf": "TO"
   },
   {
     "nome": "Nova Rosalândia",
-    "codigo": "1715002"
+    "codigo": "1715002",
+    "uf": "TO"
   },
   {
     "nome": "Porto Alegre do Tocantins",
-    "codigo": "1718006"
+    "codigo": "1718006",
+    "uf": "TO"
   },
   {
     "nome": "Praia Norte",
-    "codigo": "1718303"
+    "codigo": "1718303",
+    "uf": "TO"
   },
   {
     "nome": "Sampaio",
-    "codigo": "1718808"
+    "codigo": "1718808",
+    "uf": "TO"
   },
   {
     "nome": "Santa Rosa do Tocantins",
-    "codigo": "1718907"
+    "codigo": "1718907",
+    "uf": "TO"
   },
   {
     "nome": "Santa Tereza do Tocantins",
-    "codigo": "1719004"
+    "codigo": "1719004",
+    "uf": "TO"
   },
   {
     "nome": "Palmas",
-    "codigo": "1721000"
+    "codigo": "1721000",
+    "uf": "TO"
   },
   {
     "nome": "Novo Planalto",
-    "codigo": "5215256"
+    "codigo": "5215256",
+    "uf": "GO"
   },
   {
     "nome": "Palestina de Goiás",
-    "codigo": "5215652"
+    "codigo": "5215652",
+    "uf": "GO"
   },
   {
     "nome": "Paranhos",
-    "codigo": "5006358"
+    "codigo": "5006358",
+    "uf": "MS"
   },
   {
     "nome": "Ribeirão Cascalheira",
-    "codigo": "5107180"
+    "codigo": "5107180",
+    "uf": "MT"
   },
   {
     "nome": "Santa Fé de Goiás",
-    "codigo": "5219258"
+    "codigo": "5219258",
+    "uf": "GO"
   },
   {
     "nome": "Santa Rita do Pardo",
-    "codigo": "5007554"
+    "codigo": "5007554",
+    "uf": "MS"
   },
   {
     "nome": "São João da Paraúna",
-    "codigo": "5220058"
+    "codigo": "5220058",
+    "uf": "GO"
   },
   {
     "nome": "São Luiz do Norte",
-    "codigo": "5220157"
+    "codigo": "5220157",
+    "uf": "GO"
   },
   {
     "nome": "São Miguel do Passa Quatro",
-    "codigo": "5220264"
+    "codigo": "5220264",
+    "uf": "GO"
   },
   {
     "nome": "Senador Canedo",
-    "codigo": "5220454"
+    "codigo": "5220454",
+    "uf": "GO"
   },
   {
     "nome": "Simolândia",
-    "codigo": "5220686"
+    "codigo": "5220686",
+    "uf": "GO"
   },
   {
     "nome": "Sonora",
-    "codigo": "5007935"
+    "codigo": "5007935",
+    "uf": "MS"
   },
   {
     "nome": "Teresina de Goiás",
-    "codigo": "5221080"
+    "codigo": "5221080",
+    "uf": "GO"
   },
   {
     "nome": "Trombas",
-    "codigo": "5221452"
+    "codigo": "5221452",
+    "uf": "GO"
   },
   {
     "nome": "Tapurah",
-    "codigo": "5108006"
+    "codigo": "5108006",
+    "uf": "MT"
   },
   {
     "nome": "Turvelândia",
-    "codigo": "5221551"
+    "codigo": "5221551",
+    "uf": "GO"
   },
   {
     "nome": "Alagoinha do Piauí",
-    "codigo": "2200251"
+    "codigo": "2200251",
+    "uf": "PI"
   },
   {
     "nome": "Adelândia",
-    "codigo": "5200159"
+    "codigo": "5200159",
+    "uf": "GO"
   },
   {
     "nome": "Água Fria de Goiás",
-    "codigo": "5200175"
+    "codigo": "5200175",
+    "uf": "GO"
   },
   {
     "nome": "Apiacás",
-    "codigo": "5100805"
+    "codigo": "5100805",
+    "uf": "MT"
   },
   {
     "nome": "Bonfinópolis",
-    "codigo": "5203559"
+    "codigo": "5203559",
+    "uf": "GO"
   },
   {
     "nome": "Campo Novo do Parecis",
-    "codigo": "5102637"
+    "codigo": "5102637",
+    "uf": "MT"
   },
   {
     "nome": "Campo Verde",
-    "codigo": "5102678"
+    "codigo": "5102678",
+    "uf": "MT"
   },
   {
     "nome": "Campos Verdes",
-    "codigo": "5204953"
+    "codigo": "5204953",
+    "uf": "GO"
   },
   {
     "nome": "Castanheira",
-    "codigo": "5102850"
+    "codigo": "5102850",
+    "uf": "MT"
   },
   {
     "nome": "Cezarina",
-    "codigo": "5205455"
+    "codigo": "5205455",
+    "uf": "GO"
   },
   {
     "nome": "Chapadão do Sul",
-    "codigo": "5002951"
+    "codigo": "5002951",
+    "uf": "MS"
   },
   {
     "nome": "Cláudia",
-    "codigo": "5103056"
+    "codigo": "5103056",
+    "uf": "MT"
   },
   {
     "nome": "Colinas do Sul",
-    "codigo": "5205521"
+    "codigo": "5205521",
+    "uf": "GO"
   },
   {
     "nome": "Dois Irmãos do Buriti",
-    "codigo": "5003488"
+    "codigo": "5003488",
+    "uf": "MS"
   },
   {
     "nome": "Edealina",
-    "codigo": "5207352"
+    "codigo": "5207352",
+    "uf": "GO"
   },
   {
     "nome": "Faina",
-    "codigo": "5207535"
+    "codigo": "5207535",
+    "uf": "GO"
   },
   {
     "nome": "Gouvelândia",
-    "codigo": "5209150"
+    "codigo": "5209150",
+    "uf": "GO"
   },
   {
     "nome": "Bodoquena",
-    "codigo": "5002159"
+    "codigo": "5002159",
+    "uf": "MS"
   },
   {
     "nome": "Costa Rica",
-    "codigo": "5003256"
+    "codigo": "5003256",
+    "uf": "MS"
   },
   {
     "nome": "Douradina",
-    "codigo": "5003504"
+    "codigo": "5003504",
+    "uf": "MS"
   },
   {
     "nome": "Itaquiraí",
-    "codigo": "5004601"
+    "codigo": "5004601",
+    "uf": "MS"
   },
   {
     "nome": "São Gabriel do Oeste",
-    "codigo": "5007695"
+    "codigo": "5007695",
+    "uf": "MS"
   },
   {
     "nome": "Selvíria",
-    "codigo": "5007802"
+    "codigo": "5007802",
+    "uf": "MS"
   },
   {
     "nome": "Sete Quedas",
-    "codigo": "5007703"
+    "codigo": "5007703",
+    "uf": "MS"
   },
   {
     "nome": "Tacuru",
-    "codigo": "5007950"
+    "codigo": "5007950",
+    "uf": "MS"
   },
   {
     "nome": "Taquarussu",
-    "codigo": "5007976"
+    "codigo": "5007976",
+    "uf": "MS"
   },
   {
     "nome": "Juara",
-    "codigo": "5105101"
+    "codigo": "5105101",
+    "uf": "MT"
   },
   {
     "nome": "Teutônia",
-    "codigo": "4321451"
+    "codigo": "4321451",
+    "uf": "RS"
   },
   {
     "nome": "Bom Princípio",
-    "codigo": "4302352"
+    "codigo": "4302352",
+    "uf": "RS"
   },
   {
     "nome": "Parobé",
-    "codigo": "4314050"
+    "codigo": "4314050",
+    "uf": "RS"
   },
   {
     "nome": "Fortaleza dos Valos",
-    "codigo": "4308458"
+    "codigo": "4308458",
+    "uf": "RS"
   },
   {
     "nome": "Jóia",
-    "codigo": "4311155"
+    "codigo": "4311155",
+    "uf": "RS"
   },
   {
     "nome": "Juína",
-    "codigo": "5105150"
+    "codigo": "5105150",
+    "uf": "MT"
   },
   {
     "nome": "Denise",
-    "codigo": "5103452"
+    "codigo": "5103452",
+    "uf": "MT"
   },
   {
     "nome": "Iranduba",
-    "codigo": "1301852"
+    "codigo": "1301852",
+    "uf": "AM"
   },
   {
     "nome": "Itamarati",
-    "codigo": "1301951"
+    "codigo": "1301951",
+    "uf": "AM"
   },
   {
     "nome": "Manaquiri",
-    "codigo": "1302553"
+    "codigo": "1302553",
+    "uf": "AM"
   },
   {
     "nome": "Presidente Figueiredo",
-    "codigo": "1303536"
+    "codigo": "1303536",
+    "uf": "AM"
   },
   {
     "nome": "Rio Preto da Eva",
-    "codigo": "1303569"
+    "codigo": "1303569",
+    "uf": "AM"
   },
   {
     "nome": "São Sebastião do Uatumã",
-    "codigo": "1303957"
+    "codigo": "1303957",
+    "uf": "AM"
   },
   {
     "nome": "Tabatinga",
-    "codigo": "1304062"
+    "codigo": "1304062",
+    "uf": "AM"
   },
   {
     "nome": "Uarini",
-    "codigo": "1304260"
+    "codigo": "1304260",
+    "uf": "AM"
   },
   {
     "nome": "Tonantins",
-    "codigo": "1304237"
+    "codigo": "1304237",
+    "uf": "AM"
   },
   {
     "nome": "Quixelô",
-    "codigo": "2311355"
+    "codigo": "2311355",
+    "uf": "CE"
   },
   {
     "nome": "Umirim",
-    "codigo": "2313757"
+    "codigo": "2313757",
+    "uf": "CE"
   },
   {
     "nome": "Varjota",
-    "codigo": "2313955"
+    "codigo": "2313955",
+    "uf": "CE"
   },
   {
     "nome": "Jaborandi",
-    "codigo": "2917359"
+    "codigo": "2917359",
+    "uf": "BA"
   },
   {
     "nome": "Jangada",
-    "codigo": "5104906"
+    "codigo": "5104906",
+    "uf": "MT"
   },
   {
     "nome": "Campinápolis",
-    "codigo": "5102603"
+    "codigo": "5102603",
+    "uf": "MT"
   },
   {
     "nome": "Cocalinho",
-    "codigo": "5103106"
+    "codigo": "5103106",
+    "uf": "MT"
   },
   {
     "nome": "Novo São Joaquim",
-    "codigo": "5106281"
+    "codigo": "5106281",
+    "uf": "MT"
   },
   {
     "nome": "Araguaiana",
-    "codigo": "5101001"
+    "codigo": "5101001",
+    "uf": "MT"
   },
   {
     "nome": "Primavera do Leste",
-    "codigo": "5107040"
+    "codigo": "5107040",
+    "uf": "MT"
   },
   {
     "nome": "Brasnorte",
-    "codigo": "5101902"
+    "codigo": "5101902",
+    "uf": "MT"
   },
   {
     "nome": "Porto Esperidião",
-    "codigo": "5106828"
+    "codigo": "5106828",
+    "uf": "MT"
   },
   {
     "nome": "Indiavaí",
-    "codigo": "5104500"
+    "codigo": "5104500",
+    "uf": "MT"
   },
   {
     "nome": "Reserva do Cabaçal",
-    "codigo": "5107156"
+    "codigo": "5107156",
+    "uf": "MT"
   },
   {
     "nome": "Figueirópolis D'Oeste",
-    "codigo": "5103809"
+    "codigo": "5103809",
+    "uf": "MT"
   },
   {
     "nome": "Comodoro",
-    "codigo": "5103304"
+    "codigo": "5103304",
+    "uf": "MT"
   },
   {
     "nome": "Paranaíta",
-    "codigo": "5106299"
+    "codigo": "5106299",
+    "uf": "MT"
   },
   {
     "nome": "Guarantã do Norte",
-    "codigo": "5104104"
+    "codigo": "5104104",
+    "uf": "MT"
   },
   {
     "nome": "Nova Canaã do Norte",
-    "codigo": "5106216"
+    "codigo": "5106216",
+    "uf": "MT"
   },
   {
     "nome": "Peixoto de Azevedo",
-    "codigo": "5106422"
+    "codigo": "5106422",
+    "uf": "MT"
   },
   {
     "nome": "Nova Olímpia",
-    "codigo": "5106232"
+    "codigo": "5106232",
+    "uf": "MT"
   },
   {
     "nome": "Porto Alegre do Norte",
-    "codigo": "5106778"
+    "codigo": "5106778",
+    "uf": "MT"
   },
   {
     "nome": "Vila Rica",
-    "codigo": "5108600"
+    "codigo": "5108600",
+    "uf": "MT"
   },
   {
     "nome": "Marcelândia",
-    "codigo": "5105580"
+    "codigo": "5105580",
+    "uf": "MT"
   },
   {
     "nome": "Itaúba",
-    "codigo": "5104559"
+    "codigo": "5104559",
+    "uf": "MT"
   },
   {
     "nome": "Novo Horizonte do Norte",
-    "codigo": "5106273"
+    "codigo": "5106273",
+    "uf": "MT"
   },
   {
     "nome": "Vera",
-    "codigo": "5108501"
+    "codigo": "5108501",
+    "uf": "MT"
   },
   {
     "nome": "Sorriso",
-    "codigo": "5107925"
+    "codigo": "5107925",
+    "uf": "MT"
   },
   {
     "nome": "Terra Nova do Norte",
-    "codigo": "5108055"
+    "codigo": "5108055",
+    "uf": "MT"
   },
   {
     "nome": "Alto Taquari",
-    "codigo": "5100607"
+    "codigo": "5100607",
+    "uf": "MT"
   },
   {
     "nome": "Nova Tebas",
-    "codigo": "4117271"
+    "codigo": "4117271",
+    "uf": "PR"
   },
   {
     "nome": "Diamante D'Oeste",
-    "codigo": "4107157"
+    "codigo": "4107157",
+    "uf": "PR"
   },
   {
     "nome": "Quiterianópolis",
-    "codigo": "2311264"
+    "codigo": "2311264",
+    "uf": "CE"
   },
   {
     "nome": "Itaguari",
-    "codigo": "5210562"
+    "codigo": "5210562",
+    "uf": "GO"
   },
   {
     "nome": "Juruena",
-    "codigo": "5105176"
+    "codigo": "5105176",
+    "uf": "MT"
   },
   {
     "nome": "Juti",
-    "codigo": "5005152"
+    "codigo": "5005152",
+    "uf": "MS"
   },
   {
     "nome": "Lucas do Rio Verde",
-    "codigo": "5105259"
+    "codigo": "5105259",
+    "uf": "MT"
   },
   {
     "nome": "Matrinchã",
-    "codigo": "5212956"
+    "codigo": "5212956",
+    "uf": "GO"
   },
   {
     "nome": "Matupá",
-    "codigo": "5105606"
+    "codigo": "5105606",
+    "uf": "MT"
   },
   {
     "nome": "Mimoso de Goiás",
-    "codigo": "5213053"
+    "codigo": "5213053",
+    "uf": "GO"
   },
   {
     "nome": "Montividiu",
-    "codigo": "5213756"
+    "codigo": "5213756",
+    "uf": "GO"
   },
   {
     "nome": "Morro Agudo de Goiás",
-    "codigo": "5213855"
+    "codigo": "5213855",
+    "uf": "GO"
   },
   {
     "nome": "Nova Mutum",
-    "codigo": "5106224"
+    "codigo": "5106224",
+    "uf": "MT"
   },
   {
     "nome": "Abdon Batista",
-    "codigo": "4200051"
+    "codigo": "4200051",
+    "uf": "SC"
   },
   {
     "nome": "Apiúna",
-    "codigo": "4201257"
+    "codigo": "4201257",
+    "uf": "SC"
   },
   {
     "nome": "Celso Ramos",
-    "codigo": "4204152"
+    "codigo": "4204152",
+    "uf": "SC"
   },
   {
     "nome": "Doutor Pedrinho",
-    "codigo": "4205159"
+    "codigo": "4205159",
+    "uf": "SC"
   },
   {
     "nome": "Godoy Moreira",
-    "codigo": "4108551"
+    "codigo": "4108551",
+    "uf": "PR"
   },
   {
     "nome": "Ibema",
-    "codigo": "4109757"
+    "codigo": "4109757",
+    "uf": "PR"
   },
   {
     "nome": "Iporã do Oeste",
-    "codigo": "4207650"
+    "codigo": "4207650",
+    "uf": "SC"
   },
   {
     "nome": "Iraceminha",
-    "codigo": "4207759"
+    "codigo": "4207759",
+    "uf": "SC"
   },
   {
     "nome": "Ivaté",
-    "codigo": "4111555"
+    "codigo": "4111555",
+    "uf": "PR"
   },
   {
     "nome": "José Boiteux",
-    "codigo": "4209151"
+    "codigo": "4209151",
+    "uf": "SC"
   },
   {
     "nome": "Lindoeste",
-    "codigo": "4113452"
+    "codigo": "4113452",
+    "uf": "PR"
   },
   {
     "nome": "Lindóia do Sul",
-    "codigo": "4209854"
+    "codigo": "4209854",
+    "uf": "SC"
   },
   {
     "nome": "Marema",
-    "codigo": "4210555"
+    "codigo": "4210555",
+    "uf": "SC"
   },
   {
     "nome": "Ouro Verde do Oeste",
-    "codigo": "4117453"
+    "codigo": "4117453",
+    "uf": "PR"
   },
   {
     "nome": "Santa Rosa do Sul",
-    "codigo": "4215653"
+    "codigo": "4215653",
+    "uf": "SC"
   },
   {
     "nome": "Santa Tereza do Oeste",
-    "codigo": "4124020"
+    "codigo": "4124020",
+    "uf": "PR"
   },
   {
     "nome": "Timbó Grande",
-    "codigo": "4218251"
+    "codigo": "4218251",
+    "uf": "SC"
   },
   {
     "nome": "União do Oeste",
-    "codigo": "4218855"
+    "codigo": "4218855",
+    "uf": "SC"
   },
   {
     "nome": "Urupema",
-    "codigo": "4218954"
+    "codigo": "4218954",
+    "uf": "SC"
   },
   {
     "nome": "Vitor Meireles",
-    "codigo": "4219358"
+    "codigo": "4219358",
+    "uf": "SC"
   },
   {
     "nome": "Bom Sucesso do Sul",
-    "codigo": "4103222"
+    "codigo": "4103222",
+    "uf": "PR"
   },
   {
     "nome": "Honório Serpa",
-    "codigo": "4109658"
+    "codigo": "4109658",
+    "uf": "PR"
   },
   {
     "nome": "Fazenda Rio Grande",
-    "codigo": "4107652"
+    "codigo": "4107652",
+    "uf": "PR"
   },
   {
     "nome": "Itapoá",
-    "codigo": "4208450"
+    "codigo": "4208450",
+    "uf": "SC"
   },
   {
     "nome": "Serra Alta",
-    "codigo": "4217550"
+    "codigo": "4217550",
+    "uf": "SC"
   },
   {
     "nome": "Tunápolis",
-    "codigo": "4218756"
+    "codigo": "4218756",
+    "uf": "SC"
   },
   {
     "nome": "Guarinos",
-    "codigo": "5209457"
+    "codigo": "5209457",
+    "uf": "GO"
   },
   {
     "nome": "Rio Quente",
-    "codigo": "5218789"
+    "codigo": "5218789",
+    "uf": "GO"
   }
-];
+]

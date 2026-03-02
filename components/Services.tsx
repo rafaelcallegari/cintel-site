@@ -6,7 +6,7 @@ const services = [
   {
     title: 'Inteligência de Mercado',
     description: 'Análise de dados e tendências para apoiar decisões estratégicas e identificar oportunidades de mercado.',
-    image: '/images/mercado-inteligencia.png', // Coloque fotos de dashboards ou mapas urbanos
+    image: '/images/Mapa_calor.jpg', // Coloque fotos de dashboards ou mapas urbanos
   },
   {
     title: 'Site location e comercialização',
