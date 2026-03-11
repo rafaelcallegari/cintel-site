@@ -30,7 +30,6 @@ export default function MarketProductPage() {
   const [busca, setBusca] = useState('')
   const [municipioSelecionado, setMunicipioSelecionado] = useState<{nome: string, codigo: string, uf: string} | null>(null)
   const [vocacaoSelecionada, setVocacaoSelecionada] = useState('')
-  const [email, setEmail] = useState('')
   const [mostrarSugestoes, setMostrarSugestoes] = useState(false)
 
   const listaEstados = useMemo(() => {
@@ -59,7 +58,7 @@ export default function MarketProductPage() {
     { id: 'supermercado', label: 'Supermercado' }
   ];
 
-  // --- VERSÃO COMPLETA DO INSERT ---
+  // --- VERSÃO COMPLETA COM PAGAMENTO STRIPE ATIVADO ---
   const handleFinalizarCompra = async () => {
     setLoading(true)
     
@@ -67,8 +66,8 @@ export default function MarketProductPage() {
       const { data: { user } } = await supabase.auth.getUser()
 
       if (user) {
-        // 1. Grava a análise na tabela 'orders' para aparecer no Dashboard
-        const { error: dbError } = await supabase
+        // 1. Grava o pedido no banco como "Aguardando Pagamento"
+        const { data: orderData, error: dbError } = await supabase
           .from('orders')
           .insert([
             {
@@ -76,13 +75,19 @@ export default function MarketProductPage() {
               municipio: municipioSelecionado?.nome,
               uf: estadoSelecionado,
               vocacao: vocacaoSelecionada,
+              tipo_produto: 'Mapa de Calor', 
+              status: 'Aguardando Pagamento', 
               file_name: `${municipioSelecionado?.codigo}_${vocacaoSelecionada}_lgbc_mapa.html`
             }
-          ])
+          ]).select().single() // Pega os dados do pedido recém-criado
 
         if (dbError) throw dbError
 
-        // 2. Monta os parâmetros e redireciona para a SuccessPage com o Iframe
+        // =========================================================
+        // 2. CHAMA A API PARA GERAR O LINK DE PAGAMENTO
+        // =========================================================
+        
+        // Monta os parâmetros que vão para a tela de sucesso após pagar
         const params = new URLSearchParams({
           nome: municipioSelecionado?.nome || '',
           codigo: municipioSelecionado?.codigo || '',
@@ -90,11 +95,32 @@ export default function MarketProductPage() {
           vocacao: vocacaoSelecionada
         })
 
-        router.push(`/market/success?${params.toString()}`)
+        // Chama a rota de checkout (VERIFIQUE SE A SUA ROTA É EXATAMENTE /api/checkout)
+        const response = await fetch('/api/checkout', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            produto: `Mapa de Calor - ${municipioSelecionado?.nome} / ${estadoSelecionado}`,
+            preco: 149000, // R$ 1.490,00 (O Stripe lê em centavos, então 149000 = 1490.00)
+            orderId: orderData.id, 
+            successUrl: `${window.location.origin}/market/success?${params.toString()}`,
+            cancelUrl: window.location.href // Se ele cancelar, volta para a tela de resumo
+          })
+        });
+
+        const data = await response.json();
+
+        // Se a API devolver a URL do Stripe, redireciona o cliente para lá
+        if (data.url) {
+          router.push(data.url);
+        } else {
+          console.error("Erro do Gateway de Pagamento:", data);
+          alert("Não foi possível gerar o link de pagamento no momento. Tente novamente.");
+        }
       }
     } catch (error: any) {
       console.error("Erro ao processar:", error.message)
-      alert("Houve um erro ao salvar sua análise. Verifique sua conexão.")
+      alert("Houve um erro ao gerar o pagamento. Verifique sua conexão.")
     } finally {
       setLoading(false)
     }
@@ -179,7 +205,7 @@ export default function MarketProductPage() {
             <button onClick={handleFinalizarCompra} disabled={loading}
               className="w-full bg-green-600 text-white py-5 rounded-2xl font-bold hover:bg-green-700 shadow-md transition-all flex items-center justify-center gap-3 uppercase tracking-widest"
             >
-              {loading ? 'Processando...' : 'Confirmar e Abrir Mapa'}
+              {loading ? 'Processando...' : 'Confirmar e Ir para Pagamento'}
             </button>
             <button onClick={() => setStep('form')} className="mt-4 text-xs text-gray-400 hover:underline">Voltar e editar dados</button>
           </div>

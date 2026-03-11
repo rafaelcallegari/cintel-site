@@ -1,4 +1,5 @@
 'use client'
+
 import Image from 'next/image'
 import { useEffect, useState } from 'react'
 import { createBrowserClient } from '@supabase/ssr'
@@ -6,7 +7,8 @@ import Link from 'next/link'
 
 export default function Header() {
   const [displayUser, setDisplayUser] = useState<string | null>(null)
-  const [menuOpen, setMenuOpen] = useState(false) // Estado para o dropdown
+  const [menuOpen, setMenuOpen] = useState(false)
+  const [isAdmin, setIsAdmin] = useState(false)
   
   const supabase = createBrowserClient(
     process.env.NEXT_PUBLIC_SUPABASE_URL!, 
@@ -14,23 +16,49 @@ export default function Header() {
   )
 
   useEffect(() => {
+    // 1. Função que busca os dados atualizados
     const fetchUser = async () => {
       const { data: { user } } = await supabase.auth.getUser()
       
       if (user) {
         const { data } = await supabase.from('profiles')
-          .select('full_name')
+          .select('full_name, role')
           .eq('id', user.id)
           .single()
+
+        if (data?.role === 'admin') {
+          setIsAdmin(true)
+        } else {
+          setIsAdmin(false)
+        }
 
         if (data?.full_name) {
           setDisplayUser(data.full_name)
         } else {
           setDisplayUser(user.email?.split('@')[0] || 'Usuário')
         }
+      } else {
+        // Se deslogou, limpa tudo da tela
+        setDisplayUser(null)
+        setIsAdmin(false)
+        setMenuOpen(false)
       }
     }
+
+    // 2. Chama a primeira vez que a página carrega
     fetchUser()
+
+    // 3. NOVO: Fica ouvindo em tempo real!
+    const { data: authListener } = supabase.auth.onAuthStateChange((event, session) => {
+      if (event === 'SIGNED_IN' || event === 'SIGNED_OUT') {
+        fetchUser()
+      }
+    })
+
+    // Limpa o ouvinte para não pesar a memória do navegador
+    return () => {
+      authListener.subscription.unsubscribe()
+    }
   }, [supabase])
 
   const handleLogout = async () => {
@@ -89,6 +117,28 @@ export default function Header() {
                       >
                         📊 Minhas Análises
                       </Link>
+
+                      {/* OPÇÕES EXCLUSIVAS PARA ADMINISTRADOR */}
+                      {isAdmin && (
+                        <>
+                          <div className="h-px bg-white/10 my-2 mx-2"></div>
+                          <Link 
+                            href="/admin/pedidos" 
+                            onClick={() => setMenuOpen(false)}
+                            className="flex items-center gap-3 px-4 py-3 rounded-xl text-xs font-bold text-cintelYellow bg-cintelYellow/10 hover:bg-cintelYellow/20 transition-all uppercase tracking-widest"
+                          >
+                            ⚙️ Gestão de Pedidos
+                          </Link>
+                          <Link 
+                            href="/blog" 
+                            onClick={() => setMenuOpen(false)}
+                            className="flex items-center gap-3 px-4 py-3 rounded-xl text-xs font-bold text-white/70 hover:bg-white/5 hover:text-cintelYellow transition-all"
+                          >
+                            ✍️ Escrever no Blog
+                          </Link>
+                        </>
+                      )}
+
                       <div className="h-px bg-white/5 my-2 mx-2"></div>
                       <button 
                         onClick={handleLogout}
@@ -102,7 +152,7 @@ export default function Header() {
               )}
             </div>
           ) : (
-            <div className="flex items-center gap-4">
+            <div className="flex items-center gap-4 animate-in fade-in zoom-in duration-300">
                <Link href="/login" className="text-sm font-semibold text-white hover:text-cintelYellow uppercase transition-colors">Entrar</Link>
                <Link href="/register" className="text-sm font-bold bg-cintelYellow text-[#303030] px-4 py-2 rounded-md hover:bg-white uppercase transition-all">Cadastrar</Link>
             </div>

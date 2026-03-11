@@ -7,37 +7,59 @@ const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, {
 
 export async function POST(request: Request) {
   try {
-    const { email, municipio, vocacao, areaConstruida, areaTerreno, descricao } = await request.json();
+    const body = await request.json();
+    
+    // Desestruturamos TODOS os possíveis campos (tanto do serviço novo quanto do antigo)
+    const { 
+      // Campos enviados pelo Mapa de Calor
+      produto, preco, orderId, successUrl, cancelUrl,
+      // Campos enviados pela Análise Técnica (Serviço antigo)
+      email, municipio, vocacao, areaConstruida, areaTerreno, descricao 
+    } = body;
 
+    // Lógica para descobrir qual serviço está sendo comprado
+    const isMapaDeCalor = produto !== undefined && preco !== undefined;
+
+    // Define os valores dinamicamente com base no serviço
+    const finalName = isMapaDeCalor ? produto : `Cintel: ${vocacao || 'Análise'}`;
+    const finalDescription = isMapaDeCalor ? 'Serviço de Mapa de Calor' : `Análise técnica para: ${municipio || 'Não informado'}`;
+    const finalPrice = isMapaDeCalor ? preco : 249000; // Se não for mapa, cobra R$ 2.490,00
+    
+    const finalSuccessUrl = isMapaDeCalor ? successUrl : `${process.env.NEXT_PUBLIC_BASE_URL}/market/success?email=${email}`;
+    const finalCancelUrl = isMapaDeCalor ? cancelUrl : `${process.env.NEXT_PUBLIC_BASE_URL}/market/analise-imovel`;
+
+    const finalMetadata = isMapaDeCalor 
+      ? { orderId: orderId } 
+      : {
+          endereco: String(municipio),
+          area_construida: String(areaConstruida),
+          area_terreno: String(areaTerreno),
+          descricao_imovel: String(descricao)
+        };
+
+    // Cria a sessão no Stripe
     const session = await stripe.checkout.sessions.create({
       payment_method_types: ['card'],
-      customer_email: email,
+      customer_email: email || undefined, // Se não tiver email no primeiro passo, o Stripe pede na tela dele
       line_items: [
         {
           price_data: {
             currency: 'brl',
             product_data: {
-              name: `Cintel: ${vocacao}`,
-              description: `Análise técnica para: ${municipio}`,
+              name: finalName,
+              description: finalDescription,
             },
-            unit_amount: 249000, // R$ 2.490,00
+            unit_amount: finalPrice, 
           },
           quantity: 1,
         },
       ],
       mode: 'payment',
-      // Metadados para o Fernando visualizar os detalhes técnicos no painel do Stripe
-      metadata: {
-        endereco: municipio,
-        area_construida: areaConstruida,
-        area_terreno: areaTerreno,
-        descricao_imovel: descricao
-      },
-      success_url: `${process.env.NEXT_PUBLIC_BASE_URL}/market/success?email=${email}`,
-      cancel_url: `${process.env.NEXT_PUBLIC_BASE_URL}/market/analise-imovel`,
+      metadata: finalMetadata,
+      success_url: finalSuccessUrl,
+      cancel_url: finalCancelUrl,
     });
 
-    // IMPORTANTE: Retornar a session.url para o frontend redirecionar
     return NextResponse.json({ id: session.id, url: session.url });
   } catch (err: any) {
     console.error('Erro no Stripe:', err);
