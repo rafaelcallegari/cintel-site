@@ -1,8 +1,9 @@
 'use client'
 
 import { useState, useRef } from 'react'
+import Link from 'next/link'
 
-// 1. Definição do InfoCard
+// 1. Definição do InfoCard (Mantido o estilo original)
 const InfoCard = ({ icon, title, text, isActive, onMouseEnter, onMouseLeave, isAnyHovered }: any) => {
   return (
     <div
@@ -37,21 +38,15 @@ const InfoCard = ({ icon, title, text, isActive, onMouseEnter, onMouseLeave, isA
 export default function About() {
   const [hoverIndex, setHoverIndex] = useState<number | null>(null);
   const [isButtonVisible, setIsButtonVisible] = useState(false);
-  const timeoutRef = useRef<NodeJS.Timeout | null>(null);
 
   const handleMouseEnter = (index: number) => {
-    // Se o usuário voltar para um card, cancelamos o timer de sumir
-    if (timeoutRef.current) clearTimeout(timeoutRef.current);
     setHoverIndex(index);
     setIsButtonVisible(true);
   };
 
   const handleMouseLeave = () => {
     setHoverIndex(null);
-    // Janela de 7 segundos (7000ms) para o usuário interagir com o Marketplace
-    timeoutRef.current = setTimeout(() => {
-      setIsButtonVisible(false);
-    }, 7000); 
+    // Nota: Removi o timer de sumir automaticamente para dar tempo do usuário ler e clicar
   };
 
   const cards = [
@@ -73,10 +68,11 @@ export default function About() {
   ];
 
   return (
-    <section id="quem-somos" className="bg-white py-24 min-h-screen flex flex-col justify-center overflow-hidden">
+    <section id="quem-somos" className="bg-white py-24 min-h-screen flex flex-col justify-center overflow-hidden font-alegreya">
       <div className="max-w-6xl mx-auto px-6 w-full text-center">
         <div className="mb-20">
-          <h2 className="text-4xl md:text-5xl font-bold text-[#303030] font-alegreya">Quem Somos</h2>
+          <span className="text-cintelYellow font-bold uppercase tracking-[0.3em] text-xs">A Cintel Inteligência</span>
+          <h2 className="text-4xl md:text-5xl font-bold text-[#303030] mt-2">Quem Somos</h2>
           <div className="h-1.5 w-24 bg-cintelYellow mx-auto mt-6"></div>
         </div>
 
@@ -93,32 +89,24 @@ export default function About() {
           ))}
         </div>
 
-        {/* CTA do Marketplace com persistência de 7 segundos */}
+        {/* Novo CTA direcionando para a página Sobre */}
         <div 
-          onMouseEnter={() => { 
-            // Se o mouse entrar no botão, ele não some nunca
-            if (timeoutRef.current) clearTimeout(timeoutRef.current); 
-          }}
-          onMouseLeave={() => {
-            // Se o mouse sair do botão, ele espera os 7 segundos para sumir
-            timeoutRef.current = setTimeout(() => setIsButtonVisible(false), 7000);
-          }}
           className={`
             flex justify-center transition-all duration-700
             ${isButtonVisible ? 'opacity-100 translate-y-0 visible' : 'opacity-0 translate-y-4 invisible'}
           `}
         >
-          <a 
-            href="/market" 
-            className="group flex items-center gap-4 text-[#303030] font-bold text-lg hover:text-black transition-all bg-cintelYellow/10 px-10 py-5 rounded-full border-2 border-cintelYellow shadow-lg hover:bg-cintelYellow/20"
+          <Link 
+            href="/sobre" 
+            className="group flex items-center gap-4 text-[#303030] font-bold text-lg hover:text-black transition-all bg-white px-10 py-5 rounded-full border-2 border-cintelYellow shadow-xl hover:bg-cintelYellow/5"
           >
-            <span>Descubra como podemos ajudar sua empresa</span>
-            <div className="bg-[#303030] text-white p-1 rounded-full group-hover:translate-x-2 transition-transform">
+            <span>Conheça mais sobre nossa história</span>
+            <div className="bg-[#303030] text-white p-1 rounded-full group-hover:rotate-45 transition-transform duration-300">
               <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
               </svg>
             </div>
-          </a>
+          </Link>
         </div>
       </div>
     </section>
