@@ -31,7 +31,7 @@ export default function SobrePage() {
                 src="/images/fernando.png" 
                 alt="Fernando - Fundador da Cintel"
                 fill
-                className="object-cover grayscale hover:grayscale-0 transition-all duration-700"
+                className="object-cover  transition-all duration-700"
               />
             </div>
             
@@ -62,11 +62,6 @@ export default function SobrePage() {
 
             {/* "Mini Stats" para quebrar o texto e dar autoridade */}
             <div className="grid grid-cols-2 gap-4 pt-4">
-              <div className="bg-gray-50 p-6 rounded-2xl border-l-4 border-cintelYellow">
-                <BarChart3 className="text-cintelYellow mb-2" size={24} />
-                <span className="block text-2xl font-black text-[#303030]">R$ 100M+</span>
-                <span className="text-xs uppercase font-bold text-gray-400 tracking-widest">Em Transações</span>
-              </div>
               <div className="bg-gray-50 p-6 rounded-2xl border-l-4 border-cintelYellow">
                 <MapPin className="text-cintelYellow mb-2" size={24} />
                 <span className="block text-2xl font-black text-[#303030]">GPA</span>
