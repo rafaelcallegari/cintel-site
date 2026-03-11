@@ -1,23 +1,19 @@
 "use client"
 import React from 'react';
 import { motion } from 'framer-motion';
+import Link from 'next/link'; // 1. Importado o Link do Next.js
 
 const services = [
   {
     title: 'Inteligência de Mercado',
     description: 'Análise de dados e tendências para apoiar decisões estratégicas e identificar oportunidades de mercado.',
-    image: '/images/Mapa_calor.jpg', // Coloque fotos de dashboards ou mapas urbanos
+    image: '/images/Mapa_calor.jpg', 
   },
   {
     title: 'Site location e comercialização',
     description: 'Auxílio na escolha de pontos comerciais e suporte completo no processo de comercialização de imóveis.',
-    image: '/images/site-location.png', // Fotos de fachadas comerciais ou drones de cidades
-  },
-  {
-    title: 'Transações Estruturadas',
-    description: 'Estruturação de operações imobiliárias complexas, garantindo segurança e eficiência nas transações.',
-    image: '/images/transacoes.png', // Fotos de reuniões corporativas ou contratos
-  },
+    image: '/images/site-location.png',
+  }
 ];
 
 export default function Services() {
@@ -64,11 +60,15 @@ export default function Services() {
                     {service.description}
                   </p>
                   
-                  {/* Botão sutil de ação para cada serviço */}
+                  {/* Botão de ação ATUALIZADO */}
                   <div className="mt-8">
-                    <button className="text-sm font-bold uppercase tracking-widest border-b-2 border-cintelYellow pb-1 hover:text-cintelYellow transition-colors">
+                    {/* 2. Substituído <button> por <Link> */}
+                    <Link 
+                      href="/market" 
+                      className="inline-block text-sm font-bold uppercase tracking-widest border-b-2 border-cintelYellow pb-1 hover:text-cintelYellow transition-colors"
+                    >
                       Saiba mais
-                    </button>
+                    </Link>
                   </div>
                 </div>
               </motion.div>

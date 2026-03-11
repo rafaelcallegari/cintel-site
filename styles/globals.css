@@ -2,12 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-
 html, body, #__next {
   height: 100%;
 }
+
 body {
-  @apply bg-cintelGray text-gray-900 font-sans;
+  /* Corrigido: Usando bg-gray-50 nativo do Tailwind no lugar de bg-cintelGray */
+  @apply bg-gray-50 text-gray-900 font-sans;
 }
 
 .font-alegreya {
@@ -47,7 +48,6 @@ body {
   animation: grow-line 1s cubic-bezier(.2,.9,.2,1) forwards;
 }
 
-
 /* Paleta: amarelo (cintelYellow) + branco */
 .btn-primary {
   @apply bg-cintelYellow text-black font-semibold py-2 px-4 rounded transition-colors duration-300;
@@ -59,4 +59,11 @@ body {
 header a { text-decoration: none }
 
 /* Container helper */
-.container { max-width: 80rem; margin-left: auto; margin-right: auto; padding-left: 1.5rem; padding-right: 1.5rem }
+.container { 
+  max-width: 80rem; 
+  margin-left: auto; 
+  margin-right: auto; 
+  padding-left: 1.5rem; 
+  padding-right: 1.5rem 
+}
+
