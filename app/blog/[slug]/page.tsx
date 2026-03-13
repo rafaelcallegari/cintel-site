@@ -2,15 +2,18 @@
 
 import { useEffect, useState } from 'react'
 import { createBrowserClient } from '@supabase/ssr'
-import { useParams } from 'next/navigation'
+import { useParams, useRouter } from 'next/navigation'
 import Link from 'next/link'
 import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
+import { Trash2 } from 'lucide-react' // Importando ícone de lixeira
 
 export default function BlogPostPage() {
   const { slug } = useParams() 
+  const router = useRouter()
   const [post, setPost] = useState<any>(null)
   const [loading, setLoading] = useState(true)
+  const [isAdmin, setIsAdmin] = useState(false)
 
   const supabase = createBrowserClient(
     process.env.NEXT_PUBLIC_SUPABASE_URL!, 
@@ -18,7 +21,8 @@ export default function BlogPostPage() {
   )
 
   useEffect(() => {
-    const fetchPost = async () => {
+    const fetchDados = async () => {
+      // 1. Busca o Post
       const { data } = await supabase
         .from('blog_posts')
         .select('*')
@@ -26,10 +30,40 @@ export default function BlogPostPage() {
         .single() 
 
       setPost(data)
+
+      // 2. Verifica se o usuário logado é Admin
+      const { data: { user } } = await supabase.auth.getUser()
+      if (user) {
+        const { data: profile } = await supabase
+          .from('profiles')
+          .select('role')
+          .eq('id', user.id)
+          .single()
+        
+        if (profile?.role === 'admin') setIsAdmin(true)
+      }
+
       setLoading(false)
     }
-    fetchPost()
+    fetchDados()
   }, [slug, supabase])
+
+  // FUNÇÃO PARA EXCLUIR DO BANCO DE DADOS
+  const handleDelete = async () => {
+    if (!confirm("⚠️ ATENÇÃO: Deseja excluir permanentemente esta análise do banco de dados? Esta ação não tem volta.")) return
+
+    const { error } = await supabase
+      .from('blog_posts')
+      .delete()
+      .eq('id', post.id)
+
+    if (error) {
+      alert("Erro ao excluir: " + error.message)
+    } else {
+      // Se der certo, volta para a listagem do blog
+      router.push('/blog')
+    }
+  }
 
   if (loading) {
     return (
@@ -54,15 +88,27 @@ export default function BlogPostPage() {
     <main className="min-h-screen bg-white pt-32 pb-20 font-alegreya">
       <article className="max-w-3xl mx-auto px-6">
         
-        {/* Navegação */}
-        <Link href="/blog" className="inline-flex items-center gap-2 text-sm font-bold text-gray-400 hover:text-cintelYellow transition-colors uppercase tracking-widest mb-12">
-          ← Voltar para Insights
-        </Link>
+        {/* Navegação e Botão de Excluir */}
+        <div className="flex justify-between items-center mb-12">
+          <Link href="/blog" className="inline-flex items-center gap-2 text-sm font-bold text-gray-400 hover:text-cintelYellow transition-colors uppercase tracking-widest">
+            ← Voltar para Insights
+          </Link>
+
+          {isAdmin && (
+            <button 
+              onClick={handleDelete}
+              className="flex items-center gap-2 bg-red-50 text-red-600 px-5 py-2 rounded-full font-bold hover:bg-red-600 hover:text-white transition-all border border-red-100 text-xs uppercase tracking-widest"
+            >
+              <Trash2 size={16} />
+              Excluir Post
+            </button>
+          )}
+        </div>
 
         {/* Cabeçalho do Artigo */}
         <header className="mb-12">
           <div className="flex items-center gap-4 mb-6">
-            <span className="bg-cintelYellow text-[#303030] px-4 py-1 rounded-full text-xs font-bold uppercase">
+            <span className="bg-cintelYellow text-[#303030] px-4 py-1 rounded-full text-[10px] font-black uppercase tracking-widest">
               {post.categoria}
             </span>
             <span className="text-sm font-bold text-gray-400 uppercase tracking-widest">
