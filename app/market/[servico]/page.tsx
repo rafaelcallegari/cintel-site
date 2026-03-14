@@ -103,7 +103,7 @@ export default function MarketProductPage() {
             produto: `Mapa de Calor - ${municipioSelecionado?.nome} / ${estadoSelecionado}`,
             preco: 149000, // R$ 1.490,00 (O Stripe lê em centavos, então 149000 = 1490.00)
             orderId: orderData.id, 
-            successUrl: `${window.location.origin}/market/success?${params.toString()}`,
+            successUrl: `${process.env.NEXT_PUBLIC_BASE_URL}/checkout-success?${params.toString()}`,
             cancelUrl: window.location.href // Se ele cancelar, volta para a tela de resumo
           })
         });

@@ -25,7 +25,7 @@ export async function POST(request: Request) {
     const finalDescription = isMapaDeCalor ? 'Serviço de Mapa de Calor' : `Análise técnica para: ${municipio || 'Não informado'}`;
     const finalPrice = isMapaDeCalor ? preco : 249000; // Se não for mapa, cobra R$ 2.490,00
     
-    const finalSuccessUrl = isMapaDeCalor ? successUrl : `${process.env.NEXT_PUBLIC_BASE_URL}/market/success?email=${email}`;
+    const finalSuccessUrl = isMapaDeCalor ? successUrl : `${process.env.NEXT_PUBLIC_BASE_URL}/checkout-sucesso?email=${email}`;
     const finalCancelUrl = isMapaDeCalor ? cancelUrl : `${process.env.NEXT_PUBLIC_BASE_URL}/market/analise-imovel`;
 
     const finalMetadata = isMapaDeCalor 
