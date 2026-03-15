@@ -22,7 +22,7 @@ export async function POST(request: Request) {
     
     const finalSuccessUrl = isMapaDeCalor 
       ? successUrl 
-      : `${process.env.NEXT_PUBLIC_BASE_URL}/checkout-sucesso?email=${email}`;
+      : `${process.env.NEXT_PUBLIC_BASE_URL}/checkout-success?email=${email}`;
     const finalCancelUrl = isMapaDeCalor ? cancelUrl : `${process.env.NEXT_PUBLIC_BASE_URL}/market/analise-imovel`;
 
     const finalMetadata = isMapaDeCalor 
