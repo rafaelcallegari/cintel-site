@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import { Linkedin, ExternalLink, Award, BarChart3, MapPin } from 'lucide-react';
+import { Linkedin, ExternalLink, Award } from 'lucide-react';
 
 export default function SobrePage() {
   return (
@@ -49,7 +49,7 @@ export default function SobrePage() {
               <h2 className="text-3xl font-bold text-[#303030] mb-6">A Trajetória do Fundador</h2>
               <div className="space-y-6 text-lg text-gray-700 leading-relaxed">
                 <p>
-                  Com mais de <span className="text-[#303030] font-bold">7 anos de atuação estratégica no Grupo Pão de Açúcar (GPA)</span>, Fernando liderou a inteligência de mercado e planos de expansão em um período onde a empresa se consolidou como o 5º maior operador de área locável do país.
+                  Com mais de <span className="text-[#303030] font-bold">7 anos de atuação estratégica no varejo</span>, Fernando liderou a inteligência de mercado e planos de expansão em um período onde grandes redes se consolidaram como operadores relevantes de área locável no país.
                 </p>
                 <p>
                   Sua bagagem inclui a estruturação de transações imobiliárias complexas de <span className="text-[#303030] font-bold">centenas de milhões de reais</span>, unindo a visão de M&A à execução prática no chão do varejo.
@@ -60,14 +60,6 @@ export default function SobrePage() {
               </div>
             </div>
 
-            {/* "Mini Stats" para quebrar o texto e dar autoridade */}
-            <div className="grid grid-cols-2 gap-4 pt-4">
-              <div className="bg-gray-50 p-6 rounded-2xl border-l-4 border-cintelYellow">
-                <MapPin className="text-cintelYellow mb-2" size={24} />
-                <span className="block text-2xl font-black text-[#303030]">GPA</span>
-                <span className="text-xs uppercase font-bold text-gray-400 tracking-widest">Expansão Estratégica</span>
-              </div>
-            </div>
           </div>
         </div>
 
@@ -96,7 +88,7 @@ export default function SobrePage() {
             href="/market" 
             className="inline-flex items-center gap-4 bg-cintelYellow text-[#303030] px-12 py-5 rounded-full font-black uppercase text-xs tracking-[0.2em] hover:shadow-2xl hover:-translate-y-1 transition-all"
           >
-            Acessar Marketplace
+            Acessar Serviços
             <ExternalLink size={16} />
           </a>
         </div>

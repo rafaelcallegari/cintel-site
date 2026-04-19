@@ -49,30 +49,30 @@ export default function LoginPage() {
   }
 
   return (
-    <div className="min-h-screen bg-[#1a1a1a] flex items-center justify-center p-6">
-      <form onSubmit={handleLogin} className="bg-[#303030] w-full max-w-md p-10 rounded-2xl shadow-2xl border border-white/10">
-        <h1 className="text-3xl font-black text-white mb-6 uppercase tracking-tighter italic text-center">Entrar</h1>
+    <div className="min-h-screen bg-gray-50 flex items-center justify-center p-6">
+      <form onSubmit={handleLogin} className="bg-white w-full max-w-md p-10 rounded-2xl shadow-lg border border-gray-200">
+        <h1 className="text-3xl font-black text-[#303030] mb-6 uppercase tracking-tighter italic text-center">Entrar</h1>
         <div className="flex flex-col gap-5">
-          <input 
-            type="email" 
-            placeholder="E-mail" 
-            className="w-full p-4 bg-[#404040] rounded-xl text-white outline-none focus:ring-2 focus:ring-cintelYellow" 
-            onChange={e => setEmail(e.target.value)} 
-            required 
+          <input
+            type="email"
+            placeholder="E-mail"
+            className="w-full p-4 bg-gray-50 border border-gray-200 rounded-xl text-[#303030] outline-none focus:ring-2 focus:ring-cintelYellow transition-all"
+            onChange={e => setEmail(e.target.value)}
+            required
           />
           <div className="flex flex-col gap-2">
-            <input 
-              type="password" 
-              placeholder="Senha" 
-              className="w-full p-4 bg-[#404040] rounded-xl text-white outline-none focus:ring-2 focus:ring-cintelYellow" 
-              onChange={e => setPassword(e.target.value)} 
-              required 
+            <input
+              type="password"
+              placeholder="Senha"
+              className="w-full p-4 bg-gray-50 border border-gray-200 rounded-xl text-[#303030] outline-none focus:ring-2 focus:ring-cintelYellow transition-all"
+              onChange={e => setPassword(e.target.value)}
+              required
             />
             {/* Botão Esqueci minha Senha */}
-            <button 
-              type="button" 
+            <button
+              type="button"
               onClick={handleForgotPassword}
-              className="text-[10px] text-white/40 uppercase font-bold tracking-widest hover:text-cintelYellow text-right transition-colors"
+              className="text-[10px] text-gray-400 uppercase font-bold tracking-widest hover:text-cintelYellow text-right transition-colors"
             >
               {resetLoading ? 'Enviando...' : 'Esqueci minha senha'}
             </button>
@@ -81,7 +81,7 @@ export default function LoginPage() {
           <button disabled={loading} className="w-full bg-cintelYellow text-[#303030] font-black p-4 rounded-xl hover:scale-[1.02] transition-all uppercase tracking-widest mt-2">
             {loading ? 'Acessando...' : 'Entrar'}
           </button>
-          
+
           <button type="button" onClick={() => router.push('/register')} className="text-cintelYellow text-[10px] uppercase font-bold tracking-widest hover:underline text-center">
             Não tem conta? Cadastre-se aqui
           </button>

@@ -50,17 +50,17 @@ export default function CheckoutPage() {
   }
 
   return (
-    <div className="pt-32 min-h-screen bg-[#1a1a1a] text-white p-6 font-alegreya">
-      <div className="max-w-2xl mx-auto bg-[#303030] p-10 rounded-[2.5rem] border border-white/5 shadow-2xl">
+    <div className="pt-32 min-h-screen bg-gray-50 text-[#303030] p-6 font-alegreya">
+      <div className="max-w-2xl mx-auto bg-white p-10 rounded-[2.5rem] border border-gray-200 shadow-lg">
         <h1 className="text-3xl font-black uppercase italic mb-8">Finalizar Compra</h1>
-        
-        <div className="bg-[#1a1a1a] p-6 rounded-2xl mb-8 border border-white/5">
-          <p className="text-white/40 text-[10px] font-bold uppercase tracking-widest mb-2">Resumo da Análise</p>
+
+        <div className="bg-gray-50 p-6 rounded-2xl mb-8 border border-gray-200">
+          <p className="text-gray-400 text-[10px] font-bold uppercase tracking-widest mb-2">Resumo da Análise</p>
           <p className="text-xl font-bold">{municipio.nome}</p>
           <p className="text-sm text-cintelYellow uppercase font-bold">{vocacao}</p>
         </div>
 
-        <button 
+        <button
           onClick={handleFinalizarCompra}
           disabled={loading}
           className="w-full bg-cintelYellow text-[#303030] py-5 rounded-2xl font-black hover:scale-[1.02] transition-all uppercase tracking-widest shadow-lg"

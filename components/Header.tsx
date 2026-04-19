@@ -76,7 +76,7 @@ export default function Header() {
 
         <nav className="hidden md:flex items-center gap-8">
           <Link href="/#quem-somos" className="text-sm font-semibold text-white hover:text-cintelYellow uppercase">Quem Somos</Link>
-          <Link href="/market" className="text-sm font-bold text-cintelYellow border-b-2 border-cintelYellow pb-1 uppercase">Marketplace</Link>
+          <Link href="/market" className="text-sm font-bold text-cintelYellow border-b-2 border-cintelYellow pb-1 uppercase">Serviços</Link>
           <Link href="/blog" className="text-sm font-semibold text-white hover:text-cintelYellow uppercase tracking-wider">Blog</Link>
           
           {displayUser ? (
@@ -108,7 +108,7 @@ export default function Header() {
                         onClick={() => setMenuOpen(false)}
                         className="flex items-center gap-3 px-4 py-3 rounded-xl text-xs font-bold text-white/70 hover:bg-white/5 hover:text-cintelYellow transition-all"
                       >
-                        🛒 Marketplace
+                        🛒 Serviços
                       </Link>
                       <Link 
                         href="/dashboard" 

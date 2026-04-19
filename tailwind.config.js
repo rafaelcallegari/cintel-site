@@ -10,7 +10,7 @@ module.exports = {
         sans: ['Alegreya', 'serif'],
       },
       colors: {
-        cintelYellow: '#DDEABD',
+        cintelYellow: '#CAEB14',
         cintelGray: '#BBBAA1',
       },
       transitionDuration: {

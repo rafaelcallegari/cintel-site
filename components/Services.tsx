@@ -5,14 +5,19 @@ import Link from 'next/link'; // 1. Importado o Link do Next.js
 
 const services = [
   {
-    title: 'Inteligência de Mercado',
-    description: 'Análise de dados e tendências para apoiar decisões estratégicas e identificar oportunidades de mercado.',
-    image: '/images/Mapa_calor.jpg', 
+    title: 'Planos de expansão',
+    description: 'Apoiamos nossos clientes na elaboração de seus planos de expansão com base em dados, a partir da utilização de inteligência artificial.',
+    image: '/images/site-location.png',
   },
   {
-    title: 'Site location e comercialização',
-    description: 'Auxílio na escolha de pontos comerciais e suporte completo no processo de comercialização de imóveis.',
-    image: '/images/site-location.png',
+    title: 'Estudos de vocação de endereços',
+    description: 'Apoiamos nossos clientes na definição da vocação dos seus imóveis, auxiliando-os na definição da estratégia de desenvolvimento de cada endereço',
+    image: '/images/Mapa_calor.jpg',
+  },
+  {
+    title: 'Tecnologia',
+    description: 'Ao contrário de consultorias tradicionais, operamos com modelos proprietários, construímos com a mais avançada tecnologia, que inferem a vocação de cada endereço de maneira robusta e escalável.',
+    image: '/images/mercado-inteligencia.png',
   }
 ];
 

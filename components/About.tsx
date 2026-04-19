@@ -68,7 +68,7 @@ export default function About() {
   ];
 
   return (
-    <section id="quem-somos" className="bg-white py-24 min-h-screen flex flex-col justify-center overflow-hidden font-alegreya">
+    <section id="quem-somos" className="bg-white py-32 flex flex-col justify-center font-alegreya">
       <div className="max-w-6xl mx-auto px-6 w-full text-center">
         <div className="mb-20">
           <span className="text-cintelYellow font-bold uppercase tracking-[0.3em] text-xs">A Cintel Inteligência</span>
@@ -76,7 +76,7 @@ export default function About() {
           <div className="h-1.5 w-24 bg-cintelYellow mx-auto mt-6"></div>
         </div>
 
-        <div className="flex flex-col md:flex-row justify-center items-stretch gap-8 mb-16">
+        <div className="flex flex-col md:flex-row justify-center items-stretch gap-8 mb-16 py-4 px-2">
           {cards.map((card, index) => (
             <InfoCard
               key={index}

@@ -23,7 +23,7 @@ const produtos = [
   }
 ];
 
-export default function MarketplacePage() {
+export default function ServicosPage() {
   return (
     <section className="mt-16 py-16 bg-gray-50 min-h-screen">
       <div className="max-w-6xl mx-auto px-6">
@@ -31,7 +31,7 @@ export default function MarketplacePage() {
         {/* Header do Marketplace */}
         <div className="mb-16 text-center md:text-left flex flex-col md:flex-row justify-between items-end gap-6">
           <div className="max-w-2xl">
-            <h1 className="text-4xl font-extrabold text-[#303030] font-alegreya mb-4">Marketplace de Inteligência</h1>
+            <h1 className="text-4xl font-extrabold text-[#303030] font-alegreya mb-4">Serviços de Inteligência</h1>
             <p className="text-gray-600 text-lg">
               Soluções tecnológicas para o mercado imobiliário comercial.
             </p>
