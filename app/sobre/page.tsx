@@ -49,13 +49,13 @@ export default function SobrePage() {
               <h2 className="text-3xl font-bold text-[#303030] mb-6">A Trajetória do Fundador</h2>
               <div className="space-y-6 text-lg text-gray-700 leading-relaxed">
                 <p>
-                  Com mais de <span className="text-[#303030] font-bold">7 anos de atuação estratégica no varejo</span>, Fernando liderou a inteligência de mercado e planos de expansão em um período onde grandes redes se consolidaram como operadores relevantes de área locável no país.
+                  Com forte atuação estratégica em um dos maiores grupos varejistas do país, Fernando liderou a inteligência de mercado e os planos de expansão em um período em que a empresa cresceu mais de 200 lojas.
                 </p>
                 <p>
-                  Sua bagagem inclui a estruturação de transações imobiliárias complexas de <span className="text-[#303030] font-bold">centenas de milhões de reais</span>, unindo a visão de M&A à execução prática no chão do varejo.
+                  Sua bagagem inclui a estruturação e transações imobiliárias complexas e de grande porte, unindo a visão de M&A à execução prática no chão do varejo.
                 </p>
                 <p>
-                  A Cintel é o resultado dessa junção: uma visão estratégica do mercado aliada à capacidade tecnológica de escala.
+                  A Cintel é o resultado dessa junção: uma visão estratégica de mercado, aliada a uma tecnologia proprietária de ponta.
                 </p>
               </div>
             </div>
@@ -74,9 +74,9 @@ export default function SobrePage() {
           </div>
 
           <div className="bg-[#303030] p-12 rounded-[3rem] text-white shadow-xl shadow-black/10">
-            <h3 className="text-2xl font-bold mb-6 text-cintelYellow">Ciência Proprietária</h3>
+            <h3 className="text-2xl font-bold mb-6 text-cintelYellow">Tecnologia Proprietária</h3>
             <p className="leading-relaxed opacity-90 text-lg">
-              Diferente de consultorias tradicionais, operamos com modelos estatísticos próprios que inferem a vocação de cada endereço de maneira robusta e escalável, unindo tecnologia e "feeling" imobiliário.
+              Ao contrário de consultorias tradicionais, operamos com modelos proprietários, construímos com a mais avançada tecnologia, que inferem a vocação e cada endereço de maneira robusta e escalável.
             </p>
           </div>
         </div>

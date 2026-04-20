@@ -8,7 +8,7 @@ const produtos = [
     slug: "analise-imovel", // Atualizado para bater com a pasta app/market/analise-imovel
     categoria: "Motor de Inteligência",
     titulo: "Análise de Vocação",
-    descricao: "Identifique o potencial real de qualquer endereço comercial através de modelos preditivos baseados em dados proprietários.",
+    descricao: "Identifique o potencial real de qualquer endereço comercial através de modelos preditivos proprietários baseados em dados",
     tags: ["Site Selection", "Dados Reais", "Pragmatismo"],
     cta: "Analisar Endereço"
   },
@@ -17,7 +17,7 @@ const produtos = [
     slug: "mapa-de-calor", 
     categoria: "Geomarketing",
     titulo: "Mapa de Calor",
-    descricao: "Visualize densidade demográfica, fluxo de consumo e áreas de influência para decisões rápidas de expansão.",
+    descricao: "Visualize as regiões com maior potencial para cada segmento econômico por meio de mapas de calor construídos a partir da nossa tecnologia proprietária",
     tags: ["SaaS", "Visualização", "Agilidade"],
     cta: "Ver Mapa de Calor"
   }
