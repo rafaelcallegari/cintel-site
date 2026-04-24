@@ -5,13 +5,13 @@ import Link from 'next/link'; // 1. Importado o Link do Next.js
 
 const services = [
   {
-    title: 'Planos de expansão',
-    description: 'Apoiamos nossos clientes na elaboração de seus planos de expansão com base em dados, a partir da utilização de inteligência artificial.',
+    title: 'Estudos de vocação de endereços',
+    description: 'Apoiamos nossos clientes na definição da vocação dos seus imóveis, auxiliando-os na definição da estratégia de desenvolvimento de cada endereço',
     image: '/images/site-location.png',
   },
   {
-    title: 'Estudos de vocação de endereços',
-    description: 'Apoiamos nossos clientes na definição da vocação dos seus imóveis, auxiliando-os na definição da estratégia de desenvolvimento de cada endereço',
+    title: 'Planos de expansão',
+    description: 'Apoiamos nossos clientes na elaboração de seus planos de expansão com base em dados, a partir da utilização de inteligência artificial.',
     image: '/images/Mapa_calor.jpg',
   },
   {
