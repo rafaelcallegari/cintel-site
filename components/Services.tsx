@@ -15,7 +15,7 @@ const services = [
     image: '/images/Mapa_calor.jpg',
   },
   {
-    title: 'Tecnologia',
+    title: 'Inteligência Imobiliária',
     description: 'Ao contrário de consultorias tradicionais, operamos com modelos proprietários, construímos com a mais avançada tecnologia, que inferem a vocação de cada endereço de maneira robusta e escalável.',
     image: '/images/mercado-inteligencia.png',
   }
