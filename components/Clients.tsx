@@ -1,8 +1,8 @@
 export default function Clients() {
   const clients = [
-    { name: "HBR", logo: "/images/clientes/HBR.png" },
-    { name: "J. Bianchi", logo: "/images/clientes/J_Bianchi.png" },
-    { name: "Oscar Calçados", logo: "/images/clientes/oscar_calcados.png" },
+    { name: "HBR", logo: "/images/Clientes/HBR.png" },
+    { name: "J. Bianchi", logo: "/images/Clientes/J_Bianchi.png" },
+    { name: "Oscar Calçados", logo: "/images/Clientes/oscar_calcados.png" },
   ];
 
   return (
