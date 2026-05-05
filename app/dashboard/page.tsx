@@ -50,10 +50,9 @@ export default function DashboardPage() {
           ) : orders.length > 0 ? (
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {orders.map((order) => {
-                const isLiberado = order.status === 'Concluído';
-
-                // NOVA LÓGICA: Verifica se o arquivo é um link externo (PDF do Storage)
-                const isPDF = order.file_name?.startsWith('http');
+                const isLiberado = order.acesso_liberado === true || order.status === 'Concluído'
+                const isPDF = order.file_name?.startsWith('http')
+                const isMapa = ['Mapa de Calor', 'mapa-de-calor'].includes(order.tipo_produto)
 
                 return (
                   <div key={order.id} className="bg-white p-8 rounded-[2rem] border border-gray-200 shadow-sm hover:border-cintelYellow/50 hover:shadow-md transition-all group">
@@ -77,7 +76,7 @@ export default function DashboardPage() {
 
                     {isLiberado ? (
                       isPDF ? (
-                        /* BOTÃO PARA PDF: Abre o link do Storage diretamente */
+                        // PDF — abre link do Storage
                         <a
                           href={order.file_name}
                           target="_blank"
@@ -86,22 +85,46 @@ export default function DashboardPage() {
                         >
                           📥 Baixar Relatório PDF
                         </a>
+                      ) : isMapa ? (
+                        // Mapa — abre map_link se existir, senão fluxo antigo
+                        order.map_link ? (
+                          <a
+                            href={order.map_link}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="w-full flex items-center justify-center bg-cintelYellow text-gray-900 py-4 rounded-xl font-black uppercase text-xs tracking-widest hover:brightness-105 transition-all shadow-sm"
+                          >
+                            🚀 Acessar Inteligência
+                          </a>
+                        ) : order.file_name ? (
+                          <Link
+                            href={`/view-map?file=${order.file_name}`}
+                            className="w-full flex items-center justify-center bg-cintelYellow text-gray-900 py-4 rounded-xl font-black uppercase text-xs tracking-widest hover:brightness-105 transition-all shadow-sm"
+                          >
+                            🚀 Acessar Inteligência
+                          </Link>
+                        ) : (
+                          <div className="w-full flex items-center justify-center bg-gray-100 text-gray-400 py-4 rounded-xl font-black uppercase text-xs tracking-widest cursor-not-allowed border border-gray-200">
+                            ⏳ Mapa em Preparação
+                          </div>
+                        )
                       ) : (
-                        /* BOTÃO PARA MAPA: Segue o fluxo da página de sucesso */
-                        <Link
-                          href={`/market/success?nome=${order.municipio}&codigo=${order.file_name?.split('_')[0]}&vocacao=${order.vocacao}`}
-                          className="w-full flex items-center justify-center bg-cintelYellow text-gray-900 py-4 rounded-xl font-black uppercase text-xs tracking-widest hover:brightness-105 transition-all shadow-sm"
-                        >
-                          🚀 Acessar Inteligência
-                        </Link>
+                        // Análise sem arquivo ainda
+                        <div className="w-full flex items-center justify-center bg-gray-100 text-gray-400 py-4 rounded-xl font-black uppercase text-xs tracking-widest cursor-not-allowed border border-gray-200">
+                          ⏳ Relatório em Preparação
+                        </div>
                       )
                     ) : (
                       <div className="w-full flex items-center justify-center bg-gray-100 text-gray-400 py-4 rounded-xl font-black uppercase text-xs tracking-widest cursor-not-allowed border border-gray-200">
-                        {order.status === 'Aguardando Pagamento' ? '🔒 Aguardando Pagamento' : '⏳ Processando Análise...'}
+                        {order.status === 'aguardando_pagamento' || order.status === 'Aguardando Pagamento'
+                          ? '🔒 Aguardando Pagamento'
+                          : order.status === 'aguardando_cotacao'
+                          ? '📋 Aguardando Cotação'
+                          : '⏳ Processando Análise...'}
                       </div>
                     )}
                   </div>
-                );
+                )
               })}
             </div>
           ) : (

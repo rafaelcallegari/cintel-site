@@ -1,7 +1,7 @@
 "use client"
 import React from 'react';
 import { motion } from 'framer-motion';
-import Link from 'next/link'; // 1. Importado o Link do Next.js
+import Link from 'next/link';
 
 const services = [
   {
@@ -15,9 +15,9 @@ const services = [
     image: '/images/Mapa_calor.jpg',
   },
   {
-    title: 'Tecnologia',
-    description: 'Ao contrário de consultorias tradicionais, operamos com modelos proprietários, construímos com a mais avançada tecnologia, que inferem a vocação de cada endereço de maneira robusta e escalável.',
-    image: '/images/mercado-inteligencia.png',
+    title: 'Site Location e comercialização',
+    description: 'Auxílio na escolha de pontos comerciais e suporte completo no processo de comercialização de imóveis.',
+    image: '/images/complex-aerial-view-city.jpg',
   }
 ];
 
@@ -46,7 +46,7 @@ export default function Services() {
               >
                 {/* Lado da Imagem */}
                 <div className="w-full md:w-1/2 h-64 md:h-[350px] relative overflow-hidden">
-                  <div className="absolute inset-0 bg-black/20 z-10" /> {/* Overlay suave */}
+                  <div className="absolute inset-0 bg-black/20 z-10" />
                   <motion.img 
                     whileHover={{ scale: 1.05 }}
                     transition={{ duration: 0.6 }}
@@ -65,9 +65,7 @@ export default function Services() {
                     {service.description}
                   </p>
                   
-                  {/* Botão de ação ATUALIZADO */}
                   <div className="mt-8">
-                    {/* 2. Substituído <button> por <Link> */}
                     <Link 
                       href="/market" 
                       className="inline-block text-sm font-bold uppercase tracking-widest border-b-2 border-cintelYellow pb-1 hover:text-cintelYellow transition-colors"

@@ -20,9 +20,9 @@ export async function POST(request: Request) {
     const finalDescription = isMapaDeCalor ? 'Serviço de Mapa de Calor' : `Análise técnica para: ${municipio || 'Não informado'}`;
     const finalPrice = isMapaDeCalor ? preco : 249000;
     
-    const finalSuccessUrl = isMapaDeCalor 
-      ? successUrl 
-      : `${process.env.NEXT_PUBLIC_BASE_URL}/checkout-success?email=${email}`;
+    const finalSuccessUrl = isMapaDeCalor
+      ? `${successUrl}&session_id={CHECKOUT_SESSION_ID}`
+      : `${process.env.NEXT_PUBLIC_BASE_URL}/checkout-success?email=${email}&session_id={CHECKOUT_SESSION_ID}`;
     const finalCancelUrl = isMapaDeCalor ? cancelUrl : `${process.env.NEXT_PUBLIC_BASE_URL}/market/analise-imovel`;
 
     const finalMetadata = isMapaDeCalor 

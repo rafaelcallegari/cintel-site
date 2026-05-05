@@ -4,12 +4,13 @@ import ContactForm from '../components/ContactForm'
 import About from '../components/About'
 import RevealOnScroll from '../components/RevealOnScroll'
 import Services from '../components/Services'
+import Clients from '../components/Clients'
 
 export default function Home() {
   return (
     <main className="min-h-screen flex flex-col">
       <Hero />
-
+      <Clients />
       <RevealOnScroll>
         <About />
       </RevealOnScroll>

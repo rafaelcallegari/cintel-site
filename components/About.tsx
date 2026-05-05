@@ -68,7 +68,7 @@ export default function About() {
   ];
 
   return (
-    <section id="quem-somos" className="bg-white py-32 flex flex-col justify-center font-alegreya">
+    <section id="quem-somos" className="bg-white py-48 flex flex-col justify-center font-alegreya">
       <div className="max-w-6xl mx-auto px-6 w-full text-center">
         <div className="mb-20">
           <span className="text-cintelYellow font-bold uppercase tracking-[0.3em] text-xs">A Cintel Inteligência</span>

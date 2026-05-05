@@ -14,6 +14,8 @@ export default function AdminPedidos() {
   const [isAdmin, setIsAdmin] = useState(false)
   const [loading, setLoading] = useState(true)
   const [uploading, setUploading] = useState<string | null>(null)
+  const [precos, setPrecos] = useState<Record<string, string>>({})
+  const [gerando, setGerando] = useState<string | null>(null)
 
   useEffect(() => {
     fetchPedidos()
@@ -37,7 +39,6 @@ export default function AdminPedidos() {
     setLoading(false)
   }
 
-  // DISPARA E-MAIL DE NOTIFICAÇÃO
   const dispararEmail = async (pedido: any) => {
     if (!pedido.profiles?.email) return
     try {
@@ -55,7 +56,6 @@ export default function AdminPedidos() {
     }
   }
 
-  // ATUALIZA STATUS MANUALMENTE
   const atualizarStatus = async (id: string, novoStatus: string) => {
     const { error } = await supabase.from('orders').update({ status: novoStatus }).eq('id', id)
     if (!error) {
@@ -67,7 +67,34 @@ export default function AdminPedidos() {
     }
   }
 
-  // FAZ UPLOAD DO PDF E CONCLUI O PEDIDO
+  const gerarLink = async (pedido: any) => {
+    const preco = parseFloat(precos[pedido.id])
+    if (!preco || preco <= 0) return alert('Informe um preço válido')
+
+    setGerando(pedido.id)
+    try {
+      const clienteEmail = pedido.cliente_email || pedido.profiles?.email
+
+      const res = await fetch('/api/admin/gerar-link', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ pedidoId: pedido.id, preco, clienteEmail }),
+      })
+
+      if (res.ok) {
+        alert('Link gerado e enviado por email para o cliente!')
+        fetchPedidos()
+      } else {
+        const err = await res.json()
+        alert('Erro ao gerar link: ' + err.error)
+      }
+    } catch (err) {
+      alert('Erro ao gerar link')
+    } finally {
+      setGerando(null)
+    }
+  }
+
   const handleUploadPDF = async (e: any, pedidoId: string) => {
     const file = e.target.files[0]
     if (!file) return
@@ -76,14 +103,11 @@ export default function AdminPedidos() {
     const fileName = `${pedidoId}_${Date.now()}.pdf`
 
     try {
-      // 1. Sobe para o bucket 'analises' (Crie este bucket no Storage do Supabase como Público)
       const { error: uploadError } = await supabase.storage.from('analises').upload(fileName, file)
       if (uploadError) throw uploadError
 
-      // 2. Pega URL Pública
       const { data: { publicUrl } } = supabase.storage.from('analises').getPublicUrl(fileName)
 
-      // 3. Atualiza banco e dispara e-mail
       const { error: dbError } = await supabase.from('orders')
         .update({ file_name: publicUrl, status: 'Concluído' })
         .eq('id', pedidoId)
@@ -101,6 +125,15 @@ export default function AdminPedidos() {
       setUploading(null)
     }
   }
+
+  const getStatusStyle = (status: string) => {
+    if (status === 'Concluído') return 'bg-green-100 text-green-800 border-green-200'
+    if (status === 'aguardando_cotacao') return 'bg-purple-100 text-purple-800 border-purple-200'
+    if (status === 'aguardando_pagamento') return 'bg-blue-100 text-blue-800 border-blue-200'
+    return 'bg-yellow-100 text-yellow-800 border-yellow-200'
+  }
+
+  const isMapa = (tipo: string) => ['Mapa de Calor', 'mapa-de-calor'].includes(tipo)
 
   if (loading) return <div className="min-h-screen pt-40 text-center font-bold font-alegreya uppercase text-gray-400">Carregando painel...</div>
   if (!isAdmin) return <div className="min-h-screen pt-40 text-center font-bold text-red-500">Acesso Negado.</div>
@@ -131,27 +164,69 @@ export default function AdminPedidos() {
                 <tr key={pedido.id} className="hover:bg-gray-50 transition-colors">
                   <td className="p-4 border-b border-gray-100">
                     <div className="font-bold text-[#303030]">{pedido.profiles?.full_name}</div>
-                    <div className="text-xs text-gray-400">{pedido.profiles?.email}</div>
+                    <div className="text-xs text-gray-400">{pedido.profiles?.email || pedido.cliente_email}</div>
                   </td>
 
-                  <td className="p-4 border-b border-gray-100 font-bold">{pedido.tipo_produto}</td>
+                  <td className="p-4 border-b border-gray-100">
+                    <div className="font-bold">{pedido.tipo_produto}</div>
+                    {pedido.municipio && (
+                      <div className="text-xs text-gray-400">{pedido.municipio} {pedido.uf ? `- ${pedido.uf}` : ''}</div>
+                    )}
+                  </td>
 
                   <td className="p-4 border-b border-gray-100 text-center">
                     <select 
-                      className={`p-2 rounded-lg text-[10px] font-bold border outline-none cursor-pointer w-full text-center
-                        ${pedido.status === 'Concluído' ? 'bg-green-100 text-green-800 border-green-200' : 'bg-yellow-100 text-yellow-800 border-yellow-200'}
-                      `}
+                      className={`p-2 rounded-lg text-[10px] font-bold border outline-none cursor-pointer w-full text-center ${getStatusStyle(pedido.status)}`}
                       value={pedido.status}
                       onChange={(e) => atualizarStatus(pedido.id, e.target.value)}
                     >
-                      <option value="Aguardando Pagamento">Aguardando Pagamento</option>
+                      <option value="aguardando_cotacao">Aguardando Cotação</option>
+                      <option value="aguardando_pagamento">Aguardando Pagamento</option>
+                      <option value="Aguardando Pagamento">Aguardando Pagamento (antigo)</option>
                       <option value="Em andamento">Em andamento</option>
                       <option value="Concluído">Concluído</option>
                     </select>
                   </td>
 
                   <td className="p-4 border-b border-gray-100 text-center">
-                    {pedido.tipo_produto === 'Mapa de Calor' ? (
+
+                    {/* Aguardando cotação — gerar link */}
+                    {pedido.status === 'aguardando_cotacao' && (
+                      <div className="flex flex-col items-center gap-2">
+                        <div className="flex items-center gap-2">
+                          <input
+                            type="number"
+                            placeholder="Preço (R$)"
+                            className="border border-gray-200 rounded-lg px-3 py-2 text-sm w-32 outline-none focus:ring-2 focus:ring-cintelYellow"
+                            value={precos[pedido.id] || ''}
+                            onChange={(e) => setPrecos(prev => ({ ...prev, [pedido.id]: e.target.value }))}
+                          />
+                          <button
+                            onClick={() => gerarLink(pedido)}
+                            disabled={gerando === pedido.id}
+                            className="bg-[#303030] text-cintelYellow px-4 py-2 rounded-lg text-[10px] font-bold uppercase tracking-widest hover:bg-black transition-all disabled:opacity-50"
+                          >
+                            {gerando === pedido.id ? 'Gerando...' : '🔗 Gerar Link'}
+                          </button>
+                        </div>
+                        <span className="text-[10px] text-gray-400 italic">Link será enviado por email ao cliente</span>
+                      </div>
+                    )}
+
+                    {/* Aguardando pagamento — link já gerado */}
+                    {pedido.status === 'aguardando_pagamento' && (
+                      <div className="flex flex-col items-center gap-1">
+                        {pedido.payment_link && (
+                          <a href={pedido.payment_link} target="_blank" className="text-blue-600 font-bold text-[10px] uppercase underline italic">
+                            🔗 Ver link de pagamento
+                          </a>
+                        )}
+                        <span className="text-[10px] text-gray-400 italic">Aguardando pagamento do cliente</span>
+                      </div>
+                    )}
+
+                    {/* Mapa de Calor — pago */}
+                    {pedido.status !== 'aguardando_cotacao' && pedido.status !== 'aguardando_pagamento' && isMapa(pedido.tipo_produto) && (
                       <div className="flex flex-col items-center gap-1">
                         {pedido.file_name ? (
                           <Link 
@@ -162,7 +237,10 @@ export default function AdminPedidos() {
                           </Link>
                         ) : <span className="text-gray-400 italic text-xs">Sem arquivo</span>}
                       </div>
-                    ) : (
+                    )}
+
+                    {/* Análise de Imóvel — pago */}
+                    {pedido.status !== 'aguardando_cotacao' && pedido.status !== 'aguardando_pagamento' && !isMapa(pedido.tipo_produto) && (
                       <div className="flex flex-col items-center gap-1">
                         {pedido.file_name?.includes('http') ? (
                           <a href={pedido.file_name} target="_blank" className="text-green-600 font-bold text-[10px] uppercase underline italic">
@@ -176,6 +254,7 @@ export default function AdminPedidos() {
                         )}
                       </div>
                     )}
+
                   </td>
                 </tr>
               ))}

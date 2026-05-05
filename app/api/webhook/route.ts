@@ -6,7 +6,7 @@ const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, { apiVersion: '2023-10
 
 const supabase = createClient(
   process.env.NEXT_PUBLIC_SUPABASE_URL!,
-  process.env.SUPABASE_SERVICE_ROLE_KEY! // precisa da service role, não a anon key
+  process.env.SUPABASE_SERVICE_ROLE_KEY!
 )
 
 export async function POST(request: Request) {
@@ -22,13 +22,28 @@ export async function POST(request: Request) {
 
   if (event.type === 'checkout.session.completed') {
     const session = event.data.object as Stripe.Checkout.Session
-    const orderId = session.metadata?.orderId
 
+    // Fluxo antigo — checkout session com orderId
+    const orderId = session.metadata?.orderId
     if (orderId) {
       await supabase
         .from('orders')
-        .update({ status: 'Pago' })
+        .update({ status: 'Em andamento', payment_status: 'pago' })
         .eq('id', orderId)
+    }
+
+    // Fluxo novo — payment link com pedidoId
+    const pedidoId = session.metadata?.pedidoId
+    if (pedidoId) {
+      await supabase
+        .from('orders')
+        .update({
+          status: 'Concluído',
+          payment_status: 'pago',
+          acesso_liberado: true,
+          stripe_payment_id: session.payment_intent as string,
+        })
+        .eq('id', pedidoId)
     }
   }
 

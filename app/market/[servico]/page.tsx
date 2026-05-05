@@ -22,10 +22,9 @@ export default function MarketProductPage() {
     checkUser()
   }, [router, supabase])
 
-  const [step, setStep] = useState<'form' | 'confirm'>('form')
+  const [step, setStep] = useState<'form' | 'confirm' | 'solicitado'>('form')
   const [loading, setLoading] = useState(false)
 
-  // Estados dos Dados
   const [estadoSelecionado, setEstadoSelecionado] = useState('')
   const [busca, setBusca] = useState('')
   const [municipioSelecionado, setMunicipioSelecionado] = useState<{nome: string, codigo: string, uf: string} | null>(null)
@@ -56,71 +55,36 @@ export default function MarketProductPage() {
     { id: 'moda', label: 'Moda' }, { id: 'padaria', label: 'Padaria' },
     { id: 'petshop', label: 'Pet Shop' }, { id: 'postocombustivel', label: 'Posto de Combustível' },
     { id: 'supermercado', label: 'Supermercado' }
-  ];
+  ]
 
-  // --- VERSÃO COMPLETA COM PAGAMENTO STRIPE ATIVADO ---
   const handleFinalizarCompra = async () => {
     setLoading(true)
-    
     try {
       const { data: { user } } = await supabase.auth.getUser()
+      if (!user) return router.push('/login')
 
-      if (user) {
-        // 1. Grava o pedido no banco como "Aguardando Pagamento"
-        const { data: orderData, error: dbError } = await supabase
-          .from('orders')
-          .insert([
-            {
-              user_id: user.id,
-              municipio: municipioSelecionado?.nome,
-              uf: estadoSelecionado,
-              vocacao: vocacaoSelecionada,
-              tipo_produto: 'Mapa de Calor', 
-              status: 'Aguardando Pagamento', 
-              file_name: `${municipioSelecionado?.codigo}_${vocacaoSelecionada}_lgbc_mapa.html`
-            }
-          ]).select().single() // Pega os dados do pedido recém-criado
-
-        if (dbError) throw dbError
-
-        // =========================================================
-        // 2. CHAMA A API PARA GERAR O LINK DE PAGAMENTO
-        // =========================================================
-        
-        // Monta os parâmetros que vão para a tela de sucesso após pagar
-        const params = new URLSearchParams({
-          nome: municipioSelecionado?.nome || '',
-          codigo: municipioSelecionado?.codigo || '',
+      const { error } = await supabase
+        .from('orders')
+        .insert([{
+          user_id: user.id,
+          cliente_email: user.email,
+          municipio: municipioSelecionado?.nome,
           uf: estadoSelecionado,
-          vocacao: vocacaoSelecionada
-        })
+          vocacao: vocacaoSelecionada,
+          servico_solicitado: servico,
+          tipo_produto: servico,
+          status: 'aguardando_cotacao',
+          payment_status: 'pendente',
+          acesso_liberado: false,
+          file_name: `${municipioSelecionado?.codigo}_${vocacaoSelecionada}_lgbc_mapa.html`
+        }])
 
-        // Chama a rota de checkout (VERIFIQUE SE A SUA ROTA É EXATAMENTE /api/checkout)
-        const response = await fetch('/api/checkout', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({
-            produto: `Mapa de Calor - ${municipioSelecionado?.nome} / ${estadoSelecionado}`,
-            preco: 149000, // R$ 1.490,00 (O Stripe lê em centavos, então 149000 = 1490.00)
-            orderId: orderData.id, 
-            successUrl: `${process.env.NEXT_PUBLIC_BASE_URL}/checkout-success?${params.toString()}`,
-            cancelUrl: window.location.href // Se ele cancelar, volta para a tela de resumo
-          })
-        });
+      if (error) throw error
 
-        const data = await response.json();
-
-        // Se a API devolver a URL do Stripe, redireciona o cliente para lá
-        if (data.url) {
-          router.push(data.url);
-        } else {
-          console.error("Erro do Gateway de Pagamento:", data);
-          alert("Não foi possível gerar o link de pagamento no momento. Tente novamente.");
-        }
-      }
+      setStep('solicitado')
     } catch (error: any) {
       console.error("Erro ao processar:", error.message)
-      alert("Houve um erro ao gerar o pagamento. Verifique sua conexão.")
+      alert("Houve um erro ao enviar sua solicitação. Tente novamente.")
     } finally {
       setLoading(false)
     }
@@ -199,17 +163,31 @@ export default function MarketProductPage() {
               <p className="text-xl font-bold text-[#303030]">{municipioSelecionado?.nome} - {estadoSelecionado}</p>
               <p className="text-sm text-gray-500 mb-6">Vocação Comercial: <span className="capitalize">{vocacaoSelecionada}</span></p>
               <div className="h-px bg-gray-200 w-full mb-6"></div>
-              <p className="text-5xl font-extrabold text-[#303030] tracking-tighter text-center italic">R$ 1.490,00</p>
+              <p className="text-sm text-gray-400 text-center italic">O valor será informado por email após análise da solicitação.</p>
             </div>
             
             <button onClick={handleFinalizarCompra} disabled={loading}
-              className="w-full bg-green-600 text-white py-5 rounded-2xl font-bold hover:bg-green-700 shadow-md transition-all flex items-center justify-center gap-3 uppercase tracking-widest"
+              className="w-full bg-[#303030] text-white py-5 rounded-2xl font-bold hover:bg-black shadow-md transition-all flex items-center justify-center gap-3 uppercase tracking-widest"
             >
-              {loading ? 'Processando...' : 'Confirmar e Ir para Pagamento'}
+              {loading ? 'Enviando...' : 'Enviar Solicitação'}
             </button>
             <button onClick={() => setStep('form')} className="mt-4 text-xs text-gray-400 hover:underline">Voltar e editar dados</button>
           </div>
         )}
+
+        {step === 'solicitado' && (
+          <div className="text-center py-8 animate-in fade-in zoom-in-95">
+            <div className="text-6xl mb-6">✅</div>
+            <h2 className="text-2xl font-bold mb-4 text-[#303030]">Solicitação recebida!</h2>
+            <p className="text-gray-500 max-w-sm mx-auto leading-relaxed">
+              Nossa equipe vai analisar sua solicitação e em breve você receberá o <strong>link de pagamento</strong> no seu email.
+            </p>
+            <button onClick={() => router.push('/dashboard')} className="mt-8 text-sm text-gray-400 hover:underline">
+              Ir para meu painel
+            </button>
+          </div>
+        )}
+
       </div>
     </section>
   )

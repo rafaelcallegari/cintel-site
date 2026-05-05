@@ -7,6 +7,7 @@ import { createBrowserClient } from '@supabase/ssr'
 export default function AnaliseImovelPage() {
   const router = useRouter()
   const [loading, setLoading] = useState(false)
+  const [step, setStep] = useState<'form' | 'solicitado'>('form')
   
   const supabase = createBrowserClient(
     process.env.NEXT_PUBLIC_SUPABASE_URL!, 
@@ -35,7 +36,7 @@ export default function AnaliseImovelPage() {
     setFormData({ ...formData, [e.target.name]: e.target.value })
   }
 
-  const handleCheckout = async (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
     setLoading(true)
 
@@ -43,51 +44,47 @@ export default function AnaliseImovelPage() {
       const { data: { user } } = await supabase.auth.getUser()
       if (!user) throw new Error("Usuário não autenticado")
 
-      // 1. GRAVA O PEDIDO NO BANCO (Antes de ir para o Stripe)
-      // Isso garante que o pedido apareça no Admin e no Dashboard do cliente
-      const { data: orderData, error: dbError } = await supabase
+      const { error } = await supabase
         .from('orders')
-        .insert([
-          {
-            user_id: user.id,
-            municipio: formData.endereco, // Usando o endereço como identificador
-            vocacao: "Análise Técnica de Imóvel",
-            tipo_produto: 'Análise de Vocação', 
-            status: 'Aguardando Pagamento',
-            file_name: 'analise_tecnica_pendente' // Marcador para o sistema saber que não é mapa automático
-          }
-        ]).select().single()
-
-      if (dbError) throw dbError
-
-      // 2. CHAMA O CHECKOUT DO STRIPE
-      const response = await fetch('/api/checkout', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          email: formData.email,
+        .insert([{
+          user_id: user.id,
+          cliente_email: formData.email,
           municipio: formData.endereco,
           vocacao: "Análise Técnica de Imóvel",
-          areaConstruida: formData.areaConstruida,
-          areaTerreno: formData.areaTerreno,
-          descricao: formData.descricao,
-          orderId: orderData.id // Enviando o ID gerado para referência
-        }),
-      })
+          servico_solicitado: 'analise-imovel',
+          tipo_produto: 'Análise de Vocação',
+          status: 'aguardando_cotacao',
+          payment_status: 'pendente',
+          acesso_liberado: false,
+          file_name: 'analise_tecnica_pendente'
+        }])
 
-      const session = await response.json()
+      if (error) throw error
 
-      if (session.url) {
-        window.location.href = session.url;
-      } else {
-        alert('Erro ao gerar a sessão de checkout.');
-      }
+      setStep('solicitado')
     } catch (error: any) {
       console.error("Erro no processo:", error)
-      alert('Ocorreu um erro ao processar seu pedido. Tente novamente.')
+      alert('Ocorreu um erro ao enviar sua solicitação. Tente novamente.')
     } finally {
       setLoading(false)
     }
+  }
+
+  if (step === 'solicitado') {
+    return (
+      <section className="pt-32 pb-20 min-h-screen bg-gray-50 font-alegreya">
+        <div className="max-w-2xl mx-auto px-6 bg-white p-10 rounded-[2.5rem] shadow-xl border border-gray-100 text-center">
+          <div className="text-6xl mb-6">✅</div>
+          <h2 className="text-2xl font-bold mb-4 text-[#303030]">Solicitação recebida!</h2>
+          <p className="text-gray-500 max-w-sm mx-auto leading-relaxed">
+            Nossa equipe vai analisar sua solicitação e em breve você receberá o <strong>link de pagamento</strong> no email <strong>{formData.email}</strong>.
+          </p>
+          <button onClick={() => router.push('/dashboard')} className="mt-8 text-sm text-gray-400 hover:underline">
+            Ir para meu painel
+          </button>
+        </div>
+      </section>
+    )
   }
 
   return (
@@ -99,7 +96,7 @@ export default function AnaliseImovelPage() {
           <p className="text-gray-400 mt-2">Informe os detalhes técnicos para análise de vocação.</p>
         </div>
 
-        <form onSubmit={handleCheckout} className="space-y-6">
+        <form onSubmit={handleSubmit} className="space-y-6">
           <div className="space-y-4">
             <div>
               <label className="text-xs font-bold text-gray-400 uppercase mb-2 block tracking-widest">Endereço do Imóvel</label>
@@ -128,15 +125,14 @@ export default function AnaliseImovelPage() {
             </div>
           </div>
 
-          <div className="bg-[#303030] p-8 rounded-3xl text-white mt-8 shadow-2xl">
-            <div className="flex justify-between items-center mb-6">
-              <span className="opacity-60 text-sm font-bold uppercase tracking-widest">Investimento da Análise</span>
-              <span className="text-3xl font-black italic">R$ 2.490,00</span>
-            </div>
-            <button type="submit" disabled={loading} className="w-full bg-cintelYellow text-[#303030] py-5 rounded-2xl font-black hover:bg-white hover:scale-[1.02] transition-all shadow-lg flex justify-center disabled:opacity-50 uppercase tracking-widest">
-              {loading ? 'Processando Registro...' : 'CONTRATAR AGORA'}
-            </button>
-          </div>
+        <div className="bg-[#303030] p-8 rounded-3xl text-white mt-8 shadow-2xl">
+          <p className="text-white/60 text-sm text-center mb-6 italic">
+            O valor será confirmado por email após análise da solicitação.
+          </p>
+          <button type="submit" disabled={loading} className="w-full bg-cintelYellow text-[#303030] py-5 rounded-2xl font-black hover:bg-white hover:scale-[1.02] transition-all shadow-lg flex justify-center disabled:opacity-50 uppercase tracking-widest">
+            {loading ? 'Enviando Solicitação...' : 'ENVIAR SOLICITAÇÃO'}
+          </button>
+        </div>
         </form>
       </div>
     </section>

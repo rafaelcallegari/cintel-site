@@ -1,6 +1,6 @@
 'use client'
 
-import { Suspense } from 'react'
+import { Suspense, useEffect } from 'react'
 import { useSearchParams } from 'next/navigation'
 import Link from 'next/link'
 import { CheckCircle2, ArrowRight, FileText, Mail } from 'lucide-react'
@@ -8,6 +8,16 @@ import { CheckCircle2, ArrowRight, FileText, Mail } from 'lucide-react'
 function SuccessContent() {
   const searchParams = useSearchParams()
   const email = searchParams.get('email') || 'seu e-mail cadastrado'
+  const sessionId = searchParams.get('session_id')
+
+  useEffect(() => {
+    if (!sessionId) return
+    fetch('/api/verify-payment', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ sessionId }),
+    })
+  }, [sessionId])
 
   return (
     <main className="min-h-screen bg-white flex items-center justify-center pt-20 pb-10 font-alegreya">
