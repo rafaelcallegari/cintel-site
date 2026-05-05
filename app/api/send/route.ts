@@ -8,7 +8,7 @@ export async function POST(request: Request) {
     const { email, municipio, vocacao, link } = await request.json();
 
     const { data, error } = await resend.emails.send({
-      from: 'Cintel <onboarding@resend.dev>', // No início, use este e-mail padrão do Resend
+      from: 'Cintel <contato@cintelinteligencia.com.br>', // No início, use este e-mail padrão do Resend
       to: [email],
       subject: `Relatório Disponível: ${municipio} (${vocacao})`,
       html: `

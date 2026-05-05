@@ -8,7 +8,7 @@ export async function POST(req: Request) {
     const { email, clienteNome, servico } = await req.json();
 
     const { data, error } = await resend.emails.send({
-      from: 'Cintel <onboarding@resend.dev>', // Depois você pode configurar seu domínio próprio
+      from: 'Cintel <contato@cintelinteligencia.com.br>', // Depois você pode configurar seu domínio próprio
       to: [email],
       subject: `Sua ${servico} está pronta!`,
       html: `
