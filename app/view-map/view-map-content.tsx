@@ -3,6 +3,8 @@
 import { useSearchParams } from 'next/navigation'
 import Link from 'next/link'
 
+const R2_PUBLIC_URL = 'https://pub-9fcabaac4f384770a5bef6c3d49ebaca.r2.dev'
+
 export default function ViewMapContent() {
   const searchParams = useSearchParams()
   const file = searchParams.get('file')
@@ -23,7 +25,7 @@ export default function ViewMapContent() {
 
       <div className="flex-grow bg-white relative">
         <iframe 
-          src={`/outputs/${file}`} 
+          src={`${R2_PUBLIC_URL}/${file}`} 
           className="absolute inset-0 w-full h-full border-none"
           title="Visualização do Mapa Cintel"
         />
